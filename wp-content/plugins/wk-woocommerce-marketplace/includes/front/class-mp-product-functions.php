@@ -760,6 +760,12 @@ function product_add_update()
                     update_post_meta($productIdPp, $key, $value);
                 }
             }
+            if(!isset($_POST['_sumo_pp_force_deposit'])){
+                update_post_meta($productIdPp, '_sumo_pp_force_deposit', '');
+            }
+            if(!isset($_POST['_sumo_pp_apply_global_settings'])){
+                update_post_meta($productIdPp, '_sumo_pp_apply_global_settings', '');
+            }
         }
         do_action('marketplace_process_product_meta', $_POST['sell_pr_id']);
 
