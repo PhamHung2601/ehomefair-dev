@@ -1,0 +1,50 @@
+.mp-invoice-wrapper {
+	margin: 80px auto;
+	padding-right: 15px;
+  padding-left: 15px;
+	width: 85%;
+}
+
+.mp-invoice-wrapper button {
+	float: right;
+	color: #fff;
+	border: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #229ac8;
+    background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+    background-repeat: repeat-x;
+    border-radius: 3px;
+    outline: none;
+}
+
+.mp-invoice-wrapper button i {
+	font-size: 16px;
+	padding: 5px;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.text-right {
+    text-align: right;
+}

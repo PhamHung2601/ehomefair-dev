@@ -1,0 +1,72 @@
+body.dokan-dashboard .recipient-detail-wrap .woo-vou-inline-block-section {
+    display: inline-flex;
+    width: 33.33%;
+    flex-direction: column;
+}
+body.dokan-dashboard .recipient-detail-wrap .woo-vou-inline-block-section label span {
+    width: 200px !important;
+    display: block;
+}
+body.dokan-dashboard .recipient-detail-wrap,
+body.dokan-dashboard .pdf-template-recipient-detail-wrap,
+body.dokan-dashboard ._woo_vou_recipient_delivery_label_field{
+    margin-left: 21%;
+}
+body.dokan-dashboard div.woo-vou-multi-check-box-wrapper {
+    width: 79%;
+    float: right;
+}
+body.dokan-dashboard ._woo_vou_pdf_template_selection_field.vou_clearfix.woo_vou_custom_select_field {
+    margin-top: 75px !important;
+}
+body.dokan-dashboard .product-edit-container {
+    font-size: 12px;
+}
+body.dokan-dashboard select#_woo_vou_voucher_delivery,
+body.dokan-dashboard select#_woo_vou_enable_coupon_code,
+body.dokan-dashboard select#_woo_vou_using_type,
+body.dokan-dashboard select#_woo_vou_exp_type,
+body.dokan-dashboard select#_woo_vou_enable_multiple_pdf,
+body.dokan-dashboard select#_woo_vou_enable_pdf_preview,
+body.dokan-dashboard select#_woo_vou_pdf_template,
+body.dokan-dashboard select#_woo_vou_discount_on_tax_type,
+body.dokan-dashboard select#_woo_vou_days_diff{
+    height: 38px;
+    padding-left: 2px;
+}
+body.dokan-dashboard ._woo_vou_enable_pdf_preview_field.vou_clearfix.woo_vou_custom_select_field select#_woo_vou_enable_pdf_preview {
+    margin-left: 11px;
+}
+
+body.dokan-dashboard ._woo_vou_enable_pdf_preview_field.vou_clearfix.woo_vou_custom_select_field .description{
+    margin-left: 22.3% !important;
+}
+
+.dokan-dashboard #woo_vou_voucher ._woo_vou_coupon_minimum_spend_amount_field .woo-vou-custom-meta-label,
+.dokan-dashboard #woo_vou_voucher ._woo_vou_coupon_maximum_spend_amount_field .woo-vou-custom-meta-label {
+    width: 20% !important;
+}
+
+.dokan-dashboard #woo_vou_voucher ._woo_vou_coupon_minimum_spend_amount_field .description,
+.dokan-dashboard #woo_vou_voucher ._woo_vou_coupon_maximum_spend_amount_field .description {
+    margin: 0 0 0 20% !important;
+    clear: unset;
+    display: block;
+}
+
+.dokan-dashboard p.form-field._woo_vou_is_variable_voucher_field.woo_vou_is_variable_voucher.hidden span.description {
+    margin: 0 0 0 20% !important;
+}
+
+
+.dokan-dashboard #woo_vou_voucher ._woo_vou_coupon_maximum_spend_amount_field {
+    float:left;
+}
+
+.dokan-dashboard p.form-field._woo_vou_is_variable_voucher_field.woo_vou_is_variable_voucher.hidden input#_woo_vou_is_variable_voucher {
+    position: relative;
+    left: -9px;
+}
+body.dokan-dashboard  .dokan-product-pdf-voucher{
+	display:none;
+}

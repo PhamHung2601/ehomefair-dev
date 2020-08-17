@@ -1,0 +1,62 @@
+----------------------------------------------
+Version: 1.0.9
+----------------------------------------------
+UPDATE:
+- Update translate text stock
+- Update style Remember Me Button on WooCommerce Login Form
+- Update style reviews, price of Pinmap Product Item
+----------------------------------------------
+Version: 1.0.8
+----------------------------------------------
+FIXED:
+- Currency symbol position display not true
+- error css
+----------------------------------------------
+Version: 1.0.7
+----------------------------------------------
+Updated:
+- update content import
+----------------------------------------------
+Version: 1.0.6
+----------------------------------------------
+Updated:
+- update plugin load
+- update read more button
+Fixed:
+- Fixed SKU variable product
+----------------------------------------------
+Version: 1.0.5
+----------------------------------------------
+Fixed:
+- Fixed update wishlist
+----------------------------------------------
+Version: 1.0.4
+----------------------------------------------
+Updated:
+- Style Current Menu Item in Menu
+Fixed:
+- Switch Grid mode <-> List mode in Shop Page
+----------------------------------------------
+Version: 1.0.3
+----------------------------------------------
+Updated:
+- Style dots of Pagination, Navigation
+- Style content of Live Search Form
+----------------------------------------------
+Version: 1.0.2
+----------------------------------------------
+Updated:
+- Font Awesome when Theme no Toolkit
+- Content Full when Sidebar no Widget
+- Style Page Links
+Fixed:
+- Breadcrumb Items overflow the content area
+----------------------------------------------
+Version: 1.0.1
+----------------------------------------------
+Updated:
+- Style of Widget product search
+----------------------------------------------
+Version 1.0.0
+----------------------------------------------
+Initial release

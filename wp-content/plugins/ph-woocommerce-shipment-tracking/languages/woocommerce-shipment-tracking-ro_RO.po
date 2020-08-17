@@ -1,0 +1,900 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"Project-Id-Version: WooCommerce Shipment Tracking Pro\n"
+"POT-Creation-Date: 2018-11-14 12:28+0530\n"
+"PO-Revision-Date: 2018-11-14 12:40+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-shipment-tracking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ro\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:37
+#: includes/class-ph-shipment-tracking-on-order-page.php:38
+msgid "Refresh Live Tracking Status"
+msgstr "Reîmprospătare Live statutul de urmărire"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:75
+#: includes/class-ph-shipment-tracking-on-order-page.php:82
+msgid "Tracking Status"
+msgstr "Starea de urmărire"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:116
+msgid "Tracking History"
+msgstr "Istoricul urmăririi"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:176
+msgid "Tracking ID : "
+msgstr "ID urmărire:"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:182
+#: includes/class-wf-tracking-admin.php:222
+msgid "Location"
+msgstr "Locatie"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:183
+#: includes/class-wf-tracking-admin.php:223
+msgid "Date"
+msgstr "Data"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:185
+#: includes/class-wf-tracking-admin.php:225
+msgid "Activity"
+msgstr "Activitate"
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:23
+msgid ""
+"CSV Import requires the function <code>mb_detect_encoding</code> to import "
+"CSV files. Please ask your hosting provider to enable this function."
+msgstr ""
+"CSV de Import necesită funcţia <code>mb_detect_encoding</code> să importaţi "
+"fişiere CSV. Vă rugăm să întrebaţi furnizorul de gazduire pentru a activa "
+"această funcţie."
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:31
+msgid "Shipment Tracking Import"
+msgstr "Import de urmărire expediere"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:29
+#, php-format
+msgid "Every %d minutes"
+msgstr "Fiecare %d minute"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:79
+msgid "Starting auto import...."
+msgstr "Pornire auto import..."
+
+#: includes/class-wf-shipment-tracking-import-cron.php:82
+msgid "Inside FTP"
+msgstr "ÎN INTERIOR"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:88
+msgid "Fetching file failed. Reason:"
+msgstr "Preluare dosar nu a reuşit. Motivul:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:99
+msgid "FTP status"
+msgstr "Status"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:102
+msgid "FTP started"
+msgstr "Pornit"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:121
+msgid "Connection:"
+msgstr "Conexiune:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:127
+msgid "Login:"
+msgstr "Nume de utilizator:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:138
+msgid "FTP get:"
+msgstr "Ia de FTP:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:146
+msgid "Error:"
+msgstr "EROARE:"
+
+#: includes/class-wf-shipment-tracking-importer.php:103
+msgid "Entered into import"
+msgstr "A intrat în import"
+
+#: includes/class-wf-shipment-tracking-importer.php:107
+msgid "Unable to proceed:"
+msgstr "Imposibilitatea de a continua:"
+
+#: includes/class-wf-shipment-tracking-importer.php:108
+msgid "The file does not exist. Please go back and check your settings."
+msgstr "Fişierul nu există. Vă rugăm să mergeţi înapoi şi verificaţi setările."
+
+#: includes/class-wf-shipment-tracking-importer.php:109
+msgid "Unable to proceed:File does not exist"
+msgstr "Poate continua: fişierul nu există"
+
+#: includes/class-wf-shipment-tracking-importer.php:122
+msgid "Reading file..."
+msgstr "Fişier de lectură..."
+
+#: includes/class-wf-shipment-tracking-importer.php:125
+msgid "CSV validation done"
+msgstr "Validare CSV face"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid "Order #"
+msgstr "Sortare #"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid " updated successfully."
+msgstr "actualizat cu succes."
+
+#: includes/class-wf-shipment-tracking-importer.php:158
+msgid "There has been an error:The CSV is invalid"
+msgstr "A existat o eroare: CSV nu este valid"
+
+#: includes/class-wf-shipment-tracking-importer.php:159
+#: includes/class-wf-shipment-tracking-importer.php:202
+#: includes/class-wf-shipment-tracking-importer.php:216
+msgid "Sorry, there has been an error."
+msgstr "Ne pare rău, a apărut o eroare."
+
+#: includes/class-wf-shipment-tracking-importer.php:160
+msgid "The CSV is invalid."
+msgstr "CSV nu este validă."
+
+#: includes/class-wf-shipment-tracking-importer.php:168
+msgid "Imported:"
+msgstr "Comerț internațional"
+
+#: includes/class-wf-shipment-tracking-importer.php:169
+msgid "Skipped:"
+msgstr "Ignorat"
+
+#: includes/class-wf-shipment-tracking-importer.php:172
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Shipment Tracking and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Import complet - importate <strong>%s</strong> expediere de urmărire şi s-a "
+"ignorat <strong>%s</strong>."
+
+#: includes/class-wf-shipment-tracking-importer.php:182
+msgid "All done!"
+msgstr "Gata!"
+
+#: includes/class-wf-shipment-tracking-importer.php:259
+msgid "Please Provide FTP Host IP / Address ."
+msgstr "Vă rugăm să furnizaţi gazdă FTP IP / adresa."
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Could not Connect to Server : "
+msgstr "Nu s-a putut conecta la server"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Possible Reasons :"
+msgstr "Motive posibile:"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "1. Server/Host address may be wrong . Server - "
+msgstr "1. server/gazdă adresa poate fi greşit. Server-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "2. Port may be wrong . Port no. - "
+msgstr "2. port poate fi greşit. Portul nr.-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "3. Time out."
+msgstr "Interval de timp expirat."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Connected to the server but not able to login ."
+msgstr "Conectat la server, dar nu capabil la spre login."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Possible Reasons - "
+msgstr "Motive posibile"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "1. Username may be wrong . User Name - "
+msgstr "1. numele de utilizator poate fi greşit. Nume de utilizator-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Password may be wrong . Password - "
+msgstr "Parola poate fi greşit. Parola-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Try with/without FTPS."
+msgstr "Încearcă cu/fără FTPS."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid ""
+"There was a problem while getting files from ftp server and uploading into "
+"wp-contents/uploads/. "
+msgstr ""
+"A existat o problemă în timp ce Noţiuni de bază fişiere la ftp server şi "
+"încărcarea în wp-contents/uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "1. Try with or without Passive Mode ."
+msgstr "1. încercaţi cu sau fără modul pasiv."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "2. Check your FTP file permission ."
+msgstr "2. verifica FTP fişierul permisiunea."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "3. Check permission of folder wp-contents/uploads/ ."
+msgstr "3. verifica permisiunea de folderul wp-contents/uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:325
+msgid "Import Shipment Tracking"
+msgstr "Urmărire de transport import"
+
+#: includes/class-wf-shipment-tracking-importer.php:361
+msgid ""
+"Hi there! Upload a CSV file containing Shipping Tracking to import into your "
+"shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Incarca un fisier CSV ce contine ratele deimpozitare pentru a le introduce "
+"in magazin . Alege un fisier .csv pentru al incarca."
+
+#: includes/class-wf-shipment-tracking-importer.php:363
+#, php-format
+msgid ""
+"Shipping Tracking CSV need to be defined with columns in a specific order (5 "
+"columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Transport de urmărire CSV trebuie să fie definite cu coloane într-o anumită "
+"ordine (5 coloane). <a href=\"%s\">Click aici pentru a downloada un "
+"eşantion</a>."
+
+#: includes/class-wf-shipment-tracking-importer.php:371
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Inainte sa poti incarca fisierul, trebuie sa rezolvi urmatoarele ereori:"
+
+#: includes/class-wf-shipment-tracking-importer.php:380
+msgid "Choose a file from your computer:"
+msgstr "Alege un fișier din calculatorul tău:"
+
+#: includes/class-wf-shipment-tracking-importer.php:386
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Mărimea maximă: %s"
+
+#: includes/class-wf-shipment-tracking-importer.php:392
+msgid "OR Provide FTP Path:"
+msgstr "SAU oferi calea FTP:"
+
+#: includes/class-wf-shipment-tracking-importer.php:398
+msgid "Enable FTP Import"
+msgstr "Permite importul de FTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:406
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:53
+msgid "FTP Server Host/IP"
+msgstr "Host/IP FTP Server"
+
+#: includes/class-wf-shipment-tracking-importer.php:409
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:56
+msgid "XXX.XXX.XXX.XXX"
+msgstr "XXX.XXX.XXX.XXX"
+
+#: includes/class-wf-shipment-tracking-importer.php:414
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:61
+msgid "FTP User Name"
+msgstr "Nume utilizator"
+
+#: includes/class-wf-shipment-tracking-importer.php:422
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:69
+msgid "FTP Password"
+msgstr "Parolă"
+
+#: includes/class-wf-shipment-tracking-importer.php:430
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:77
+msgid "FTP Port"
+msgstr "Portul FTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:431
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:78
+msgid "Default port will be used if left empty."
+msgstr "Portul implicit vor fi folosite, dacă este lăsat gol."
+
+#: includes/class-wf-shipment-tracking-importer.php:434
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:81
+msgid "21"
+msgstr "%s trebuie să fie un număr între 0 şi 21."
+
+#: includes/class-wf-shipment-tracking-importer.php:439
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:86
+msgid "FTP Timeout"
+msgstr "Pauză"
+
+#: includes/class-wf-shipment-tracking-importer.php:440
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:87
+msgid "Default timeout default value will be used if left empty."
+msgstr ""
+"Implicit valoarea implicită de expirare vor fi folosite, dacă este lăsat gol."
+
+#: includes/class-wf-shipment-tracking-importer.php:443
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:90
+msgid "90"
+msgstr "90"
+
+#: includes/class-wf-shipment-tracking-importer.php:448
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:95
+msgid "Path/CsvFileName"
+msgstr "Calea / CsvFileName"
+
+#: includes/class-wf-shipment-tracking-importer.php:449
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:96
+msgid ""
+"Remote CSV File Path starting from FTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"Calea de fișiere CSV de la distanță pornind de la directorul de acasă FTP, "
+"cu excepția slash-ului principal și a File Name în cele din urmă."
+
+#: includes/class-wf-shipment-tracking-importer.php:452
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:99
+msgid "Path/StartingFrom/FTP-Directory/FileName.csv"
+msgstr "Path/StartingFrom/FTP-Directory/FileName.csv"
+
+#: includes/class-wf-shipment-tracking-importer.php:458
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:105
+msgid "Use FTPS"
+msgstr "Utilizați FTPS"
+
+#: includes/class-wf-shipment-tracking-importer.php:467
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:114
+msgid "Use Passive Mode"
+msgstr "Utilizați modul pasiv"
+
+#: includes/class-wf-shipment-tracking-importer.php:478
+msgid "Delimiter"
+msgstr "& Adresa... @ option: radio Field separator"
+
+#: includes/class-wf-shipment-tracking-importer.php:485
+msgid "Upload file and import"
+msgstr "Încărcați fișierul și Importați"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+msgid "Import Shipment Tracking (CSV)"
+msgstr "Import de urmărire a expedierii (CSV)"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import <strong>Shipment Tracking</strong> to your store via a csv file."
+msgstr ""
+"Importați <strong>urmărirea expedierii</strong> către magazinul dvs. prin "
+"intermediul unui fișier csv."
+
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import Shipment Tracking cron(CSV)"
+msgstr "Import de urmărire a expedierii cron (CSV)"
+
+#: includes/class-wf-tracking-admin.php:96
+msgid "Shipping Detail"
+msgstr "Detalii de transport"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Shipment ID"
+msgstr "EXPEDIERE"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Follow link for detailed status."
+msgstr "Urmați linkul pentru starea detaliată."
+
+#: includes/class-wf-tracking-admin.php:153
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-wf-tracking-admin.php:156
+msgid "Refresh"
+msgstr "Actualizeaza"
+
+#: includes/class-wf-tracking-admin.php:174
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Imposibil de actualizat starea timpului real în acest moment. Urmați link-ul "
+"de pe id-ul de expediere pentru a verifica starea."
+
+#: includes/class-wf-tracking-admin.php:286
+#: includes/class-wf-tracking-admin.php:431
+#: includes/track/class-wf-tracking-util.php:248
+msgid "Unable to update tracking info."
+msgstr "Imposibil de actualizat informațiile de urmărire."
+
+#: includes/class-wf-tracking-admin.php:315
+msgid "Sorry, Unable to proceed."
+msgstr "Ne pare rău, nu am putut continua."
+
+#: includes/class-wf-tracking-admin.php:318
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Imposibil de urmărit expedierea. Verificați codul de expediere sau încercați "
+"după ceva timp."
+
+#: includes/class-wf-tracking-admin.php:327
+msgid "Tracking is unset."
+msgstr "Urmărirea este dezactivată."
+
+#: includes/class-wf-tracking-admin.php:330
+msgid "Tracking Data is reset to default."
+msgstr "Datele de urmărire sunt resetate la valoarea implicită."
+
+#: includes/class-wf-tracking-admin.php:379
+msgid "None"
+msgstr "Nespecificat"
+
+#: includes/class-wf-tracking-admin.php:386
+msgid "Enter Tracking IDs"
+msgstr "Introduceți codurile de urmărire"
+
+#: includes/class-wf-tracking-admin.php:387
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Cutia separată, în cazul mai multor ID-uri de expediere pentru această "
+"comandă."
+
+#: includes/class-wf-tracking-admin.php:390
+msgid "This field is Optional."
+msgstr "Acest câmp este Opțional."
+
+#: includes/class-wf-tracking-admin.php:394
+msgid "Save/Show Tracking Info"
+msgstr "Salvați / afișați informațiile de urmărire"
+
+#: includes/class-wf-tracking-admin.php:412
+msgid "You don't have admin privileges to view this page."
+msgstr "Nu aveți privilegii de administrator pentru a vedea această pagină."
+
+#: includes/class-wf-tracking-settings.php:16
+msgid "Tracking"
+msgstr "Urmărire"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Shipment Tracking Settings"
+msgstr "Setările de urmărire expediere"
+
+#: includes/class-wf-tracking-settings.php:77
+msgid "licence activation"
+msgstr "activare licenţe"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid "Custom Shipment Message."
+msgstr "Mesaj personalizat de expediere."
+
+#: includes/class-wf-tracking-settings.php:84
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Definesc propriul mesaj de expediere. Folosiţi locul titularului Tag-uri "
+"[ID], [serviciu] şi [data] pentru expediere identitate, livrare serviciu şi "
+"data livrării respectiv.<br>"
+
+#: includes/class-wf-tracking-settings.php:90
+msgid "Turn off API Status"
+msgstr "Nap off API statutul"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid "Turn off Real time API Status"
+msgstr "Nap off statutul de API timp Real"
+
+#: includes/class-wf-tracking-settings.php:93
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Opriţi API timp real statutul de urmărire pe pagina de comandă client. "
+"Informaţii de bază de urmărire pe partea de sus încă vor fi afişate."
+
+#: includes/class-wf-tracking-settings.php:99
+msgid "Automatic Refresh"
+msgstr "Reîmprospătare automată"
+
+#: includes/class-wf-tracking-settings.php:102
+#: includes/class-wf-tracking-settings.php:122
+msgid "Enable"
+msgstr "Activ"
+
+#: includes/class-wf-tracking-settings.php:103
+msgid "Disable"
+msgstr "Dezactivați"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Enable - "
+msgstr "Activ"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn on live status automatic refresh on Myaccount->Order page "
+"loading."
+msgstr ""
+"Se va transforma pe viu stare reîmprospătare automată pe ContulMeu-> ordin "
+"pagina de încărcare."
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Disable - "
+msgstr "Dezactivați"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn off the automatic refresh on Myaccount->Order page and Refresh "
+"button will be shown"
+msgstr ""
+"Acesta va opri reîmprospătare automată pe ContulMeu-> pagina de comandă şi "
+"butonul Reîmprospătare va fi indicat"
+
+#: includes/class-wf-tracking-settings.php:111
+msgid "Tracking Data"
+msgstr "Urmărire"
+
+#: includes/class-wf-tracking-settings.php:115
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+
+#: includes/class-wf-tracking-settings.php:118
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[ shipping service name ]|[ shipment tracking url ]"
+
+#: includes/class-wf-tracking-settings.php:121
+msgid "Shipping Easy"
+msgstr "Transport"
+
+#: includes/class-wf-tracking-settings.php:124
+msgid "Enable this to integrate Shipping Easy"
+msgstr "Permite acest lucru să se integreze uşor de transport maritim"
+
+#: includes/class-wf-tracking-settings.php:129
+#: includes/class-wf-tracking-settings.php:130
+msgid "Reset Tracking Data"
+msgstr "Reiniţializaţi datele de urmărire"
+
+#: includes/class-wf-tracking-settings.php:132
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Reiniţializaţi datele de urmărire la valorile implicite. Toate valorile "
+"adăugată personalizat în mai sus datele de urmărire va fi curăţat."
+
+#: includes/class-wf-tracking-settings.php:145
+msgid "UPS User Id"
+msgstr "Numele de utilizator"
+
+#: includes/class-wf-tracking-settings.php:147
+msgid "Provide UPS user Id for the live UPS shipment tracking."
+msgstr "Prevedea live expediere UPS urmărire UPS utilizator ID-ul."
+
+#: includes/class-wf-tracking-settings.php:152
+msgid "UPS Password"
+msgstr "Parolă"
+
+#: includes/class-wf-tracking-settings.php:154
+msgid "Provide UPS password."
+msgstr "Oferim UPS parola."
+
+#: includes/class-wf-tracking-settings.php:159
+msgid "UPS Access Key"
+msgstr "Cheie de acces"
+
+#: includes/class-wf-tracking-settings.php:161
+msgid "Provide UPS access key."
+msgstr "Oferi cheia de acces UPS."
+
+#: includes/class-wf-tracking-settings.php:166
+msgid "FedEx Account Number"
+msgstr "Numărul de cont FedEx"
+
+#: includes/class-wf-tracking-settings.php:169
+msgid "Provide FedEx account number for the live FedEx shipment tracking."
+msgstr "Oferi numărul de cont FedEx pentru livrare FedEx live de urmărire."
+
+#: includes/class-wf-tracking-settings.php:174
+msgid "FedEx Meter Number"
+msgstr "FedEx metru numărul"
+
+#: includes/class-wf-tracking-settings.php:177
+msgid "Provide FedEx meter number for the live FedEx shipment tracking."
+msgstr "Oferi numărul de metru FedEx pentru livrare FedEx live de urmărire."
+
+#: includes/class-wf-tracking-settings.php:182
+msgid "FedEx Web Services"
+msgstr "Servicii de Web FedEx"
+
+#: includes/class-wf-tracking-settings.php:185
+msgid "Provide FedEx Web Services for the live FedEx shipment tracking."
+msgstr "Oferim servicii de Web FedEx pentru livrare FedEx live de urmărire."
+
+#: includes/class-wf-tracking-settings.php:190
+msgid "FedEx Password"
+msgstr "FedEx parola"
+
+#: includes/class-wf-tracking-settings.php:193
+msgid "Provide FedEx Password for the live FedEx shipment tracking."
+msgstr "Oferi FedEx parola pentru livrare FedEx live de urmărire."
+
+#: includes/views/html-wf-admin-screen.php:4
+msgid "Import Settings"
+msgstr "Setările de import"
+
+#: includes/views/html-wf-admin-screen.php:5
+#: woocommerce-shipment-tracking.php:101
+msgid "Import"
+msgstr "Import"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:26
+#, php-format
+msgid "The next export is scheduled on <code>%s</code>"
+msgstr "Exportul viitoare este programată pe<code>%s</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:28
+msgid "There is no export scheduled."
+msgstr "Nu există nici un export programate."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:38
+msgid "FTP Settings for Auto Import CSV"
+msgstr "Setările FTP pentru Auto Import CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:43
+msgid "Enable FTP"
+msgstr "Activ"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:123
+msgid "Automatically Import CSV"
+msgstr "Automat de Import CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:127
+msgid "Disabled"
+msgstr "Pentru persoane cu handicap"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:128
+msgid "Enabled"
+msgstr "Activat"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:135
+msgid "Import Start Time"
+msgstr "Ora de începere import"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:139
+#, php-format
+msgid "Local time is <code>%s</code>."
+msgstr "Ora locala este <code>%s</code> ."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:141
+msgid "<code>Enter like 6:18pm or 12:27am</code>"
+msgstr "<code>Enter like 6:18pm or 12:27am</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:146
+msgid "Import Interval [ Minutes ]"
+msgstr "Interval de import [minute]"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:154
+msgid "Skip Already Processed"
+msgstr "Treci deja procesate"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:162
+msgid "Save Settings"
+msgstr "Salvați setările"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Cheia de licenţă pentru %s a expirat. Vă puteţi reactiva sau cumpăra o cheie "
+"de licenţă de la dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul "
+"de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Subscriere pentru %s este pe hold. Poate reactiva abonamentul de la "
+"dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Subscriere pentru %s a fost anulată. Puteţi reînnoi abonamentul de la "
+"dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul de bord</a>. O "
+"nouă cheie de licenţă va fi trimis la tine dupa ce comanda a fost finalizat."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Subscriere pentru %s a expirat. Poate reactiva abonamentul de la "
+"dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Subscriere pentru %s a fost suspendată. Poate reactiva abonamentul de la "
+"dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Abonamentul pentru%s este încă în așteptare. Puteți verifica starea "
+"abonamentului din <a href=\"%s\" target=\"_blank\">tabloul de bord al</a> "
+"contului dvs."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonamentul pentru%s a fost plasat în coșul de gunoi și va fi șters în "
+"curând. Puteți achiziționa un abonament nou din <a href=\"%s\" target="
+"\"_blank\">tabloul de bord al</a> contului dvs."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Un abonament pentru %s nu s-a găsit. Puteţi achiziţiona un abonament de la "
+"dumneavoastră cont <a href=\"%s\" target=\"_blank\">tabloul de bord</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"O cheie de licență pentru%s nu a putut fi găsită. Poate ați uitat să "
+"introduceți o cheie de licență la configurarea%s sau dacă cheia a fost "
+"dezactivată în contul dvs. Puteți reactiva cheia de licență la <a href=\"%s"
+"\" target=\"_blank\">pagina cu setările</a> pluginului."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Permisiunea de descărcare pentru%s a fost revocată, eventual, din cauza unei "
+"chei de licență sau a abonamentului care expiră. Puteți reactiva sau "
+"achiziționa o cheie de licență din <a href=\"%s\" target=\"_blank\">tabloul "
+"de bord al</a> contului dvs."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s nu a fost activat. Accesați <a href=\"%s\" target=\"_blank\">pagina cu "
+"setările</a> pluginului și introduceți cheia de licență și e-mailul de "
+"licență pentru a activa%s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Ați schimbat abonamentul pentru%s, deci va trebui să introduceți noua dvs. "
+"cheie de licență API în pagina de setări. Cheia de licență ar fi trebuit să "
+"fi ajuns în căsuța poștală de poștă electronică, dacă nu puteți să o primiți "
+"conectându-vă la <a href=\"%s\" target=\"_blank\">tabloul de bord al</a> "
+"contului dvs."
+
+#: woocommerce-shipment-tracking.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete WooCommerce "
+"Shipment Tracking Basic Woocommerce Extension and then try again."
+msgstr ""
+"Hopa! Ați încercat să instalați versiunea premium fără a dezactiva și șterge "
+"versiunea de bază. Dezactivați și ștergeți WooCommerce Tracking Extension "
+"Woocommerce de bază și încercați din nou."
+
+#: woocommerce-shipment-tracking.php:100
+msgid "Settings"
+msgstr "Setări salvate!"
+
+#: woocommerce-shipment-tracking.php:102
+msgid "Documentation"
+msgstr "Documentație"
+
+#: woocommerce-shipment-tracking.php:103
+msgid "Support"
+msgstr "24 suport"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipment Tracking Pro"
+msgstr "WooCommerce Programe de urmărire a expedierii"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+msgstr "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Features includes Custom Tracking Message, Multiple Shipping Services "
+"including 70+ predefined services, WPML Support and CSV bulk import of "
+"tracking data & FTP import."
+msgstr ""
+"Caracteristicile includ Mesaj personalizat de urmărire, Servicii multiple de "
+"transport, inclusiv servicii predefinite 70+, suport WPML și import în vrac "
+"CSV de date de urmărire și import FTP."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"

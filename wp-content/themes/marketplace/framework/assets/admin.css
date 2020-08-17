@@ -1,0 +1,4 @@
+.ovic-plugins_page_ovic-import .ovic-importer-wrapper .header .main,
+.ovic-plugins_page_ovic-import .ovic-importer-wrapper .header .note {
+    display: none;
+}

@@ -1,0 +1,20 @@
+.woo-vou-vou-code-wrapper {
+	
+	
+}
+.woo-vou-dashboard-widget-text-wrap {
+	padding: 24px 10px 5px
+}
+
+
+/* new css */
+.woo-vou-status-list{display: inline-block;width: 100%;}
+.woo-vou-status-list li{width:calc(33.33% - 10px);width: -webkit-calc(33.33% - 10px);float: left;text-align: center;padding: 5px;display: inline-block;}
+.woo-vou-status-list li a{display: block;text-align: center;background-color: #fff;min-height: 80px;vertical-align: middle;color: #696969;border-radius: 20px;padding: 20px 5px 0;border: 1px solid #8a8a8a;}
+.woo-vou-status-list li a:hover{background-color: #00BCD4;color: #fff;border-color: #00BCD4;}
+.woo-vou-status-list li a > div{font-size: 48px;line-height: 48px;font-weight: bold;}
+.woo-vou-status-list li a > span{font-size: 13px;display: block;font-weight: bold;padding: 5px 0;display: block;min-height: 46px;}
+
+@media screen and (max-width: 500px){
+    .woo-vou-status-list li{float: none;width: 100%;}
+}

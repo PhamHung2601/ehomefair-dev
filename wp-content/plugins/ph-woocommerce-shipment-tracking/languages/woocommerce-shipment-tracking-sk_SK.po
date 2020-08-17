@@ -1,0 +1,894 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Project-Id-Version: WooCommerce Shipment Tracking Pro\n"
+"POT-Creation-Date: 2018-11-14 13:03+0530\n"
+"PO-Revision-Date: 2018-11-14 13:08+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-shipment-tracking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: sk\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:37
+#: includes/class-ph-shipment-tracking-on-order-page.php:38
+msgid "Refresh Live Tracking Status"
+msgstr "Obnoviť živé sledovanie stavu"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:75
+#: includes/class-ph-shipment-tracking-on-order-page.php:82
+msgid "Tracking Status"
+msgstr "Sledovanie stavu"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:116
+msgid "Tracking History"
+msgstr "Sledovanie histórie"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:176
+msgid "Tracking ID : "
+msgstr "Sledovanie ID"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:182
+#: includes/class-wf-tracking-admin.php:222
+msgid "Location"
+msgstr "Lokácia"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:183
+#: includes/class-wf-tracking-admin.php:223
+msgid "Date"
+msgstr "Datum odeslání"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:185
+#: includes/class-wf-tracking-admin.php:225
+msgid "Activity"
+msgstr "Spoločenstvo"
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:23
+msgid ""
+"CSV Import requires the function <code>mb_detect_encoding</code> to import "
+"CSV files. Please ask your hosting provider to enable this function."
+msgstr ""
+"CSV Import vyžaduje funkciu <code>mb_detect_encoding</code> pre import CSV "
+"súborov. Obráťte sa na svojho poskytovateľa hostingu chcete povoliť túto "
+"funkciu."
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:31
+msgid "Shipment Tracking Import"
+msgstr "Import sledovanie zásielky"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:29
+#, php-format
+msgid "Every %d minutes"
+msgstr "Každých %d minút"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:79
+msgid "Starting auto import...."
+msgstr "Počnúc auto import..."
+
+#: includes/class-wf-shipment-tracking-import-cron.php:82
+msgid "Inside FTP"
+msgstr "Vnútri FTP"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:88
+msgid "Fetching file failed. Reason:"
+msgstr "Načítanie súborov zlyhalo. Dôvod:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:99
+msgid "FTP status"
+msgstr "FTP Stav"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:102
+msgid "FTP started"
+msgstr "FTP Začalo"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:121
+msgid "Connection:"
+msgstr "Pripojenie:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:127
+msgid "Login:"
+msgstr "Prihlasovacie meno:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:138
+msgid "FTP get:"
+msgstr "Získajte FTP:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:146
+msgid "Error:"
+msgstr "Chyba."
+
+#: includes/class-wf-shipment-tracking-importer.php:103
+msgid "Entered into import"
+msgstr "Vstúpil do dovozných"
+
+#: includes/class-wf-shipment-tracking-importer.php:107
+msgid "Unable to proceed:"
+msgstr "Nemôže pokračovať:"
+
+#: includes/class-wf-shipment-tracking-importer.php:108
+msgid "The file does not exist. Please go back and check your settings."
+msgstr "Súbor neexistuje. Prejsť späť a skontrolujte vaše nastavenia."
+
+#: includes/class-wf-shipment-tracking-importer.php:109
+msgid "Unable to proceed:File does not exist"
+msgstr "Nemôže pokračovať: súbor neexistuje"
+
+#: includes/class-wf-shipment-tracking-importer.php:122
+msgid "Reading file..."
+msgstr "Číta sa zoznam súborov"
+
+#: includes/class-wf-shipment-tracking-importer.php:125
+msgid "CSV validation done"
+msgstr "CSV overenie vykonané"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid "Order #"
+msgstr "Objednávka #"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid " updated successfully."
+msgstr "Inzerát úspešne aktualizovaný."
+
+#: includes/class-wf-shipment-tracking-importer.php:158
+msgid "There has been an error:The CSV is invalid"
+msgstr "Došlo k chybe: CSV je neplatný"
+
+#: includes/class-wf-shipment-tracking-importer.php:159
+#: includes/class-wf-shipment-tracking-importer.php:202
+#: includes/class-wf-shipment-tracking-importer.php:216
+msgid "Sorry, there has been an error."
+msgstr "Prepáčte, došlo k chybe."
+
+#: includes/class-wf-shipment-tracking-importer.php:160
+msgid "The CSV is invalid."
+msgstr "CSV súbor je chybný."
+
+#: includes/class-wf-shipment-tracking-importer.php:168
+msgid "Imported:"
+msgstr "Importovaných:"
+
+#: includes/class-wf-shipment-tracking-importer.php:169
+msgid "Skipped:"
+msgstr "Preskočené:"
+
+#: includes/class-wf-shipment-tracking-importer.php:172
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Shipment Tracking and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Import dokončiť - dovezené <strong>%s</strong> sledovania zásielky a "
+"preskočil <strong>%s</strong>."
+
+#: includes/class-wf-shipment-tracking-importer.php:182
+msgid "All done!"
+msgstr "Všetko hotové!"
+
+#: includes/class-wf-shipment-tracking-importer.php:259
+msgid "Please Provide FTP Host IP / Address ."
+msgstr "Uveďte IP hostiteľa FTP / adresa."
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Could not Connect to Server : "
+msgstr "Nedá sa spojiť so serverom"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Possible Reasons :"
+msgstr "Možné dôvody"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "1. Server/Host address may be wrong . Server - "
+msgstr "1. Server / hostiteľská adresa môže byť nesprávna. Server -"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "2. Port may be wrong . Port no. - "
+msgstr "2. Port môže byť nesprávny. Číslo portu -"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "3. Time out."
+msgstr "3. Časový limit."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Connected to the server but not able to login ."
+msgstr "Pripojený k serveru, ale nemôže sa prihlásiť."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Possible Reasons - "
+msgstr "Možné dôvody"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "1. Username may be wrong . User Name - "
+msgstr "1. Meno užívateľa môže byť nesprávne. Meno používateľa -"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Password may be wrong . Password - "
+msgstr "Heslo môže byť nesprávne. Heslo -"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Try with/without FTPS."
+msgstr "Skúste s / bez FTPS."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid ""
+"There was a problem while getting files from ftp server and uploading into "
+"wp-contents/uploads/. "
+msgstr ""
+"Vyskytol sa problém pri získavaní súborov z ftp servera a nahrávaní do wp-"
+"contents / uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "1. Try with or without Passive Mode ."
+msgstr "1. Skúste s pasívnym režimom alebo bez neho."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "2. Check your FTP file permission ."
+msgstr "2. Skontrolujte povolenie vášho súboru FTP."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "3. Check permission of folder wp-contents/uploads/ ."
+msgstr "3. Skontrolujte povolenie zložky wp-contents / uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:325
+msgid "Import Shipment Tracking"
+msgstr "Importovanie sledovania zásielky"
+
+#: includes/class-wf-shipment-tracking-importer.php:361
+msgid ""
+"Hi there! Upload a CSV file containing Shipping Tracking to import into your "
+"shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Nahrajte súbor CSV obsahujúci daňové sadzby pre import obsahu do vášho "
+"obchodu, vyberte .csv súbor, ktorý chcete nahrať, kliknite na tlačidlo "
+"\"pridať súbor a import\"."
+
+#: includes/class-wf-shipment-tracking-importer.php:363
+#, php-format
+msgid ""
+"Shipping Tracking CSV need to be defined with columns in a specific order (5 "
+"columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Prepravné CSV sledovania musí byť definované stĺpcami v konkrétnom poradí (5 "
+"stĺpcov). <a href=\"%s\">Kliknutím sem stiahnete vzorku</a> ."
+
+#: includes/class-wf-shipment-tracking-importer.php:371
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Skôr než budete môcť nahrať súbor importu, budete musieť opraviť nasledujúcu "
+"chybu:"
+
+#: includes/class-wf-shipment-tracking-importer.php:380
+msgid "Choose a file from your computer:"
+msgstr "Vyberte súbor z počítača:"
+
+#: includes/class-wf-shipment-tracking-importer.php:386
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximálna veľkosť súboru: %s"
+
+#: includes/class-wf-shipment-tracking-importer.php:392
+msgid "OR Provide FTP Path:"
+msgstr "Alebo poskytnúť cestu FTP:"
+
+#: includes/class-wf-shipment-tracking-importer.php:398
+msgid "Enable FTP Import"
+msgstr "Povoliť import FTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:406
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:53
+msgid "FTP Server Host/IP"
+msgstr "FTP Server Host / IP"
+
+#: includes/class-wf-shipment-tracking-importer.php:409
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:56
+msgid "XXX.XXX.XXX.XXX"
+msgstr "XXX.XXX.XXX.XXX"
+
+#: includes/class-wf-shipment-tracking-importer.php:414
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:61
+msgid "FTP User Name"
+msgstr "Užívateľské meno"
+
+#: includes/class-wf-shipment-tracking-importer.php:422
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:69
+msgid "FTP Password"
+msgstr "Heslo FTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:430
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:77
+msgid "FTP Port"
+msgstr "FTP Port"
+
+#: includes/class-wf-shipment-tracking-importer.php:431
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:78
+msgid "Default port will be used if left empty."
+msgstr "Ak je prázdne, použije sa predvolený port."
+
+#: includes/class-wf-shipment-tracking-importer.php:434
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:81
+msgid "21"
+msgstr "21"
+
+#: includes/class-wf-shipment-tracking-importer.php:439
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:86
+msgid "FTP Timeout"
+msgstr "Časový limit"
+
+#: includes/class-wf-shipment-tracking-importer.php:440
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:87
+msgid "Default timeout default value will be used if left empty."
+msgstr "Ak je prázdne, použije sa predvolený časový limit predvolenú hodnotu."
+
+#: includes/class-wf-shipment-tracking-importer.php:443
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:90
+msgid "90"
+msgstr "90"
+
+#: includes/class-wf-shipment-tracking-importer.php:448
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:95
+msgid "Path/CsvFileName"
+msgstr "Cesta/CsvFileName"
+
+#: includes/class-wf-shipment-tracking-importer.php:449
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:96
+msgid ""
+"Remote CSV File Path starting from FTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"Vzdialený CSV súboru cestu od domovského adresára FTP Okrem predné lomítko a "
+"názov súboru na konci."
+
+#: includes/class-wf-shipment-tracking-importer.php:452
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:99
+msgid "Path/StartingFrom/FTP-Directory/FileName.csv"
+msgstr "Path/StartingFrom/FTP-Directory/FileName.csv"
+
+#: includes/class-wf-shipment-tracking-importer.php:458
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:105
+msgid "Use FTPS"
+msgstr "Použitie FTPS"
+
+#: includes/class-wf-shipment-tracking-importer.php:467
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:114
+msgid "Use Passive Mode"
+msgstr "Použiť pasívny mód"
+
+#: includes/class-wf-shipment-tracking-importer.php:478
+msgid "Delimiter"
+msgstr "Oddeľovač"
+
+#: includes/class-wf-shipment-tracking-importer.php:485
+msgid "Upload file and import"
+msgstr "Nahrať súbor a import"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+msgid "Import Shipment Tracking (CSV)"
+msgstr "Importovať zásielka (CSV)"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import <strong>Shipment Tracking</strong> to your store via a csv file."
+msgstr ""
+"Dovozné <strong>Zásielky sledovania</strong> obchodu prostredníctvom súboru "
+"csv."
+
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import Shipment Tracking cron(CSV)"
+msgstr "Dovozné zásielky sledovanie cron(CSV)"
+
+#: includes/class-wf-tracking-admin.php:96
+msgid "Shipping Detail"
+msgstr "Lodné Detail"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Shipment ID"
+msgstr "Expedovanie"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Follow link for detailed status."
+msgstr "Odkaz pre podrobné informácie o stave."
+
+#: includes/class-wf-tracking-admin.php:153
+msgid "Status"
+msgstr "Postavenie"
+
+#: includes/class-wf-tracking-admin.php:156
+msgid "Refresh"
+msgstr "Aktualizovať"
+
+#: includes/class-wf-tracking-admin.php:174
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Nepodarilo sa aktualizovať reálny stav v tomto okamihu času. Kliknutím na "
+"prepojenie na zásielku id kontrola stavu."
+
+#: includes/class-wf-tracking-admin.php:286
+#: includes/class-wf-tracking-admin.php:431
+#: includes/track/class-wf-tracking-util.php:248
+msgid "Unable to update tracking info."
+msgstr "Nepodarilo sa aktualizovať sledovania informácií."
+
+#: includes/class-wf-tracking-admin.php:315
+msgid "Sorry, Unable to proceed."
+msgstr "Sorry, nedá sa pokračovať."
+
+#: includes/class-wf-tracking-admin.php:318
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Nie je možné sledovať zásielku. Prosím, krížové kontroly zásielky id alebo "
+"skúste po nejakej dobe."
+
+#: includes/class-wf-tracking-admin.php:327
+msgid "Tracking is unset."
+msgstr "Sledovanie je odstavený."
+
+#: includes/class-wf-tracking-admin.php:330
+msgid "Tracking Data is reset to default."
+msgstr "Sledovania údajov sa vynuluje na predvolené."
+
+#: includes/class-wf-tracking-admin.php:379
+msgid "None"
+msgstr "Neurčené"
+
+#: includes/class-wf-tracking-admin.php:386
+msgid "Enter Tracking IDs"
+msgstr "Zadajte sledovanie identifikácií"
+
+#: includes/class-wf-tracking-admin.php:387
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Oddelené čiarkou v prípade viac identifikátorov dodávky pre túto objednávku."
+
+#: includes/class-wf-tracking-admin.php:390
+msgid "This field is Optional."
+msgstr "Toto pole je VOLITEĽNÉ."
+
+#: includes/class-wf-tracking-admin.php:394
+msgid "Save/Show Tracking Info"
+msgstr "Uložiť alebo Zobraziť informácie o sledovaní"
+
+#: includes/class-wf-tracking-admin.php:412
+msgid "You don't have admin privileges to view this page."
+msgstr "Nemáte oprávnenia správcu na zobrazenie tejto stránky."
+
+#: includes/class-wf-tracking-settings.php:16
+msgid "Tracking"
+msgstr "Sledovanie"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Shipment Tracking Settings"
+msgstr "Nastavenie sledovania zásielky"
+
+#: includes/class-wf-tracking-settings.php:77
+msgid "licence activation"
+msgstr "Aktivácia licencie"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid "Custom Shipment Message."
+msgstr "Vlastnú prepravu správ."
+
+#: includes/class-wf-tracking-settings.php:84
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Definovať vlastnú správu zásielky. Použiť miesto držiak značky "
+"[Identifikácia], [doprava] [dátum] pre zásielku Id, dodávka služieb a dátum "
+"odoslania resp..<br>"
+
+#: includes/class-wf-tracking-settings.php:90
+msgid "Turn off API Status"
+msgstr "Vypnutí API"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid "Turn off Real time API Status"
+msgstr "Vypnite reálnom čase API stav"
+
+#: includes/class-wf-tracking-settings.php:93
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Vypnite reálnom čase API stav sledovania na stránku objednávky zákazníka. "
+"Zobrazí sa stále základné sledovanie info na vrchole."
+
+#: includes/class-wf-tracking-settings.php:99
+msgid "Automatic Refresh"
+msgstr "Automatické obnovenie"
+
+#: includes/class-wf-tracking-settings.php:102
+#: includes/class-wf-tracking-settings.php:122
+msgid "Enable"
+msgstr "Povoliť:"
+
+#: includes/class-wf-tracking-settings.php:103
+msgid "Disable"
+msgstr "Nezobrazovať"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Enable - "
+msgstr "Povoliť:"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn on live status automatic refresh on Myaccount->Order page "
+"loading."
+msgstr ""
+"To bude zase na živé stav automatického obnovovania na Myaccount-> poradí "
+"načítania stránky."
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Disable - "
+msgstr "Nezobrazovať"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn off the automatic refresh on Myaccount->Order page and Refresh "
+"button will be shown"
+msgstr ""
+"To vypne automatické obnovenie na Myaccount-> poradie stránky a zobrazí sa "
+"tlačidlo obnoviť"
+
+#: includes/class-wf-tracking-settings.php:111
+msgid "Tracking Data"
+msgstr "Sledovanie"
+
+#: includes/class-wf-tracking-settings.php:115
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+
+#: includes/class-wf-tracking-settings.php:118
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[ shipping service name ]|[ shipment tracking url ]"
+
+#: includes/class-wf-tracking-settings.php:121
+msgid "Shipping Easy"
+msgstr "Doručenie"
+
+#: includes/class-wf-tracking-settings.php:124
+msgid "Enable this to integrate Shipping Easy"
+msgstr "Umožňujú to integrovať lodné jednoduché"
+
+#: includes/class-wf-tracking-settings.php:129
+#: includes/class-wf-tracking-settings.php:130
+msgid "Reset Tracking Data"
+msgstr "Obnovenie údajov sledovania"
+
+#: includes/class-wf-tracking-settings.php:132
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Obnovte údaje sledovania na predvolené hodnoty. Všetky vlastné pridané "
+"hodnoty vo vyššie uvedených údajoch o sledovaní budú vyčistené."
+
+#: includes/class-wf-tracking-settings.php:145
+msgid "UPS User Id"
+msgstr "ID používateľa"
+
+#: includes/class-wf-tracking-settings.php:147
+msgid "Provide UPS user Id for the live UPS shipment tracking."
+msgstr "Zadajte ID používateľa UPS na sledovanie živých zásielok UPS."
+
+#: includes/class-wf-tracking-settings.php:152
+msgid "UPS Password"
+msgstr "Heslo"
+
+#: includes/class-wf-tracking-settings.php:154
+msgid "Provide UPS password."
+msgstr "Zadajte heslo UPS."
+
+#: includes/class-wf-tracking-settings.php:159
+msgid "UPS Access Key"
+msgstr "Prístupový kľúč"
+
+#: includes/class-wf-tracking-settings.php:161
+msgid "Provide UPS access key."
+msgstr "Zadajte prístupový kľúč UPS."
+
+#: includes/class-wf-tracking-settings.php:166
+msgid "FedEx Account Number"
+msgstr "Číslo účtu FedEx"
+
+#: includes/class-wf-tracking-settings.php:169
+msgid "Provide FedEx account number for the live FedEx shipment tracking."
+msgstr "Zadajte číslo účtu FedEx pre živé sledovanie zásielok FedEx."
+
+#: includes/class-wf-tracking-settings.php:174
+msgid "FedEx Meter Number"
+msgstr "Číslo metra FedEx"
+
+#: includes/class-wf-tracking-settings.php:177
+msgid "Provide FedEx meter number for the live FedEx shipment tracking."
+msgstr "Zadajte číslo metra FedEx pre živé sledovanie zásielok FedEx."
+
+#: includes/class-wf-tracking-settings.php:182
+msgid "FedEx Web Services"
+msgstr "FedEx Web Services"
+
+#: includes/class-wf-tracking-settings.php:185
+msgid "Provide FedEx Web Services for the live FedEx shipment tracking."
+msgstr ""
+"Poskytnite službu FedEx Web Services pre živé sledovanie zásielok FedEx."
+
+#: includes/class-wf-tracking-settings.php:190
+msgid "FedEx Password"
+msgstr "FedEx heslo"
+
+#: includes/class-wf-tracking-settings.php:193
+msgid "Provide FedEx Password for the live FedEx shipment tracking."
+msgstr "Poskytnite heslo FedEx pre živé sledovanie zásielok FedEx."
+
+#: includes/views/html-wf-admin-screen.php:4
+msgid "Import Settings"
+msgstr "Import - nastavenia"
+
+#: includes/views/html-wf-admin-screen.php:5
+#: woocommerce-shipment-tracking.php:101
+msgid "Import"
+msgstr "Import"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:26
+#, php-format
+msgid "The next export is scheduled on <code>%s</code>"
+msgstr "Ďalší export je naplánovaný na <code>%s</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:28
+msgid "There is no export scheduled."
+msgstr "Nie je naplánovaný žiadny export."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:38
+msgid "FTP Settings for Auto Import CSV"
+msgstr "Nastavenia FTP pre automatické importovanie CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:43
+msgid "Enable FTP"
+msgstr "Povoliť FTP"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:123
+msgid "Automatically Import CSV"
+msgstr "Automaticky importovať súbor CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:127
+msgid "Disabled"
+msgstr "Blokovaný"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:128
+msgid "Enabled"
+msgstr "Zapnuté"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:135
+msgid "Import Start Time"
+msgstr "Čas spustenia importu"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:139
+#, php-format
+msgid "Local time is <code>%s</code>."
+msgstr "Miestny čas je <code>%s</code> ."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:141
+msgid "<code>Enter like 6:18pm or 12:27am</code>"
+msgstr "<code>Enter like 6:18pm or 12:27am</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:146
+msgid "Import Interval [ Minutes ]"
+msgstr "Interval importu [minúty]"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:154
+msgid "Skip Already Processed"
+msgstr "(už spracované)"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:162
+msgid "Save Settings"
+msgstr "Uložiť nastavenia"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Licenčný kľúč pre%s uplynul. Môžete znova aktivovať alebo zakúpiť licenčný "
+"kľúč z hlavného <a href=\"%s\" target=\"_blank\">panela</a> vášho účtu."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Predplatné pre%s je pozastavené. Môžete znova aktivovať odber z <a href=\"%s"
+"\" target=\"_blank\">informačného panela</a> vášho účtu."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Predplatné pre%s bolo zrušené. Predplatné môžete obnoviť z <a href=\"%s\" "
+"target=\"_blank\">informačného panela</a> účtu. Po dokončení objednávky sa "
+"vám pošle nový licenčný kľúč."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Predplatné pre %s sa skončilo. Môžete si aktivovať predplatné z vášho účtu "
+"<a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Predplatné pre%s bolo pozastavené. Môžete znova aktivovať odber z <a href="
+"\"%s\" target=\"_blank\">informačného panela</a> vášho účtu."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Predplatné pre %s je stále čaká. Môžete skontrolovať stav predplatného z "
+"vášho účtu <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Predplatné pre %s bola zaradená do koša a budú zmazané čoskoro. Môžete si "
+"zakúpiť nové predplatné z vášho účtu <a href=\"%s\" target=\"_blank"
+"\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Predplatné pre %s sa nenašiel. Môžete zakúpiť predplatné z vášho účtu <a "
+"href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Licenčný kľúč pre %s sa nenašiel. Možno ste zabudli zadať licenčný kľúč do "
+"%s, alebo kľúč bol deaktivovaný vo vašom účte. Licenčný kľúč môžete "
+"aktivovať plugin <a href=\"%s\" target=\"_blank\">nastavenia stránky</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Stiahnuť povolenie pre %s bol zrušený prípadne kvôli licenčný kľúč alebo "
+"predplatné vyprší. Môžete aktivovať alebo zakúpiť licenčný kľúč od vášho "
+"účtu <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s nie je aktivovaný. Prejsť na plugin <a href=\"%s\" target=\"_blank"
+"\">nastavenia stránky</a> a zadať licenčný kľúč a licenčný e-mail Aktivácia "
+"%s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Zmenili ste predplatné pre %s, takže budete musieť zadať váš nový licenčný "
+"kľúč API na stránke nastavení. Licenčný kľúč by prišiel do doručenej pošty, "
+"ak nie, môžete získať prihlásením sa do svojho účtu <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+
+#: woocommerce-shipment-tracking.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete WooCommerce "
+"Shipment Tracking Basic Woocommerce Extension and then try again."
+msgstr ""
+"Oops! Ste vyskúšali inštaláciu prémiová verzia bez deaktivácia a vymazanie "
+"základnej verzii. Láskavo deaktivovať a odstrániť WooCommerce zásielku "
+"sledovanie základných Woocommerce predĺženie a skúste to znova."
+
+#: woocommerce-shipment-tracking.php:100
+msgid "Settings"
+msgstr "nastavenia"
+
+#: woocommerce-shipment-tracking.php:102
+msgid "Documentation"
+msgstr "Dokumentácia plugin-u"
+
+#: woocommerce-shipment-tracking.php:103
+msgid "Support"
+msgstr "Podpora"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipment Tracking Pro"
+msgstr "WooCommerce pre sledovanie zásielok"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+msgstr "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Features includes Custom Tracking Message, Multiple Shipping Services "
+"including 70+ predefined services, WPML Support and CSV bulk import of "
+"tracking data & FTP import."
+msgstr ""
+"Funkcie zahŕňajú vlastné sledovania správy, viaceré lodné služby vrátane 70 "
+"+ preddefinované služby, WPML podporu a CSV hromadný import sledovania "
+"údajov & FTP import."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"

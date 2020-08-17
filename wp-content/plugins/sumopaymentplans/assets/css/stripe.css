@@ -1,0 +1,20 @@
+.sumo-pp-stripe-elements-field{
+    border:1px solid #ddd;margin:5px 0;padding:5px;background-color:#fff;outline:0;
+}
+
+.sumo-pp-stripe-card-group{
+    position:relative;
+}
+
+.sumo-pp-stripe-visa-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/visa.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-amex-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/amex.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-diners-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/diners.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-discover-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/discover.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-jcb-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/jcb.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-maestro-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/maestro.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-mastercard-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/mastercard.svg);display:block;width:30px;height:24px}
+.sumo-pp-stripe-credit-card-brand{position:absolute;top:50%;margin-top:-10px;right:10px;background:no-repeat url(../images/credit-card.svg);display:block;width:30px;height:24px}
+
+.sumo-pp-stripe-card-errors{
+    color : #FF0000 ;
+}

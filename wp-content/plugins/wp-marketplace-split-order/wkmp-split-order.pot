@@ -1,0 +1,131 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Marketplace Split Order\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-16 12:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.1"
+
+#: wc-order-split.php:308
+#, php-format
+msgid ""
+"WC Marketplace Split Order is enabled but not effective. It requires "
+"%sMarketplace Plugin%s in order to work."
+msgstr ""
+
+#: includes/class-wc-order-split.php:170 includes/class-wc-order-split.php:239
+#: includes/class-wc-order-split.php:452 includes/class-wc-order-split.php:455
+msgid "Reward Point"
+msgstr ""
+
+#: includes/class-wc-order-split.php:370 includes/class-wc-order-split.php:379
+#: includes/class-wc-order-split.php:381 includes/class-wc-order-split.php:430
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+
+#: includes/class-wc-order-split.php:477
+msgid "Payment via Wallet"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:56
+#: woocommerce/templates/checkout/thankyou.php:126
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:59
+#: woocommerce/templates/checkout/thankyou.php:129
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:61
+#: woocommerce/templates/checkout/thankyou.php:131
+msgid "My account"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:67
+#: woocommerce/templates/checkout/thankyou.php:109
+#: woocommerce/templates/checkout/thankyou.php:137
+#: woocommerce/templates/checkout/thankyou.php:179
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:72
+#: woocommerce/templates/checkout/thankyou.php:142
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:77
+#: woocommerce/templates/checkout/thankyou.php:147
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:83
+#: woocommerce/templates/checkout/thankyou.php:153
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:89
+#: woocommerce/templates/checkout/thankyou.php:159
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/templates/checkout/thankyou.php:95
+#: woocommerce/templates/checkout/thankyou.php:165
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/templates/checkout/review-order.php:26
+msgid "Vendor"
+msgstr ""
+
+#: woocommerce/templates/checkout/review-order.php:27
+msgid "Product"
+msgstr ""
+
+#: woocommerce/templates/checkout/review-order.php:28
+#: woocommerce/templates/checkout/review-order.php:123
+msgid "Total"
+msgstr ""
+
+#: woocommerce/templates/checkout/review-order.php:71
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/templates/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/templates/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr ""
+
+#. Name of the plugin
+msgid "WC Marketplace Split Order"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Small plugin to split failed orders into smaller one through an admin "
+"dashboard widget."
+msgstr ""
+
+#. Author of the plugin
+msgid "Webkul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://webkul.com"
+msgstr ""

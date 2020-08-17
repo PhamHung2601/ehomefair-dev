@@ -1,0 +1,256 @@
+.woo_vou_license-activation-notice {
+	position: relative;
+}
+a.woo-vou-voucher-location-link {
+    text-decoration: none;
+}
+.show_if_variation_downloadable.woo-vou-variation-voucher-options {
+    display: none;
+}
+p.woo-vou-voucher-website-url{
+	word-break: break-word;
+}
+.woo-vou-hide-section{
+  display: none;
+}
+.woo-vou-block-section{
+  display: block;
+}
+.woo-vou-inline-block-section{
+  display: inline-block;
+}
+.woo-voo-order-status-notice-position{
+	position: relative;
+}
+.form-field input.woo-vou-checkbox{
+	float: left;
+}
+.form-field label.woo-vou-cust-checkbox-label,
+.form-field label.woo-vou-cust-text-label{
+	display: block;
+	float: none;
+	width: auto !important;
+}
+.mupload_img_holder > img,
+.form-field .mupload_img_holder > img{
+	width: 150px;
+}
+.woo-vou-select-custom-desc{
+	padding: 5px;
+}
+#woo_vou_voucher .woo_vou_custom_select_field label.woo-vou-custom-select-label{
+	display: inline-block;
+	width: 20%;
+}
+.woo-vou-meta-repater-block .woo-vou-location-label,
+.woo-vou-meta-repater-block .woo-vou-locationlink-label{
+	display:inline-block;
+	max-width:130px;
+	width:100%
+}
+.woo-vou-meta-field-end{
+	clear: both;
+}
+.woo-vou-color-picker-wrapper{
+	position:relative;
+}
+.woo-vou-color-picker-wrapper .colorpicker{
+	z-index:100;
+	position:absolute;
+	display:none;
+}
+p.discount-on-desc{
+    display: block;
+    margin-left: 154px !important;
+}
+textarea.woo-vou-field-textarea{
+	width: 99% !important;
+	height:200px;
+}
+input.woo-vou-filename-input, input.woo-vou-datetime-input, input.woo-vou-field-uploader, input.woo-vou-field-uploader-preview{
+	min-width: 300px;
+}
+table.woo-vou-wrapper.form-table input[type=checkbox], table.woo-vou-wrapper.form-table input[type=radio] {
+	margin: 10px 0 !important;
+	vertical-align: middle;
+}
+.woo_vou_tooltip a {
+    box-shadow: unset;
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+	.woo-vou-purchased-codes-popup, .woo-vou-used-codes-popup, .woo-vou-unused-codes-popup, .woo-vou-import-content {
+		position: fixed !important;
+	    top: 50% !important;
+	    left: 50% !important;
+	    width: 85% !important;
+	    transform: translate(-50%, -50%);
+	}
+	#woo_vou_voucher .description {
+	    clear: both;
+	    float: left;
+	    margin: 0 0 0 24%;
+	    padding: 0;
+	        padding-right: 0px;
+	    padding-right: 15px;
+	    line-height: 24px;
+	}
+	div#woo_vou_voucher div p.form-field._woo_vou_locations_field span.description {
+		margin: 0px !important;
+	}
+	div#woo_vou_voucher div p.form-field._woo_vou_map_link_field span.description {
+		margin: 0px !important;
+	}
+	#woo_vou_voucher .vou_clearfix{
+	    padding: 5px !important;
+	    width: 100% !important;
+    }	
+}
+@media screen and (max-width:767px) {
+	.woo-vou-purchased-codes-popup, .woo-vou-used-codes-popup, .woo-vou-unused-codes-popup, .woo-vou-import-content {
+	    position: fixed !important;
+	    top: 50px !important;
+	    left: 0 !important;
+	    width: 100% !important;
+	}
+    .auto-fold #wpcontent {
+        padding: 0 10px !important
+    }
+	#woocommerce-product-data .hndle input, #woocommerce-product-data .hndle select {
+    	margin: 5px 0 !important;
+	}
+	#woo_vou_voucher input[type="checkbox"], #woo_vou_voucher input[type="radio"] {
+		width: 25px;
+		clear: both;
+		margin-right: 5px;
+		display: inline-block;
+	}
+	#woo_vou_voucher label.woo-vou-meta-multi-checkbox-label {
+    	margin-top: 6px;
+	}
+	#postcustomstuff .submit input {
+    	margin: 5px 0;
+	}
+    .wrap {
+        margin: 0;
+    }
+	.woo_vou_tooltip  {
+		position: unset;
+	}
+	.woocommerce table.form-table input[type=text].woo-vou-field-uploader
+	, .woocommerce table.form-table input[type=text].woo-vou-field-uploader-preview{
+		margin-bottom: 10px;
+	}
+	.woocommerce table.form-table textarea.woo-vou-field-textarea{
+		margin-bottom: 4px;
+	}
+	#woo_vou_voucher {
+		padding: 5px;
+    } 
+	#woo_vou_voucher ._woo_vou_discount_on_tax_type_field .woo-vou-custom-meta-label {
+	    width: 60% !important;
+	}
+	#woo_vou_voucher ._woo_vou_coupon_minimum_spend_amount_field .woo-vou-custom-meta-label, #woo_vou_voucher ._woo_vou_coupon_maximum_spend_amount_field .woo-vou-custom-meta-label{
+		width: 70% !important;
+	}
+	#woo_vou_voucher ._woo_vou_coupon_minimum_spend_amount_field .description, #woo_vou_voucher ._woo_vou_coupon_maximum_spend_amount_field .description{
+		margin: 0px !important;
+	}
+}
+@media screen and (max-width:767px) {
+	 #woo_vou_voucher ._woo_vou_vendor_user_field span.select2.select2-container.select2-container--default, 
+     #woo_vou_voucher ._woo_vou_pdf_template_field span.select2.select2-container.select2-container--default, 
+      #woo_vou_voucher ._woo_vou_using_type_field span.select2.select2-container.select2-container--default, 
+       #_woo_vou_voucher_delivery_fieldr ._woo_vou_sec_vendor_users_field span.select2.select2-container.select2-container--default,  
+       #woo_vou_voucher ._woo_vou_vendor_user_field span.select2.select2-container.select2-container--default,  
+       #woo_vou_voucher ._woo_vou_vendor_user_field span.select2.select2-container.select2-container--default, 
+       #woo_vou_voucher ._woo_vou_exp_type_field .select2, 
+       #woo_vou_voucher ._woo_vou_vendor_user_field span.select2.select2-container.select2-container--default.select2-container--below,
+       #woo_vou_voucher ._woo_vou_sec_vendor_users_field span.select2.select2-container.select2-container--default {
+    	min-width: 100% !important;
+    	width: 100% !important;
+	}
+	#woo_vou_voucher .woo_vou_custom_select_field label.woo-vou-custom-select-label{
+		width: 60% !important;	
+	}
+	.button.button-small.wp-picker-clear{
+		height: 32px !important;
+    	line-height: 1;
+    	min-height: unset !important;
+	}
+	.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+		width: 50%;
+		padding: 5px 22px 5px 8px;
+	}
+	#woo_vou_voucher .woocommerce_options_panel .select2-container {
+        min-width: 100% !important;
+    }
+    #woo_vou_voucher .vou_clearfix{
+    	display: inline-block;
+	    margin: 0;
+	    padding: 0px !important;
+	    width: 100% !important;
+    }
+    .select2-container {
+		width: 100% !important;
+		min-width: 100% !important;
+	}
+	#woo-vou-order-voucher-details .inside{
+       padding: 0px;
+       margin: 10px;
+       overflow-x: auto;
+    }
+    #woo-vou-order-voucher-details .inside .widefat.woo-vou-history-table{
+        width: 200%;
+    }
+}
+.woo_vou_tooltip .woo_vou_main_buttons div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td.woo_vou_ajax_editor iframe {
+    height: 100% !important;
+}
+@media screen and (min-width:568px) and (max-width:767px) {
+    .nav-tab-wrapper, .wrap h2.nav-tab-wrapper {
+        margin-bottom: 20px;
+    }
+	#profile-page .form-table textarea, .form-table span.description, .form-table td input[type=email], .form-table td input[type=password], .form-table td input[type=text], .form-table td select, .form-table td textarea {
+    	height: auto;
+	}
+}
+@media screen and (max-width:567px) {
+    .woo-vou-content-section .nav-tab-wrapper .nav-tab {
+        margin: 0 0 10px 0;
+        width: calc(100% - 25px);
+    }
+	#profile-page .form-table textarea, .form-table span.description, .form-table td input[type=email], .form-table td input[type=password], .form-table td input[type=text], .form-table td select, .form-table td textarea {
+    	height: auto;
+	}
+	.woo-vou-purchased-codes-popup table.form-table th.voucher_code, .woo-vou-used-codes-popup table.form-table th.voucher_code {
+    	width: 30%;
+	}
+	.woo-vou-purchased-codes-popup, .woo-vou-used-codes-popup, .woo-vou-unused-codes-popup, .woo-vou-import-content {
+	    position: fixed !important;
+	    top: 50px !important;
+	    left: 0 !important;
+	    width: 100% !important;
+	}
+	.woo-vou-popup {
+		padding: 15px
+	}
+	.woo-vou-popup table.form-table td {
+    	padding: 3px 0 !important;
+	}
+	#woo_vou_voucher .form-field textarea {
+		width: 100%;
+	}
+	.woocommerce_options_panel fieldset.form-field, .woocommerce_options_panel p.form-field {
+    	padding: 5px 5px !important;
+	}
+	.woocommerce_options_panel input[type=email], .woocommerce_options_panel input[type=number], .woocommerce_options_panel input[type=password], .woocommerce_options_panel input[type=text] {
+    	width: 95% !important;
+	}	
+	div.woo-vou-multi-check-box-wrapper {
+		width: 98%;
+	}
+}

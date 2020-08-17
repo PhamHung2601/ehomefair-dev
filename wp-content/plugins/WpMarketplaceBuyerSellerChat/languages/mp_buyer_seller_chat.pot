@@ -1,0 +1,438 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Marketplace Buyer Seller Chat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.4"
+
+#: functions.php:49
+#, php-format
+msgid ""
+"Woocommerce Marketplace Buyer Seller Chat depends on the latest version of "
+"%s plugin in order to work!"
+msgstr ""
+
+#: functions.php:49
+msgid "Marketplace"
+msgstr ""
+
+#: inc/autoload.php:55
+#, php-format
+msgid "The file attempting to be loaded at %s does not exist."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:34
+msgid "Server Settings"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:37
+msgid "Start"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:39
+msgid "Stop"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:43
+msgid ""
+"Hello ! If you found any issue regarding functionality or any error, please "
+"mail us at <a href=\"mailto:support@webkul.com\">support@webkul.com</a>, as "
+"it is possible sometime because of confliction with theme or any other "
+"plugin which overriding the default functionalities, so that we can help you "
+"out. Thanks !!!"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:53
+msgid "Host Name <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:63
+msgid "Port Number <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:73
+msgid "Chat Name <small>[store view]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:78
+msgid "The name which will display to all users in front-end."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:84
+msgid "Receiver Chat Time Text Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:89
+msgid "The receiver chatbox time text color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:95
+msgid "Receiver Chat Background Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:100
+msgid "The receiver chatbox background color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:106
+msgid "Receiver Text Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:111
+msgid "The receiver text color will set the chat box receiver text color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:116
+msgid "Seller Chat Strip Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:121
+msgid "The admin chat stript color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:127
+msgid "Sender Chat Time Text Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:132
+msgid "The sender chatbox time text color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:138
+msgid "Sender Chat background Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:143
+msgid "The sender chatbox background color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:149
+msgid "Customer Chat Strip Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:154
+msgid "The customer chat stript color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:161
+msgid "Sender Text Color"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:166
+msgid "The sender text color will set the chat box sender text color."
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:172
+msgid "HTTPS Enabled <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:178
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:179
+msgid "No"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:186
+msgid "Upload Server Private Key File <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:195
+#: templates/admin/class-mpbs-server-settings-template.php:213
+#: templates/admin/class-mpbs-server-settings-template.php:231
+msgid "Are you sure ? This action will remove uploaded file permanently!!!"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:199
+msgid ""
+"You can get this file from your host provider, file extension must be: .key"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:205
+msgid "Upload Server Certificate Key File <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:217
+msgid ""
+"You can get this file from your host provider, file extension must be: .crt"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:223
+msgid "Upload Server CA Bundle File <small>[website]</small>"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:235
+msgid ""
+"You can get this file from your host provider, file extension must be: .ca-"
+"bundle"
+msgstr ""
+
+#: templates/admin/class-mpbs-server-settings-template.php:243
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/class-mpbs-admin-chatbox.php:59
+#: templates/front/mpbs-chatbox-topbar.php:53
+#: templates/front/class-mpbs-seller-chatbox.php:58
+msgid "Online"
+msgstr ""
+
+#: templates/admin/class-mpbs-admin-chatbox.php:61
+#: templates/front/mpbs-chatbox-topbar.php:55
+#: templates/front/class-mpbs-seller-chatbox.php:60
+msgid "Busy"
+msgstr ""
+
+#: templates/admin/class-mpbs-admin-chatbox.php:63
+#: templates/front/mpbs-chatbox-topbar.php:57
+#: templates/front/class-mpbs-seller-chatbox.php:62
+msgid "Offline"
+msgstr ""
+
+#: templates/admin/class-mpbs-admin-chatbox.php:79
+#: templates/front/mpbs-chatbox-topbar.php:73
+#: templates/front/class-mpbs-seller-chatbox.php:78
+msgid "Profile Settings"
+msgstr ""
+
+#: templates/admin/class-mpbs-admin-chatbox.php:115
+#: templates/front/mpbs-chatbox-reply.php:73
+#: templates/front/mpbs-chatbox-reply.php:113
+#: templates/front/class-mpbs-seller-chatbox.php:114
+msgid "Write..."
+msgstr ""
+
+#: templates/front/mpbs-chatbox-topbar.php:88
+msgid "Last 24-hrs"
+msgstr ""
+
+#: templates/front/mpbs-chatbox-topbar.php:89
+msgid "Last 7-days"
+msgstr ""
+
+#: templates/front/mpbs-chatbox-topbar.php:90
+msgid "Last 30-days"
+msgstr ""
+
+#: templates/front/mpbs-chatbox-topbar.php:91
+msgid "Forever"
+msgstr ""
+
+#: templates/front/mpbs-chatbox-reply.php:26
+msgid "Type your message..."
+msgstr ""
+
+#: templates/front/mpbs-chatbox-reply.php:31
+msgid "Start Chat"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:25
+msgid "Close"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:26
+msgid "Profile Setting"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:33
+msgid "File not supported!"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:33
+msgid "File size exceeded supported size[2mb]!"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:33
+msgid "Change"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:36
+msgid "First Name"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:40
+msgid "Last Name"
+msgstr ""
+
+#: templates/front/mpbs-setting-box.php:47
+msgid "Save"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:30
+msgid "Buyer Seller Chat"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:202
+#: includes/admin/class-mpbs-function-handler.php:238
+msgid "Success"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:203
+msgid "Server has been started!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:208
+#: includes/admin/class-mpbs-function-handler.php:215
+#: includes/admin/class-mpbs-function-handler.php:245
+#: includes/admin/class-mpbs-function-handler.php:252
+msgid "Error"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:209
+msgid "Nodejs Path not found."
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:216
+#: includes/admin/class-mpbs-function-handler.php:253
+#: includes/admin/class-mpbs-function-handler.php:284
+#: includes/front/class-mpbs-front-ajax-functions.php:82
+#: includes/front/class-mpbs-front-ajax-functions.php:125
+#: includes/front/class-mpbs-front-ajax-functions.php:200
+#: includes/front/class-mpbs-front-ajax-functions.php:259
+#: includes/front/class-mpbs-front-ajax-functions.php:310
+#: includes/front/class-mpbs-front-ajax-functions.php:331
+msgid "Security check failed!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:239
+msgid "Server has been stopped."
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:246
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:322
+#, php-format
+msgid "%s file deleted successfully!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:352
+msgid "Private key file extension must be .key!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:354
+msgid "Server certificate file extension must be .crt!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:356
+msgid "Server CA Bundle file extension must be .ca-bundle!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:365
+#, php-format
+msgid "%s file uploaded successfully!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:376
+#, php-format
+msgid "%s file not supported!"
+msgstr ""
+
+#: includes/admin/class-mpbs-function-handler.php:384
+#, php-format
+msgid "%s file already exists!"
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:79
+#: includes/front/class-mpbs-front-function-handler.php:106
+msgid "Wrong Email or Password."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:139
+#: includes/front/class-mpbs-front-function-handler.php:166
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:163
+#: includes/front/class-mpbs-front-function-handler.php:190
+msgid "Invalid first name."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:174
+#: includes/front/class-mpbs-front-function-handler.php:201
+msgid "Invalid last name."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:192
+#: includes/front/class-mpbs-front-function-handler.php:219
+msgid "Only png/jpeg image supported."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:208
+#: includes/front/class-mpbs-front-function-handler.php:235
+msgid "Image uploaded successfully."
+msgstr ""
+
+#: includes/admin/class-mpbs-chat-function-handler.php:222
+#: includes/front/class-mpbs-front-function-handler.php:249
+msgid "Updated Successfully."
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:71
+msgid "Updated Successfully!"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:76
+#: includes/front/class-mpbs-front-ajax-functions.php:194
+msgid "Invalid Data!"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:101
+msgid "Seller"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:101
+msgid "User"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:111
+#, php-format
+msgid "%s available!"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:117
+#, php-format
+msgid "%s is not available!"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:188
+msgid "Initialized Successfully!"
+msgstr ""
+
+#: includes/front/class-mpbs-front-ajax-functions.php:305
+msgid "Success!"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Marketplace Buyer Seller Chat"
+msgstr ""
+
+#. Description of the plugin
+msgid "WordPress WooCommerce Marketplace Buyer Seller Chat plugin."
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://store.webkul.com/WordPress-WooCommerce-Marketplace-Buyer-Seller-Chat."
+"html"
+msgstr ""
+
+#. Author of the plugin
+msgid "WebKul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://webkul.com"
+msgstr ""

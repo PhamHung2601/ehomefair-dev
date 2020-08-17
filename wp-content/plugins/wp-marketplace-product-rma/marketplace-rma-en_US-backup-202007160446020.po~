@@ -1,0 +1,942 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace Product Return RMA\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-16 03:59+0000\n"
+"PO-Revision-Date: 2020-07-16 04:45+0000\n"
+"Last-Translator: Ryan\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: functions.php:45
+msgctxt ""
+"WooCommerce Marketplace Product Return Refund is enabled but not effective. "
+"It requires <a href=\"https://codecanyon.net/item/wordpress-woocommerce-"
+"marketplace-plugin/19214408\" target=\"_blank\">Marketplace Plugin</a> in "
+"order to work."
+msgid ""
+"WooCommerce Marketplace Product Return RMA is enabled but not effective. It "
+"requires <a href=\"https://codecanyon.net/item/wordpress-woocommerce-"
+"marketplace-plugin/19214408\" target=\"_blank\">Marketplace Plugin</a> in "
+"order to work."
+msgstr ""
+
+#: functions.php:113
+msgid "More Add-ons"
+msgstr ""
+
+#: functions.php:131
+msgctxt ""
+"Warning: Delete reason also affect Refund Order and you can lost some data "
+"related to these reasons!!"
+msgid ""
+"Warning: Delete reason also affect RMA Order and you can lost some data "
+"related to these reasons!!"
+msgstr ""
+"Warning: Delete reason also affect Refund Order and you can lost some data "
+"related to these reasons!!"
+
+#: functions.php:132
+msgid "Are you sure, you want to do this..?"
+msgstr ""
+
+#: functions.php:133 functions.php:155
+msgid "Upload Shipping Label"
+msgstr ""
+
+#: functions.php:134 functions.php:156
+#: includes/class-mp-rma-update-status-manage.php:115
+#: includes/class-mp-add-rma-reason.php:63
+#: includes/admin/class-mp-rma-update-status-manage.php:140
+#: includes/admin/class-mp-rma-settings.php:44
+#: includes/front/class-mp-rma-update-status-manage.php:127
+#: includes/front/class-mp-add-rma.php:56
+#: includes/front/class-mp-add-rma.php:98
+#: includes/front/class-mp-add-rma.php:108
+msgid "Select"
+msgstr ""
+
+#: functions.php:157
+msgid "This is a required field."
+msgstr ""
+
+#: functions.php:158
+msgid "Please enter quantity for selected order(s)."
+msgstr ""
+
+#: functions.php:159
+msgid "Please select reason for selected order(s)."
+msgstr ""
+
+#: functions.php:160
+msgid "Please select order(s)."
+msgstr ""
+
+#: functions.php:161
+msgctxt "Are you sure you want to cancel the refund."
+msgid "Are you sure you want to cancel the rma."
+msgstr "Are you sure you want to cancel the refund."
+
+#: functions.php:162
+msgid "Please upload image with jpeg or png extention."
+msgstr ""
+
+#: functions.php:163
+msgctxt "You can create refund only for one seller's product at a time."
+msgid "You can create rma only for one seller's product at a time."
+msgstr "You can create refund only for one seller's product at a time."
+
+#: functions.php:181 includes/admin/class-mp-rma-admin-menus.php:94
+#, fuzzy
+msgctxt "Refund System"
+msgid "RMA System"
+msgstr "Refund System"
+
+#: functions.php:185 includes/front/class-mp-rma-front-handler.php:39
+msgctxt "Refund Reason"
+msgid "RMA Reason"
+msgstr "Return Reason"
+
+#: functions.php:189 includes/class-mp-add-rma-reason.php:26
+msgid "New Reason"
+msgstr ""
+
+#: functions.php:193 includes/admin/class-mp-rma-admin-menus.php:62
+#: includes/admin/class-mp-rma-admin-menus.php:67
+#: includes/front/class-mp-view-rma.php:36
+msgctxt "Refund Details"
+msgid "RMA Details"
+msgstr "Refund Details"
+
+#: class-wc-email-rma-notification.php:21
+#: class-wc-email-rma-notification.php:22
+msgctxt "Refund Notification"
+msgid "RMA Notification"
+msgstr "Refund Notification"
+
+#: class-wc-email-rma-notification.php:23
+msgctxt "Refund Notification"
+msgid " RMA Notification"
+msgstr "Refund Notification"
+
+#: class-wc-email-rma-notification.php:24
+msgctxt "On using Refund this mail is sent to user"
+msgid "On using RMA this mail is sent to user "
+msgstr "On using Refund this mail is sent to user "
+
+#: class-wc-email-rma-notification.php:28
+msgctxt "Thanks for choosing Marketplace Refund."
+msgid "Thanks for choosing Marketplace RMA."
+msgstr "Thanks for choosing Marketplace Refund."
+
+#: includes/class-mp-rma-conversation.php:37
+msgid "Chat"
+msgstr ""
+
+#: includes/class-mp-rma-conversation.php:69
+msgid "Me"
+msgstr ""
+
+#: includes/class-mp-rma-conversation.php:86
+msgid "Send"
+msgstr ""
+
+#: includes/class-mp-save-rma-conversation.php:30
+#: includes/class-mp-save-rma-conversation.php:34
+#: includes/class-mp-save-rma-reason.php:20
+#: includes/front/class-mp-manage-rma-reason.php:41
+#: includes/front/class-mp-save-rma.php:38
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-mp-save-rma-conversation.php:48
+msgid "Empty message!"
+msgstr ""
+
+#: includes/class-mp-save-rma-conversation.php:82
+msgid "Message sent!"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:20
+#: includes/class-mp-rma-update-status-manage.php:119
+#: includes/admin/class-mp-rma-update-status-manage.php:144
+#: includes/admin/class-mp-manage-rma.php:101
+#: includes/front/class-mp-rma-update-status-manage.php:130
+#: includes/front/class-mp-manage-seller-rma.php:23
+#: includes/front/class-mp-manage-rma.php:25
+msgid "Approve"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:21
+#: includes/class-mp-rma-update-status-manage.php:123
+#: includes/admin/class-mp-rma-update-status-manage.php:148
+#: includes/admin/class-mp-manage-rma.php:102
+#: includes/front/class-mp-rma-update-status-manage.php:133
+#: includes/front/class-mp-manage-seller-rma.php:24
+#: includes/front/class-mp-manage-rma.php:26
+msgid "Decline"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:22
+#: includes/class-mp-rma-update-status-manage.php:127
+#: includes/admin/class-mp-rma-update-status-manage.php:152
+#: includes/admin/class-mp-manage-rma.php:103
+#: includes/admin/class-mp-manage-rma.php:188
+#: includes/front/class-mp-rma-update-status-manage.php:136
+#: includes/front/class-mp-manage-seller-rma.php:25
+#: includes/front/class-mp-manage-seller-rma.php:44
+#: includes/front/class-mp-manage-rma.php:27
+#: includes/front/class-mp-manage-rma.php:51
+msgid "Solved"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:23 includes/class-mp-rma-details.php:32
+#: includes/admin/class-mp-manage-rma.php:104
+#: includes/admin/class-mp-manage-rma.php:122
+#: includes/admin/class-mp-manage-rma.php:186
+#: includes/front/class-mp-manage-seller-rma.php:26
+#: includes/front/class-mp-manage-seller-rma.php:42
+#: includes/front/class-mp-add-rma.php:100
+#: includes/front/class-mp-manage-rma.php:28
+#: includes/front/class-mp-manage-rma.php:49
+msgid "Pending"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:26
+#: includes/admin/class-mp-manage-rma.php:116
+#: includes/front/class-mp-add-rma.php:99
+msgid "Complete"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:27
+#: includes/admin/class-mp-manage-rma.php:117
+msgid "On Hold"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:28
+#: includes/admin/class-mp-manage-rma.php:118
+#: includes/admin/class-mp-manage-rma.php:187
+#: includes/front/class-mp-manage-seller-rma.php:43
+#: includes/front/class-mp-manage-rma.php:50
+msgid "Processing"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:29
+#: includes/admin/class-mp-manage-rma.php:105
+#: includes/admin/class-mp-manage-rma.php:119
+#: includes/front/class-mp-manage-rma.php:29
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:30
+#: includes/admin/class-mp-manage-rma.php:120
+msgid "Failed"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:31
+#: includes/admin/class-mp-manage-rma.php:121
+msgid "Refunded"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:36
+#: includes/class-mp-rma-ajax-functions.php:59
+#: includes/class-mp-rma-ajax-functions.php:62
+#: includes/front/class-mp-add-rma.php:109
+msgid "Refund"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:37
+#: includes/class-mp-rma-ajax-functions.php:59
+#: includes/front/class-mp-add-rma.php:110
+msgid "Exchange"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:47 includes/class-mp-rma-details.php:90
+msgid "Option"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:48 includes/class-mp-rma-details.php:91
+msgid "Value"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:54
+#: includes/front/class-mp-manage-seller-rma.php:57
+#: includes/front/class-mp-rma-print-shipping-label.php:76
+#: includes/front/class-mp-manage-rma.php:66
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:59
+#: includes/class-mp-rma-update-status-manage.php:111
+#: includes/admin/class-mp-rma-update-status-manage.php:136
+#: includes/admin/class-mp-rma-settings.php:40
+#: includes/admin/class-mp-manage-rma.php:92
+#: includes/front/class-mp-rma-update-status-manage.php:122
+#: includes/front/class-mp-manage-seller-rma.php:61
+#: includes/front/class-mp-manage-rma.php:67
+msgctxt "Refund Status"
+msgid "RMA Status"
+msgstr "Refund Status"
+
+#: includes/class-mp-rma-details.php:66
+#: includes/admin/class-mp-manage-rma.php:93
+msgid "Delivery Status"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:73
+#: includes/admin/class-mp-manage-rma.php:89
+#: includes/front/class-mp-manage-seller-rma.php:58
+msgid "Customer Name"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:78 includes/front/class-mp-add-rma.php:104
+msgid "Resolution Type"
+msgstr ""
+
+#: includes/class-mp-rma-details.php:83 includes/front/class-mp-add-rma.php:90
+msgid "Additional Information"
+msgstr ""
+
+#: includes/class-mp-rma-update-status-manage.php:43
+#: includes/class-mp-rma-update-status-manage.php:50
+#: includes/admin/class-mp-rma-update-status-manage.php:69
+#: includes/admin/class-mp-rma-update-status-manage.php:76
+#: includes/front/class-mp-rma-update-status-manage.php:38
+#: includes/front/class-mp-rma-update-status-manage.php:45
+msgctxt "Refund status changed to"
+msgid "RMA status changed to"
+msgstr "Refund status changed to"
+
+#: includes/class-mp-rma-update-status-manage.php:43
+#: includes/admin/class-mp-rma-update-status-manage.php:69
+#: includes/front/class-mp-rma-update-status-manage.php:38
+msgid "by Seller for order"
+msgstr ""
+
+#: includes/class-mp-rma-update-status-manage.php:44
+#: includes/class-mp-rma-ajax-functions.php:163
+#: includes/admin/class-mp-rma-update-status-manage.php:70
+#: includes/front/class-mp-rma-update-status-manage.php:39
+#: includes/front/class-mp-rma-update-manage.php:49
+#: includes/front/class-mp-rma-print-shipping-label.php:76
+msgctxt "Refund ID"
+msgid "RMA ID"
+msgstr "Refund ID"
+
+#: includes/class-mp-rma-update-status-manage.php:69
+#: includes/admin/class-mp-rma-update-status-manage.php:94
+msgid "Shipping Label Updated."
+msgstr ""
+
+#: includes/class-mp-rma-update-status-manage.php:79
+#: includes/admin/class-mp-rma-update-status-manage.php:104
+msgid "Shipping Label Added."
+msgstr ""
+
+#: includes/class-mp-rma-update-status-manage.php:136
+#: includes/admin/class-mp-rma-update-status-manage.php:161
+#: includes/front/class-mp-rma-update-status-manage.php:152
+msgid "Select Shipping Label"
+msgstr ""
+
+#: includes/class-mp-rma-update-status-manage.php:155
+#: includes/admin/class-mp-rma-update-status-manage.php:180
+#: includes/front/class-mp-rma-update-status-manage.php:178
+#: includes/front/class-mp-rma-update-manage.php:67
+msgid "Update"
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:36
+#: includes/class-mp-rma-ajax-functions.php:45
+#: includes/class-mp-rma-ajax-functions.php:128
+#: includes/class-mp-rma-ajax-functions.php:137
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:59
+#: includes/class-mp-rma-ajax-functions.php:62
+msgid "--Select--"
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:156
+msgid "pending"
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:157
+msgid "cancelled"
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:161
+#: includes/front/class-mp-save-rma.php:163
+#: includes/front/class-mp-rma-print-shipping-label.php:61
+msgid "From"
+msgstr ""
+
+#: includes/class-mp-rma-ajax-functions.php:162
+msgctxt "Refund for order"
+msgid "RMA for order"
+msgstr "Refund for order"
+
+#: includes/class-mp-rma-ajax-functions.php:162
+#, php-format
+msgid "has been set to %s by customer"
+msgstr ""
+
+#: includes/class-mp-save-rma-reason.php:39
+msgid "Reason Added Successfully."
+msgstr ""
+
+#: includes/class-mp-save-rma-reason.php:54
+msgid "Reason Updated Successfully."
+msgstr ""
+
+#: includes/class-mp-save-rma-reason.php:71
+#: includes/class-mp-save-rma-reason.php:76
+msgid "All fields are required."
+msgstr ""
+
+#: includes/class-mp-rma-products.php:30 includes/class-mp-rma-products.php:52
+#: includes/admin/class-mp-rma-shipping-label-list.php:101
+msgid "Name"
+msgstr ""
+
+#: includes/class-mp-rma-products.php:31 includes/class-mp-rma-products.php:53
+#: includes/class-mp-add-rma-reason.php:48
+#: includes/admin/class-mp-rma-reasons.php:90
+#: includes/admin/class-mp-manage-rma.php:91
+#: includes/front/class-mp-manage-rma-reason.php:69
+#: includes/front/class-mp-manage-seller-rma.php:60
+#: includes/front/class-mp-add-rma.php:72
+#: includes/front/class-mp-rma-print-shipping-label.php:81
+msgid "Reason"
+msgstr ""
+
+#: includes/class-mp-rma-products.php:32 includes/class-mp-rma-products.php:54
+msgid "Return Quantity"
+msgstr ""
+
+#: includes/class-mp-rma-images.php:42
+msgid "No image found."
+msgstr ""
+
+#: includes/class-mp-rma-images.php:53
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/class-mp-add-rma-reason.php:28
+#: includes/admin/class-mp-rma-admin-menus.php:179
+msgid "Add Reason"
+msgstr ""
+
+#: includes/class-mp-add-rma-reason.php:59
+#: includes/admin/class-mp-rma-reasons.php:91
+#: includes/front/class-mp-manage-rma-reason.php:70
+msgid "Status"
+msgstr ""
+
+#: includes/class-mp-add-rma-reason.php:66
+#: includes/admin/class-mp-rma-reasons.php:98
+#: includes/front/class-mp-manage-rma-reason.php:13
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-mp-add-rma-reason.php:69
+#: includes/admin/class-mp-rma-reasons.php:99
+#: includes/admin/class-mp-rma-settings.php:52
+#: includes/front/class-mp-manage-rma-reason.php:14
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-mp-add-rma-reason.php:81
+#: includes/admin/class-mp-rma-shipping-label.php:34
+msgid "Save"
+msgstr ""
+
+#: includes/admin/class-mp-rma-reasons.php:180
+#: includes/admin/class-mp-rma-reasons.php:216
+#: includes/admin/class-mp-rma-shipping-label-list.php:173
+#: includes/admin/class-mp-rma-shipping-label-list.php:226
+#: includes/admin/class-mp-manage-rma.php:278
+#: includes/admin/class-mp-manage-rma.php:319
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-mp-rma-reasons.php:196
+#: includes/admin/class-mp-rma-shipping-label-list.php:185
+msgid "Nope! Security check failed!"
+msgstr ""
+
+#: includes/admin/class-mp-rma-reasons.php:214
+#: includes/front/class-mp-manage-seller-rma.php:85
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-mp-rma-shipping-label-list.php:100
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-mp-rma-shipping-label-list.php:237
+#: includes/front/class-mp-rma-print-shipping-label.php:58
+msgid "Shipping Label"
+msgstr ""
+
+#: includes/admin/class-mp-rma-shipping-label-list.php:243
+msgid "Shipping Label(s) deleted successfully."
+msgstr ""
+
+#: includes/admin/class-mp-rma-shipping-label.php:29
+#: includes/front/class-mp-rma-update-status-manage.php:145
+msgid "Upload shipping label"
+msgstr ""
+
+#: includes/admin/class-mp-rma-shipping-label.php:30
+#: includes/front/class-mp-rma-update-status-manage.php:146
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/class-mp-save-rma-shipping-label.php:31
+msgid "Please upload a valid file."
+msgstr ""
+
+#: includes/admin/class-mp-save-rma-shipping-label.php:54
+msgid "Shipping label uploaded successfully!"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:23
+#: includes/admin/class-mp-rma-admin-menus.php:25
+msgctxt "Marketplace Refund"
+msgid "Marketplace RMA"
+msgstr "Marketplace Refund"
+
+#: includes/admin/class-mp-rma-admin-menus.php:25
+#: includes/front/class-mp-rma-front-handler.php:39
+#: includes/front/class-mp-rma-front-handler.php:98
+msgctxt "Manage Refund"
+msgid "Manage RMA"
+msgstr "Manage Refund"
+
+#: includes/admin/class-mp-rma-admin-menus.php:27
+#: includes/admin/class-mp-rma-admin-menus.php:178
+msgctxt "Refund Reasons"
+msgid "RMA Reasons"
+msgstr "Refund Reasons"
+
+#: includes/admin/class-mp-rma-admin-menus.php:27
+msgid "Manage Reasons"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:29
+msgid "Configuration"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:41
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:64
+#: includes/front/class-mp-add-rma.php:129
+#: includes/front/class-mp-manage-rma.php:112
+msgid "Back"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:68
+#: includes/admin/class-mp-manage-rma.php:90
+#: includes/front/class-mp-manage-seller-rma.php:59
+#: includes/front/class-mp-view-rma.php:38
+msgid "Products"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:69
+msgid "Conversation"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:70
+#: includes/front/class-mp-view-rma.php:40
+msgctxt "Refund Images"
+msgid "RMA Images"
+msgstr "Refund Images"
+
+#: includes/admin/class-mp-rma-admin-menus.php:71
+#: includes/front/class-mp-view-rma.php:42
+msgid "Manage"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:74
+msgctxt "View Refund ID"
+msgid "View RMA ID"
+msgstr "View Refund ID"
+
+#: includes/admin/class-mp-rma-admin-menus.php:103
+msgid "Search Order ID"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:124
+msgctxt "Refund Settings"
+msgid "RMA Settings"
+msgstr "Refund Settings"
+
+#: includes/admin/class-mp-rma-admin-menus.php:125
+msgid "Add Shipping Label"
+msgstr ""
+
+#: includes/admin/class-mp-rma-admin-menus.php:157
+msgctxt "Refund reason added successfully"
+msgid "RMA reason added successfully"
+msgstr "Refund reason added successfully"
+
+#: includes/admin/class-mp-rma-admin-menus.php:163
+msgctxt "Refund reason updated successfully"
+msgid "RMA reason updated successfully"
+msgstr "Refund reason updated successfully"
+
+#: includes/admin/class-mp-rma-admin-menus.php:169
+msgctxt "Refund reason deleted successfully"
+msgid "RMA reason deleted successfully"
+msgstr "Refund reason deleted successfully"
+
+#: includes/admin/class-mp-rma-admin-menus.php:188
+msgid "Search"
+msgstr ""
+
+#: includes/admin/class-mp-rma-settings.php:59
+msgctxt "Refund Time"
+msgid "RMA Time"
+msgstr "Refund Time"
+
+#: includes/admin/class-mp-rma-settings.php:63
+msgctxt ""
+"You can add Time limit for customer, only less than these days customer can "
+"generate Refund for any order"
+msgid ""
+"You can add Time limit for customer, only less than these days customer can "
+"generate RMA for any order"
+msgstr ""
+"You can add Time limit for customer, only less than these days customer can "
+"generate Refund for any order"
+
+#: includes/admin/class-mp-rma-settings.php:69
+msgctxt "Order Status for Refund"
+msgid "Order Status for RMA"
+msgstr "Order Status for Refund"
+
+#: includes/admin/class-mp-rma-settings.php:82
+msgctxt ""
+"Customer can place Refund only for those status of order which is selected "
+"here"
+msgid ""
+"Customer can place RMA only for those status of order which is selected here"
+msgstr ""
+"Customer can place Refund only for those status of order which is selected "
+"here"
+
+#: includes/admin/class-mp-rma-settings.php:88
+msgid "Return Address"
+msgstr ""
+
+#: includes/admin/class-mp-rma-settings.php:92
+msgid "Use Comma(,) to seperate"
+msgstr ""
+
+#: includes/admin/class-mp-rma-settings.php:93
+msgid ""
+"After send Shipping label to customer this will be your return address for "
+"product"
+msgstr ""
+
+#: includes/admin/class-mp-rma-settings.php:99
+msgctxt "Refund Policy"
+msgid "RMA Policy"
+msgstr "Refund Policy"
+
+#: includes/admin/class-mp-rma-settings.php:103
+msgctxt ""
+"Using this you can add policy which will display to customer at time of Add "
+"Refund"
+msgid ""
+"Using this you can add policy which will display to customer at time of Add "
+"RMA"
+msgstr ""
+"Using this you can add policy which will display to customer at time of Add "
+"Refund"
+
+#: includes/admin/class-mp-manage-rma.php:88
+msgid "Order Id"
+msgstr ""
+
+#: includes/admin/class-mp-manage-rma.php:94
+#: includes/front/class-mp-manage-seller-rma.php:62
+#: includes/front/class-mp-manage-rma.php:68
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-mp-manage-rma.php:185
+#: includes/front/class-mp-manage-seller-rma.php:41
+#: includes/front/class-mp-manage-rma.php:48
+msgid "Select status"
+msgstr ""
+
+#: includes/admin/class-mp-manage-rma.php:189
+#: includes/front/class-mp-manage-seller-rma.php:45
+#: includes/front/class-mp-manage-rma.php:52
+msgid "Declined"
+msgstr ""
+
+#: includes/admin/class-mp-manage-rma.php:193
+#: includes/front/class-mp-manage-seller-rma.php:49
+#: includes/front/class-mp-manage-rma.php:56
+msgctxt "Select Refund Status"
+msgid "Select RMA Status"
+msgstr "Select Refund Status"
+
+#: includes/admin/class-mp-manage-rma.php:308
+msgctxt "Refund request(s) deleted successfully"
+msgid "RMA request(s) deleted successfully"
+msgstr "Refund request(s) deleted successfully"
+
+#: includes/admin/class-mp-manage-rma.php:317
+#: includes/front/class-mp-manage-rma.php:90
+msgid "View"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma-reason.php:50
+msgid "Reason deleted successfully"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma-reason.php:64
+#: includes/front/class-mp-manage-rma.php:61
+#: includes/front/class-mp-manage-rma.php:107
+msgid "Add"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma-reason.php:71
+#: includes/front/class-mp-manage-seller-rma.php:63
+#: includes/front/class-mp-manage-rma.php:69
+msgid "Action"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma-reason.php:80
+#: includes/front/class-mp-manage-seller-rma.php:85
+msgid "edit"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma-reason.php:80
+msgctxt ""
+"Are you sure ? Delete Reason also affect Refund Order and you can lost some "
+"data related to these reasons !!"
+msgid ""
+"Are you sure ? Delete Reason also affect RMA Order and you can lost some "
+"data related to these reasons !!"
+msgstr ""
+"Are you sure ? Delete Reason also affect Refund Order and you can lost some "
+"data related to these reasons !!"
+
+#: includes/front/class-mp-manage-rma-reason.php:80
+msgid "delete"
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:32
+msgid "Sorry, Please agree to the policy."
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:78
+msgid "Quantity/Reason are required fields"
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:82
+msgid "Quantity can&#39;t be -ve."
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:89
+msgid "\"."
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:117
+msgid "Image size is too large [<2 MB]."
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:124
+msgid "Only jpeg/png images are allowed."
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:164
+msgctxt "New Refund is generated for order"
+msgid "New RMA is generated for order"
+msgstr "New Refund is generated for order"
+
+#: includes/front/class-mp-save-rma.php:171
+msgid "Request placed successfully!"
+msgstr ""
+
+#: includes/front/class-mp-save-rma.php:184
+msgid "Fill all required fields."
+msgstr ""
+
+#: includes/front/class-mp-rma-update-status-manage.php:79
+msgid "Shipping label updated successfully!"
+msgstr ""
+
+#: includes/front/class-mp-rma-update-status-manage.php:102
+msgid "Shipping label uploaded and sent successfully!"
+msgstr ""
+
+#: includes/front/class-mp-rma-update-status-manage.php:143
+msgid ""
+"You can upload and send label from here and can select from previously added "
+"label(s)"
+msgstr ""
+
+#: includes/front/class-mp-manage-seller-rma.php:35
+msgid "Manage Reason(s)"
+msgstr ""
+
+#: includes/front/class-mp-manage-seller-rma.php:56
+#: includes/front/class-mp-manage-rma.php:65
+msgid "ID"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:49
+msgctxt "New Refund Information"
+msgid "New RMA Information"
+msgstr "New Refund Information"
+
+#: includes/front/class-mp-add-rma.php:53
+msgid "Order"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:64
+msgid "Items Ordered"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:69
+#: includes/front/class-mp-rma-print-shipping-label.php:80
+msgid "Product Name"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:70
+#: includes/front/class-mp-rma-print-shipping-label.php:82
+msgid "Quantity"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:73
+msgid "Returned Quantity"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:80
+msgid "Image(s) of Product"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:87
+msgid "Attach image"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:94
+msgid "Order Delivery Status"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:114
+msgid "Please add consignment no. if you are returning product(s)"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:118
+msgid "Return Policy"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:123
+msgid "I have read and agree to the policy"
+msgstr ""
+
+#: includes/front/class-mp-add-rma.php:127
+msgid "Request"
+msgstr ""
+
+#: includes/front/class-mp-rma-update-manage.php:48
+msgctxt "Refund status changed to \"solved\" by customer for order"
+msgid "RMA status changed to \"solved\" by customer for order"
+msgstr "Refund status changed to \"solved\" by customer for order"
+
+#: includes/front/class-mp-rma-update-manage.php:66
+msgid "Check this to mark as solved"
+msgstr ""
+
+#: includes/front/class-mp-rma-print-shipping-label.php:52
+msgid "Return Mailing Label"
+msgstr ""
+
+#: includes/front/class-mp-rma-print-shipping-label.php:74
+msgid "Return Authorisation Label"
+msgstr ""
+
+#: includes/front/class-mp-view-rma.php:22
+msgid "My account"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma.php:61
+msgctxt "Request New Refund"
+msgid "Request New RMA"
+msgstr "Request New Refund"
+
+#: includes/front/class-mp-manage-rma.php:93
+msgid "Cancel"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma.php:97
+msgid "Re-Open"
+msgstr ""
+
+#: includes/front/class-mp-manage-rma.php:107
+msgctxt "No Refund has been made yet"
+msgid "No RMA has been made yet"
+msgstr "No Refund has been made yet"
+
+#: includes/front/class-mp-manage-rma.php:112
+msgid "Not found."
+msgstr ""
+
+#. %s Customer email
+#: woocommerce/templates/emails/mprma-mail-handler.php:28
+#: woocommerce/templates/emails/plain/mprma-mail-handler.php:25
+msgid "Hello,"
+msgstr ""
+
+#: woocommerce/templates/emails/mprma-mail-handler.php:43
+#: woocommerce/templates/emails/plain/mprma-mail-handler.php:35
+msgid "Thanks."
+msgstr ""
+
+#. Name of the plugin
+msgctxt "Marketplace Product Return Refund"
+msgid "Marketplace Product Return RMA"
+msgstr "Marketplace Product Return Refund"
+
+#. Description of the plugin
+msgctxt ""
+"Marketplace Product Return Refund module allows you to organize a system for "
+"customers to request a return without any efforts. Refund is very useful for "
+"product return and order return. With the help of this module, a customer "
+"can return the products, have them exchanged or refunded within the admin "
+"specified time limit."
+msgid ""
+"Marketplace Product Return RMA module allows you to organize a system for "
+"customers to request a return without any efforts. RMA is very useful for "
+"product return and order return. With the help of this module, a customer "
+"can return the products, have them exchanged or refunded within the admin "
+"specified time limit."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://store.webkul.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Webkul"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://webkul.com"
+msgstr ""

@@ -1,0 +1,95 @@
+/* SHOP FILTER */
+.row > .ovic-shop-filter {
+    padding: 0 15px;
+}
+.ovic-shop-filter .inner-content::before,
+.ovic-shop-filter .inner-content::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.ovic-shop-filter .inner-content {
+    font-size: 14px;
+    line-height: 30px;
+    color: #666;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+}
+.ovic-shop-filter .inner-content > span {
+    display: inline-block;
+    float: left;
+    margin: 5px 5px 5px 0;
+}
+.ovic-shop-filter .ovic-responsive-filter {
+    display: inline;
+    vertical-align: top;
+}
+.ovic-shop-filter .ovic-responsive-filter .widget,
+.ovic-shop-filter .ovic-responsive-filter ul {
+    display: inline;
+    margin: 0;
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a {
+    display: block;
+    line-height: 28px;
+    padding: 0 32px 0 16px;
+    border: 1px solid;
+    border-radius: 90px;
+    margin: 5px;
+    position: relative;
+    text-decoration: none;
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a::before,
+.ovic-shop-filter .ovic-responsive-filter .chosen > a::after {
+    content: '';
+    position: absolute;
+    right: 11px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10px;
+    height: 1px;
+    border-top: 1px solid;
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a:not(:hover)::before,
+.ovic-shop-filter .ovic-responsive-filter .chosen > a:not(:hover)::after {
+    border-color: #888;
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a:not(:hover)::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a:not(:hover)::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.ovic-shop-filter .ovic-responsive-filter .chosen > a:not(:hover) {
+    color: #333;
+    border-color: #e6e6e6;
+}
+.ovic-shop-filter .reset {
+    float: right;
+    font-size: 20px;
+    margin: 5px 0 5px 15px;
+}
+.elem-hidden {
+    display: none !important;
+}

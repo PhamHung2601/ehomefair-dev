@@ -1,0 +1,119 @@
+#woo_vou_voucher .select2-container,
+#woo_vou_voucher .form-field textarea,
+div.woo-vou-multi-check-box-wrapper {
+    width: 74% !important;
+}
+#woo_vou_voucher ._woo_vou_voucher_delivery_field.vou_clearfix, #woo_vou_voucher ._woo_vou_using_type_field.vou_clearfix, #woo_vou_voucher ._woo_vou_pdf_template_field.vou_clearfix, #woo_vou_voucher ._woo_vou_sec_vendor_users_field.vou_clearfix, #woo_vou_voucher ._woo_vou_coupon_products_field.vou_clearfix, #woo_vou_voucher ._woo_vou_coupon_exclude_products_field.vou_clearfix, #woo_vou_voucher ._woo_vou_enable_pdf_preview_field.vou_clearfix, #woo_vou_voucher ._woo_vou_enable_coupon_code_field.vou_clearfix, #woo_vou_voucher ._woo_vou_coupon_categories_field.vou_clearfix{
+    padding-right: 0;
+}
+#woo_vou_voucher .select2-container .select2-selection--single .select2-selection__rendered{
+    line-height: 26px !important;
+}
+#woo_vou_voucher label {
+    font-size: 14px;
+    width: 26% !important;
+    line-height: normal;
+    padding-right: 8px;
+}
+#woo_vou_voucher ._woo_vou_pdf_template_selection_field label {
+    padding-right: 70px;
+}
+
+#woo_vou_voucher .description {
+    clear: both;
+    float: left;
+    margin: 0 0 0 26%;
+    padding: 0;
+}
+/* #woo_vou_voucher ._woo_vou_voucher_delivery_field .select2-container,
+#woo_vou_voucher ._woo_vou_enable_coupon_code_field .select2-container,
+#woo_vou_voucher ._woo_vou_using_type_field .select2-container,
+#woo_vou_voucher ._woo_vou_exp_type_field .select2-container{
+    left: -4px;
+} */
+#woo_vou_voucher ._woo_vou_enable_pdf_preview_field .select2-container,
+#woo_vou_voucher ._woo_vou_enable_multiple_pdf_field .select2-container,
+#woo_vou_voucher div.woo-vou-multi-check-box-wrapper{
+    left: 4px;
+    position: relative;
+}
+#woo_vou_voucher p.form-field._woo_vou_pdf_selection_desc_field span.description{
+    margin:0 0 0 26% !important;
+}
+#woo_vou_voucher ._woo_vou_enable_pdf_preview_field .description,
+#woo_vou_voucher ._woo_vou_enable_multiple_pdf_field .description,
+#woo_vou_voucher  .form-field._woo_vou_disable_redeem_day_field .description{
+    margin:0 0 0 26.5%;
+}
+#woo_vou_voucher ._woo_vou_enable_coupon_code_field span.description {
+    padding-top: 7px !important;
+}
+input#_woo_vou_product_start_date,
+input#_woo_vou_product_exp_date,
+input#_woo_vou_start_date,
+input#_woo_vou_exp_date {
+    padding: 0 8px;
+    height: 34px;
+}
+div.woo-vou-multi-check-box-wrapper {
+    width: 79%;
+}
+#woo_vou_voucher div span.description {
+    font-size: 12px;
+    line-height: normal !important;
+}
+input[type="button"] {
+    width: 200px !important;
+}
+._woo_vou_purchased_codes_field input[type="button"],
+._woo_vou_used_codes_field input[type="button"],
+._woo_vou_unused_codes_field input[type="button"] {
+    width: 200px !important;
+}
+#woo_vou_voucher .woo_vou_repeater {
+    width: 26%;
+}
+#woo_vou_voucher .woo-vou-meta-repeat,
+#woo_vou_voucher p.form-field._woo_vou_website_field input{
+    width: 74%;
+}
+#woo_vou_voucher .wc-metaboxes-wrapper .wc-metabox h3{
+    padding-left: 0;
+    padding-right: 0;
+}
+#woo_vou_voucher p.form-field{
+    padding-right: 0 !important;
+}
+#woo_vou_voucher .pdf-template-recipient-detail-wrap{
+    margin-left:0;
+}
+#woo_vou_voucher .pdf-template-recipient-detail-wrap .woo_vou_recipient_details label,
+#woo_vou_voucher .pdf-template-recipient-detail-wrap ._woo_vou_pdf_selection_desc_field label{
+    width: 26% !important;
+    display: inline-block !important;
+}
+#woo_vou_voucher .pdf-template-recipient-detail-wrap .woo_vou_recipient_details input{
+    width: 74% !important;
+    float: unset !important;
+    min-height: 34px;
+    padding: 0 8px;
+}
+#woo_vou_voucher .woo-vou-pdf-template-sel-deselect{
+    margin-right: 0;
+}
+#woo_vou_voucher div.pdf-template-recipient-detail-wrap textarea#_woo_vou_pdf_selection_desc{
+    width: 74% !important;
+    float: unset !important;
+}
+#woo_vou_voucher ._woo_vou_pdf_selection_desc_field{
+    margin: 0 0 26% !important;
+}
+#woo_vou_voucher .pdf-template-recipient-detail-wrap ._woo_vou_pdf_template_selection_field.vou_clearfix.woo_vou_custom_select_field {
+    display: inline-block;
+}
+#woo_vou_voucher p.form-field._woo_vou_pdf_selection_desc_field {
+    margin-top: 15px !important;
+}
+#woo_vou_voucher.wc-metaboxes-wrapper.woocommerce_options_panel .pdf-template-recipient-detail-wrap p.form-field._woo_vou_pdf_selection_desc_field label[for="_woo_vou_pdf_selection_desc"] {
+    width: 26% !important;
+}

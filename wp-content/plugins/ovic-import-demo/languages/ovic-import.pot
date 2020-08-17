@@ -1,0 +1,563 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovic: Import Demo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-28 01:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: includes/import-database/includes/sample-data.php:1175
+msgid "\tI understand the impact of uninstalling sample data."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:593
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/export.php:714
+#, php-format
+msgid "%s can not open a new zip archive (error code %s)."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:300
+msgid "- Select -"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:1049
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1068
+msgid "All demo images will be accessed remotely - FAST IMPORT"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1069
+msgid "All demo images will be downloaded and stored locally - SLOW IMPORT"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1070
+msgid ""
+"All demo images will be replaced with gray images from https://via."
+"placeholder.com - FASTEST IMPORT"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:156
+msgid "All done."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:291
+msgid "as a new user:"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:244
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:297
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1105
+#: includes/import-database/includes/sample-data.php:1183
+msgid "Cancel"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:1067
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:160
+msgid "Clear Temp"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1101
+#: includes/import-database/includes/sample-data.php:1181
+msgid "Continue"
+msgstr ""
+
+#: includes/import.php:82
+msgid "Demo 01"
+msgstr ""
+
+#: includes/import.php:57
+msgid "Demo Attachments"
+msgstr ""
+
+#: addon.php:88
+msgid "Documentation"
+msgstr ""
+
+#: includes/import.php:165 includes/vendor/wordpress-importer.php:260
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1124
+msgid "Download Attachment"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1116
+msgid "Download sample data package."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:259
+msgid "Downloaded"
+msgstr ""
+
+#: includes/export.php:586
+msgid "Error saving file!"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:155
+msgid "Export"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:145
+msgid "Export Sample Data"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1033
+msgid "Extend Settings"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:838
+#, php-format
+msgid "Failed to activate %s plugin"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1538
+msgid "Failed to create directory to store database backup file."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:346
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:911
+#, php-format
+msgid "Failed to download the selected sample data package &#39;%s&#39;."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:556
+msgid "Failed to extract downloaded package to file system."
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:139
+msgid "Failed to get available sample data packages."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1223
+msgid "Failed to get data for the selected sample data package."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:476
+#: includes/vendor/wordpress-importer.php:677
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:647
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:561
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:218
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:394
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:432
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:863
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:156
+msgid "Have fun!"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:1066
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://kutethemes.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kutethemes.com/contact-us"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1063
+msgid "I understand the impact of installing sample data."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:247
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:511
+msgid "Image Remote"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:257
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:279
+msgid "Import author:"
+msgstr ""
+
+#: includes/dashboard.php:48
+msgid "Import Panel KuteThemes"
+msgstr ""
+
+#: includes/import.php:59
+msgid "Import Widget"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:1043
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1018
+#: includes/import-database/includes/sample-data.php:1165
+msgid "Important Notice"
+msgstr ""
+
+#: includes/import.php:772
+msgid "Imported"
+msgstr ""
+
+#: includes/import.php:775
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:126
+msgid "Install"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1128
+msgid "Install required plugins."
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:62
+#: includes/import-database/includes/dashboard.php:124
+msgid "Install Sample Data"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1120
+msgid "Install sample data."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1021
+#, php-format
+msgid ""
+"Installing sample data will replace the content of current website with <a "
+"href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>"
+"%2$s</strong></a>."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:874
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:618
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:567
+msgid "Invalid sample data package."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1091
+msgid "Local"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:800
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:793
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1238
+msgid "Missing sample data package to install."
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:149
+msgid "Name"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:777
+msgid "No plugin specified."
+msgstr ""
+
+#: includes/import.php:779
+msgid "No Title"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:774
+#: includes/import-database/includes/sample-data.php:1208
+msgid ""
+"Nonce verification failed. This might due to your working session has been "
+"expired. Please reload the page to renew your working session."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:431
+msgid "Not found any backup to restore."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:299
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:288
+msgid "or create new user with login name:"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovic Team"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovic: Import Demo"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1078
+msgid "Placeholder"
+msgstr ""
+
+#: includes/import.php:292
+msgid "Please, provide an attribute name and slug."
+msgstr ""
+
+#: includes/import.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:157
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1085
+msgid "Remote"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:932
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:943
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:919
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:926
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:414
+#: includes/import-database/includes/sample-data.php:756
+#, php-format
+msgid "Restoring backup has encountered an error and cannot continue: %s"
+msgstr ""
+
+#: includes/import.php:58
+msgid "RTL Demo Content"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:46
+#: includes/import-database/includes/dashboard.php:47
+msgid "Sample Data"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1151
+msgid "Sample data was not successfully installed."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1141
+msgid "Sample data was successfully installed."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1037
+msgid "Select demo that you want to install."
+msgstr ""
+
+#: includes/import.php:707
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/import.php:720
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/import.php:60
+msgid "Slider Revolution"
+msgstr ""
+
+#: includes/import.php:296
+#, php-format
+msgid "Slug \"%s\" is already in use. Change it, please."
+msgstr ""
+
+#: includes/import.php:372
+#, php-format
+msgid ""
+"Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
+msgstr ""
+
+#: includes/import.php:370
+#, php-format
+msgid "Slug \"%s\" is too long (28 characters max). Shorten it, please."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:119
+#: includes/vendor/wordpress-importer.php:126
+#: includes/vendor/wordpress-importer.php:171
+#: includes/vendor/wordpress-importer.php:176
+#: includes/vendor/wordpress-importer.php:185
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:265
+msgid "Submit"
+msgstr ""
+
+#: includes/export.php:584
+msgid "Success"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1249
+msgid "Temp folder is do not exist."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1254
+msgid "Temp folder is removed."
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:158
+msgid "Temp Notice!"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:615
+msgid "The backup process error."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:177
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:120
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#. Description of the plugin
+msgid "The plugin is supports import wordpress."
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1112
+#: includes/import-database/includes/sample-data.php:1188
+msgid "There are several stages involved in the process. Please be patient."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:193
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:245
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>"
+"admin</code>s entries."
+msgstr ""
+
+#: includes/export.php:785
+msgid "Unexpected error"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:121
+#: includes/import-database/includes/sample-data.php:1192
+msgid "Uninstall"
+msgstr ""
+
+#: includes/import-database/includes/dashboard.php:119
+msgid "Uninstall Sample Data"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1168
+msgid ""
+"Uninstalling sample data will restore the backed up original data before the "
+"current sample data was installed.."
+msgstr ""
+
+#: addon.php:88
+msgid "View Ovic Import Demo documentation"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1145
+msgid "Visit Site"
+msgstr ""
+
+#: includes/import.php:733
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/import-database/includes/sample-data.php:1022
+msgid "You can later uninstall sample data to restore the original data back."
+msgstr ""
+
+#: includes/vendor/wordpress-importer.php:937
+msgid "Zero size file downloaded"
+msgstr ""

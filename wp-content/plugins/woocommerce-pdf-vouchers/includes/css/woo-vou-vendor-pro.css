@@ -1,0 +1,64 @@
+.woo-vou-popup-content{  
+  max-width: 800px !important;
+  width: 100%;
+}
+
+#woo_vou_voucher input[type="button"], #woo_vou_voucher input[type="submit"] {
+  float: left !important;
+  margin-left: 0 !important;
+  width: inherit;
+}
+#woo_vou_voucher .description {
+  margin-top: 0 !important;
+}
+@media (max-width:767px){
+
+#woo_vou_voucher label {
+   width: 100% !important;
+}
+#woo_vou_voucher .description {
+ margin: 0;
+}
+#woo_vou_voucher .recipient-detail-wrap {
+  margin-left: 0;
+}
+#woo_vou_voucher ._woo_vou_enable_pdf_template_selection_field span {
+  margin-top: 0 !important;
+}
+#woo_vou_voucher .woo-vou-meta-repeat {
+  float: left;
+  width: 100%;
+}
+#woo_vou_voucher p.form-field {
+  float: left;
+  padding: 0 !important;
+  width: 100%;
+}
+#woo_vou_voucher input[type="checkbox"], #woo_vou_voucher input[type="radio"] {
+  float: left;
+ 
+}
+
+#woo_vou_voucher .form-field textarea {
+  height: 200px !important;
+  width: 100%;
+}
+#woo_vou_voucher input[type="checkbox"], #woo_vou_voucher input[type="radio"] {
+  margin: 7px 6px 7px 0;
+  vertical-align: middle;
+  width: auto;
+}
+
+.woo-vou-popup-content {
+  left: 0 !important;
+  max-width: 800px !important;
+  right: 0 !important;
+  width: 100%;
+}
+.woo-vou-popup table.form-table td {
+  display: block;
+  padding: 3px 10px !important;
+}
+
+}
+

@@ -1,0 +1,2178 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovic Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-06 01:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: includes/extends/megamenu/templates/form-settings.php:337
+msgid ""
+" Click on \"Enable Mega Builder\" in  Settings tab before buiding content."
+msgstr ""
+
+#: includes/admin/dashboard.php:256
+msgid " features and elements for your reference."
+msgstr ""
+
+#: includes/admin/dashboard.php:265
+msgid " theme, make sure that the feature works as it's designed."
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:34
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/extends/mapper/includes/shortcode.php:96
+#, php-format
+msgid "%s Reviews"
+msgstr ""
+
+#: includes/extends/popup/popup.php:223
+msgid "3d Unfold"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:215
+msgid "404 Not Found"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:57
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:36
+msgid "A list or dropdown of product brand."
+msgstr ""
+
+#: includes/extends/live-search/widget-livesearch.php:13
+msgid "A widget that displays Live Search Form"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:42
+msgid "Activate License"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/gallery/gallery.php:24
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/actions.php:123
+#: includes/frontend/theme-options/fields/icon/icon.php:27
+msgid "Add Icon"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/image/image.php:25
+msgid "Add Image"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:144
+#: includes/frontend/includes/ovic-helpers.php:609
+#: includes/extends/mapper/includes/post-type.php:29
+msgid "Add New"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:169
+#: includes/extends/popup/popup.php:69
+msgid "Add new"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:578
+#: includes/frontend/includes/ovic-helpers.php:610
+#: includes/extends/mapper/includes/post-type.php:30
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:124
+msgid "Add new brand"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:145
+msgid "Add new footer"
+msgstr ""
+
+#: includes/extends/popup/popup.php:70
+msgid "Add new Popup item"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:582
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/extends/mapper/includes/shortcode.php:115
+msgid "Add To Cart"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:184
+msgid "Add your image mapping"
+msgstr ""
+
+#: includes/extends/mapper/includes/shortcode.php:126
+#: includes/extends/mapper/includes/shortcode.php:149
+#: includes/extends/mapper/includes/shortcode.php:167
+msgid "Add your title in backend"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/group/group.php:26
+msgid "Adding"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:117
+msgctxt "Admin menu name"
+msgid "Brands"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:573
+#: includes/frontend/includes/ovic-helpers.php:614
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:119
+msgid "All brands"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:161
+#: includes/frontend/includes/ovic-helpers.php:217
+msgid "All Categories"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:132
+#: includes/frontend/includes/widgets/widget-attribute-product.php:199
+msgid "AND"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:322
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:216
+msgid "Archives"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:196
+msgid "Are you sure you want to remove this pin?"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:348
+msgid "Area Text"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:182
+msgid "Attribute"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:55
+msgid "Average Rating"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:422
+msgid "Background"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:180
+msgid "Background Position"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:36
+msgid "Background:"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:138
+msgid "Blur"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:429
+msgid "Border Color"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:413
+msgid "Border Radius"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:406
+msgid "Border Width"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:203
+#: includes/extends/mapper/templates/admin/form.php:467
+msgid "Bottom"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:50
+msgid "Box Style"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:254
+#: includes/extends/product-brand/product-brand.php:305
+msgid "Brand Logo"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:50
+msgid "Brand order"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:113
+msgid "Brands"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:213
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/frontend/framework.php:285
+msgid "Browse Wishlist"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:212
+msgid "Browse:"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:82
+msgid "Button Text:"
+msgstr ""
+
+#: includes/frontend/framework.php:413
+msgid "By: "
+msgstr ""
+
+#: includes/admin/dashboard.php:273
+msgid ""
+"Can't find the solution on documentation? We're here to help, even on "
+"weekend. Just click here to start chatting with us!"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/metabox.class.php:119
+msgid "Cancel"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:215
+msgid "CATEGORIES"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:116
+msgid "Category"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:187
+msgid "Center"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:174
+#: includes/extends/mapper/templates/admin/form.php:195
+msgid "Change Image"
+msgstr ""
+
+#: includes/admin/dashboard.php:51
+msgid "Changelog"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:253
+#: includes/extends/attributes-swatches/product-attribute-meta.php:406
+msgid "Choose an image"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:515
+msgid "Choose an option"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:583
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:64
+msgid "Class Megamenu Responsive"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:132
+#: includes/frontend/theme-options/fields/gallery/gallery.php:26
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/settings/backup.php:38
+msgid "Click below to generate a <b>.txt</b> file for all settings."
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:219
+msgid "Close"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:185
+#: includes/extends/attributes-swatches/product-attribute-meta.php:326
+msgid "Color"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:118
+msgid "Color Style"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/fields.class.php:117
+msgid "CONFIG"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:88
+#: includes/extends/megamenu/templates/form-settings.php:50
+msgid "Content"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:160
+msgid "Copy Shortcode"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/backup/backup.php:37
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:506
+msgid "Cross Sell Products"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:442
+msgid "Custom popup size"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:693
+#: includes/frontend/includes/ovic-breadcrumbs.php:1074
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:78
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:41
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:53
+#: includes/extends/mapper/templates/admin/form.php:324
+msgid "Default"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:164
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:147
+msgid "Default options restored."
+msgstr ""
+
+#: includes/extends/popup/popup.php:161
+msgid "Delay time"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-price-filter.php:33
+msgid "Delimiter"
+msgstr ""
+
+#: includes/admin/import/import.php:37
+msgid "Demo 01"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:87
+msgid "Description"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:32
+msgid "Description:"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-iconbox.php:41
+msgid "Descriptions"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:81
+#: includes/extends/attributes-swatches/product-attribute-meta.php:116
+msgid "Determines Size in this attribute.{width}x{height}"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:124
+msgid "Disable link"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:65
+msgid "Display suggestion"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:33
+msgid "Display the customer Catalog Ordering Type List."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-iconbox.php:46
+msgid "Display the customer Iconbox."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:78
+msgid "Display the customer Instagram."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:88
+msgid "Display the customer Newsletter."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-price-filter.php:38
+msgid "Display the customer Product Filter by Price Type List."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:39
+msgid "Display the customer Socials."
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:182
+#: includes/extends/attributes-swatches/product-attribute-meta.php:319
+#: includes/frontend/includes/widgets/widget-attribute-product.php:188
+msgid "Display type"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:109
+msgid "Display type:"
+msgstr ""
+
+#: includes/admin/dashboard.php:255
+msgid "Documentation"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:60
+#: includes/frontend/includes/widgets/widget-attribute-product.php:191
+msgid "Dropdown"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:116
+msgid "Dropdown Style"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:576
+#: includes/frontend/includes/ovic-helpers.php:612
+#: includes/extends/mapper/includes/post-type.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:122
+msgid "Edit brand"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:146
+msgid "Edit footer"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/gallery/gallery.php:25
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/extends/popup/popup.php:71
+msgid "Edit Popup item"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:22
+msgid "EDITOR"
+msgstr ""
+
+#: includes/extends/popup/popup.php:214
+msgid "Effect Display"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:45
+msgid "Email field is empty."
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:118
+msgid "Email Lists"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:76
+msgid "Enable Mega"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:259
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:109
+#, php-format
+msgid ""
+"Enter your mail Chimp API key to enable a newsletter signup option with the "
+"registration form.<a href=\"%s\" target=\"_blank\">Click here to get your "
+"Mailchimp API key</a>"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:38
+msgid "Enter your theme license key."
+msgstr ""
+
+#: includes/frontend/theme-options/functions/actions.php:33
+#: includes/frontend/theme-options/fields/typography/typography.php:89
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:47
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: includes/admin/settings/backup.php:41
+msgid "Export"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/backup/backup.php:40
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/admin/settings/backup.php:37
+msgid "Export Options"
+msgstr ""
+
+#: includes/admin/settings/ovic-settings.php:201
+msgid "Extends Settings"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:60
+msgid "Extra Class"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:304
+#: includes/frontend/includes/ovic-helpers.php:308
+msgid "Facebook"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:94
+msgid "Fade In"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:75
+msgid "Failed"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/validate.php:51
+#: includes/frontend/theme-options/functions/validate.php:105
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:71
+msgid "Field empty value is default."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:57
+#: includes/frontend/includes/widgets/widget-attribute-product.php:177
+msgid "Filter by"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:65
+msgid "First Name"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:67
+msgid "First Name Text:"
+msgstr ""
+
+#: includes/extends/shop-ajax/shop.php:82
+msgid "Fitered by: "
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:376
+msgid "Font Size"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:153
+msgid "Footer Builder"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:62
+msgid "Footer Template"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:142
+#: includes/extends/footer-builder/footer-builder.php:143
+msgid "Footers"
+msgstr ""
+
+#: includes/admin/settings/contextual-help.php:20
+msgid "For more information:"
+msgstr ""
+
+#: includes/admin/dashboard.php:272
+msgid "Forum"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:34
+msgid "From Instagram"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:35
+msgid "From Local Image"
+msgstr ""
+
+#: includes/admin/settings/ovic-settings.php:194
+#: includes/admin/settings/contextual-help.php:36
+#: includes/extends/mapper/templates/admin/form.php:220
+msgid "General"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:34
+#: includes/extends/mapper/templates/admin/form.php:39
+msgid "General Settings"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:67
+msgid "Get Token Instagram Here!"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/typography/typography.php:72
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:139
+msgid "Gray"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:397
+msgid "Grid"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:63
+#: includes/extends/mapper/templates/admin/form.php:399
+#: includes/extends/mapper/templates/admin/form.php:453
+msgid "Height"
+msgstr ""
+
+#: includes/frontend/includes/visual-composer/params.php:361
+msgid "hh:mm:ss"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:82
+msgid "Hide empty brand"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:106
+msgid "Hide title"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:214
+msgid "Home"
+msgstr ""
+
+#: includes/extends/popup/popup.php:221
+msgid "Horizontal Move"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:672
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kutethemes.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://kutethemes.com/wordpress-plugins/"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:192
+msgid "I&#39;m searching for..."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-iconbox.php:32
+msgid "Icon"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:213
+#: includes/extends/mapper/templates/admin/form.php:221
+msgid "Icon Settings"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:43
+msgid "Icons"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/fields.class.php:125
+#: includes/frontend/theme-options/classes/fields.class.php:153
+msgid "ID"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:60
+msgid "ID Instagram"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:466
+#: includes/extends/product-brand/product-brand.php:378
+#: includes/extends/mapper/includes/post-type.php:112
+#: includes/extends/mapper/templates/admin/form.php:239
+#: includes/extends/mapper/templates/admin/form.php:355
+msgid "Image"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:46
+msgid "Image Effect"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:134
+msgid "Image effect"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:44
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:49
+msgid "Image Resolution"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:32
+msgid "Image Source"
+msgstr ""
+
+#: includes/admin/settings/backup.php:51
+msgid "Import"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/backup/backup.php:36
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/admin/dashboard.php:54
+msgid "Import Data"
+msgstr ""
+
+#: includes/admin/settings/backup.php:44
+msgid "Import Options"
+msgstr ""
+
+#: includes/admin/settings/backup.php:19 includes/admin/settings/backup.php:24
+msgid "Import/Export"
+msgstr ""
+
+#: includes/admin/import/import.php:647
+msgid "Imported"
+msgstr ""
+
+#: includes/admin/import/import.php:650
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:120
+msgid "Inline Style"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:300
+msgid "Input a title for the popup here..."
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:336
+msgid "Input some content for the popup here..."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:73
+msgid "Items Instagram"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:187
+#: includes/extends/attributes-swatches/product-attribute-meta.php:332
+msgid "Label"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:308
+msgid "Label Settings"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:71
+msgid "Last Name"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:73
+msgid "Last Name Text:"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:37
+msgid "Layout using for page"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:191
+#: includes/extends/mapper/templates/admin/form.php:465
+msgid "Left"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:40
+msgid "License Action"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:52
+msgid "License is inactive."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:39
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:49
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:50
+msgid "License key has expired."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:46
+msgid "License key is active."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:53
+msgid "License key is disabled."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:51
+msgid "License keys do not match."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:43
+#: includes/admin/updater/theme-updater.php:55
+msgid "License status is unknown."
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:77
+msgid "Light"
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:42
+#: includes/extends/post-like/post-like.php:242
+msgid "Like"
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:238
+msgid "Liked"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:253
+msgid "Link"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:315
+msgid "Link To"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:59
+#: includes/frontend/includes/widgets/widget-attribute-product.php:190
+#: includes/frontend/includes/woocommerce/template-functions.php:405
+msgid "List"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:114
+msgid "List Style"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:57
+msgid "Live Search"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:60
+msgid "Live Search Enable"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:22
+#: includes/extends/megamenu/templates/form-settings.php:333
+msgid "LOAD EDITOR"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/actions.php:131
+msgid "Loading..."
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:146
+msgid "Login"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:61
+#: includes/extends/product-brand/product-brand.php:377
+#: includes/extends/product-brand/product-brand.php:463
+msgid "Logo"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:138
+msgid "Logout"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:52
+msgid "Low Resolution"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:108
+msgid "Mail Chimp API Key"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:105
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/admin/settings/contextual-help.php:41
+msgid "Mailchip"
+msgstr ""
+
+#: includes/admin/settings/contextual-help.php:42
+msgid "Mailchip Settings ..."
+msgstr ""
+
+#: includes/extends/megamenu/megamenu.php:104
+msgid "MAIN MENU"
+msgstr ""
+
+#. %s: taxonomy term name
+#: includes/extends/product-brand/product-brand.php:401
+#, php-format
+msgid "Make &#8220;%s&#8221; the default brand"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:402
+msgid "Make default"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:25
+#: includes/extends/mapper/includes/post-type.php:26
+#: includes/extends/mapper/includes/post-type.php:27
+#: includes/extends/mapper/includes/post-type.php:28
+msgid "Mapper"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:145
+msgid "Mask color"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:140
+msgid "Mask Overlay"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:87
+msgid "Maximum depth"
+msgstr ""
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:85
+#: includes/extends/megamenu/includes/megamenu-settings.php:86
+#: includes/extends/megamenu/includes/megamenu-settings.php:87
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:157
+msgid "Menu Background"
+msgstr ""
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:469
+msgid "Menu item not exists."
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:25
+msgid "Menu: "
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: includes/frontend/includes/ovic-breadcrumbs.php:222
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:636
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:654
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: includes/frontend/includes/visual-composer/params.php:355
+msgid "mm/dd/yy"
+msgstr ""
+
+#: includes/extends/megamenu/includes/megamenu-settings.php:61
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:691
+#: includes/frontend/includes/ovic-breadcrumbs.php:752
+#: includes/frontend/includes/ovic-breadcrumbs.php:1068
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: includes/extends/popup/popup.php:222
+msgid "Move From Top"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:51
+#: includes/extends/mapper/includes/post-type.php:111
+msgid "Name"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:703
+msgid "New"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:611
+#: includes/extends/mapper/includes/post-type.php:31
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:579
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:125
+msgid "New brand name"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:147
+msgid "New footer"
+msgstr ""
+
+#: includes/extends/popup/popup.php:72
+msgid "New Popup item"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:325
+msgid "New Tab"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:56
+msgid "Newness"
+msgstr ""
+
+#: includes/extends/popup/popup.php:220
+msgid "Newspaper"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:494
+msgid "Next"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:43
+#: includes/frontend/includes/widgets/widget-newsletter.php:55
+msgid "no"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:618
+#: includes/extends/mapper/includes/post-type.php:38
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:585
+#: includes/frontend/includes/ovic-helpers.php:617
+#: includes/extends/mapper/includes/post-type.php:37
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:126
+msgid "No brands found"
+msgstr ""
+
+#: includes/frontend/includes/visual-composer/shortcode/ovic_custommenu.php:49
+msgid "No content."
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:138
+msgid "No image"
+msgstr ""
+
+#: includes/extends/popup/popup.php:75
+msgid "No Popup items found"
+msgstr ""
+
+#: includes/extends/popup/popup.php:76
+msgid "No Popup items found in trash"
+msgstr ""
+
+#: includes/frontend/includes/visual-composer/shortcode/ovic_products.php:98
+msgid "No Product"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:288
+msgid "No product brand exist."
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:224
+msgid "No results."
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:150
+msgid "No template items found"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:151
+msgid "No template items found in trash"
+msgstr ""
+
+#: includes/admin/import/import.php:654
+msgid "No Title"
+msgstr ""
+
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram.php:59
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram_2.php:51
+msgid "No user ID specified."
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:184
+#: includes/extends/attributes-swatches/product-attribute-meta.php:323
+#: includes/extends/mapper/templates/admin/form.php:93
+#: includes/extends/mapper/templates/admin/form.php:137
+msgid "None"
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:57
+msgid "Not permitted"
+msgstr ""
+
+#: includes/frontend/framework.php:286
+#: includes/extends/mailchimp/mailchimp.php:47
+msgid "Notice!"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:113
+msgid "Number of Pins"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/switcher/switcher.php:24
+msgid "off"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/switcher/switcher.php:24
+msgid "on"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:77
+msgid "Only show children of the current category"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/helpers.php:133
+#, php-format
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:135
+#: includes/frontend/includes/widgets/widget-attribute-product.php:200
+msgid "OR"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:48
+msgid "Order by"
+msgstr ""
+
+#: includes/admin/dashboard.php:25
+msgid "Ovic Panel"
+msgstr ""
+
+#: includes/admin/settings/ovic-settings.php:84
+msgid "Ovic Settings"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovic Team"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovic Toolkit"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:25
+msgid "Ovic: Attribute Product"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:35
+msgid "Ovic: Catalog Ordering"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-iconbox.php:48
+msgid "Ovic: Iconbox"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:80
+msgid "Ovic: Instagram"
+msgstr ""
+
+#: includes/extends/live-search/widget-livesearch.php:15
+msgid "Ovic: Live Search"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:90
+msgid "Ovic: Newsletter"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:38
+msgid "Ovic: Product Brand"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-price-filter.php:40
+msgid "Ovic: Products Price Filter"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:41
+msgid "Ovic: Socials"
+msgstr ""
+
+#. %s is the page number.
+#: includes/frontend/includes/ovic-breadcrumbs.php:220
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:36
+msgid "Page layout"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:31
+msgid "Page Options"
+msgstr ""
+
+#: includes/extends/popup/popup.php:172
+msgid "Pages Display"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:616
+#: includes/extends/mapper/includes/post-type.php:36
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:120
+msgid "Parent brand"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:121
+msgid "Parent brand:"
+msgstr ""
+
+#: includes/extends/popup/popup.php:77
+msgid "Parent Popup item:"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:152
+msgid "Parent template item:"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:186
+#: includes/extends/attributes-swatches/product-attribute-meta.php:329
+msgid "Photo"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:18
+msgid "PIN MAP"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:211
+msgid "Pin Settings"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:313
+#: includes/frontend/includes/ovic-helpers.php:317
+msgid "Pinterest"
+msgstr ""
+
+#: includes/extends/live-search/widget-livesearch.php:60
+#: includes/frontend/includes/widgets/widget-newsletter.php:77
+msgid "Placeholder Text:"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/backup/backup.php:43
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/admin/updater/theme-updater-admin.php:219
+#, php-format
+msgid "Please enter Theme license key <a href=\"%s\">Click here</a>"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:197
+msgid "Please input a title for this pin"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/validate.php:35
+#: includes/frontend/theme-options/functions/validate.php:87
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/validate.php:19
+#: includes/frontend/theme-options/functions/validate.php:69
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/admin/import/import.php:349
+msgid "Please, provide an attribute name and slug."
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:572
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:54
+msgid "Popularity"
+msgstr ""
+
+#: includes/extends/popup/popup.php:67 includes/extends/popup/popup.php:78
+#: includes/extends/popup/popup.php:144
+msgid "Popup"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:122
+msgid "Popup border color"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:106
+msgid "Popup border radius"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:114
+msgid "Popup border width"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:83
+msgid "Popup box shadow"
+msgstr ""
+
+#: includes/extends/popup/popup.php:152
+msgid "Popup Content"
+msgstr ""
+
+#: includes/extends/popup/popup.php:198
+msgid "Popup Display"
+msgstr ""
+
+#: includes/extends/popup/popup.php:68
+msgid "Popup menu item"
+msgstr ""
+
+#: includes/extends/popup/popup.php:193 includes/extends/popup/popup.php:209
+#: includes/extends/mapper/templates/admin/form.php:222
+msgid "Popup Settings"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:90
+msgid "Popup show fffect"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:51
+msgid "Popup size"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:297
+msgid "Popup title"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:461
+msgid "Position"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:494
+msgid "Previous"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:58
+msgid "Price: high to low"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:57
+msgid "Price: low to high"
+msgstr ""
+
+#: includes/admin/import/import.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:95
+msgid "Product attribute:"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:42
+msgid "Product brand"
+msgstr ""
+
+#. id
+#: includes/extends/product-brand/product-brand.php:65
+msgid "Product brand base"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:115
+msgid "Product brands"
+msgstr ""
+
+#: includes/frontend/framework.php:280
+msgid "Product has been added to cart!"
+msgstr ""
+
+#: includes/frontend/framework.php:282
+msgid "Product has been added to wishlist!"
+msgstr ""
+
+#: includes/frontend/framework.php:283
+msgid "Product has been removed from wishlist!"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:44
+msgid "Product Matches"
+msgstr ""
+
+#: includes/frontend/framework.php:288
+msgid "Product Removed"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:126
+#: includes/frontend/includes/widgets/widget-attribute-product.php:197
+msgid "Query type"
+msgstr ""
+
+#: includes/admin/dashboard.php:259
+msgid "Read Documentation"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:508
+msgid "Related Products"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/group/group.php:53
+#: includes/frontend/theme-options/fields/group/group.php:85
+msgid "Remove"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/icon/icon.php:28
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:229
+#: includes/extends/attributes-swatches/product-attribute-meta.php:382
+#: includes/extends/product-brand/product-brand.php:265
+#: includes/extends/product-brand/product-brand.php:283
+#: includes/extends/product-brand/product-brand.php:317
+#: includes/extends/product-brand/product-brand.php:336
+#: includes/extends/megamenu/templates/form-settings.php:172
+#: includes/extends/megamenu/templates/form-settings.php:303
+#: includes/extends/megamenu/templates/form-settings.php:321
+msgid "Remove image"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:44
+msgid "Renew?"
+msgstr ""
+
+#: includes/admin/dashboard.php:275
+msgid "Request Support"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:313
+#: includes/frontend/theme-options/classes/framework.class.php:373
+#: includes/frontend/theme-options/fields/backup/backup.php:42
+msgid "Reset All Options"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/sorter/sorter.php:34
+msgid "Reset This Field"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:311
+#: includes/frontend/theme-options/classes/framework.class.php:371
+#: includes/frontend/theme-options/classes/metabox.class.php:118
+msgid "Restore"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:45
+msgid "Results"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:330
+msgid "review"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:195
+#: includes/extends/mapper/templates/admin/form.php:464
+msgid "Right"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:310
+#: includes/frontend/theme-options/classes/framework.class.php:370
+msgid "Save"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:28
+msgid "Save All"
+msgstr ""
+
+#: includes/admin/settings/ovic-settings.php:148
+msgid "Save Settings"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:310
+#: includes/frontend/theme-options/classes/framework.class.php:370
+msgid "Saving..."
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:571
+#: includes/frontend/includes/ovic-helpers.php:615
+#: includes/extends/mapper/includes/post-type.php:35
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/actions.php:127
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:118
+msgid "Search brands"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:260
+msgid "Search Icon"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:82
+msgid "Search In"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:76
+msgid "Search Max Results"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:70
+msgid "Search Min Characters"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:306
+msgid "Search option(s)"
+msgstr ""
+
+#: includes/extends/popup/popup.php:74
+msgid "Search Popup items"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:323
+msgid "Search products"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: includes/frontend/includes/ovic-breadcrumbs.php:218
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:149
+msgid "Search template footer"
+msgstr ""
+
+#: includes/admin/dashboard.php:267
+msgid "See Video"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:193
+msgid "Select"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:253
+msgid "Select a category"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:63
+msgid "Select a Footer layout in page"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:167
+msgid "Select all"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:1158
+msgid "Select icon"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:306
+#: includes/extends/mapper/templates/admin/form.php:361
+msgid "Select image"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:168
+msgid "Select none"
+msgstr ""
+
+#: includes/extends/mapper/includes/shortcode.php:117
+msgid "Select Options"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:194
+msgid "Select or upload an image"
+msgstr ""
+
+#: includes/extends/popup/popup.php:178
+msgid "Select pages"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:260
+msgid "Select product"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-socials.php:33
+msgid "Select Social"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:155
+msgid "Select terms"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:580
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:64
+msgid "Setting Extra Class in page"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:53
+msgid "Setting sidebar in the area sidebar"
+msgstr ""
+
+#: includes/extends/megamenu/includes/walker_nav_menu_edit_custom.php:146
+msgid "SETTINGS"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:37
+msgid "Settings"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:114
+msgid "Shortcode"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:450
+msgid "Show"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:456
+msgid "Show 05"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:461
+msgid "Show 10"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:466
+msgid "Show 12"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:471
+msgid "Show 15"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:475
+msgid "Show All"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:316
+msgid "show all options"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:57
+msgid "Show as"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:280
+msgid "Show description"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:52
+msgid "Show Field Name"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:72
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:40
+msgid "Show Mailchimp List"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand-widget.php:67
+msgid "Show product counts"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:289
+msgid "Show rate"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:271
+msgid "Show thumbnail"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-attribute-product.php:23
+msgid "Shows a custom attribute in a widget."
+msgstr ""
+
+#: includes/admin/import/import.php:582
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/admin/settings/ovic-metabox.php:48
+msgid "Sidebar for page layout"
+msgstr ""
+
+#: includes/admin/import/import.php:595
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:54
+msgid "Site is inactive."
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:79
+#: includes/extends/attributes-swatches/product-attribute-meta.php:112
+msgid "Size Box"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:89
+msgid "SKU"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:98
+msgid "Slide From Bottom"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:95
+msgid "Slide From Left"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:96
+msgid "Slide From Right"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:97
+msgid "Slide From Top"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:82
+msgctxt "slug"
+msgid "product-brand"
+msgstr ""
+
+#: includes/admin/import/import.php:353
+#, php-format
+msgid "Slug \"%s\" is already in use. Change it, please."
+msgstr ""
+
+#: includes/admin/import/import.php:383
+#, php-format
+msgid ""
+"Slug \"%s\" is not allowed because it is a reserved term. Change it, please."
+msgstr ""
+
+#: includes/admin/import/import.php:381
+#, php-format
+msgid "Slug \"%s\" is too long (28 characters max). Shorten it, please."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:53
+msgid "Standard Resolution"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:45
+msgid "Style Settings"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:141
+msgid "Sub Menu Item Settings"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:146
+msgid "Sub menu item width (px only)"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:83
+msgid "Subscribe"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:127
+msgid "Success message"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/framework.class.php:134
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:321
+msgid "Target"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:246
+#: includes/extends/mapper/templates/admin/form.php:371
+msgid "Text"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:383
+msgid "Text Color"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:334
+msgid "Text Content"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:128
+msgid "Thanks for Subscribe !"
+msgstr ""
+
+#: includes/frontend/framework.php:459
+msgid ""
+"The items on desktop (Screen resolution of device >= 1200px and < 1500px )"
+msgstr ""
+
+#: includes/frontend/framework.php:465
+msgid "The items on desktop (Screen resolution of device >= 992px < 1200px )"
+msgstr ""
+
+#: includes/frontend/framework.php:483
+msgid "The items on mobile (Screen resolution of device < 480px)"
+msgstr ""
+
+#: includes/frontend/framework.php:477
+msgid ""
+"The items on mobile landscape(Screen resolution of device >=480px and < "
+"768px)"
+msgstr ""
+
+#: includes/frontend/framework.php:471
+msgid "The items on tablet (Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Ovic Toolkit For WordPress Theme WooCommerce Shop."
+msgstr ""
+
+#: includes/admin/updater/theme-updater-admin.php:80
+#: includes/admin/updater/theme-updater.php:37
+msgid "Theme License"
+msgstr ""
+
+#: includes/admin/settings/ovic-settings.php:43
+msgid "Theme Options"
+msgstr ""
+
+#: includes/frontend/theme-options/functions/helpers.php:167
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:437
+#: includes/extends/product-brand/product-brand.php:453
+msgid ""
+"This is the default brand and it cannot be deleted. It will be automatically "
+"assigned to products with no brand."
+msgstr ""
+
+#: includes/admin/settings/contextual-help.php:37
+msgid ""
+"This screen provides the most basic settings for configuring your store. You "
+"can set the currency, page templates, and turn <em>Test Mode</em> on and off."
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:218
+#: includes/extends/attributes-swatches/product-attribute-meta.php:370
+#: includes/extends/product-brand/product-brand.php:272
+#: includes/extends/product-brand/product-brand.php:324
+#: includes/extends/product-brand/product-brand.php:447
+#: includes/frontend/includes/widgets/widget-instagram.php:51
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:115
+msgid "Time"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:86
+#: includes/extends/product-brand/product-brand-widget.php:43
+#: includes/frontend/includes/widgets/widget-instagram.php:28
+#: includes/frontend/includes/widgets/widget-socials.php:28
+#: includes/frontend/includes/widgets/widget-price-filter.php:28
+#: includes/frontend/includes/widgets/widget-newsletter.php:28
+#: includes/frontend/includes/widgets/widget-catalog-ordering.php:28
+#: includes/frontend/includes/widgets/widget-iconbox.php:28
+#: includes/frontend/includes/widgets/widget-attribute-product.php:178
+msgid "Title"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-iconbox.php:36
+msgid "Title Icon"
+msgstr ""
+
+#: includes/extends/live-search/widget-livesearch.php:54
+#: includes/frontend/includes/widgets/widget-attribute-product.php:86
+msgid "Title:"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:156
+msgid "To Build Template Footer."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:65
+msgid "Token Instagram"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:74
+msgid "Tooltip style"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:199
+#: includes/extends/mapper/templates/admin/form.php:466
+msgid "Top"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:59
+msgid "Top Level Item Settings"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:295
+#: includes/frontend/includes/ovic-helpers.php:299
+msgid "Twitter"
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:43
+msgid "Unlike"
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:45
+msgid "unlimited"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:577
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/extends/product-brand/product-brand.php:123
+msgid "Update brand"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/metabox.class.php:119
+msgid "update post for restore "
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:56
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: includes/frontend/theme-options/fields/background/background.php:35
+#: includes/frontend/theme-options/fields/background/background.php:36
+#: includes/frontend/theme-options/fields/upload/upload.php:25
+#: includes/frontend/theme-options/fields/upload/upload.php:26
+msgid "Upload"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:227
+#: includes/extends/attributes-swatches/product-attribute-meta.php:380
+#: includes/extends/product-brand/product-brand.php:262
+#: includes/extends/product-brand/product-brand.php:280
+#: includes/extends/product-brand/product-brand.php:314
+#: includes/extends/product-brand/product-brand.php:333
+#: includes/extends/megamenu/templates/form-settings.php:168
+#: includes/extends/megamenu/templates/form-settings.php:299
+#: includes/extends/megamenu/templates/form-settings.php:317
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/frontend/includes/woocommerce/template-functions.php:510
+msgid "Upsell Products"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/fields.class.php:130
+#: includes/frontend/theme-options/classes/fields.class.php:158
+msgid "USAGE"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:219
+msgid "Use Font Icon"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:223
+#: includes/frontend/theme-options/fields/background/background.php:37
+#: includes/frontend/theme-options/fields/upload/upload.php:27
+msgid "Use Image"
+msgstr ""
+
+#: includes/extends/attributes-swatches/product-attribute-meta.php:255
+#: includes/extends/attributes-swatches/product-attribute-meta.php:408
+msgid "Use image"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:119
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram.php:77
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram_2.php:60
+msgid "User ID and access token do not match. Please check again."
+msgstr ""
+
+#: includes/frontend/theme-options/classes/fields.class.php:141
+msgid "VALUE"
+msgstr ""
+
+#: includes/admin/dashboard.php:264
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/frontend/includes/ovic-helpers.php:613
+#: includes/extends/mapper/includes/post-type.php:33
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/extends/live-search/live-search.php:43
+msgid "View All"
+msgstr ""
+
+#: includes/admin/dashboard.php:160
+msgid "View All Our Themes"
+msgstr ""
+
+#: includes/frontend/framework.php:279
+msgid "View Cart"
+msgstr ""
+
+#: includes/extends/footer-builder/footer-builder.php:148
+msgid "View footer"
+msgstr ""
+
+#: includes/admin/dashboard.php:48
+msgid "View Our Theme"
+msgstr ""
+
+#: includes/extends/popup/popup.php:73
+msgid "View Popup item"
+msgstr ""
+
+#: includes/admin/settings/contextual-help.php:21
+#, php-format
+msgid "Visit the <a href=\"%s\">documentation</a> on the Kutethemes website."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-instagram.php:118
+#: includes/frontend/includes/widgets/widget-instagram.php:151
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram.php:76
+#: includes/frontend/includes/visual-composer/shortcode/ovic_instagram.php:109
+msgid "Warning!"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/typography/typography.php:67
+msgid "Web Safe Fonts"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: includes/frontend/includes/ovic-breadcrumbs.php:224
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:723
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: includes/admin/dashboard.php:45
+msgid "Welcome"
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:127
+msgid "Whether to disable item hyperlink or not."
+msgstr ""
+
+#: includes/extends/megamenu/templates/form-settings.php:109
+msgid "Whether to display item without text or not."
+msgstr ""
+
+#: includes/admin/import/import.php:608
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:54
+#: includes/extends/mapper/templates/admin/form.php:392
+#: includes/extends/mapper/templates/admin/form.php:445
+msgid "Width"
+msgstr ""
+
+#: includes/extends/mapper/templates/admin/form.php:232
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:46
+msgid "Wrong email format"
+msgstr ""
+
+#: includes/frontend/includes/ovic-breadcrumbs.php:689
+#: includes/frontend/includes/ovic-breadcrumbs.php:721
+#: includes/frontend/includes/ovic-breadcrumbs.php:750
+#: includes/frontend/includes/ovic-breadcrumbs.php:778
+#: includes/frontend/includes/ovic-breadcrumbs.php:1062
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:42
+#: includes/frontend/includes/widgets/widget-newsletter.php:54
+msgid "Yes"
+msgstr ""
+
+#: includes/frontend/theme-options/classes/fields.class.php:222
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: includes/frontend/theme-options/fields/group/group.php:92
+#: includes/frontend/theme-options/fields/repeater/repeater.php:77
+msgid "You can not add more than"
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:437
+msgid "You do not like anything yet."
+msgstr ""
+
+#: includes/admin/updater/theme-updater.php:48
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: includes/extends/post-like/post-like.php:406
+msgid "You Liked:"
+msgstr ""
+
+#: includes/extends/mapper/includes/post-type.php:195
+msgid "Your changes on this page are not saved!"
+msgstr ""
+
+#: includes/extends/mailchimp/mailchimp.php:62
+msgid "Your email added..."
+msgstr ""
+
+#: includes/frontend/includes/widgets/widget-newsletter.php:78
+msgid "Your email letter"
+msgstr ""
+
+#: includes/extends/popup/popup.php:219
+msgid "Zoom"
+msgstr ""
+
+#: includes/extends/popup/popup.php:224
+msgid "Zoom-out"
+msgstr ""

@@ -1,0 +1,9 @@
+.dokan-dashboard .woo-vou-purchased-codes-popup, .dokan-dashboard .woo-vou-used-codes-popup, .dokan-dashboard .woo-vou-unused-codes-popup{
+	width: 100% !important;
+}
+.dokan-dashboard .woo-vou-popup-content{
+	max-width: 1200px !important;
+}
+.dokan-hidden{
+	display: none;
+}

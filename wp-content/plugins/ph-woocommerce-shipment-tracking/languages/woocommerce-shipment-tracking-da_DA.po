@@ -1,0 +1,896 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WooCommerce Shipment Tracking Pro\n"
+"POT-Creation-Date: 2018-11-14 13:09+0530\n"
+"PO-Revision-Date: 2018-11-14 13:15+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-shipment-tracking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: da\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:37
+#: includes/class-ph-shipment-tracking-on-order-page.php:38
+msgid "Refresh Live Tracking Status"
+msgstr "Opdater Live Tracking Status"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:75
+#: includes/class-ph-shipment-tracking-on-order-page.php:82
+msgid "Tracking Status"
+msgstr "Sporingsstatus"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:116
+msgid "Tracking History"
+msgstr "Sporingshistorik"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:176
+msgid "Tracking ID : "
+msgstr "Tracking ID"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:182
+#: includes/class-wf-tracking-admin.php:222
+msgid "Location"
+msgstr "Sted"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:183
+#: includes/class-wf-tracking-admin.php:223
+msgid "Date"
+msgstr "Dato"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:185
+#: includes/class-wf-tracking-admin.php:225
+msgid "Activity"
+msgstr "Oplevelse"
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:23
+msgid ""
+"CSV Import requires the function <code>mb_detect_encoding</code> to import "
+"CSV files. Please ask your hosting provider to enable this function."
+msgstr ""
+"CSV Import kræver funktionen <code>mb_detect_encoding</code> at importere "
+"CSV-filer. Spørg din hostingudbyder for at aktivere denne funktion."
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:31
+msgid "Shipment Tracking Import"
+msgstr "Forsendelsessporing Import"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:29
+#, php-format
+msgid "Every %d minutes"
+msgstr "Hver %d. minut"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:79
+msgid "Starting auto import...."
+msgstr "Starter automatisk import ...."
+
+#: includes/class-wf-shipment-tracking-import-cron.php:82
+msgid "Inside FTP"
+msgstr "Indvendig"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:88
+msgid "Fetching file failed. Reason:"
+msgstr "Hentning af fil mislykkedes. Grund:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:99
+msgid "FTP status"
+msgstr "Status"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:102
+msgid "FTP started"
+msgstr "Påbegyndt"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:121
+msgid "Connection:"
+msgstr "Tilslutning"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:127
+msgid "Login:"
+msgstr "Log ind:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:138
+msgid "FTP get:"
+msgstr "FTP få:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:146
+msgid "Error:"
+msgstr "Fejl:"
+
+#: includes/class-wf-shipment-tracking-importer.php:103
+msgid "Entered into import"
+msgstr "Indtastet i import"
+
+#: includes/class-wf-shipment-tracking-importer.php:107
+msgid "Unable to proceed:"
+msgstr "Kan ikke fortsætte:"
+
+#: includes/class-wf-shipment-tracking-importer.php:108
+msgid "The file does not exist. Please go back and check your settings."
+msgstr ""
+"Filen findes ikke. Venligst gå tilbage og kontroller dine indstillinger."
+
+#: includes/class-wf-shipment-tracking-importer.php:109
+msgid "Unable to proceed:File does not exist"
+msgstr "Kan ikke fortsætte: Filen findes ikke"
+
+#: includes/class-wf-shipment-tracking-importer.php:122
+msgid "Reading file..."
+msgstr "Læser fil..."
+
+#: includes/class-wf-shipment-tracking-importer.php:125
+msgid "CSV validation done"
+msgstr "CSV validering udført"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid "Order #"
+msgstr "Ordre #"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid " updated successfully."
+msgstr "Opdatering var succesfuld."
+
+#: includes/class-wf-shipment-tracking-importer.php:158
+msgid "There has been an error:The CSV is invalid"
+msgstr "Der har været en fejl: The CSV er ugyldig"
+
+#: includes/class-wf-shipment-tracking-importer.php:159
+#: includes/class-wf-shipment-tracking-importer.php:202
+#: includes/class-wf-shipment-tracking-importer.php:216
+msgid "Sorry, there has been an error."
+msgstr "Beklager, der opstod en fejl."
+
+#: includes/class-wf-shipment-tracking-importer.php:160
+msgid "The CSV is invalid."
+msgstr "CSV´en er ugyldig."
+
+#: includes/class-wf-shipment-tracking-importer.php:168
+msgid "Imported:"
+msgstr "Importeret:"
+
+#: includes/class-wf-shipment-tracking-importer.php:169
+msgid "Skipped:"
+msgstr "Sprunget over:"
+
+#: includes/class-wf-shipment-tracking-importer.php:172
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Shipment Tracking and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Import komplet - importeret <strong>%s</strong> forsendelsen Tracking og "
+"sprunget <strong>%s</strong>."
+
+#: includes/class-wf-shipment-tracking-importer.php:182
+msgid "All done!"
+msgstr "Gjørgnumførd!"
+
+#: includes/class-wf-shipment-tracking-importer.php:259
+msgid "Please Provide FTP Host IP / Address ."
+msgstr "Bedes du give FTP-vært IP / adresse."
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Could not Connect to Server : "
+msgstr "Kunne ikke få forbindelse til serveren"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Possible Reasons :"
+msgstr "Mulige grunde"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "1. Server/Host address may be wrong . Server - "
+msgstr "1. server/værtsadressen kan være forkert. Server-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "2. Port may be wrong . Port no. - "
+msgstr "2. port kan være forkert. Port nr.-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "3. Time out."
+msgstr "3. Time out."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Connected to the server but not able to login ."
+msgstr "Tilsluttet serveren, men ikke købedygtig login."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Possible Reasons - "
+msgstr "Mulige grunde"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "1. Username may be wrong . User Name - "
+msgstr "1. Brugernavn kan være forkerte. Brugernavn-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Password may be wrong . Password - "
+msgstr "Adgangskode kan være forkert. Adgangskode-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Try with/without FTPS."
+msgstr "Prøv FTPS med/uden."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid ""
+"There was a problem while getting files from ftp server and uploading into "
+"wp-contents/uploads/. "
+msgstr ""
+"Der opstod et problem ved at få filer fra ftp-server og uploade til wp-"
+"contents/uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "1. Try with or without Passive Mode ."
+msgstr "1. Prøv med eller uden passiv tilstand."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "2. Check your FTP file permission ."
+msgstr "2. Tjek din FTP fil tilladelse."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "3. Check permission of folder wp-contents/uploads/ ."
+msgstr "3. Kontroller tilladelse fra mappen wp-contents/uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:325
+msgid "Import Shipment Tracking"
+msgstr "Importere forsendelsen Tracking"
+
+#: includes/class-wf-shipment-tracking-importer.php:361
+msgid ""
+"Hi there! Upload a CSV file containing Shipping Tracking to import into your "
+"shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Hej! Upload en CSV-fil der indeholder momssatser for at importere indholdet "
+"til din butik. Vælg en csv-fil og upload den, klik derefter på “Upload fil "
+"og importer”."
+
+#: includes/class-wf-shipment-tracking-importer.php:363
+#, php-format
+msgid ""
+"Shipping Tracking CSV need to be defined with columns in a specific order (5 "
+"columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Shipping Tracking CSV skal defineres med kolonner i en bestemt rækkefølge (5 "
+"kolonner). <a href=\"%s\">Klik her for at downloade en prøve</a>."
+
+#: includes/class-wf-shipment-tracking-importer.php:371
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Før du kan uploade importfilen, bliver du nødt til at løse følgende fejl:"
+
+#: includes/class-wf-shipment-tracking-importer.php:380
+msgid "Choose a file from your computer:"
+msgstr "Vælg en fil fra din computer:"
+
+#: includes/class-wf-shipment-tracking-importer.php:386
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+"Momssatser skal defineres med kolonner i en specifik rækkefølge (10 "
+"kolonner). <a href=\"%s\">Klik her for at downloade et eksempel</a>."
+
+#: includes/class-wf-shipment-tracking-importer.php:392
+msgid "OR Provide FTP Path:"
+msgstr "ELLER give FTP-sti:"
+
+#: includes/class-wf-shipment-tracking-importer.php:398
+msgid "Enable FTP Import"
+msgstr "Aktivere FTP Import"
+
+#: includes/class-wf-shipment-tracking-importer.php:406
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:53
+msgid "FTP Server Host/IP"
+msgstr "FTP Server vært/IP"
+
+#: includes/class-wf-shipment-tracking-importer.php:409
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:56
+msgid "XXX.XXX.XXX.XXX"
+msgstr "XXX.XXX.XXX.XXX"
+
+#: includes/class-wf-shipment-tracking-importer.php:414
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:61
+msgid "FTP User Name"
+msgstr "Brugernavn"
+
+#: includes/class-wf-shipment-tracking-importer.php:422
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:69
+msgid "FTP Password"
+msgstr "FTP-adgangskode"
+
+#: includes/class-wf-shipment-tracking-importer.php:430
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:77
+msgid "FTP Port"
+msgstr "FTP port"
+
+#: includes/class-wf-shipment-tracking-importer.php:431
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:78
+msgid "Default port will be used if left empty."
+msgstr "Standardport vil blive brugt, hvis venstre tomme."
+
+#: includes/class-wf-shipment-tracking-importer.php:434
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:81
+msgid "21"
+msgstr "21"
+
+#: includes/class-wf-shipment-tracking-importer.php:439
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:86
+msgid "FTP Timeout"
+msgstr "Timeout"
+
+#: includes/class-wf-shipment-tracking-importer.php:440
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:87
+msgid "Default timeout default value will be used if left empty."
+msgstr "Standard timeout standardværdi bruges, hvis venstre tomme."
+
+#: includes/class-wf-shipment-tracking-importer.php:443
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:90
+msgid "90"
+msgstr "90"
+
+#: includes/class-wf-shipment-tracking-importer.php:448
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:95
+msgid "Path/CsvFileName"
+msgstr "Stien/CsvFileName"
+
+#: includes/class-wf-shipment-tracking-importer.php:449
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:96
+msgid ""
+"Remote CSV File Path starting from FTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"Remote CSV-filsti startende fra FTP-startmappe bortset fra førende skråstreg "
+"og filnavnet i slutningen."
+
+#: includes/class-wf-shipment-tracking-importer.php:452
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:99
+msgid "Path/StartingFrom/FTP-Directory/FileName.csv"
+msgstr "Path/StartingFrom/FTP-Directory/FileName.csv"
+
+#: includes/class-wf-shipment-tracking-importer.php:458
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:105
+msgid "Use FTPS"
+msgstr "Brug FTPS"
+
+#: includes/class-wf-shipment-tracking-importer.php:467
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:114
+msgid "Use Passive Mode"
+msgstr "Passiv mode"
+
+#: includes/class-wf-shipment-tracking-importer.php:478
+msgid "Delimiter"
+msgstr "Afgrænser"
+
+#: includes/class-wf-shipment-tracking-importer.php:485
+msgid "Upload file and import"
+msgstr "Upload fil og importer"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+msgid "Import Shipment Tracking (CSV)"
+msgstr "Importere forsendelsen Tracking (CSV)"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import <strong>Shipment Tracking</strong> to your store via a csv file."
+msgstr ""
+"Importere <strong>Forsendelsen Tracking</strong> til din butik via en CSV-"
+"fil."
+
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import Shipment Tracking cron(CSV)"
+msgstr "Importere forsendelsen Tracking cron(CSV)"
+
+#: includes/class-wf-tracking-admin.php:96
+msgid "Shipping Detail"
+msgstr "Shipping detaljer"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Shipment ID"
+msgstr "Forsendelses-id"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Follow link for detailed status."
+msgstr "Følg link for detaljeret status."
+
+#: includes/class-wf-tracking-admin.php:153
+msgid "Status"
+msgstr "Ordrestatus"
+
+#: includes/class-wf-tracking-admin.php:156
+msgid "Refresh"
+msgstr "Opdater"
+
+#: includes/class-wf-tracking-admin.php:174
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Stand til at opdatere realtid status på dette tidspunkt i gang. Følg linket "
+"på leverance-id for at kontrollere status."
+
+#: includes/class-wf-tracking-admin.php:286
+#: includes/class-wf-tracking-admin.php:431
+#: includes/track/class-wf-tracking-util.php:248
+msgid "Unable to update tracking info."
+msgstr "Stand til at opdatere tracking info."
+
+#: includes/class-wf-tracking-admin.php:315
+msgid "Sorry, Unable to proceed."
+msgstr "Ked af, afskåret fra fortsætte."
+
+#: includes/class-wf-tracking-admin.php:318
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Stand til at spore forsendelsen. Venligst kryds markere forsendelsen id "
+"eller prøve efter nogen tid."
+
+#: includes/class-wf-tracking-admin.php:327
+msgid "Tracking is unset."
+msgstr "Sporing er frakoblet."
+
+#: includes/class-wf-tracking-admin.php:330
+msgid "Tracking Data is reset to default."
+msgstr "Sporingsdata, nulstilles til standard."
+
+#: includes/class-wf-tracking-admin.php:379
+msgid "None"
+msgstr "Alle"
+
+#: includes/class-wf-tracking-admin.php:386
+msgid "Enter Tracking IDs"
+msgstr "Angiv Sporing id'er"
+
+#: includes/class-wf-tracking-admin.php:387
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Kommasepareret, hvis der er flere forsendelsesprodukter til denne ordre."
+
+#: includes/class-wf-tracking-admin.php:390
+msgid "This field is Optional."
+msgstr "Dette felt er VALGFRIT."
+
+#: includes/class-wf-tracking-admin.php:394
+msgid "Save/Show Tracking Info"
+msgstr "Gem / Vis sporingsoplysninger"
+
+#: includes/class-wf-tracking-admin.php:412
+msgid "You don't have admin privileges to view this page."
+msgstr "Du har ikke administratorrettigheder til at se denne side."
+
+#: includes/class-wf-tracking-settings.php:16
+msgid "Tracking"
+msgstr "Tracker"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Shipment Tracking Settings"
+msgstr "Indstillinger for forsendelsessporing"
+
+#: includes/class-wf-tracking-settings.php:77
+msgid "licence activation"
+msgstr "Aktivierungslizenz"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid "Custom Shipment Message."
+msgstr "Brugerdefineret forsendelsesmeddelelse."
+
+#: includes/class-wf-tracking-settings.php:84
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Definer din egen forsendelsesbesked. Brug henholdsvis stedindehaverens [ID], "
+"[SERVICE] og [DATE] for forsendelses-id, forsendelsestjeneste og "
+"forsendelsesdato. <br>"
+
+#: includes/class-wf-tracking-settings.php:90
+msgid "Turn off API Status"
+msgstr "Sluk for API Status"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid "Turn off Real time API Status"
+msgstr "Sluk API-status i realtid"
+
+#: includes/class-wf-tracking-settings.php:93
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Sluk API-status i realtid på kundeordens side. Grundlæggende "
+"sporingsoplysninger øverst vises stadig."
+
+#: includes/class-wf-tracking-settings.php:99
+msgid "Automatic Refresh"
+msgstr "Automatisk opdatering"
+
+#: includes/class-wf-tracking-settings.php:102
+#: includes/class-wf-tracking-settings.php:122
+msgid "Enable"
+msgstr "Indstillingen bootstrap enable (Deaktiver)"
+
+#: includes/class-wf-tracking-settings.php:103
+msgid "Disable"
+msgstr "Font awesome Aktiver Deaktiver indstilling"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Enable - "
+msgstr "Aktivér"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn on live status automatic refresh on Myaccount->Order page "
+"loading."
+msgstr ""
+"Det vil aktivere live status automatisk opdatering på Myaccount-> Order side "
+"loading."
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Disable - "
+msgstr "Deaktiver"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn off the automatic refresh on Myaccount->Order page and Refresh "
+"button will be shown"
+msgstr ""
+"Den lukker den automatiske opdatering på Myaccount-> Order side og Opdater "
+"knappen vises"
+
+#: includes/class-wf-tracking-settings.php:111
+msgid "Tracking Data"
+msgstr "Tracker"
+
+#: includes/class-wf-tracking-settings.php:115
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+
+#: includes/class-wf-tracking-settings.php:118
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[ shipping service name ]|[ shipment tracking url ]"
+
+#: includes/class-wf-tracking-settings.php:121
+msgid "Shipping Easy"
+msgstr "Forsendelse"
+
+#: includes/class-wf-tracking-settings.php:124
+msgid "Enable this to integrate Shipping Easy"
+msgstr "Aktiver dette at integrere Shipping let"
+
+#: includes/class-wf-tracking-settings.php:129
+#: includes/class-wf-tracking-settings.php:130
+msgid "Reset Tracking Data"
+msgstr "Nulstille sporingsdata"
+
+#: includes/class-wf-tracking-settings.php:132
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Nulstille sporingsdata til standardværdierne. Alle brugerdefinerede "
+"tilføjede værdier i den ovenstående spore data vil blive ryddet op."
+
+#: includes/class-wf-tracking-settings.php:145
+msgid "UPS User Id"
+msgstr "Bruger-ID"
+
+#: includes/class-wf-tracking-settings.php:147
+msgid "Provide UPS user Id for the live UPS shipment tracking."
+msgstr "Give UPS bruger-id'et for levende UPS forsendelsen tracking."
+
+#: includes/class-wf-tracking-settings.php:152
+msgid "UPS Password"
+msgstr "Adgangskode"
+
+#: includes/class-wf-tracking-settings.php:154
+msgid "Provide UPS password."
+msgstr "Angiv UPS password."
+
+#: includes/class-wf-tracking-settings.php:159
+msgid "UPS Access Key"
+msgstr "Adgangsnøgle"
+
+#: includes/class-wf-tracking-settings.php:161
+msgid "Provide UPS access key."
+msgstr "Give UPS hurtigtast."
+
+#: includes/class-wf-tracking-settings.php:166
+msgid "FedEx Account Number"
+msgstr "FedEx konto nummer"
+
+#: includes/class-wf-tracking-settings.php:169
+msgid "Provide FedEx account number for the live FedEx shipment tracking."
+msgstr "Give FedEx kontonummer for den levende FedEx forsendelse sporing."
+
+#: includes/class-wf-tracking-settings.php:174
+msgid "FedEx Meter Number"
+msgstr "FedEx Meter antallet"
+
+#: includes/class-wf-tracking-settings.php:177
+msgid "Provide FedEx meter number for the live FedEx shipment tracking."
+msgstr "Give FedEx meter antallet for den levende FedEx forsendelse sporing."
+
+#: includes/class-wf-tracking-settings.php:182
+msgid "FedEx Web Services"
+msgstr "FedEx webservices"
+
+#: includes/class-wf-tracking-settings.php:185
+msgid "Provide FedEx Web Services for the live FedEx shipment tracking."
+msgstr "Give FedEx Web Services for levende FedEx forsendelsen tracking."
+
+#: includes/class-wf-tracking-settings.php:190
+msgid "FedEx Password"
+msgstr "FedEx adgangskode"
+
+#: includes/class-wf-tracking-settings.php:193
+msgid "Provide FedEx Password for the live FedEx shipment tracking."
+msgstr "Give FedEx adgangskode for den levende FedEx forsendelse sporing."
+
+#: includes/views/html-wf-admin-screen.php:4
+msgid "Import Settings"
+msgstr "Importinstillinger"
+
+#: includes/views/html-wf-admin-screen.php:5
+#: woocommerce-shipment-tracking.php:101
+msgid "Import"
+msgstr "Et klik demo import"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:26
+#, php-format
+msgid "The next export is scheduled on <code>%s</code>"
+msgstr "Den næste eksport er planlagt på<code>%s</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:28
+msgid "There is no export scheduled."
+msgstr "Der er ingen eksport planlagt."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:38
+msgid "FTP Settings for Auto Import CSV"
+msgstr "FTP-indstillinger for automatisk Import CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:43
+msgid "Enable FTP"
+msgstr "Aktivér"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:123
+msgid "Automatically Import CSV"
+msgstr "Automatisk importere CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:127
+msgid "Disabled"
+msgstr "Deaktivéret"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:128
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:135
+msgid "Import Start Time"
+msgstr "Import starttidspunkt"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:139
+#, php-format
+msgid "Local time is <code>%s</code>."
+msgstr "Lokal tid er <code>%s </ code>."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:141
+msgid "<code>Enter like 6:18pm or 12:27am</code>"
+msgstr "<code>Enter like 6:18pm or 12:27am</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:146
+msgid "Import Interval [ Minutes ]"
+msgstr "Import Interval [Minutes]"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:154
+msgid "Skip Already Processed"
+msgstr "Spring allerede behandlet"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:162
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Licensnøglen til %s er udløbet. Du kan genaktivere eller købe en licens "
+"nøgle fra din kontos <a href=\"%s\" target=\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s er på hold. Du kan genaktivere abonnementet fra din "
+"kontos <a href=\"%s\" target=\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Abonnementet for %s er blevet annulleret. Du kan forny abonnementet fra din "
+"kontos <a href=\"%s\" target=\"_blank\">dashboard</a> . En ny licensnøgle "
+"vil blive sendt til dig efter din bestilling er gennemført."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s er udløbet. Du kan genaktivere abonnementet fra din "
+"kontos <a href=\"%s\" target=\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Abonnementet for %s er blevet suspenderet. Du kan genaktivere abonnementet "
+"fra din kontos <a href=\"%s\" target=\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Oprettelsen af abonnementet for %s er endnu ikke afsluttet. Du kan "
+"kontrollere status for abonnementet fra din kontos <a href=\"%s\" target="
+"\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s er blevet placeret i papirkurven og vil blive slettet "
+"snart. Du kan købe et nyt abonnement fra din kontos <a href=\"%s\" target="
+"\"_blank\">dashboard</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Et abonnement for %s kunne ikke findes. Du kan købe et abonnement fra din "
+"kontos <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"En licensnøgle til%s kunne ikke findes. Måske du har glemt at indtaste en "
+"licensnøgle, når du konfigurerer%s, eller nøglen blev deaktiveret i din "
+"konto. Du kan genaktivere eller købe en licensnøgle fra din konto%s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Download-tilladelse for %s er blevet tilbagekaldt, muligvis på grund af "
+"udløb af licensnøgle eller abonnement. Du kan genaktivere eller købe en "
+"licensnøgle fra dit <a href=\"%s\" target=\"_blank\">dashboard</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"% s er ikke blevet aktiveret. Gå til plugin <a href=\"%s\" target=\"_blank"
+"\"> indstillingsside </a>, og indtast licenøglen og licens e-mail for at "
+"aktivere% s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Du har ændret abonnement til %s, så du skal indtaste din nye API licensnøgle "
+"på indstillingssiden. Licensnøglen burde ligge i din indbakke, hvis ikke kan "
+"du få den ved at logge ind din kontos <a href=\"%s\" target=\"_blank"
+"\">dashboard</a>."
+
+#: woocommerce-shipment-tracking.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete WooCommerce "
+"Shipment Tracking Basic Woocommerce Extension and then try again."
+msgstr ""
+"Oops! Du prøvede at installere overkurs gengivelse uden deaktivering og "
+"sletning af den grundlæggende version. Venligst deaktivere og slette "
+"WooCommerce forsendelsen Tracking grundlæggende Woocommerce forlængelse og "
+"prøv derefter igen."
+
+#: woocommerce-shipment-tracking.php:100
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: woocommerce-shipment-tracking.php:102
+msgid "Documentation"
+msgstr "dokumentation"
+
+#: woocommerce-shipment-tracking.php:103
+msgid "Support"
+msgstr "Unterstützung"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipment Tracking Pro"
+msgstr "WooCommerce forsendelsen Tracking Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+msgstr "https://www.pluginhive.com/Product/woocommerce-shipment-tracking-Pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Features includes Custom Tracking Message, Multiple Shipping Services "
+"including 70+ predefined services, WPML Support and CSV bulk import of "
+"tracking data & FTP import."
+msgstr ""
+"Funktioner omfatter Custom Tracking besked, flere Shipping Services herunder "
+"70 + foruddefinerede tjenester, WPML støtte og CSV-bulk import for at spore "
+"data & FTP import."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"

@@ -1,0 +1,101 @@
+/* Settings Page */
+.ovic_bundle_settings_page img {
+    max-width: 100%;
+    height: auto;
+}
+.ovic_bundle_settings_page .ovic_settings_page_desc a {
+    outline: none;
+    box-shadow: none;
+}
+.ovic_bundle_settings_page .ovic_settings_page_nav .nav-tab-wrapper {
+    border-color: #eee;
+}
+.ovic_bundle_settings_page .ovic_settings_page_nav .nav-tab-wrapper a {
+    margin-left: 0;
+    margin-right: 7px;
+    padding: 10px 20px;
+    outline: none;
+    box-shadow: none;
+    border-color: #eee;
+}
+.ovic_bundle_settings_page .ovic_settings_page_nav .nav-tab-wrapper a.nav-tab-active,
+.ovic_bundle_settings_page .ovic_settings_page_nav .nav-tab-wrapper a:hover {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content table tr.heading th,
+.ovic_bundle_settings_page .ovic_settings_page_content table tr.submit th {
+    background-color: #fafafa;
+    padding: 15px 20px;
+    margin: 0;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content table tr.heading {
+    border-bottom: 1px dashed #eee;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content table {
+    margin: 0;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content .ovic_settings_page_content_text {
+    padding: 20px;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content .ovic_settings_page_content_text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content .ovic_settings_page_content_text p:last-child {
+    margin-bottom: 0;
+}
+.ovic_bundle_settings_page .ovic_settings_page_content table tr th,
+.ovic_bundle_settings_page .ovic_settings_page_content table tr td {
+    padding: 15px 20px;
+    border-bottom: 1px dashed #eee;
+}
+.ovic_bundle_settings_page .tablenav .tablenav-pages {
+    padding: 7px 20px 7px;
+}
+@media (min-width: 1199px) {
+    #col-left {
+        width: 40%;
+    }
+    
+    #col-right {
+        width: 60%;
+    }
+}
+@media (min-width: 783px) {
+    .ovic_bundle_settings_page table.wp-list-table .column-thumb,
+    .ovic_bundle_settings_page table.wp-list-table .column-count {
+        width: 52px;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 782px) {
+    .ovic_bundle_settings_page #col-right .column-thumb {
+        display: none !important;
+    }
+    
+    .ovic_bundle_settings_page #col-right .row-actions {
+        position: static !important;
+    }
+    
+    .ovic_bundle_settings_page #col-right .thumb-info {
+        float: left;
+        margin: 0;
+        padding-right: 15px;
+    }
+}
+@media (min-width: 783px) {
+    .ovic_bundle_settings_page #col-right .thumb-info {
+        display: none;
+    }
+}

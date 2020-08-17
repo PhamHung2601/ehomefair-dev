@@ -1,0 +1,161 @@
+===== 1) File name: config/tcpdf_config.php
+
+-- Old Code
+//define ('K_PATH_FONTS', K_PATH_MAIN.'fonts/');
+
+-- New Code
+$fdir = realpath( WOO_VOU_DIR.'/includes/tcpdf/fonts' );
+if (substr($fdir, -1) != '/') {
+	$fdir .= '/';
+}
+define ('K_PATH_FONTS', apply_filters( 'woo_vou_tcpdf_fonts_path', $fdir ) );
+
+===== 2) Replace complete font folder of old library when updating new library
+
+===== 3) File name: config/tcpdf_config.php (it's for qrcode and barcode to add in PDF using writeHTML method)
+
+-- Old Code
+define('K_TCPDF_CALLS_IN_HTML', false);
+
+-- New Code
+define('K_TCPDF_CALLS_IN_HTML', true);
+
+===== 4) File name: tcpdf.php (to allow multiple instances of TCPDF object)
+
+-- Old Code
+
+protected function unserializeTCPDFtagParameters($data) {
+    $hash = substr($data, 0, 32);
+    $encoded = substr($data, 32);
+    if ($hash != $this->getHashForTCPDFtagParams($encoded)) {
+        $this->Error('Invalid parameters');
+    }
+    return json_decode(urldecode($encoded), true);
+}
+
+-- New Code
+
+protected function unserializeTCPDFtagParameters($data) {
+    $hash = substr($data, 0, 32);
+    $encoded = substr($data, 32);
+    /*if ($hash != $this->getHashForTCPDFtagParams($encoded)) {
+        $this->Error('Invalid parameters');
+    }*/
+    return json_decode(urldecode($encoded), true);
+}
+
+===== 5) File name: config/tcpdf_config.php (to modify default font variables 'PDF_FONT_NAME_MAIN' and 'PDF_FONT_NAME_DATA')
+
+-- Old Code
+
+/**
+ * Default main font name.
+ */
+define ('PDF_FONT_NAME_MAIN', 'helvetica');
+
+/**
+ * Default data font name.
+ */
+define ('PDF_FONT_NAME_DATA', 'helvetica');
+
+-- New Code
+
+/**
+ * Default main font name.
+ */
+$defaultFont = 'helvetica';
+define ('PDF_FONT_NAME_MAIN', apply_filters( 'woo_vou_tcpdf_main_font', $defaultFont ));
+
+/**
+ * Default data font name.
+ */
+define ('PDF_FONT_NAME_DATA', apply_filters( 'woo_vou_tcpdf_data_font', $defaultFont ));
+
+
+========== 6) tcpdf.php
+
+---- OLD CODE
+
+class TCPDF {
+
+----- NEW CODE
+
+========== 7) tcpdf_autoconfig.php
+
+---- added slug WPWEB_ before the original constant name
+
+========== 8) tcpdf_import.php
+
+---- OLD CODE
+
+class TCPDF_IMPORT extends TCPDF {
+
+
+---- NEW CODE
+
+class TCPDF_IMPORT extends WPWEB_TCPDF {
+
+
+========== 9) include/tcpdf_font_data.php
+
+--- OLD CODE
+
+class TCPDF_FONT_DATA {
+
+
+----- NEW CODE
+
+if( !class_exists('TCPDF_FONT_DATA')) {
+
+class TCPDF_FONT_DATA {
+
+
+========== 10) include/tcpdf_font.php
+
+---- Change class name TCPDF_FONTS to WPWEB_TCPDF_FONTS to whole file
+
+
+============= 11) tcpdf.php
+----- Change class name TCPDF_FONTS to WPWEB_TCPDF_FONTS
+
+============= 12) /tools/tcpdf_addfont.php
+----- Change class name TCPDF_FONTS to WPWEB_TCPDF_FONTS
+
+
+============= 13) includes/tcpdf_colors.php
+
+-------- old code
+
+class TCPDF_COLORS {
+
+-------- New code
+
+if( !class_exists('TCPDF_COLORS')) {
+
+class TCPDF_COLORS {
+
+
+============= 14) includes/tcpdf_images.php
+
+-------- old code
+
+class TCPDF_IMAGES {
+
+-------- New code
+
+if( !class_exists('TCPDF_IMAGES')) {
+
+class TCPDF_IMAGES {
+
+
+============= 15) includes/tcpdf_static.php
+
+-------- old code
+
+class TCPDF_STATIC {
+
+-------- New code
+
+if( !class_exists('TCPDF_STATIC')) {
+
+class TCPDF_STATIC {

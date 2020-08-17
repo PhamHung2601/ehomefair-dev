@@ -1,0 +1,4377 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-30 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:13
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:12
+msgid " ) has been published"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:19
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:18
+msgid " ) has been rejected by Admin"
+msgstr ""
+
+#: class-wc-email-seller-approve.php:20
+msgid " Account Approved"
+msgstr ""
+
+#: class-wc-email-seller-disapprove.php:21
+msgid " Account Disapproved"
+msgstr ""
+
+#: includes/front/product-list.php:66
+msgid " deleted successfully."
+msgstr ""
+
+#: includes/class-mp-form-handler.php:846
+msgid " file type "
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:9
+msgid " for percentage based fees."
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:9
+msgid " for the number of items, "
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:9
+msgid " for the total cost of items, and "
+msgstr ""
+
+#: woocommerce/templates/emails/product-approval.php:10
+#: woocommerce/templates/emails/plain/product-approval.php:10
+msgid " has requested to publish "
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:198
+msgid " Invalid username or e-mail."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:255
+#: includes/templates/front/order/order-history.php:163
+msgid " items"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:576
+msgid " left in stock"
+msgstr ""
+
+#: class-wc-email-seller-order-placed.php:22
+msgid " New Customer Order"
+msgstr ""
+
+#: class-wc-email-asktoadmin.php:23
+msgid " New Query"
+msgstr ""
+
+#: includes/admin/mp-notifications-bar.php:11
+#: includes/admin/mp-notifications-bar.php:17
+#: includes/admin/mp-notifications-bar.php:23
+#: includes/admin/mp-notifications-bar.php:29
+msgid " notification"
+msgid_plural " notifications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-mp-product-list.php:1037
+msgid " out of 5"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:231
+msgid " Password Reset"
+msgstr ""
+
+#: class-wc-email-product-approve.php:23
+msgid " Product Approval Request"
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:23
+msgid " Product Approved"
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:53
+msgid " Product Rejected"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:235
+msgid ""
+" The e-mail could not be sent. Possible reason: your host may have disabled "
+"the mail() function..."
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:80
+#: includes/admin/settings/seller-advanced-setting.php:89
+msgid "\" page."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:465
+msgid "0"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:183
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:187
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:59
+msgid ""
+"A shipping zone is a geographic region where a certain set of shipping "
+"methods and rates apply."
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:45
+msgid "A user could not be found with this email address."
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:57
+msgid "A user could not be found with this username."
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:374
+msgid "About"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:239
+#: includes/templates/front/single-product/add-product.php:36
+msgid "About Product"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:252
+#: includes/templates/front/myaccount/prof_edit.php:230
+msgid "About Shop"
+msgstr ""
+
+#: includes/front/product-list.php:96
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:85
+#: includes/admin/sellerlist.php:219
+#: includes/admin/class-mp-seller-query.php:113
+#: includes/templates/front/shipping/add-shipping.php:187
+#: includes/templates/front/transaction/list.php:19
+#: includes/templates/front/myaccount/favourite-seller.php:29
+#: includes/templates/front/myaccount/shop-followers.php:110
+#: includes/admin/account/seller/orders.php:127
+msgid "Action"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:48
+msgid "Actions"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:55
+msgid "activate to sort column ascending"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:56
+msgid "activate to sort column descending"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:640
+msgid "Add an attribute"
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:80
+#: includes/templates/front/single-product/favourite-seller.php:82
+#: includes/templates/front/single-product/favourite-seller.php:85
+#: includes/templates/front/single-product/favourite-seller.php:89
+msgid "Add As Favourite Seller"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:69
+msgid ""
+"Add as many zones as you need – customers will only see the methods "
+"available for their address."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:839
+#: includes/templates/front/single-product/variations.php:235
+msgid "Add File"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:32
+msgid "Add New Shipping Zone"
+msgstr ""
+
+#: functions.php:728 includes/widgets/class-mp-sellerpanel.php:54
+#: includes/front/product-list.php:83
+#: includes/admin/settings/seller-advanced-setting.php:26
+msgid "Add Product"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:887
+msgid "Add product images"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:222
+msgid "Add Shipping Class"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:217
+#: includes/templates/front/shipping/edit-shipping.php:248
+#: includes/templates/front/shipping/add-shipping.php:155
+msgid "Add Shipping Method"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:217
+msgid "Add shipping method"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:45
+msgid "Add shipping zone"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:737
+msgid "Add Variation"
+msgstr ""
+
+#: functions.php:868
+msgid "Add-ons"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:998
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr ""
+
+#: includes/front/index.php:84
+#: includes/admin/settings/seller-assets-setting.php:49
+msgid "Address"
+msgstr ""
+
+#: includes/templates/admin/order/admin-invoice.php:180
+msgid "Address Information"
+msgstr ""
+
+#: functions.php:983
+msgid "address is too short or empty"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:117
+#: includes/templates/front/myaccount/prof_edit.php:97
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:123
+#: includes/templates/front/myaccount/prof_edit.php:103
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/admin/account/seller/orders.php:322
+msgid "Admin"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:682
+#: includes/templates/admin/account/seller/manage-commission.php:25
+msgid "Admin Commission"
+msgstr ""
+
+#: includes/front/mp-account-functions.php:40
+msgid "Admin Dashboard"
+msgstr ""
+
+#: class-wc-email-seller-query-reply.php:21
+msgid "Admin Reply Regarding Query"
+msgstr ""
+
+#: includes/admin/class-mp-admin-settings.php:43
+msgid "Advanced"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-cancelled.php:121
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:84
+#, php-format
+msgid ""
+"Alas. Just to let you know — order #%d belonging to %s has been cancelled:"
+msgstr ""
+
+#: includes/admin/class-mp-notifications.php:174
+#: includes/admin/class-mp-extensions.php:121
+msgid "All"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:488
+#: includes/templates/front/single-product/variations.php:141
+msgid "Allow"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:471
+msgid "Allow Backorders"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:131
+msgid "Allow Backorders?"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:483
+msgid "Allow but notify customer"
+msgstr ""
+
+#: includes/admin/settings/seller-products-setting.php:22
+msgid "Allow seller to publish"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:138
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: includes/admin/setcommision.php:262
+#: includes/admin/settings/seller-products-setting.php:53
+msgid "Allowed categories"
+msgstr ""
+
+#: includes/admin/setcommision.php:255
+msgid "Allowed Categories for a seller to add products."
+msgstr ""
+
+#: functions.php:1011 functions.php:1054
+msgid "Already Exists"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:985
+msgid "Already Paid"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:84
+#: includes/templates/front/transaction/view.php:59
+#: includes/templates/front/transaction/list.php:18
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:697
+#: includes/admin/account/seller/transactions.php:122
+#: includes/templates/admin/account/seller/transaction/view.php:36
+msgid "Amount"
+msgstr ""
+
+#: includes/class-mp-commission.php:123
+msgid "Amount Transfered Successfully.!"
+msgstr ""
+
+#: woocommerce/templates/emails/reply-to-seller.php:28
+#: woocommerce/templates/emails/plain/reply-to-seller.php:28
+msgid "Answer : "
+msgstr ""
+
+#: functions.php:1051 includes/admin/sellerlist.php:182
+#: includes/templates/admin/account/seller/review.php:235
+msgid "Approve"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:179
+msgid "Approved"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:214
+msgid "Apr"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:103
+#: woocommerce/templates/emails/seller-order-cancelled.php:103
+#: woocommerce/templates/emails/seller-order-failed.php:103
+#: woocommerce/templates/emails/seller-order-completed.php:103
+#: woocommerce/templates/emails/seller-order-onhold.php:103
+#: woocommerce/templates/emails/seller-new-order.php:103
+#: woocommerce/templates/emails/seller-order-refunded.php:103
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:69
+#: woocommerce/templates/emails/plain/seller-order-failed.php:69
+#: woocommerce/templates/emails/plain/seller-new-order.php:69
+#: includes/templates/front/transaction/view.php:25
+msgid "April"
+msgstr ""
+
+#: functions.php:1004
+msgid "Are You sure you want to delete customer(s) from list..?"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:37
+msgid "Are you sure you want to delete selected product(s) ?"
+msgstr ""
+
+#: functions.php:1000
+msgid "Are You sure you want to delete this Customer..?"
+msgstr ""
+
+#: functions.php:999
+msgid "Are You sure you want to delete this Seller..?"
+msgstr ""
+
+#: includes/admin/commision.php:57
+msgid ""
+"Are you sure you want to delete this user this will delete all product and "
+"post of this user click yes to delete"
+msgstr ""
+
+#: includes/admin/product.php:85
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: functions.php:1049
+msgid "Are you sure you want to update the status of seller"
+msgstr ""
+
+#: includes/admin/payammount.php:23 includes/admin/payammount.php:28
+#: includes/templates/front/myaccount/ask-to-admin.php:72
+msgid "Ask"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-query-list.php:184
+msgid "Ask Query"
+msgstr ""
+
+#: includes/admin/payammount.php:13
+msgid "Ask Question"
+msgstr ""
+
+#: class-wc-email-asktoadmin.php:20
+#: includes/widgets/class-mp-sellerpanel.php:78
+#: includes/front/mp-account-functions.php:37
+msgid "Ask To Admin"
+msgstr ""
+
+#: functions.php:722
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:318
+#: includes/admin/settings/seller-advanced-setting.php:54
+msgid "Ask to Admin"
+msgstr ""
+
+#: class-wc-email-asktoadmin.php:22
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:34
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:34
+msgid "Ask to admin"
+msgstr ""
+
+#: functions.php:986
+msgid "Ask Your Question (Message length should be less than 500)."
+msgstr ""
+
+#: woocommerce/templates/emails/asktoadmin.php:12
+#: woocommerce/templates/emails/plain/asktoadmin.php:13
+msgid "asked a query from following account:"
+msgstr ""
+
+#: includes/admin/class-mp-admin-settings.php:42
+msgid "Asset Visibility"
+msgstr ""
+
+#: includes/admin/product.php:85
+msgid "Assign"
+msgstr ""
+
+#: includes/admin/setcommision.php:47
+msgid "Assign Category"
+msgstr ""
+
+#: includes/admin/product.php:39
+msgid "Assigned"
+msgstr ""
+
+#: functions.php:989
+#: includes/templates/front/single-product/edit-product.php:657
+msgid "attribue value by seprating comma eg. a|b|c"
+msgstr ""
+
+#: includes/admin/sellerlist.php:64
+msgid "Attribute all content to - "
+msgstr ""
+
+#: functions.php:988
+msgid "Attribute name"
+msgstr ""
+
+#: functions.php:990
+msgid "Attribute Value eg. a|b|c"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:150
+msgid "Attributes"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:218
+msgid "Aug"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:107
+#: woocommerce/templates/emails/seller-order-cancelled.php:107
+#: woocommerce/templates/emails/seller-order-failed.php:107
+#: woocommerce/templates/emails/seller-order-completed.php:107
+#: woocommerce/templates/emails/seller-order-onhold.php:107
+#: woocommerce/templates/emails/seller-new-order.php:107
+#: woocommerce/templates/emails/seller-order-refunded.php:107
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:73
+#: woocommerce/templates/emails/plain/seller-order-failed.php:73
+#: woocommerce/templates/emails/plain/seller-new-order.php:73
+#: includes/templates/front/transaction/view.php:29
+msgid "August"
+msgstr ""
+
+#: includes/admin/settings/settings.php:62
+msgid "Auto Approve Seller"
+msgstr ""
+
+#: functions.php:1012 functions.php:1055
+msgid "Available"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:592
+#: includes/admin/class-mp-product-list.php:605
+msgid "Available on backorder"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:252
+#: includes/templates/front/myaccount/seller-profile-details-section.php:69
+msgid "Average Rating"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:319
+#: includes/admin/sellerlist.php:99
+#: includes/templates/admin/account/seller/manage-commission.php:32
+msgid "Back"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:586
+msgid "backorders allowed"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:227
+#: includes/templates/front/myaccount/prof_edit.php:207
+msgid "Banner Image"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:276
+#: includes/templates/front/myaccount/preview.php:283
+#: includes/templates/front/myaccount/seller-profile-details-section.php:101
+#: includes/templates/front/myaccount/seller-profile-details-section.php:108
+msgid "Be the first one to review!"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:233
+#: includes/templates/front/order/order-view.php:832
+#: includes/templates/admin/order/admin-invoice.php:186
+msgid "Billing Address"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:721
+#: woocommerce/templates/emails/seller-order-processing.php:285
+#: woocommerce/templates/emails/seller-order-cancelled.php:285
+#: woocommerce/templates/emails/seller-order-failed.php:285
+#: woocommerce/templates/emails/seller-order-completed.php:285
+#: woocommerce/templates/emails/seller-order-onhold.php:285
+#: woocommerce/templates/emails/seller-new-order.php:279
+#: woocommerce/templates/emails/seller-order-refunded.php:311
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:152
+#: woocommerce/templates/emails/plain/seller-order-failed.php:152
+#: woocommerce/templates/emails/plain/seller-new-order.php:154
+msgid "Billing address"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:691
+msgid "Billing Email"
+msgstr ""
+
+#: includes/admin/class-mp-extensions.php:47
+msgid "Browse Extensions"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:714
+msgid "Button Text"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:195
+#: includes/templates/admin/order/admin-invoice.php:90
+msgid "Buyer Details"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:83
+msgid "Buyer Menu"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:436
+#: includes/templates/front/myaccount/feedback.php:93
+msgid "By "
+msgstr ""
+
+#. %s: note author
+#: includes/templates/front/order/order-view.php:1002
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/settings/seller-products-setting.php:27
+msgid "Can user publish his/her item online"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:314
+#: includes/templates/front/single-product/edit-product.php:769
+#: includes/templates/front/myaccount/prof_edit.php:293
+msgid "Cancel"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:98
+msgid "Cancel schedule"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:489
+msgid "Cancelled"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:861
+msgid "cancelled"
+msgstr ""
+
+#: class-wc-email-seller-order-cancelled.php:23
+msgid ""
+"Cancelled order emails are sent to chosen recipient(s) when orders have been "
+"marked cancelled (if they were previously processing or on-hold)."
+msgstr ""
+
+#: functions.php:978
+msgid "Cannot Leave Field Blank"
+msgstr ""
+
+#: includes/admin/product.php:361
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/setcommision.php:243
+msgid "Categories saved successfully."
+msgstr ""
+
+#: includes/admin/product.php:48 includes/admin/product.php:112
+msgid "Change"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:75
+msgid "Change Password"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:1020
+msgid "Cheat'n huh ???"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:268
+msgid "Cheating huh ???"
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:23
+msgid "Cheating, huh?"
+msgstr ""
+
+#: includes/templates/admin/order/invoice.php:20
+#: includes/templates/admin/order/admin-invoice.php:368
+msgid "Cheatin’ uh?"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:554
+#: includes/templates/front/order/order-view.php:621
+msgid "Check to Refund"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:310
+#: includes/templates/front/single-product/add-product.php:215
+msgid "Choose category(s)"
+msgstr ""
+
+#: includes/templates/front/single-product/wk-html-product-download.php:23
+msgid "Choose file"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:223
+msgid ""
+"Choose the shipping method you wish to add. Only shipping methods which "
+"support zones are listed."
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:693
+#: includes/templates/front/single-product/variations.php:218
+msgid "Choose&nbsp;file"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:129
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:130
+#: includes/templates/front/myaccount/prof_edit.php:109
+#: includes/templates/front/myaccount/prof_edit.php:110
+msgid "City"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:14
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:13
+msgid "Click here to view it "
+msgstr ""
+
+#: includes/admin/commision.php:57
+msgid "click No to go back"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:301
+msgid "Click to Dial - Phone Only"
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:61
+msgid "Close"
+msgstr ""
+
+#: includes/admin/setcommision.php:164
+msgid "Commision id is not valid.!"
+msgstr ""
+
+#: includes/templates/admin/account/seller/manage-commission.php:19
+msgid "Commision in fixed Rate"
+msgstr ""
+
+#: includes/admin/commision.php:627
+msgid "Commision List"
+msgstr ""
+
+#: includes/admin/setcommision.php:118
+msgid "Commision Rate is updated.!"
+msgstr ""
+
+#: includes/admin/setcommision.php:130
+msgid "Commision value is invalid.!"
+msgstr ""
+
+#: includes/admin/setcommision.php:46
+#: includes/templates/front/class-mp-user-functions.php:103
+#: includes/templates/front/order/order-view.php:476
+#: includes/templates/front/transaction/view.php:162
+#: includes/admin/account/seller/orders.php:293
+#: includes/templates/admin/account/seller/transaction/view.php:141
+msgid "Commission"
+msgstr ""
+
+#: includes/admin/index.php:20
+msgid "Commissions"
+msgstr ""
+
+#: includes/admin/class-mp-notifications.php:176
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:485
+msgid "Completed"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:860
+msgid "completed"
+msgstr ""
+
+#: includes/admin/class-mp-admin-settings.php:40
+msgid "Configuration"
+msgstr ""
+
+#: includes/admin/settings/seller-assets-setting.php:13
+msgid "Configure sellers asset visibility on profile page."
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:48
+msgid "Confirm New Password"
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:29
+msgid "Confirmation"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:13
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:12
+msgid "Congrats! Your product ( "
+msgstr ""
+
+#: includes/class-mp-form-handler.php:719
+msgid "Contact"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:41
+msgid "Cost"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:141
+#: includes/templates/front/myaccount/prof_edit.php:121
+msgid "Country"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:103
+msgid "Created"
+msgstr ""
+
+#: includes/admin/account/seller/transactions.php:125
+msgid "Created On"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:613
+msgid "Cross-sells"
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:40
+msgid "Current Password (Leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:714
+msgid "Customer Details"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:814
+msgid "Customer details"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-shop-followers.php:109
+#: includes/templates/front/myaccount/shop-followers.php:109
+msgid "Customer Email"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-shop-followers.php:108
+#: includes/templates/front/myaccount/shop-followers.php:108
+msgid "Customer Name"
+msgstr ""
+
+#: functions.php:740 includes/widgets/class-mp-sellerpanel.php:72
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:123
+#: includes/admin/settings/seller-advanced-setting.php:18
+msgid "Dashboard"
+msgstr ""
+
+#: includes/templates/front/order/order-status.php:110
+msgid "Database table does not exist."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:78
+#: includes/separate-seller-dashboard/class-seller-query-list.php:102
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:83
+#: includes/admin/class-mp-seller-query.php:110 includes/admin/product.php:365
+#: includes/templates/front/order/order-history.php:10
+#: includes/templates/front/transaction/view.php:55
+#: includes/templates/front/transaction/list.php:17
+#: includes/templates/front/myaccount/ask-to-admin.php:96
+#: includes/templates/admin/account/seller/transaction/view.php:32
+msgid "Date"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:222
+msgid "Dec"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:111
+#: woocommerce/templates/emails/seller-order-cancelled.php:111
+#: woocommerce/templates/emails/seller-order-failed.php:111
+#: woocommerce/templates/emails/seller-order-completed.php:111
+#: woocommerce/templates/emails/seller-order-onhold.php:111
+#: woocommerce/templates/emails/seller-new-order.php:111
+#: woocommerce/templates/emails/seller-order-refunded.php:111
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:77
+#: woocommerce/templates/emails/plain/seller-order-failed.php:77
+#: woocommerce/templates/emails/plain/seller-new-order.php:77
+#: includes/templates/front/transaction/view.php:33
+msgid "December"
+msgstr ""
+
+#: includes/admin/index.php:228
+msgid "Default Seller Dashboard"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:694 includes/front/product-list.php:82
+#: includes/admin/sellerlist.php:306
+#: includes/templates/front/single-product/wk-html-product-download.php:27
+#: includes/templates/front/single-product/edit-product.php:873
+#: includes/templates/front/single-product/variations.php:219
+#: includes/templates/front/shipping/add-shipping.php:293
+msgid "Delete"
+msgstr ""
+
+#: includes/front/product-list.php:170
+#: includes/templates/front/shipping/shipping-list.php:123
+msgid "delete"
+msgstr ""
+
+#: includes/admin/sellerlist.php:59
+msgid "Delete all content."
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:93
+msgid "Delete Follower"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:873
+msgid "Delete image"
+msgstr ""
+
+#: includes/admin/sellerlist.php:46
+msgid "Delete Seller"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:38
+msgid "Deleted Successfully."
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:185
+#: includes/templates/admin/account/seller/review.php:101
+msgid "Description"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:283
+msgid "Description for your reference"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:78
+#: includes/templates/admin/account/seller/transaction/view.php:55
+msgid "Detail"
+msgstr ""
+
+#: includes/admin/setcommision.php:43
+msgid "Details"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:532
+msgid "Dimensions"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:174
+msgid "Dimensions (L×W×H) (cm):"
+msgstr ""
+
+#: functions.php:1050 includes/admin/sellerlist.php:177
+#: includes/templates/admin/account/seller/review.php:236
+msgid "Disapprove"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:181
+msgid "Disapproved"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:199
+#: woocommerce/templates/emails/seller-order-cancelled.php:199
+#: woocommerce/templates/emails/seller-order-failed.php:199
+#: woocommerce/templates/emails/seller-order-completed.php:199
+#: woocommerce/templates/emails/seller-order-onhold.php:199
+#: woocommerce/templates/emails/seller-new-order.php:199
+#: woocommerce/templates/emails/seller-order-refunded.php:205
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:118
+#: woocommerce/templates/emails/plain/seller-order-failed.php:118
+#: woocommerce/templates/emails/plain/seller-new-order.php:120
+#: includes/templates/front/order/order-view.php:504
+#: includes/admin/account/seller/orders.php:124
+msgid "Discount"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:280
+#: includes/templates/front/order/order-view.php:385
+msgid "discount"
+msgstr ""
+
+#: includes/front/index.php:79
+#: includes/templates/front/myaccount/profile.php:45
+msgid "Display name"
+msgstr ""
+
+#: includes/templates/admin/account/seller/profile.php:52
+msgid "Display name :"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerlist.php:13
+msgid "Display seller list."
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:19
+msgid "Display seller panel."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:478
+#: includes/templates/front/single-product/variations.php:135
+msgid "Do not allow"
+msgstr ""
+
+#: functions.php:496
+msgid "Docs"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:641
+#: includes/class-mp-form-handler.php:643
+msgid "Download"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:853
+msgid "Download expiry"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:257
+msgid "Download Expiry:"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:847
+msgid "Download limit"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:249
+msgid "Download Limit:"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:281
+msgid "Downloadable"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:196
+msgid "Downloadable Files:"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:795
+msgid "Downloadable Product"
+msgstr ""
+
+#: includes/front/product-list.php:112
+#: includes/templates/front/single-product/edit-product.php:751
+#: includes/templates/front/single-product/edit-product.php:766
+msgid "Draft"
+msgstr ""
+
+#: includes/front/index.php:74
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:94
+#: includes/admin/sellerlist.php:216
+#: includes/templates/front/myaccount/prof_edit.php:74
+msgid "E-mail"
+msgstr ""
+
+#: functions.php:970
+msgid "E-mail is not valid"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:322
+msgid "E-mail is required."
+msgstr ""
+
+#: includes/class-mp-form-handler.php:314
+msgid "E-mail not valid."
+msgstr ""
+
+#: includes/admin/sellerlist.php:322 includes/admin/product.php:458
+#: includes/templates/front/single-product/edit-product.php:132
+#: includes/templates/front/shipping/add-shipping.php:265
+#: includes/templates/front/myaccount/profile.php:48
+msgid "Edit"
+msgstr ""
+
+#: includes/front/product-list.php:169
+#: includes/templates/front/shipping/shipping-list.php:122
+msgid "edit"
+msgstr ""
+
+#: includes/templates/front/myaccount/profile.php:48
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:303
+#: includes/templates/front/myaccount/prof_edit.php:281
+msgid "eg : test@paypal.com"
+msgstr ""
+
+#: includes/templates/admin/account/user-profile.php:54
+msgid "eg- webkul"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:716
+#: includes/admin/settings/seller-assets-setting.php:21
+#: includes/templates/front/order/invoice.php:163
+#: includes/templates/front/order/invoice.php:209
+#: includes/templates/front/order/order-view.php:819
+#: includes/templates/front/myaccount/profile.php:36
+#: includes/templates/admin/order/admin-invoice.php:104
+msgid "Email"
+msgstr ""
+
+#: includes/templates/admin/account/seller/profile.php:40
+msgid "Email :"
+msgstr ""
+
+#: woocommerce/templates/emails/asktoadmin.php:8
+msgid "Email : "
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:31
+msgid "Email address"
+msgstr ""
+
+#: functions.php:980
+msgid "Email adress is not valid"
+msgstr ""
+
+#: functions.php:979
+msgid "Email Id Already Registered"
+msgstr ""
+
+#: woocommerce/templates/emails/plain/asktoadmin.php:8
+msgid "Email: "
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:457
+msgid "Enable stock management at product level"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:27
+msgid "Enable WooCommerce Marketplace Flat Rate Shipping"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:25
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:276
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:77
+msgid "Endpoint"
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:63
+msgid ""
+"Endpoints are appended to your page URLs to handle specific actions on the "
+"accounts pages. They should be unique."
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:9
+msgid "Enter a cost (excl. tax) or sum, e.g. "
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:855
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
+msgstr ""
+
+#: functions.php:1058
+msgid "Enter valid amount"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:367
+msgid "Entered phone number is not valid."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:63
+#: includes/class-mp-frontend-scripts.php:73
+msgid "entries"
+msgstr ""
+
+#: includes/class-mp-post-data-handler.php:163
+#: includes/front/class-mp-user-functions.php:198
+#: includes/front/class-mp-user-functions.php:235
+msgid "ERROR"
+msgstr ""
+
+#: functions.php:1065 includes/front/handlers/class-mp-login-handler.php:37
+#: includes/front/handlers/class-mp-login-handler.php:45
+#: includes/front/handlers/class-mp-login-handler.php:48
+#: includes/front/handlers/class-mp-login-handler.php:49
+#: includes/front/handlers/class-mp-login-handler.php:57
+#: includes/front/handlers/class-mp-login-handler.php:60
+#: includes/front/handlers/class-mp-login-handler.php:61
+#: includes/front/handlers/class-mp-login-handler.php:94
+msgid "Error"
+msgstr ""
+
+#: functions.php:1009
+msgid "Error Sending Mail."
+msgstr ""
+
+#: includes/templates/front/myaccount/add-feedback.php:13
+msgid "Error: Can&#39;t post review for self store."
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:66
+msgid "Europe Zone = Any country in Europe = Flat rate shipping"
+msgstr ""
+
+#: includes/front/save-shipping-options.php:126
+#: includes/front/save-shipping-options.php:159
+msgid "Everywhere"
+msgstr ""
+
+#: includes/admin/settings/settings.php:43
+msgid "ex. 10 in percent"
+msgstr ""
+
+#: includes/templates/admin/account/seller/manage-commission.php:28
+msgid "Existing Commission"
+msgstr ""
+
+#: includes/admin/index.php:30 includes/admin/class-mp-extensions.php:39
+msgid "Extensions"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:152
+msgid "External/Affiliate"
+msgstr ""
+
+#: includes/admin/settings/settings.php:17
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/admin/settings/settings.php:28
+msgid "Facebook App Secret"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:260
+#: includes/templates/front/myaccount/prof_edit.php:238
+msgid "Facebook Profile ID"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:54
+#: includes/templates/front/myaccount/preview.php:88
+msgid "Facebook SDK returned an error: "
+msgstr ""
+
+#: includes/class-mp-form-handler.php:379
+msgid "Facebook URL not valid"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:491
+msgid "Failed"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:863
+msgid "failed"
+msgstr ""
+
+#: class-wc-email-seller-order-failed.php:23
+msgid ""
+"Failed order emails are sent to chosen recipient(s) when orders have been "
+"marked failed (if they were previously processing or on-hold)."
+msgstr ""
+
+#: includes/templates/front/myaccount/favourite-seller.php:93
+msgid "Favourite list empty."
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:73
+msgid "Favourited By"
+msgstr ""
+
+#: includes/admin/product.php:363
+msgid "Featured"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:212
+msgid "Feb"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:101
+#: woocommerce/templates/emails/seller-order-cancelled.php:101
+#: woocommerce/templates/emails/seller-order-failed.php:101
+#: woocommerce/templates/emails/seller-order-completed.php:101
+#: woocommerce/templates/emails/seller-order-onhold.php:101
+#: woocommerce/templates/emails/seller-new-order.php:101
+#: woocommerce/templates/emails/seller-order-refunded.php:101
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:67
+#: woocommerce/templates/emails/plain/seller-order-failed.php:67
+#: woocommerce/templates/emails/plain/seller-new-order.php:67
+#: includes/templates/front/transaction/view.php:23
+msgid "February"
+msgstr ""
+
+#: includes/admin/index.php:24
+msgid "Feedback"
+msgstr ""
+
+#: functions.php:974
+msgid "Field left blank!!!"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:213
+msgid "File Name"
+msgstr ""
+
+#: includes/templates/front/single-product/wk-html-product-download.php:14
+msgid "File name"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:836
+msgid "file size too large "
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:691
+#: includes/templates/front/single-product/variations.php:216
+msgid "File Url"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:74
+#: includes/front/class-mp-user-functions.php:86
+msgid "Fill all required fields."
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:169
+msgid "Fill required fields."
+msgstr ""
+
+#: includes/admin/product.php:37
+msgid "Filter by Product"
+msgstr ""
+
+#: includes/admin/product.php:93
+msgid "Filter by Seller"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:68
+msgid "filtered from"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:57
+msgid "First"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:84
+#: includes/templates/front/myaccount/prof_edit.php:64
+#: includes/templates/front/myaccount/seller-seperate-form.php:11
+#: includes/templates/front/myaccount/registration.php:11
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:693
+#: includes/templates/front/myaccount/forgot-password.php:21
+msgid "First Name"
+msgstr ""
+
+#: includes/templates/front/myaccount/profile.php:39
+msgid "First name"
+msgstr ""
+
+#: functions.php:968
+msgid "First name is not valid"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:335
+msgid "First name is not valid."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:255
+#: includes/templates/front/order/order-history.php:163
+msgid "for"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:61
+msgid "For example"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:905
+#: includes/admin/class-mp-product-list.php:911
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:94
+#: woocommerce/templates/emails/seller-order-cancelled.php:94
+#: woocommerce/templates/emails/seller-order-failed.php:94
+#: woocommerce/templates/emails/seller-order-completed.php:94
+#: woocommerce/templates/emails/seller-order-onhold.php:94
+#: woocommerce/templates/emails/seller-new-order.php:94
+#: woocommerce/templates/emails/seller-order-refunded.php:94
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:61
+#: woocommerce/templates/emails/plain/seller-order-failed.php:61
+#: woocommerce/templates/emails/plain/seller-new-order.php:61
+msgid "Friday"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:184
+msgid "From: "
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:110
+msgid "From… YYYY-MM-DD"
+msgstr ""
+
+#: includes/admin/commision.php:51 includes/admin/commision.php:359
+#: includes/admin/sellerlist.php:295
+msgid "Go Back To seller List"
+msgstr ""
+
+#: includes/templates/front/myaccount/favourite-seller.php:104
+msgid "Go shop"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:913
+msgid "Go To Products"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:276
+#: includes/templates/front/myaccount/prof_edit.php:254
+msgid "Google Plus ID"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:399
+msgid "Google Plus URL not valid"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:51
+#: includes/templates/front/myaccount/preview.php:83
+msgid "Graph returned an error: "
+msgstr ""
+
+#: includes/templates/front/single-product/wk-html-product-linked.php:12
+msgid "Grouped products"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:138
+#: includes/templates/admin/account/seller/transaction/view.php:117
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:536
+msgid "Height"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:16
+#: woocommerce/templates/emails/product-approval.php:19
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:15
+#: woocommerce/templates/emails/plain/product-approval.php:21
+msgid "Here"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:24
+#: woocommerce/templates/emails/seller-new-account.php:15
+#: woocommerce/templates/emails/seller-disapprove.php:16
+#: woocommerce/templates/emails/shop-follower-notification.php:18
+#: woocommerce/templates/emails/reply-to-seller.php:34
+#: woocommerce/templates/emails/seller-approval.php:14
+#: woocommerce/templates/emails/asktoadmin.php:21
+#: woocommerce/templates/emails/product-approval.php:17
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:23
+#: woocommerce/templates/emails/plain/seller-disapprove.php:16
+#: woocommerce/templates/emails/plain/seller-approval.php:14
+#: woocommerce/templates/emails/plain/asktoadmin.php:21
+#: woocommerce/templates/emails/plain/product-approval.php:17
+msgid "Hi"
+msgstr ""
+
+#. %s Customer first name
+#: woocommerce/templates/emails/plain/seller-new-account.php:16
+#: woocommerce/templates/emails/plain/reply-to-seller.php:33
+#: woocommerce/templates/emails/plain/seller-new-order.php:84
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/templates/front/myaccount/add-feedback.php:54
+msgid "How do you rate this store"
+msgstr ""
+
+#: includes/templates/front/single-product/wk-html-product-download.php:19
+msgid "http://"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://webkul.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://store.webkul.com/Wordpress-Woocommerce-Marketplace.html"
+msgstr ""
+
+#: includes/templates/front/myaccount/registration.php:51
+msgid "I am a customer"
+msgstr ""
+
+#: includes/templates/front/myaccount/registration.php:60
+msgid "I am a seller"
+msgstr ""
+
+#: includes/admin/sellerlist.php:51
+msgid "ID "
+msgstr ""
+
+#. 1: ID who refunded
+#: includes/templates/front/order/order-view.php:927
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: includes/admin/settings/settings.php:90
+msgid "If checked, a separate login form will be created for sellers"
+msgstr ""
+
+#: includes/admin/settings/settings.php:78
+msgid "If checked, seller will have separate dashboard like admin"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:221
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-new-account.php:13
+#: woocommerce/templates/emails/plain/seller-new-account.php:13
+msgid "If you have any problems, please contact me at"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-disapprove.php:11
+#: woocommerce/templates/emails/seller-approval.php:9
+#: woocommerce/templates/emails/plain/seller-disapprove.php:11
+#: woocommerce/templates/emails/plain/seller-approval.php:9
+msgid "If you have any query, please contact us at -"
+msgstr ""
+
+#: includes/admin/index.php:201
+msgid ""
+"If you like <strong>Marketplace</strong> please leave us a <a href=\"https:"
+"//codecanyon.net/item/wordpress-woocommerce-marketplace-"
+"plugin/reviews/19214408\" target=\"_blank\" class=\"wc-rating-link\" data-"
+"rated=\"Thanks :)\">★★★★★</a> rating. A huge thanks in advance!"
+msgstr ""
+
+#: includes/front/product-list.php:95 includes/admin/product.php:356
+msgid "Image"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:862
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/front/product-list.php:109
+#: includes/templates/front/single-product/edit-product.php:502
+msgid "In Stock"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:571
+#: includes/admin/class-mp-product-list.php:576
+#: includes/admin/class-mp-product-list.php:579
+#: includes/admin/class-mp-product-list.php:595
+#: includes/templates/front/single-product/variations.php:155
+msgid "In stock"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:50
+#: includes/templates/admin/account/seller/transaction/view.php:27
+msgid "Information"
+msgstr ""
+
+#: includes/templates/front/single-product/wk-html-product-download.php:23
+msgid "Insert file URL"
+msgstr ""
+
+#: functions.php:966
+msgid "Invalid input."
+msgstr ""
+
+#: includes/front/class-mp-product-functions.php:813
+msgid "Invalid or Duplicate SKU."
+msgstr ""
+
+#: functions.php:965
+msgid "Invalid Price."
+msgstr ""
+
+#: includes/admin/setcommision.php:72
+msgid "Invalid Seller ID.!"
+msgstr ""
+
+#: includes/admin/sellerlist.php:99
+msgid "Invalid User!"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:144
+msgid "Inventory"
+msgstr ""
+
+#: includes/templates/admin/order/admin-invoice.php:64
+msgid "Invoice Of Order"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:695
+msgid "Item Count"
+msgstr ""
+
+#: includes/templates/admin/order/admin-invoice.php:232
+msgid "Items to Invoice"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:211
+msgid "Jan"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:100
+#: woocommerce/templates/emails/seller-order-cancelled.php:100
+#: woocommerce/templates/emails/seller-order-failed.php:100
+#: woocommerce/templates/emails/seller-order-completed.php:100
+#: woocommerce/templates/emails/seller-order-onhold.php:100
+#: woocommerce/templates/emails/seller-new-order.php:100
+#: woocommerce/templates/emails/seller-order-refunded.php:100
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:66
+#: woocommerce/templates/emails/plain/seller-order-failed.php:66
+#: woocommerce/templates/emails/plain/seller-new-order.php:66
+#: includes/templates/front/transaction/view.php:22
+msgid "January"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:217
+msgid "Jul"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:106
+#: woocommerce/templates/emails/seller-order-cancelled.php:106
+#: woocommerce/templates/emails/seller-order-failed.php:106
+#: woocommerce/templates/emails/seller-order-completed.php:106
+#: woocommerce/templates/emails/seller-order-onhold.php:106
+#: woocommerce/templates/emails/seller-new-order.php:106
+#: woocommerce/templates/emails/seller-order-refunded.php:106
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:72
+#: woocommerce/templates/emails/plain/seller-order-failed.php:72
+#: woocommerce/templates/emails/plain/seller-new-order.php:72
+#: includes/templates/front/transaction/view.php:28
+msgid "July"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:216
+msgid "Jun"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:105
+#: woocommerce/templates/emails/seller-order-cancelled.php:105
+#: woocommerce/templates/emails/seller-order-failed.php:105
+#: woocommerce/templates/emails/seller-order-completed.php:105
+#: woocommerce/templates/emails/seller-order-onhold.php:105
+#: woocommerce/templates/emails/seller-new-order.php:105
+#: woocommerce/templates/emails/seller-order-refunded.php:105
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:71
+#: woocommerce/templates/emails/plain/seller-order-failed.php:71
+#: woocommerce/templates/emails/plain/seller-new-order.php:71
+#: includes/templates/front/transaction/view.php:27
+msgid "June"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:121
+#, php-format
+msgid ""
+"Just to let you know, we have received your order #%s, and it is now being "
+"processed:"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:58
+msgid "Last"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:277
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:276
+msgid "Last Month"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:89
+#: includes/templates/front/myaccount/prof_edit.php:69
+#: includes/templates/front/myaccount/seller-seperate-form.php:18
+#: includes/templates/front/myaccount/registration.php:17
+#: includes/templates/front/myaccount/forgot-password.php:25
+msgid "Last Name"
+msgstr ""
+
+#: includes/templates/front/myaccount/profile.php:42
+msgid "Last name"
+msgstr ""
+
+#: functions.php:969
+msgid "Last name is not valid"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:345
+msgid "Last name is not valid."
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:546
+msgid "Least Sale"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:849
+msgid "Leave blank for unlimited re-downloads."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:534
+msgid "Length"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:246
+msgid "Lets you charge a fixed rate for shipping."
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:107
+msgid "Life Time Sale"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:146
+#: includes/templates/front/shipping/add-shipping.php:139
+msgid "Limit to specific ZIP/postcodes"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:148
+msgid "Linked Products"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:285
+#: includes/templates/front/myaccount/prof_edit.php:263
+msgid "Linkedin Profile ID"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:409
+msgid "LinkedIN URL not valid"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:66
+msgid "Loading..."
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:64
+msgid "Local Zone = California ZIP 90210 = Local pickup"
+msgstr ""
+
+#: includes/templates/front/myaccount/mp-popup-login-form.php:48
+msgid "Login"
+msgstr ""
+
+#: includes/front/index.php:49
+msgid "Login Here"
+msgstr ""
+
+#: includes/templates/front/myaccount/profile.php:48
+msgid "Logout"
+msgstr ""
+
+#: includes/templates/front/myaccount/mp-popup-login-form.php:49
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:539
+msgid "LxWxH in decimal form"
+msgstr ""
+
+#: functions.php:1008
+msgid "Mail Sent Successfully"
+msgstr ""
+
+#: includes/admin/sellerlist.php:186
+msgid "Manage"
+msgstr ""
+
+#: includes/admin/index.php:24
+#: includes/templates/admin/account/seller/review.php:286
+msgid "Manage Feedback"
+msgstr ""
+
+#: includes/admin/settings/seller-products-setting.php:13
+msgid "Manage product settings for seller."
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:63
+msgid "Manage Shipping"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:452
+msgid "Manage Stock"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:293
+msgid "Manage stock?"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:37
+msgid "Manual"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:213
+msgid "Mar"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:102
+#: woocommerce/templates/emails/seller-order-cancelled.php:102
+#: woocommerce/templates/emails/seller-order-failed.php:102
+#: woocommerce/templates/emails/seller-order-completed.php:102
+#: woocommerce/templates/emails/seller-order-onhold.php:102
+#: woocommerce/templates/emails/seller-new-order.php:102
+#: woocommerce/templates/emails/seller-order-refunded.php:102
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:68
+#: woocommerce/templates/emails/plain/seller-order-failed.php:68
+#: woocommerce/templates/emails/plain/seller-new-order.php:68
+#: includes/templates/front/transaction/view.php:24
+msgid "March"
+msgstr ""
+
+#. Name of the plugin
+#: functions.php:464
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:20
+#: includes/admin/index.php:14 includes/admin/index.php:14
+msgid "Marketplace"
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:61
+msgid "Marketplace Account endpoints"
+msgstr ""
+
+#: includes/admin/class-mp-extensions.php:124
+msgid "Marketplace Addons"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:14
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:17
+msgid "Marketplace Flat Rate Shipping"
+msgstr ""
+
+#: includes/templates/admin/account/user-profile.php:38
+msgid "Marketplace Seller Details"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerlist.php:10
+msgid "Marketplace Seller list"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:22
+msgid "Marketplace Seller Panel."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:104
+#: woocommerce/templates/emails/seller-order-cancelled.php:104
+#: woocommerce/templates/emails/seller-order-failed.php:104
+#: woocommerce/templates/emails/seller-order-completed.php:104
+#: woocommerce/templates/emails/seller-order-onhold.php:104
+#: woocommerce/templates/emails/seller-new-order.php:104
+#: woocommerce/templates/emails/seller-order-refunded.php:104
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:70
+#: woocommerce/templates/emails/plain/seller-order-failed.php:70
+#: woocommerce/templates/emails/plain/seller-new-order.php:70
+#: includes/templates/front/transaction/view.php:26
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:215
+msgid "May"
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:53
+msgid "May be  you are using a white space in shop url."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-query-list.php:104
+#: includes/admin/class-mp-seller-query.php:112
+#: includes/templates/front/myaccount/ask-to-admin.php:66
+#: includes/templates/front/myaccount/ask-to-admin.php:98
+msgid "Message"
+msgstr ""
+
+#: woocommerce/templates/emails/reply-to-seller.php:24
+#: woocommerce/templates/emails/asktoadmin.php:13
+#: woocommerce/templates/emails/plain/reply-to-seller.php:24
+msgid "Message : "
+msgstr ""
+
+#: functions.php:1007
+msgid "Message field cannot be empty."
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:134
+msgid "Message length should be less than 500."
+msgstr ""
+
+#: woocommerce/templates/emails/plain/asktoadmin.php:14
+msgid "Message: "
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:45
+msgid "Message: *"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:67
+#: includes/admin/account/seller/transactions.php:124
+#: includes/templates/admin/account/seller/transaction/view.php:44
+msgid "Method"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:927
+msgctxt "min_price"
+msgid "From:"
+msgstr ""
+
+#: includes/admin/settings/settings.php:39
+msgid "Minimum Commission"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:90
+#: woocommerce/templates/emails/seller-order-cancelled.php:90
+#: woocommerce/templates/emails/seller-order-failed.php:90
+#: woocommerce/templates/emails/seller-order-completed.php:90
+#: woocommerce/templates/emails/seller-order-onhold.php:90
+#: woocommerce/templates/emails/seller-new-order.php:90
+#: woocommerce/templates/emails/seller-order-refunded.php:90
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:57
+#: woocommerce/templates/emails/plain/seller-order-failed.php:57
+#: woocommerce/templates/emails/plain/seller-new-order.php:57
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/product.php:460
+msgid "move this to the trash"
+msgstr ""
+
+#: includes/class-favourite-seller.php:62
+#: includes/class-favourite-seller.php:78
+msgid "My Favourite Seller"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:51
+#: includes/widgets/class-mp-sellerpanel.php:86
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:32
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:32
+msgid "My Profile"
+msgstr ""
+
+#: includes/admin/account/seller/orders.php:213
+msgid "N.A"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:835
+#: includes/templates/front/order/order-view.php:843
+msgid "N/A"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:687
+#: includes/templates/front/single-product/variations.php:212
+msgid "NAME"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:747 includes/front/index.php:77
+#: includes/admin/sellerlist.php:215
+#: includes/templates/front/order/invoice.php:201
+#: includes/templates/admin/order/admin-invoice.php:96
+msgid "Name"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:854
+msgid "Never"
+msgstr ""
+
+#: class-wc-email-seller-order-placed.php:21
+msgid "New Customer Order"
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:44
+msgid "New Password (Leave blank to leave unchanged)"
+msgstr ""
+
+#: class-wc-email-seller-query-reply.php:22
+msgid "New Query Reply"
+msgstr ""
+
+#: class-wc-email-seller-register.php:23
+msgid "New seller emails are sent to chosen recipient(s) "
+msgstr ""
+
+#: class-wc-email-seller-register.php:21 class-wc-email-seller-register.php:22
+msgid "New seller register"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:59
+#: includes/templates/front/single-product/add-product.php:263
+msgid "Next"
+msgstr ""
+
+#: includes/admin/commision.php:57
+#: includes/admin/settings/seller-assets-setting.php:28
+#: includes/admin/settings/seller-assets-setting.php:42
+#: includes/admin/settings/seller-assets-setting.php:56
+#: includes/admin/settings/seller-assets-setting.php:70
+msgid "No"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:249
+msgid "No billing address set."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:61
+msgid "No data available in table"
+msgstr ""
+
+#: functions.php:1002 includes/templates/front/myaccount/shop-followers.php:148
+msgid "No Followers Available."
+msgstr ""
+
+#: functions.php:1013
+msgid "No Group found"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:726
+msgid "No info. provided."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:65
+msgid "No matching records found"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:730
+msgid "No orders found."
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:362
+#: includes/templates/front/myaccount/user-product.php:67
+msgid "No product available !"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:899
+msgid "No product found..."
+msgstr ""
+
+#: includes/templates/front/myaccount/favourite-seller.php:104
+msgid "No seller&#39;s added yet."
+msgstr ""
+
+#: functions.php:1001
+msgid "No Sellers Available."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:559
+msgid "No shipping class"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:113
+#: includes/templates/front/shipping/shipping-list.php:172
+#: includes/templates/front/shipping/edit-shipping.php:207
+msgid "No shipping methods offered to this zone."
+msgstr ""
+
+#: includes/admin/product.php:408
+msgid "Nope! Security check failed!"
+msgstr ""
+
+#: functions.php:1010 functions.php:1053
+#: includes/templates/front/myaccount/favourite-seller.php:76
+msgid "Not Available"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:456
+#: includes/templates/front/myaccount/user-product.php:90
+msgid "Nothing was found at this location."
+msgstr ""
+
+#: functions.php:734 includes/admin/index.php:22 includes/admin/index.php:22
+#: includes/admin/mp-notifications-bar.php:40
+#: includes/admin/settings/seller-advanced-setting.php:46
+msgid "Notification"
+msgstr ""
+
+#: class-wc-email-seller-shop-follower-notification.php:21
+msgid "Notification to Shop Followers"
+msgstr ""
+
+#: includes/class-mp-save-notifications.php:325
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:28
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:28
+#: includes/admin/class-mp-notifications.php:33
+msgid "Notifications"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:221
+msgid "Nov"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:110
+#: woocommerce/templates/emails/seller-order-cancelled.php:110
+#: woocommerce/templates/emails/seller-order-failed.php:110
+#: woocommerce/templates/emails/seller-order-completed.php:110
+#: woocommerce/templates/emails/seller-order-onhold.php:110
+#: woocommerce/templates/emails/seller-new-order.php:110
+#: woocommerce/templates/emails/seller-order-refunded.php:110
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:76
+#: woocommerce/templates/emails/plain/seller-order-failed.php:76
+#: woocommerce/templates/emails/plain/seller-new-order.php:76
+#: includes/templates/front/transaction/view.php:32
+msgid "November"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:220
+msgid "Oct"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:109
+#: woocommerce/templates/emails/seller-order-cancelled.php:109
+#: woocommerce/templates/emails/seller-order-failed.php:109
+#: woocommerce/templates/emails/seller-order-completed.php:109
+#: woocommerce/templates/emails/seller-order-onhold.php:109
+#: woocommerce/templates/emails/seller-new-order.php:109
+#: woocommerce/templates/emails/seller-order-refunded.php:109
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:75
+#: woocommerce/templates/emails/plain/seller-order-failed.php:75
+#: woocommerce/templates/emails/plain/seller-new-order.php:75
+#: includes/templates/front/transaction/view.php:31
+msgid "October"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:72
+msgid "of"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:768
+msgid "OK"
+msgstr ""
+
+#: class-wc-email-seller-order-placed.php:23
+msgid ""
+"On ordering seller product this mail will inform seller regarding the "
+"purchase. "
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:857
+msgid "on-hold"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:488
+msgid "OnHold"
+msgstr ""
+
+#: functions.php:987
+#: includes/templates/front/single-product/edit-product.php:749
+#: includes/templates/front/single-product/edit-product.php:762
+msgid "Online"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:576
+msgid "Only "
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:347
+#: includes/templates/front/single-product/add-product.php:89
+msgid "Only jpg|png|jpeg files are allowed."
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:455
+#: includes/templates/front/myaccount/user-product.php:89
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: functions.php:1067
+msgid "Oops, Unable to send mail to the seller."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:260
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:268
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:276
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:285
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:292
+#: includes/templates/front/myaccount/prof_edit.php:238
+#: includes/templates/front/myaccount/prof_edit.php:246
+#: includes/templates/front/myaccount/prof_edit.php:254
+#: includes/templates/front/myaccount/prof_edit.php:263
+#: includes/templates/front/myaccount/prof_edit.php:270
+msgid "optional"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:76
+#: woocommerce/templates/emails/seller-order-processing.php:122
+#: woocommerce/templates/emails/seller-order-cancelled.php:122
+#: woocommerce/templates/emails/seller-order-failed.php:122
+#: woocommerce/templates/emails/seller-order-completed.php:122
+#: woocommerce/templates/emails/seller-order-onhold.php:122
+#: woocommerce/templates/emails/seller-new-order.php:122
+#: woocommerce/templates/emails/seller-order-refunded.php:128
+#: includes/templates/front/order/order-view.php:223
+#: includes/templates/front/order/order-history.php:8
+msgid "Order"
+msgstr ""
+
+#: class-wc-email-seller-order-completed.php:23
+msgid ""
+"Order complete emails are sent to sellers when their orders are marked "
+"completed and usually indicate that their orders have been shipped."
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:171
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:689
+#: includes/templates/admin/order/admin-invoice.php:132
+msgid "Order Date"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:39
+msgid "Order fully refunded by Seller."
+msgstr ""
+
+#: functions.php:731 includes/widgets/class-mp-sellerpanel.php:60
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:24
+#: includes/admin/settings/seller-advanced-setting.php:30
+msgid "Order History"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:173
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:687
+#: includes/templates/admin/order/admin-invoice.php:140
+msgid "Order ID"
+msgstr ""
+
+#: includes/templates/front/class-mp-user-functions.php:99
+#: includes/admin/account/seller/orders.php:118
+#: includes/admin/account/seller/transactions.php:121
+msgid "Order Id"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:140
+#: includes/templates/admin/order/admin-invoice.php:72
+msgid "Order Information"
+msgstr ""
+
+#: includes/templates/admin/order/admin-invoice.php:50
+msgid "Order Invoice"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:984
+msgid "Order Notes"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:64
+msgid "Order per page"
+msgstr ""
+
+#: class-wc-email-seller-order-refunded.php:23
+msgid ""
+"Order refunded emails are sent to sellers when their orders are refunded."
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:908
+msgid "Order Refunds"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:851
+msgid "Order Status"
+msgstr ""
+
+#: includes/templates/front/order/order-status.php:44
+msgid "Order status is already \""
+msgstr ""
+
+#: includes/templates/front/order/order-status.php:91
+#: includes/templates/front/order/order-status.php:96
+msgid "Order status updated."
+msgstr ""
+
+#: includes/class-mp-form-handler.php:686
+msgid "Ordered By"
+msgstr ""
+
+#: includes/class-mp-save-notifications.php:371
+#: includes/separate-seller-dashboard/class-seller-order-list.php:279
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:24
+#: includes/admin/mp-notifications-bar.php:47
+#: includes/admin/setcommision.php:44
+#: includes/admin/class-mp-notifications.php:38
+msgid "Orders"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:811
+msgid "OrderTotalCount"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:1039
+msgid "out of 5"
+msgstr ""
+
+#: includes/front/product-list.php:110
+#: includes/templates/front/single-product/edit-product.php:507
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:598
+#: includes/admin/class-mp-product-list.php:608
+#: includes/admin/class-mp-product-list.php:612
+#: includes/templates/front/single-product/variations.php:158
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-mp-install.php:153
+msgctxt "Page slug"
+msgid "Seller"
+msgstr ""
+
+#: includes/class-mp-install.php:154
+msgctxt "Page title"
+msgid "Seller"
+msgstr ""
+
+#: functions.php:1061 includes/class-mp-commission.php:598
+#: includes/admin/account/seller/orders.php:218
+msgid "Paid"
+msgstr ""
+
+#: includes/templates/front/myaccount/mp-popup-login-form.php:42
+msgid "Password"
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:37
+msgid "Password Change"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:207
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: includes/class-mp-commission.php:600
+#: includes/admin/account/seller/orders.php:220
+#: includes/admin/account/seller/orders.php:372
+msgid "Pay"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:761
+msgid "Paying Ammount"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:753
+msgid "Payment Details"
+msgstr ""
+
+#: includes/templates/admin/account/seller/profile.php:76
+msgid "Payment Details :"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-failed.php:121
+#: woocommerce/templates/emails/plain/seller-order-failed.php:84
+#, php-format
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:150
+msgid "Payment gateway"
+msgstr ""
+
+#: functions.php:1063
+msgid "Payment has been already done."
+msgstr ""
+
+#: functions.php:1062
+msgid "Payment has been successfully done."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:302
+#: includes/templates/front/myaccount/prof_edit.php:280
+#: includes/templates/admin/account/user-profile.php:66
+msgid "Payment Information"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:266
+#: woocommerce/templates/emails/seller-order-cancelled.php:266
+#: woocommerce/templates/emails/seller-order-failed.php:266
+#: woocommerce/templates/emails/seller-order-completed.php:266
+#: woocommerce/templates/emails/seller-order-onhold.php:266
+#: woocommerce/templates/emails/seller-new-order.php:260
+#: woocommerce/templates/emails/seller-order-refunded.php:272
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:146
+#: woocommerce/templates/emails/plain/seller-order-failed.php:146
+#: woocommerce/templates/emails/plain/seller-new-order.php:148
+#: includes/templates/front/order/invoice.php:175
+#: includes/templates/front/order/order-view.php:676
+#: includes/templates/admin/order/admin-invoice.php:148
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:254
+#: woocommerce/templates/emails/seller-order-cancelled.php:254
+#: woocommerce/templates/emails/seller-order-failed.php:254
+#: woocommerce/templates/emails/seller-order-completed.php:254
+#: woocommerce/templates/emails/seller-order-onhold.php:254
+#: woocommerce/templates/emails/seller-order-refunded.php:260
+#: includes/templates/front/order/order-view.php:660
+msgid "Payment via Wallet"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:486
+msgid "Pending"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:858
+msgid "pending payment"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:111
+#: includes/admin/settings/seller-assets-setting.php:35
+#: includes/templates/front/myaccount/prof_edit.php:91
+#: includes/templates/front/myaccount/seller-seperate-form.php:36
+#: includes/templates/front/myaccount/registration.php:35
+msgid "Phone Number"
+msgstr ""
+
+#: functions.php:972 includes/class-mp-form-handler.php:363
+msgid "Phone number length must not exceed 10."
+msgstr ""
+
+#: functions.php:973
+msgid "Phone number not valid."
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:61
+msgid "Please check you mail for activation link."
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:49
+msgid "Please check your mail for activation link."
+msgstr ""
+
+#: functions.php:997
+msgid "Please enter password."
+msgstr ""
+
+#: functions.php:967
+msgid "Please Enter Product Name!!!"
+msgstr ""
+
+#: functions.php:963
+msgid "Please Enter SKU"
+msgstr ""
+
+#: functions.php:1042
+msgid "Please enter template name."
+msgstr ""
+
+#: functions.php:1048
+msgid "Please enter the page width."
+msgstr ""
+
+#: functions.php:1041
+msgid "Please enter the valid template name"
+msgstr ""
+
+#: functions.php:1043
+msgid "Please enter the valid template name."
+msgstr ""
+
+#: functions.php:998
+msgid "Please enter username"
+msgstr ""
+
+#: functions.php:996
+msgid "Please enter username or email address."
+msgstr ""
+
+#: functions.php:1064
+msgid "Please enter valid page width."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:65
+msgid "Please enter valid phone number."
+msgstr ""
+
+#: functions.php:962
+msgid ""
+"please enter valid product sku, it shoud be equal or larger than 3 characters"
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:49
+msgid "Please enter valid Shop URL."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:29
+msgid "Please enter your first name."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:34
+msgid "Please enter your last name."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:61
+msgid "Please enter your phone number."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:44
+msgid "Please enter your Shop Name."
+msgstr ""
+
+#: functions.php:1052
+msgid "Please fill shop name."
+msgstr ""
+
+#: woocommerce/templates/emails/product-approval.php:11
+#: woocommerce/templates/emails/plain/product-approval.php:11
+msgid "Please review the request"
+msgstr ""
+
+#: functions.php:960
+msgid "Please select customer from the list"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:126
+msgid "Please select items to refund."
+msgstr ""
+
+#: includes/admin/product.php:174
+msgid "Please select product and seller both."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:39
+msgid "Please select product(s) first !"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:277
+msgid "Please select review(s)."
+msgstr ""
+
+#: functions.php:1046
+msgid "Please select the background color."
+msgstr ""
+
+#: functions.php:1044
+msgid "Please select the base color."
+msgstr ""
+
+#: functions.php:1045
+msgid "Please select the body color."
+msgstr ""
+
+#: functions.php:1047
+msgid "Please select the text color."
+msgstr ""
+
+#: includes/admin/setcommision.php:124
+msgid "Please update the commission rate"
+msgstr ""
+
+#: woocommerce/templates/emails/reply-to-seller.php:29
+#: woocommerce/templates/emails/plain/reply-to-seller.php:29
+msgid "Please, do contact us if you have additional queries. Thanks again!"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:135
+#: includes/templates/front/myaccount/prof_edit.php:115
+msgid "Postal Code"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:136
+#: includes/templates/front/myaccount/prof_edit.php:116
+msgid "Postcode"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:149
+#: includes/templates/front/shipping/add-shipping.php:146
+msgid ""
+"Postcodes containing wildcards (e.g. CB23*) and fully numeric ranges (e.g. "
+"<code>90210...99000</code>) are also supported."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:60
+msgid "Previous"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:693 includes/front/product-list.php:94
+#: includes/admin/product.php:360
+#: woocommerce/templates/emails/seller-order-processing.php:127
+#: woocommerce/templates/emails/seller-order-cancelled.php:127
+#: woocommerce/templates/emails/seller-order-failed.php:127
+#: woocommerce/templates/emails/seller-order-completed.php:127
+#: woocommerce/templates/emails/seller-order-onhold.php:127
+#: woocommerce/templates/emails/seller-new-order.php:127
+#: woocommerce/templates/emails/seller-order-refunded.php:133
+#: includes/templates/front/myaccount/preview.php:255
+#: includes/templates/front/myaccount/preview.php:403
+#: includes/templates/front/myaccount/seller-profile-details-section.php:72
+#: includes/templates/front/myaccount/add-feedback.php:61
+#: includes/templates/front/myaccount/feedback.php:49
+msgid "Price"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:98
+msgid "Price Rating"
+msgstr ""
+
+#: functions.php:994
+msgid "Price, Value, Quality rating cannot be empty."
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:219
+msgid "Print Invoice"
+msgstr ""
+
+#: includes/admin/class-mp-notifications.php:175
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:487
+msgid "Processing"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:859
+msgid "processing"
+msgstr ""
+
+#: functions.php:1060 includes/class-mp-frontend-scripts.php:67
+msgid "Processing..."
+msgstr ""
+
+#: functions.php:746 includes/class-mp-form-handler.php:691
+#: includes/admin/product.php:357
+#: woocommerce/templates/emails/seller-order-processing.php:125
+#: woocommerce/templates/emails/seller-order-cancelled.php:125
+#: woocommerce/templates/emails/seller-order-failed.php:125
+#: woocommerce/templates/emails/seller-order-completed.php:125
+#: woocommerce/templates/emails/seller-order-onhold.php:125
+#: woocommerce/templates/emails/seller-new-order.php:125
+#: woocommerce/templates/emails/seller-order-refunded.php:131
+#: includes/templates/front/order/invoice.php:290
+#: includes/templates/front/order/order-view.php:230
+#: includes/templates/admin/order/admin-invoice.php:238
+#: includes/admin/account/seller/orders.php:119
+msgid "Product"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approval.php:10
+#: woocommerce/templates/emails/plain/product-approval.php:10
+msgid "product"
+msgstr ""
+
+#: class-wc-email-product-approve.php:22
+msgid "Product approval request"
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:20
+msgid "Product Approve or Disapprove"
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:22
+msgid "Product Approved"
+msgstr ""
+
+#: includes/templates/front/single-product/add-product.php:183
+msgid "Product categories"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:271
+msgid "Product Category"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:186
+msgid "Product Count"
+msgstr ""
+
+#: includes/templates/front/myaccount/user-product.php:41
+msgid "Product from Seller"
+msgstr ""
+
+#: includes/widgets/class-mp-sellerpanel.php:57 includes/admin/index.php:16
+#: includes/admin/index.php:16 includes/admin/product.php:495
+#: includes/admin/settings/seller-advanced-setting.php:22
+msgid "Product List"
+msgstr ""
+
+#: includes/admin/product.php:419
+msgid "product moved to the Trash."
+msgstr ""
+
+#: includes/front/product-list.php:91
+#: includes/templates/front/class-mp-user-functions.php:100
+#: includes/templates/front/single-product/edit-product.php:209
+#: includes/templates/front/single-product/add-product.php:30
+msgid "Product Name"
+msgstr ""
+
+#: class-wc-email-product-approve.php:20
+msgid "Product Publish"
+msgstr ""
+
+#: class-wc-email-product-approve.php:21
+msgid "Product Publish emails are sent to chosen recipient(s) "
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:52
+msgid "Product Rejected"
+msgstr ""
+
+#: includes/admin/class-mp-admin-settings.php:41
+msgid "Product Settings"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:413
+#: includes/templates/front/single-product/add-product.php:127
+msgid "Product Short Description "
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:354
+#: includes/templates/front/single-product/add-product.php:93
+msgid "Product SKU"
+msgstr ""
+
+#: includes/front/product-list.php:93
+#: includes/templates/front/single-product/edit-product.php:156
+#: includes/templates/front/single-product/edit-product.php:746
+msgid "Product Status"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:324
+#: includes/templates/front/single-product/add-product.php:85
+msgid "Product Thumbnail"
+msgstr ""
+
+#: includes/admin/account/seller/orders.php:122
+msgid "Product Total"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:169
+msgid "Product Type"
+msgstr ""
+
+#: includes/admin/settings/seller-products-setting.php:33
+msgid "Product type for seller"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:701
+msgid "Product URL"
+msgstr ""
+
+#: functions.php:725 includes/class-mp-save-notifications.php:373
+#: includes/admin/mp-notifications-bar.php:55 includes/admin/sellerlist.php:217
+#: includes/admin/class-mp-notifications.php:39
+msgid "Products"
+msgstr ""
+
+#: functions.php:743
+msgid "Profile"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:165
+msgid "Profile Link"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:480
+#: includes/class-mp-form-handler.php:483
+msgid "Profile updated successfully."
+msgstr ""
+
+#: includes/front/product-list.php:111
+msgid "Publish"
+msgstr ""
+
+#: includes/templates/front/class-mp-user-functions.php:101
+msgid "Qty"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:265
+#: includes/templates/front/myaccount/preview.php:425
+#: includes/templates/front/myaccount/seller-profile-details-section.php:86
+#: includes/templates/front/myaccount/add-feedback.php:99
+#: includes/templates/front/myaccount/feedback.php:77
+msgid "Quality"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:99
+msgid "Quality Rating"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:692
+#: woocommerce/templates/emails/seller-order-processing.php:126
+#: woocommerce/templates/emails/seller-order-cancelled.php:126
+#: woocommerce/templates/emails/seller-order-failed.php:126
+#: woocommerce/templates/emails/seller-order-completed.php:126
+#: woocommerce/templates/emails/seller-order-onhold.php:126
+#: woocommerce/templates/emails/seller-new-order.php:126
+#: woocommerce/templates/emails/seller-order-refunded.php:132
+#: includes/templates/front/order/invoice.php:292
+#: includes/templates/admin/order/admin-invoice.php:240
+#: includes/admin/account/seller/orders.php:120
+msgid "Quantity"
+msgstr ""
+
+#: class-wc-email-product-approve-disapprove.php:21
+#: class-wc-email-seller-shop-follower-notification.php:23
+#: class-wc-email-seller-query-reply.php:23 class-wc-email-asktoadmin.php:21
+msgid "Query emails are sent to chosen recipient(s) "
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-query-list.php:182
+#: includes/separate-seller-dashboard/class-seller-shop-followers.php:259
+#: includes/admin/class-mp-seller-query.php:256
+msgid "Query list"
+msgstr ""
+
+#: includes/admin/class-mp-product-list.php:1037
+msgid "Rated "
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:680
+msgid "Recent Orders"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:344
+msgid "Recent Product from Seller"
+msgstr ""
+
+#: functions.php:1015 includes/templates/front/order/order-view.php:213
+msgid "Refund"
+msgstr ""
+
+#. 1: refund id 2: refund date
+#: includes/templates/front/order/order-view.php:934
+#, php-format
+msgid "Refund #%1$s - %2$s"
+msgstr ""
+
+#. 1: refund id 2: refund date 3: username
+#: includes/templates/front/order/order-view.php:921
+#, php-format
+msgid "Refund #%1$s - %2$s by %3$s"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:777
+msgid "Refund Amount"
+msgstr ""
+
+#: functions.php:1014
+msgid "Refund Cancel"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:792
+msgid "Refund Manually"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:232
+msgid "Refund Quantity"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:762
+msgid "Refund Reason (Optional)"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:799
+msgid "Refund via"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-refunded.php:297
+#: includes/templates/front/order/invoice.php:450
+#: includes/templates/front/order/order-view.php:305
+#: includes/templates/front/order/order-view.php:409
+#: includes/templates/front/order/order-view.php:542
+#: includes/templates/front/order/order-view.php:609
+#: includes/templates/front/order/order-view.php:746
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:490
+msgid "Refunded"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:862
+msgid "refunded"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:153
+msgid "Refunded Amount"
+msgstr ""
+
+#: includes/class-mp-order-refund.php:73 includes/class-mp-order-refund.php:77
+msgid "Refunded successfully."
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:44
+msgid "Region(s)"
+msgstr ""
+
+#: includes/front/index.php:49
+msgid "Register"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:571
+#: includes/front/handlers/class-mp-register-handler.php:142
+msgid "Registration complete check your mail for password!"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:379
+#: includes/templates/front/single-product/add-product.php:108
+#: includes/templates/front/single-product/variations.php:92
+msgid "Regular Price"
+msgstr ""
+
+#: includes/front/class-mp-product-functions.php:795
+msgid "Regular Price is not a number."
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:758
+msgid "Remain Ammount"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:137
+msgid "Remaining Amount"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:258
+#: woocommerce/templates/emails/seller-order-cancelled.php:258
+#: woocommerce/templates/emails/seller-order-failed.php:258
+#: woocommerce/templates/emails/seller-order-completed.php:258
+#: woocommerce/templates/emails/seller-order-onhold.php:258
+#: woocommerce/templates/emails/seller-order-refunded.php:264
+#: includes/templates/front/order/order-view.php:665
+msgid "Remaining Payment"
+msgstr ""
+
+#: functions.php:991
+#: includes/templates/front/single-product/edit-product.php:342
+#: includes/templates/front/single-product/edit-product.php:662
+#: includes/templates/front/single-product/variations.php:47
+#: includes/templates/front/myaccount/prof_edit.php:220
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-mp-seller-query.php:224
+msgid "Replied"
+msgstr ""
+
+#: includes/admin/class-mp-seller-query.php:228
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/class-mp-seller-query.php:145
+msgid "Reply to"
+msgstr ""
+
+#: class-wc-email-seller-query-reply.php:20
+msgid "Reply to Seller Regarding Query"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:22
+msgid "Reports"
+msgstr ""
+
+#: functions.php:995
+msgid "Required field."
+msgstr ""
+
+#: includes/admin/payammount.php:29
+msgid "Reset"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:150
+msgid "Rest of the World"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:770
+msgid "Restock Refunded items"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:400
+#: includes/templates/front/myaccount/add-feedback.php:129
+#: includes/templates/front/myaccount/feedback.php:46
+msgid "Review"
+msgstr ""
+
+#: includes/templates/front/myaccount/seller-profile-details-section.php:54
+msgid "Review "
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:80
+msgid "Review added successfully."
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:453
+#: includes/templates/front/transaction/view.php:118
+#: includes/admin/account/seller/orders.php:273
+#: includes/templates/admin/account/seller/transaction/view.php:92
+#: includes/templates/admin/account/seller/transaction/view.php:99
+msgid "Reward"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:242
+#: woocommerce/templates/emails/seller-order-cancelled.php:242
+#: woocommerce/templates/emails/seller-order-failed.php:242
+#: woocommerce/templates/emails/seller-order-completed.php:242
+#: woocommerce/templates/emails/seller-order-onhold.php:242
+#: woocommerce/templates/emails/seller-new-order.php:250
+#: woocommerce/templates/emails/seller-order-refunded.php:248
+#: includes/templates/front/order/order-view.php:643
+msgid "Reward Points"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:533
+msgid "Sale"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:113
+msgid "Sale end date"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:266
+msgid "Sale Order History"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:397
+#: includes/templates/front/single-product/add-product.php:117
+#: includes/templates/front/single-product/variations.php:98
+msgid "Sale Price"
+msgstr ""
+
+#: functions.php:964
+msgid "Sale Price cannot be greater than Regular Price."
+msgstr ""
+
+#: includes/front/class-mp-product-functions.php:798
+msgid "Sale Price is not a number."
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:107
+msgid "Sale start date"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:95
+#: woocommerce/templates/emails/seller-order-cancelled.php:95
+#: woocommerce/templates/emails/seller-order-failed.php:95
+#: woocommerce/templates/emails/seller-order-completed.php:95
+#: woocommerce/templates/emails/seller-order-onhold.php:95
+#: woocommerce/templates/emails/seller-new-order.php:95
+#: woocommerce/templates/emails/seller-order-refunded.php:95
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:62
+#: woocommerce/templates/emails/plain/seller-order-failed.php:62
+#: woocommerce/templates/emails/plain/seller-new-order.php:62
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/setcommision.php:295
+#: includes/templates/front/single-product/add-product.php:159
+#: includes/templates/front/order/order-view.php:892
+msgid "Save"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:192
+msgid "Save Changes"
+msgstr ""
+
+#: includes/templates/front/myaccount/forgot-password.php:58
+msgid "Save changes"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:217
+msgid "Save changes to continue adding shipping methods to this zone"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:220
+msgid "Save Shipping Classes"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:98
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/product.php:506
+msgid "Search"
+msgstr ""
+
+#: includes/admin/sellerlist.php:387
+msgid "search"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:594
+#: includes/templates/front/single-product/edit-product.php:614
+#: includes/templates/front/single-product/wk-html-product-linked.php:13
+msgid "Search&hellip;"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:64
+msgid "Search:"
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:14
+msgid "secrity check...!"
+msgstr ""
+
+#: includes/front/product-list.php:48
+msgid "Security check failed!!!"
+msgstr ""
+
+#: includes/templates/front/myaccount/ask-to-admin.php:24
+msgid "Security check failed, nonce empty!"
+msgstr ""
+
+#: includes/templates/front/myaccount/ask-to-admin.php:21
+msgid "Security check failed, nonce verification failed!"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:86
+#: includes/admin/settings/seller-assets-setting.php:26
+#: includes/admin/settings/seller-assets-setting.php:40
+#: includes/admin/settings/seller-assets-setting.php:54
+#: includes/admin/settings/seller-assets-setting.php:68
+msgid "Select"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:155
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:172
+#: includes/templates/front/myaccount/prof_edit.php:135
+#: includes/templates/front/myaccount/prof_edit.php:152
+msgid "Select a country"
+msgstr ""
+
+#: functions.php:1005
+msgid "select customers to delete from list.!"
+msgstr ""
+
+#: functions.php:1056
+msgid "Select or Upload Media Of Your Chosen Persuasion"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:126
+msgid "Select regions within this zone"
+msgstr ""
+
+#: includes/admin/product.php:54
+msgid "Select Seller"
+msgstr ""
+
+#: functions.php:981
+msgid "select seller option"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:758
+msgid "Select status"
+msgstr ""
+
+#: includes/templates/front/order/order-status.php:40
+msgid "Select status for order."
+msgstr ""
+
+#: includes/class-mp-save-notifications.php:375
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:20
+#: includes/admin/setcommision.php:38
+#: includes/admin/class-mp-seller-query.php:109 includes/admin/product.php:366
+#: includes/templates/admin/class-mp-product-templates.php:25
+#: includes/templates/front/single-product/product-author.php:41
+#: includes/templates/front/myaccount/preview.php:220
+#: includes/templates/front/myaccount/seller-profile-details-section.php:54
+#: includes/admin/account/seller/orders.php:319
+msgid "Seller"
+msgstr ""
+
+#: includes/templates/front/single-product/product-author.php:43
+msgid "Seller :"
+msgstr ""
+
+#: includes/admin/sellerlist.php:218
+msgid "Seller Access"
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:31
+msgid "Seller added successfully in favourite list."
+msgstr ""
+
+#: class-wc-email-seller-approve.php:18 class-wc-email-seller-approve.php:19
+msgid "Seller Approval"
+msgstr ""
+
+#: includes/templates/front/myaccount/favourite-seller.php:28
+msgid "Seller Collection"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:22
+msgid "Seller Dashboard"
+msgstr ""
+
+#: includes/admin/index.php:219 includes/admin/index.php:221
+msgid "Seller dashboard"
+msgstr ""
+
+#: class-wc-email-seller-disapprove.php:19
+#: class-wc-email-seller-disapprove.php:20
+msgid "Seller Disapprove"
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:25
+msgid "Seller is already added in favourite list."
+msgstr ""
+
+#: includes/admin/index.php:18 includes/admin/sellerlist.php:357
+#: includes/admin/sellerlist.php:400
+msgid "Seller List"
+msgstr ""
+
+#: includes/admin/settings/settings.php:50
+msgid "Seller Menu Title"
+msgstr ""
+
+#: includes/templates/front/myaccount/favourite-seller.php:27
+msgid "Seller Name"
+msgstr ""
+
+#: class-wc-email-seller-order-cancelled.php:20
+#: class-wc-email-seller-order-cancelled.php:21
+#: class-wc-email-seller-order-cancelled.php:22
+msgid "Seller Order Cancelled"
+msgstr ""
+
+#: class-wc-email-seller-order-completed.php:20
+#: class-wc-email-seller-order-completed.php:21
+#: class-wc-email-seller-order-completed.php:22
+msgid "Seller Order Completed"
+msgstr ""
+
+#: class-wc-email-seller-order-failed.php:20
+#: class-wc-email-seller-order-failed.php:21
+#: class-wc-email-seller-order-failed.php:22
+msgid "Seller Order Failed"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:118
+msgid "Seller Order Invoice"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:132
+msgid "Seller Order Invoice Of Order"
+msgstr ""
+
+#: class-wc-email-seller-order-onhold.php:20
+#: class-wc-email-seller-order-onhold.php:21
+#: class-wc-email-seller-order-onhold.php:22
+msgid "Seller Order On-Hold"
+msgstr ""
+
+#: class-wc-email-seller-order-placed.php:20
+msgid "Seller Order Placed"
+msgstr ""
+
+#: class-wc-email-seller-order-processing.php:20
+#: class-wc-email-seller-order-processing.php:21
+#: class-wc-email-seller-order-processing.php:22
+msgid "Seller Order Processing"
+msgstr ""
+
+#: class-wc-email-seller-order-refunded.php:20
+#: class-wc-email-seller-order-refunded.php:21
+#: class-wc-email-seller-order-refunded.php:22
+msgid "Seller Order Refunded"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:27
+#: includes/templates/front/myaccount/favourite-seller.php:26
+msgid "Seller Profile"
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:42
+msgid "Seller profile"
+msgstr ""
+
+#: includes/admin/index.php:26
+msgid "Seller Queries"
+msgstr ""
+
+#: class-wc-email-seller-register.php:20
+msgid "Seller Register"
+msgstr ""
+
+#: functions.php:982
+msgid "seller store name is too short,contain white space or empty"
+msgstr ""
+
+#: includes/admin/product.php:167
+msgid "Seller updated for selected product(s)."
+msgstr ""
+
+#: functions.php:975
+msgid "Seller User Name is not valid"
+msgstr ""
+
+#: includes/admin/settings/settings.php:67
+msgid "Seller will be automatically approved"
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:63
+msgid "Send Mail"
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:90
+msgid "Send Notification"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:219
+msgid "Sep"
+msgstr ""
+
+#: includes/admin/settings/settings.php:85
+msgid "Separate Login Form"
+msgstr ""
+
+#: includes/admin/settings/settings.php:74
+msgid "Separate seller dashboard"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:108
+#: woocommerce/templates/emails/seller-order-cancelled.php:108
+#: woocommerce/templates/emails/seller-order-failed.php:108
+#: woocommerce/templates/emails/seller-order-completed.php:108
+#: woocommerce/templates/emails/seller-order-onhold.php:108
+#: woocommerce/templates/emails/seller-new-order.php:108
+#: woocommerce/templates/emails/seller-order-refunded.php:108
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:74
+#: woocommerce/templates/emails/plain/seller-order-failed.php:74
+#: woocommerce/templates/emails/plain/seller-new-order.php:74
+#: includes/templates/front/transaction/view.php:30
+msgid "September"
+msgstr ""
+
+#: includes/templates/admin/account/seller/manage-commission.php:14
+msgid "Set Seller Commision"
+msgstr ""
+
+#: includes/admin/index.php:28
+msgid "Settings"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:207
+#: woocommerce/templates/emails/seller-order-cancelled.php:207
+#: woocommerce/templates/emails/seller-order-failed.php:207
+#: woocommerce/templates/emails/seller-order-completed.php:207
+#: woocommerce/templates/emails/seller-order-onhold.php:207
+#: woocommerce/templates/emails/seller-new-order.php:207
+#: woocommerce/templates/emails/seller-order-refunded.php:213
+#: includes/admin/settings/seller-advanced-setting.php:38
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:122
+#: woocommerce/templates/emails/plain/seller-order-failed.php:122
+#: woocommerce/templates/emails/plain/seller-new-order.php:124
+#: includes/templates/front/single-product/edit-product.php:146
+#: includes/templates/front/order/invoice.php:407
+#: includes/templates/front/order/order-view.php:471
+#: includes/templates/front/order/order-view.php:520
+#: includes/templates/admin/order/admin-invoice.php:339
+#: includes/admin/account/seller/orders.php:123
+#: includes/admin/account/seller/orders.php:289
+msgid "Shipping"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:235
+#: includes/templates/front/order/order-view.php:840
+#: includes/templates/admin/order/admin-invoice.php:188
+msgid "Shipping Address"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:724
+#: woocommerce/templates/emails/seller-order-processing.php:298
+#: woocommerce/templates/emails/seller-order-cancelled.php:298
+#: woocommerce/templates/emails/seller-order-failed.php:298
+#: woocommerce/templates/emails/seller-order-completed.php:298
+#: woocommerce/templates/emails/seller-order-onhold.php:298
+#: woocommerce/templates/emails/seller-new-order.php:292
+#: woocommerce/templates/emails/seller-order-refunded.php:324
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:168
+#: woocommerce/templates/emails/plain/seller-order-failed.php:168
+#: woocommerce/templates/emails/plain/seller-new-order.php:170
+msgid "Shipping address"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:183
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:566
+msgid "Shipping class"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:270
+msgid "Shipping Class Name"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:21
+msgid "Shipping Classes"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:566
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:194
+msgid ""
+"Shipping classes can be used to group products of similar type and can be "
+"used by some Shipping Methods (such as Flat Rate Shipping) to provide "
+"different rates to different classes of product."
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:178
+#: includes/templates/front/shipping/edit-shipping.php:158
+#: includes/templates/admin/order/admin-invoice.php:156
+msgid "Shipping Method"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:46
+msgid "Shipping Method(s)"
+msgstr ""
+
+#: functions.php:715 includes/templates/front/shipping/add-shipping.php:19
+msgid "Shipping Zone"
+msgstr ""
+
+#: includes/front/index.php:87
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:106
+#: includes/templates/front/myaccount/prof_edit.php:86
+msgid "Shop Address"
+msgstr ""
+
+#: includes/templates/front/myaccount/prof_edit.php:98
+msgid "Shop Address 1"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:124
+#: includes/templates/front/myaccount/prof_edit.php:104
+msgid "Shop Address 2"
+msgstr ""
+
+#: includes/templates/admin/account/seller/profile.php:64
+msgid "Shop Address :"
+msgstr ""
+
+#: functions.php:737 includes/widgets/class-mp-sellerpanel.php:69
+#: includes/admin/settings/seller-advanced-setting.php:50
+msgid "Shop Follower"
+msgstr ""
+
+#: class-wc-email-seller-shop-follower-notification.php:20
+#: class-wc-email-seller-shop-follower-notification.php:22
+msgid "Shop Follower Notification"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:30
+msgid "Shop Followers"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:216
+#: includes/templates/front/myaccount/prof_edit.php:196
+msgid "Shop Logo"
+msgstr ""
+
+#: includes/front/index.php:81
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:100
+#: includes/templates/front/myaccount/prof_edit.php:80
+#: includes/templates/front/myaccount/seller-seperate-form.php:25
+#: includes/templates/front/myaccount/registration.php:24
+#: includes/templates/admin/account/user-profile.php:43
+#: includes/templates/admin/account/seller/review.php:96
+msgid "Shop Name"
+msgstr ""
+
+#: functions.php:971
+msgid "Shop name is not valid"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:355
+msgid "Shop name is not valid."
+msgstr ""
+
+#: includes/class-mp-form-handler.php:358
+msgid "Shop name is required."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:112
+#: includes/templates/front/myaccount/prof_edit.php:92
+msgid "Shop Phone Number"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:105
+#: includes/templates/front/myaccount/prof_edit.php:85
+#: includes/templates/front/myaccount/seller-seperate-form.php:30
+#: includes/templates/front/myaccount/registration.php:29
+#: includes/templates/admin/account/user-profile.php:52
+msgid "Shop URL"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:108
+#: includes/templates/front/myaccount/prof_edit.php:88
+msgid "Shop URL cannot be changed."
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:62
+msgid "Show"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:230
+#: includes/templates/front/myaccount/prof_edit.php:208
+msgid "Show banner on seller page"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:70
+msgid "Showing"
+msgstr ""
+
+#: includes/admin/product.php:358
+#: includes/templates/front/single-product/variations.php:78
+msgid "SKU"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:437
+msgid "SKU already exist please select another SKU"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:442
+#: includes/class-mp-ajax-functions.php:448
+msgid "SKU is OK"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:358
+#: includes/templates/front/single-product/add-product.php:96
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:96
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:104
+#: woocommerce/templates/emails/plain/seller-order-failed.php:96
+#: woocommerce/templates/emails/plain/seller-order-failed.php:104
+#: woocommerce/templates/emails/plain/seller-new-order.php:98
+#: woocommerce/templates/emails/plain/seller-new-order.php:106
+msgid "SKU: "
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:184
+#: includes/templates/front/shipping/add-shipping.php:277
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/settings/seller-assets-setting.php:63
+msgid "Social Links"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:256
+#: includes/templates/front/myaccount/prof_edit.php:234
+msgid "Social Profile"
+msgstr ""
+
+#: woocommerce/templates/emails/asktoadmin.php:11
+#: woocommerce/templates/emails/plain/asktoadmin.php:12
+msgid "Someone"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:218
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: functions.php:1059
+msgid "Sorry Account Balance is Low"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:914
+msgid "Sorry, but you can not edit other sellers' product..!"
+msgstr ""
+
+#: includes/templates/admin/order/invoice.php:20
+#: includes/templates/admin/order/admin-invoice.php:368
+msgid "Sorry, you are not allowed to access invoice."
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:1021
+msgid "Sorry, You can't access other seller's orders."
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:269
+msgid "Sorry, You can't edit other seller's shipping zone."
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:20
+#: includes/templates/front/order/order-status.php:17
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:731
+msgid "Standard Payment"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:92
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:182
+#: includes/templates/front/myaccount/prof_edit.php:162
+msgid "State"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:164
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:181
+#: includes/templates/front/myaccount/prof_edit.php:144
+#: includes/templates/front/myaccount/prof_edit.php:161
+msgid "State / County"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:77
+#: includes/templates/front/order/order-view.php:872
+#: includes/templates/front/order/order-history.php:9
+#: includes/admin/account/seller/orders.php:121
+#: includes/templates/admin/account/seller/review.php:102
+msgid "Status"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:898
+msgid "Status: Order status is"
+msgstr ""
+
+#: includes/front/product-list.php:92 includes/admin/product.php:359
+msgid "Stock"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:463
+#: includes/templates/front/single-product/variations.php:125
+msgid "Stock Qty"
+msgstr ""
+
+#: includes/front/class-mp-product-functions.php:801
+msgid "Stock Quantity is not a number."
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:495
+msgid "Stock Status"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:151
+msgid "Stock status"
+msgstr ""
+
+#: includes/admin/payammount.php:18
+msgid "SUBJECT"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-query-list.php:103
+#: includes/admin/class-mp-seller-query.php:111
+#: includes/templates/front/myaccount/ask-to-admin.php:61
+#: includes/templates/front/myaccount/ask-to-admin.php:97
+#: includes/templates/front/myaccount/add-feedback.php:122
+msgid "Subject"
+msgstr ""
+
+#: woocommerce/templates/emails/reply-to-seller.php:26
+#: woocommerce/templates/emails/asktoadmin.php:15
+#: woocommerce/templates/emails/plain/reply-to-seller.php:26
+#: woocommerce/templates/emails/plain/asktoadmin.php:16
+msgid "Subject : "
+msgstr ""
+
+#: functions.php:984
+msgid "Subject field can not be blank."
+msgstr ""
+
+#: functions.php:1006
+msgid "Subject field cannot be empty."
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:132
+msgid "Subject Invalid."
+msgstr ""
+
+#: functions.php:985
+msgid "Subject not valid."
+msgstr ""
+
+#: includes/templates/front/myaccount/shop-followers.php:37
+msgid "Subject: *"
+msgstr ""
+
+#: includes/templates/front/myaccount/add-feedback.php:145
+msgid "Submit Review"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:388
+#: includes/templates/admin/order/admin-invoice.php:331
+msgid "SubTotal"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:190
+#: woocommerce/templates/emails/seller-order-cancelled.php:190
+#: woocommerce/templates/emails/seller-order-failed.php:190
+#: woocommerce/templates/emails/seller-order-completed.php:190
+#: woocommerce/templates/emails/seller-order-onhold.php:190
+#: woocommerce/templates/emails/seller-new-order.php:190
+#: woocommerce/templates/emails/seller-order-refunded.php:196
+#: includes/templates/front/class-mp-user-functions.php:104
+#: includes/templates/front/order/order-view.php:467
+msgid "Subtotal"
+msgstr ""
+
+#: functions.php:1066
+msgid "Success"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:100
+msgid "Summary"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:96
+#: woocommerce/templates/emails/seller-order-cancelled.php:96
+#: woocommerce/templates/emails/seller-order-failed.php:96
+#: woocommerce/templates/emails/seller-order-completed.php:96
+#: woocommerce/templates/emails/seller-order-onhold.php:96
+#: woocommerce/templates/emails/seller-new-order.php:96
+#: woocommerce/templates/emails/seller-order-refunded.php:96
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:63
+#: woocommerce/templates/emails/plain/seller-order-failed.php:63
+#: woocommerce/templates/emails/plain/seller-new-order.php:63
+msgid "Sunday"
+msgstr ""
+
+#: functions.php:497
+msgid "Support"
+msgstr ""
+
+#: includes/admin/product.php:362
+msgid "Tags"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:31
+msgid "Tax status"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:37
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:36
+msgid "Taxable"
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:217
+#: includes/templates/front/order/order-view.php:823
+#: includes/templates/admin/order/admin-invoice.php:112
+msgid "Telephone"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-disapprove.php:12
+#: woocommerce/templates/emails/seller-approval.php:10
+#: woocommerce/templates/emails/plain/seller-disapprove.php:12
+#: woocommerce/templates/emails/plain/seller-approval.php:10
+msgid "Thanks for choosing Marketplace."
+msgstr ""
+
+#: class-wc-email-product-approve.php:26
+#: class-wc-email-seller-order-cancelled.php:27
+#: class-wc-email-seller-order-onhold.php:27
+#: class-wc-email-product-approve-disapprove.php:26
+#: class-wc-email-seller-shop-follower-notification.php:27
+#: class-wc-email-seller-order-placed.php:27
+#: class-wc-email-seller-query-reply.php:27
+#: class-wc-email-seller-order-failed.php:27
+#: class-wc-email-seller-register.php:27 class-wc-email-asktoadmin.php:26
+#: class-wc-email-seller-order-refunded.php:27
+#: class-wc-email-seller-approve.php:23
+#: class-wc-email-seller-order-processing.php:27
+#: class-wc-email-seller-order-completed.php:27
+#: class-wc-email-seller-disapprove.php:24
+msgid "Thanks for choosing marketplace."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-onhold.php:121
+msgid ""
+"Thanks for your order. It is on-hold until we confirm that payment has been "
+"received. In the meantime, here is a reminder of what you ordered:"
+msgstr ""
+
+#: includes/class-mp-post-data-handler.php:163
+msgid "The shop URL already EXISTS please try different shop url"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:687
+msgid "Their order is as follows:"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:1009
+msgid "There are no notes yet."
+msgstr ""
+
+#: functions.php:1003
+msgid "There was some issue in process. Please try again.!"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:16
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: functions.php:1040
+msgid "This field cannot be left blank"
+msgstr ""
+
+#: functions.php:961
+msgid "this field could not be left blank"
+msgstr ""
+
+#: class-wc-email-seller-order-onhold.php:23
+msgid ""
+"This is an order notification sent to sellers containing order details after "
+"an order is placed on-hold."
+msgstr ""
+
+#: class-wc-email-seller-order-processing.php:23
+msgid ""
+"This is an order notification sent to sellers containing order details after "
+"payment."
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:275
+msgid "This Month"
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:55
+msgid "This shop URl already EXISTS please try different shop url."
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:274
+msgid "This Year"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:156
+msgid ""
+"This zone is used for shipping addresses that aren&lsquo;t included in any "
+"other shipping zone. Adding shipping methods to this zone is optional."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:93
+#: woocommerce/templates/emails/seller-order-cancelled.php:93
+#: woocommerce/templates/emails/seller-order-failed.php:93
+#: woocommerce/templates/emails/seller-order-completed.php:93
+#: woocommerce/templates/emails/seller-order-onhold.php:93
+#: woocommerce/templates/emails/seller-new-order.php:93
+#: woocommerce/templates/emails/seller-order-refunded.php:93
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:60
+#: woocommerce/templates/emails/plain/seller-order-failed.php:60
+#: woocommerce/templates/emails/plain/seller-new-order.php:60
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/settings/seller-advanced-setting.php:86
+msgid "Title"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:71
+msgid "to"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:222
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:842
+msgid "Top Billing Countries"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:529
+msgid "Top Selling Product"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:79
+#: woocommerce/templates/emails/seller-order-processing.php:273
+#: woocommerce/templates/emails/seller-order-cancelled.php:273
+#: woocommerce/templates/emails/seller-order-failed.php:273
+#: woocommerce/templates/emails/seller-order-completed.php:273
+#: woocommerce/templates/emails/seller-order-onhold.php:273
+#: woocommerce/templates/emails/seller-new-order.php:267
+#: woocommerce/templates/emails/seller-order-refunded.php:279
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:149
+#: woocommerce/templates/emails/plain/seller-order-failed.php:149
+#: woocommerce/templates/emails/plain/seller-new-order.php:151
+#: includes/templates/front/order/invoice.php:296
+#: includes/templates/front/order/invoice.php:416
+#: includes/templates/front/order/order-view.php:231
+#: includes/templates/front/order/order-view.php:689
+#: includes/templates/front/order/order-history.php:11
+#: includes/templates/admin/order/admin-invoice.php:244
+#: includes/templates/admin/order/admin-invoice.php:347
+msgid "Total"
+msgstr ""
+
+#: includes/admin/account/seller/orders.php:125
+msgid "Total Commission"
+msgstr ""
+
+#: includes/class-mp-frontend-scripts.php:69
+msgid "total entries"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:442
+msgid "Total Orders"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:122
+msgid "Total Payout"
+msgstr ""
+
+#: includes/templates/front/class-mp-user-functions.php:102
+msgid "Total Price"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:523
+msgid "Total Products"
+msgstr ""
+
+#: includes/templates/admin/account/seller/manage-commission.php:22
+msgid "Total Sale"
+msgstr ""
+
+#: includes/admin/account/seller/orders.php:126
+msgid "Total Seller Amount"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:809
+msgid "Total-Amount"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:116
+msgid "To… YYYY-MM-DD"
+msgstr ""
+
+#: includes/templates/front/transaction/list.php:16
+msgid "Tranaction Id"
+msgstr ""
+
+#: functions.php:749
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:26
+#: includes/separate-seller-dashboard/class-mp-seller-backend-functions.php:26
+#: includes/admin/settings/seller-advanced-setting.php:34
+msgid "Transaction"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:82
+msgid "Transaction ID"
+msgstr ""
+
+#: includes/templates/front/transaction/view.php:46
+#: includes/admin/account/seller/transactions.php:120
+#: includes/templates/admin/account/seller/transaction/view.php:23
+msgid "Transaction Id"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:151
+#: includes/admin/setcommision.php:45
+msgid "Transactions"
+msgstr ""
+
+#: includes/admin/product.php:460
+msgid "Trash"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:91
+#: woocommerce/templates/emails/seller-order-cancelled.php:91
+#: woocommerce/templates/emails/seller-order-failed.php:91
+#: woocommerce/templates/emails/seller-order-completed.php:91
+#: woocommerce/templates/emails/seller-order-onhold.php:91
+#: woocommerce/templates/emails/seller-new-order.php:91
+#: woocommerce/templates/emails/seller-order-refunded.php:91
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:58
+#: woocommerce/templates/emails/plain/seller-order-failed.php:58
+#: woocommerce/templates/emails/plain/seller-new-order.php:58
+msgid "Tuesday"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:268
+#: includes/templates/front/myaccount/prof_edit.php:246
+msgid "Twitter Profile ID"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:389
+msgid "Twitter URL not valid"
+msgstr ""
+
+#: includes/admin/product.php:364
+#: includes/templates/front/transaction/view.php:63
+#: includes/admin/account/seller/transactions.php:123
+#: includes/templates/admin/account/seller/transaction/view.php:40
+msgid "Type"
+msgstr ""
+
+#: includes/admin/product.php:41
+msgid "UnAssigned"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approve-disapprove.php:19
+#: woocommerce/templates/emails/plain/product-approve-disapprove.php:18
+msgid "Unfortunately! Your product ( "
+msgstr ""
+
+#: includes/templates/front/order/invoice.php:294
+#: includes/templates/admin/order/admin-invoice.php:242
+msgid "Unit Price"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:848
+#: includes/templates/front/single-product/variations.php:252
+#: includes/templates/front/single-product/variations.php:260
+msgid "Unlimited"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:313
+#: includes/templates/front/single-product/edit-product.php:893
+#: includes/templates/front/myaccount/prof_edit.php:292
+msgid "Update"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:202
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:218
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:233
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:236
+#: includes/templates/front/single-product/edit-product.php:347
+#: includes/templates/front/myaccount/prof_edit.php:182
+#: includes/templates/front/myaccount/prof_edit.php:198
+#: includes/templates/front/myaccount/prof_edit.php:211
+#: includes/templates/front/myaccount/prof_edit.php:214
+msgid "Upload"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:201
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:217
+#: includes/templates/front/myaccount/prof_edit.php:181
+#: includes/templates/front/myaccount/prof_edit.php:197
+msgid "Upload image jpeg or png"
+msgstr ""
+
+#: includes/templates/front/single-product/add-product.php:89
+msgid "Upload Thumb"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:846
+msgid "Upload valid "
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:593
+msgid "Upsells"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:65
+msgid "US Domestic Zone = All US states = Flat rate shipping"
+msgstr ""
+
+#: includes/shipping/mp-flat-rate/includes/settings-mp-flat-rate.php:9
+msgid "Use "
+msgstr ""
+
+#: functions.php:1057
+msgid "Use this media"
+msgstr ""
+
+#: functions.php:993
+#: includes/templates/front/single-product/edit-product.php:679
+msgid "Used for variations"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-new-account.php:10
+#: woocommerce/templates/emails/plain/seller-new-account.php:10
+msgid "User :- "
+msgstr ""
+
+#: includes/admin/sellerlist.php:294
+msgid "User Deleted"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:200
+#: includes/templates/front/myaccount/prof_edit.php:180
+msgid "User Image"
+msgstr ""
+
+#: functions.php:977
+msgid "User Name Already Taken"
+msgstr ""
+
+#: functions.php:976
+msgid "user name available"
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:48
+#: includes/front/handlers/class-mp-login-handler.php:60
+msgid "User not activated."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-new-account.php:11
+#: woocommerce/templates/emails/plain/seller-new-account.php:11
+msgid "User Password :- "
+msgstr ""
+
+#: includes/admin/sellerlist.php:214
+msgid "UserName"
+msgstr ""
+
+#: includes/front/index.php:73
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:77
+#: includes/templates/front/myaccount/prof_edit.php:57
+#: includes/templates/front/myaccount/profile.php:33
+msgid "Username"
+msgstr ""
+
+#: includes/templates/admin/account/seller/profile.php:28
+msgid "Username :"
+msgstr ""
+
+#: includes/front/handlers/class-mp-login-handler.php:94
+msgid "Username is required."
+msgstr ""
+
+#: includes/templates/front/myaccount/mp-popup-login-form.php:29
+msgid "Username or email address"
+msgstr ""
+
+#: includes/front/class-mp-user-functions.php:220
+msgid "Username: "
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:260
+#: includes/templates/front/myaccount/preview.php:414
+#: includes/templates/front/myaccount/seller-profile-details-section.php:79
+#: includes/templates/front/myaccount/add-feedback.php:80
+#: includes/templates/front/myaccount/feedback.php:63
+msgid "Value"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:657
+msgid "Value eg. a|b|c"
+msgstr ""
+
+#: includes/templates/admin/account/seller/review.php:97
+msgid "Value Rating"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:95
+msgid "Variation price (required)"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:154
+msgid "Variations"
+msgstr ""
+
+#: woocommerce/templates/emails/product-approval.php:10
+#: woocommerce/templates/emails/plain/product-approval.php:10
+msgid "Vendor "
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-order-list.php:256
+#: includes/separate-seller-dashboard/class-seller-transaction-list.php:127
+#: includes/admin/product.php:459
+#: includes/templates/front/order/order-history.php:164
+#: includes/templates/front/transaction/list.php:36
+#: includes/admin/account/seller/transactions.php:238
+msgid "View"
+msgstr ""
+
+#: includes/templates/front/myaccount/class-mp-report-dashboard.php:680
+msgid "View All"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:444
+msgid "View All Reviews"
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:316
+msgid "View Collection"
+msgstr ""
+
+#: functions.php:496
+msgid "View Marketplace documentation"
+msgstr ""
+
+#: includes/templates/front/order/order-history.php:12
+msgid "View Order"
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:28
+#: includes/templates/front/myaccount/prof_edit.php:47
+#: includes/templates/front/myaccount/seller-profile-details-section.php:142
+msgid "View Profile"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:783
+#: includes/templates/front/single-product/variations.php:287
+msgid "Virtual"
+msgstr ""
+
+#: functions.php:992
+#: includes/templates/front/single-product/edit-product.php:671
+msgid "Visible on the product page"
+msgstr ""
+
+#: functions.php:497
+msgid "Visit customer support"
+msgstr ""
+
+#: includes/templates/front/order/order-view.php:460
+#: includes/templates/front/transaction/view.php:125
+#: includes/admin/account/seller/orders.php:278
+#: includes/templates/admin/account/seller/transaction/view.php:106
+msgid "Wallet"
+msgstr ""
+
+#: includes/front/index.php:47
+msgid "Want to sell your own products...!"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-completed.php:121
+msgid "We have finished processing your order."
+msgstr ""
+
+#: woocommerce/templates/emails/reply-to-seller.php:23
+#: woocommerce/templates/emails/plain/reply-to-seller.php:23
+msgid "We received your query about: "
+msgstr ""
+
+#. Author of the plugin
+msgid "Webkul"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-processing.php:92
+#: woocommerce/templates/emails/seller-order-cancelled.php:92
+#: woocommerce/templates/emails/seller-order-failed.php:92
+#: woocommerce/templates/emails/seller-order-completed.php:92
+#: woocommerce/templates/emails/seller-order-onhold.php:92
+#: woocommerce/templates/emails/seller-new-order.php:92
+#: woocommerce/templates/emails/seller-order-refunded.php:92
+#: woocommerce/templates/emails/plain/seller-order-cancelled.php:59
+#: woocommerce/templates/emails/plain/seller-order-failed.php:59
+#: woocommerce/templates/emails/plain/seller-new-order.php:59
+msgid "Wednesday"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:526
+msgid "Weight"
+msgstr ""
+
+#: includes/templates/front/single-product/variations.php:168
+msgid "Weight (kg):"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:526
+msgid "Weight in decimal form"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-new-account.php:8
+msgid "Welcome to "
+msgstr ""
+
+#: includes/admin/sellerlist.php:55
+msgid "What should be done with content owned by this user?"
+msgstr ""
+
+#: includes/templates/front/single-product/edit-product.php:535
+msgid "Width"
+msgstr ""
+
+#: functions.php:71 includes/templates/front/order/order-view.php:1000
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:71
+#, php-format
+msgid ""
+"WooCommerce <p>Marketplace depends on the last version of %s or later to "
+"work!"
+msgstr ""
+
+#: includes/admin/class-mp-extensions.php:123
+msgid "WooCommerce Addons"
+msgstr ""
+
+#: functions.php:1214
+#, php-format
+msgid ""
+"WooCommerce Marketplace depends on the last version of %s or later to work!"
+msgstr ""
+
+#: includes/admin/class-mp-extensions.php:122
+msgid "Wordpress Extensions"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WordPress WooCommerce Marketplace convert your WordPress WooCommerce store "
+"in to Marketplace with separate seller product collection and separate "
+"seller."
+msgstr ""
+
+#: includes/templates/front/myaccount/preview.php:326
+#: includes/templates/front/myaccount/preview.php:332
+#: includes/templates/front/myaccount/seller-profile-details-section.php:153
+#: includes/templates/front/myaccount/seller-profile-details-section.php:160
+msgid "Write A Review !"
+msgstr ""
+
+#: includes/templates/front/myaccount/add-feedback.php:52
+msgid "Write your review"
+msgstr ""
+
+#: includes/admin/commision.php:57
+#: includes/admin/settings/seller-assets-setting.php:27
+#: includes/admin/settings/seller-assets-setting.php:41
+#: includes/admin/settings/seller-assets-setting.php:55
+#: includes/admin/settings/seller-assets-setting.php:69
+msgid "Yes"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:161
+msgid "You can add shipping method once you have create shipping zone."
+msgstr ""
+
+#: includes/templates/front/single-product/favourite-seller.php:21
+msgid "You can not add yourself on favourite list."
+msgstr ""
+
+#: includes/front/handlers/class-mp-register-handler.php:51
+msgid "You can not use Special characters in shop url except HYPHEN(-)."
+msgstr ""
+
+#: includes/templates/front/myaccount/add-feedback.php:41
+msgid "You have already reviewed this shop."
+msgstr ""
+
+#: includes/class-mp-form-handler.php:687
+#: woocommerce/templates/emails/seller-new-order.php:121
+#: woocommerce/templates/emails/plain/seller-new-order.php:86
+msgid "You have received an order from"
+msgstr ""
+
+#: includes/admin/sellerlist.php:48
+msgid "You have specified this user for deletion:"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-approval.php:7
+#: woocommerce/templates/emails/plain/seller-approval.php:7
+msgid "Your account has been approved by admin "
+msgstr ""
+
+#: woocommerce/templates/emails/seller-new-account.php:9
+#: woocommerce/templates/emails/plain/seller-new-account.php:9
+msgid "Your account has been created awaiting for admin approval."
+msgstr ""
+
+#: woocommerce/templates/emails/seller-disapprove.php:9
+#: woocommerce/templates/emails/plain/seller-disapprove.php:9
+msgid "Your account has been Disapproved by admin "
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-refunded.php:122
+#, php-format
+msgid ""
+"Your order %s has been fully refunded. There are more details below for your "
+"reference:"
+msgstr ""
+
+#: woocommerce/templates/emails/seller-order-refunded.php:120
+#, php-format
+msgid ""
+"Your order %s has been refunded by amount %s. There are more details below "
+"for your reference:"
+msgstr ""
+
+#: includes/admin/commision.php:604
+msgid "Your payment is successfull"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:896
+#: includes/class-mp-form-handler.php:900
+#: includes/front/class-mp-user-functions.php:160
+#: includes/front/class-mp-user-functions.php:164
+msgid "Your query has been received successfully."
+msgstr ""
+
+#: includes/separate-seller-dashboard/class-seller-mp-profile.php:292
+#: includes/templates/front/myaccount/prof_edit.php:270
+msgid "Youtube Profile ID"
+msgstr ""
+
+#: includes/class-mp-form-handler.php:419
+msgid "Youtube URL not valid"
+msgstr ""
+
+#: includes/front/save-shipping-options.php:32
+#: includes/front/save-shipping-options.php:34
+msgid "Zone"
+msgstr ""
+
+#: includes/class-mp-ajax-functions.php:370
+msgid "Zone Deleted Successfully."
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:105
+msgid "Zone does not exist!"
+msgstr ""
+
+#: includes/templates/front/shipping/shipping-list.php:42
+#: includes/templates/front/shipping/edit-shipping.php:81
+#: includes/templates/front/shipping/add-shipping.php:77
+msgid "Zone Name"
+msgstr ""
+
+#: includes/templates/front/shipping/edit-shipping.php:93
+msgid "Zone Region"
+msgstr ""
+
+#: includes/templates/front/shipping/add-shipping.php:89
+msgid "Zone Region(s)"
+msgstr ""

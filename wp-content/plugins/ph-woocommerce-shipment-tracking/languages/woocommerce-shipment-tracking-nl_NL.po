@@ -1,0 +1,1010 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WooCommerce Shipment Tracking Pro\n"
+"POT-Creation-Date: 2019-04-10 17:47+0530\n"
+"PO-Revision-Date: 2019-04-10 18:41+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-shipment-tracking.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: nl\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:37
+#: includes/class-ph-shipment-tracking-on-order-page.php:38
+msgid "Refresh Live Tracking Status"
+msgstr "Live volgen status vernieuwen"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:75
+#: includes/class-ph-shipment-tracking-on-order-page.php:82
+msgid "Tracking Status"
+msgstr "Volgstatus"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:134
+msgid "Tracking History"
+msgstr "Geschiedenis bijhouden"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:194
+msgid "Tracking ID : "
+msgstr "Dossier-ID:"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:200
+#: includes/class-wf-tracking-admin.php:231
+msgid "Location"
+msgstr "Plaats"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:201
+#: includes/class-wf-tracking-admin.php:232
+msgid "Date"
+msgstr "datum"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:203
+#: includes/class-wf-tracking-admin.php:234
+msgid "Activity"
+msgstr "Activiteit"
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:23
+msgid ""
+"CSV Import requires the function <code>mb_detect_encoding</code> to import "
+"CSV files. Please ask your hosting provider to enable this function."
+msgstr ""
+"CSV Import vereist de functie <code>mb_detect_encoding</code> om CSV-"
+"bestanden te importeren. Vraag uw hostingprovider om deze functie in te "
+"schakelen."
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:31
+msgid "Shipment Tracking Import"
+msgstr "Zending volgen importeren"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:31
+#, php-format
+msgid "Every %d minutes"
+msgstr "Elke %d minuten"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:81
+msgid "Starting auto import...."
+msgstr "Automatisch importeren starten ...."
+
+#: includes/class-wf-shipment-tracking-import-cron.php:84
+msgid "Inside FTP"
+msgstr "Binnen FTP"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:90
+msgid "Fetching file failed. Reason:"
+msgstr "Bestand ophalen mislukt. Reden:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:101
+msgid "FTP status"
+msgstr "FTP-status"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:104
+msgid "FTP started"
+msgstr "FTP is gestart"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:132
+#: includes/class-wf-shipment-tracking-import-cron.php:158
+msgid "Connection:"
+msgstr "Verbinding:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:137
+#: includes/class-wf-shipment-tracking-import-cron.php:164
+msgid "Login:"
+msgstr "Inloggen:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:147
+#: includes/class-wf-shipment-tracking-import-cron.php:176
+msgid "FTP get:"
+msgstr "FTP krijgt:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:185
+msgid "Error:"
+msgstr "Fout."
+
+#: includes/class-wf-shipment-tracking-importer.php:105
+msgid "Entered into import"
+msgstr "Ingevoerd in de import"
+
+#: includes/class-wf-shipment-tracking-importer.php:109
+msgid "Unable to proceed:"
+msgstr "Kan niet doorgaan:"
+
+#: includes/class-wf-shipment-tracking-importer.php:110
+msgid "The file does not exist. Please go back and check your settings."
+msgstr ""
+"Het bestand bestaat niet. Ga alstublieft terug en controleer uw instellingen."
+
+#: includes/class-wf-shipment-tracking-importer.php:111
+msgid "Unable to proceed:File does not exist"
+msgstr "Kon niet doorgaan: Bestand bestaat niet"
+
+#: includes/class-wf-shipment-tracking-importer.php:124
+msgid "Reading file..."
+msgstr "Lees bestand …"
+
+#: includes/class-wf-shipment-tracking-importer.php:127
+msgid "CSV validation done"
+msgstr "CSV-validatie voltooid"
+
+#: includes/class-wf-shipment-tracking-importer.php:151
+msgid "PluginHive Shipment Tracking -"
+msgstr "PluginHoofdverzending Tracking -"
+
+#: includes/class-wf-shipment-tracking-importer.php:152
+msgid "Order #"
+msgstr "Bestelling #"
+
+#: includes/class-wf-shipment-tracking-importer.php:152
+msgid " updated successfully."
+msgstr "succesvol geupdatet."
+
+#: includes/class-wf-shipment-tracking-importer.php:164
+msgid "There has been an error:The CSV is invalid"
+msgstr "Er is een fout opgetreden: de CSV is ongeldig"
+
+#: includes/class-wf-shipment-tracking-importer.php:165
+#: includes/class-wf-shipment-tracking-importer.php:208
+#: includes/class-wf-shipment-tracking-importer.php:222
+msgid "Sorry, there has been an error."
+msgstr "Helaas, er ging iets mis."
+
+#: includes/class-wf-shipment-tracking-importer.php:166
+msgid "The CSV is invalid."
+msgstr "CSV is ongeldig."
+
+#: includes/class-wf-shipment-tracking-importer.php:174
+msgid "Imported:"
+msgstr "Geïmporteerd:"
+
+#: includes/class-wf-shipment-tracking-importer.php:175
+msgid "Skipped:"
+msgstr "Overgeslagen:"
+
+#: includes/class-wf-shipment-tracking-importer.php:178
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Shipment Tracking and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Import compleet - <strong>geïmporteerde%s</strong> Shipment Tracking en "
+"<strong>sloeg%s.</strong>"
+
+#: includes/class-wf-shipment-tracking-importer.php:188
+msgid "All done!"
+msgstr "Gereed!"
+
+#: includes/class-wf-shipment-tracking-importer.php:274
+#: includes/class-wf-shipment-tracking-importer.php:300
+msgid "Please Provide FTP Host IP / Address ."
+msgstr "Geef FTP-host-IP / adres op."
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+#: includes/class-wf-shipment-tracking-importer.php:304
+msgid "Could not Connect to Server : "
+msgstr "Er kon geen verbinding gemaakt worden met de server"
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+#: includes/class-wf-shipment-tracking-importer.php:304
+msgid "Possible Reasons :"
+msgstr "Mogelijke oorzaken:"
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+#: includes/class-wf-shipment-tracking-importer.php:304
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "1. Please select appropriate Protocol: FTP/SFTP."
+msgstr "1. Selecteer het juiste protocol: FTP / SFTP."
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+#: includes/class-wf-shipment-tracking-importer.php:304
+msgid "2. Server/Host address may be wrong . Server - "
+msgstr "2. Server / host-adres kan verkeerd zijn. Server -"
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+msgid "3. Username/Password may be wrong . User Name - "
+msgstr "3. Gebruikersnaam / wachtwoord kan verkeerd zijn. Gebruikersnaam -"
+
+#: includes/class-wf-shipment-tracking-importer.php:278
+msgid "4. CSV File Name may be wrong. File Path Name - "
+msgstr "4. CSV-bestandsnaam kan verkeerd zijn. Bestandsnaam -"
+
+#: includes/class-wf-shipment-tracking-importer.php:287
+#: includes/class-wf-shipment-tracking-importer.php:339
+#: includes/class-wf-shipment-tracking-importer.php:352
+msgid ""
+"There was a problem while getting files from ftp server and uploading into "
+"wp-contents/uploads/. "
+msgstr ""
+"Er was een probleem tijdens het ophalen van bestanden van de ftp-server en "
+"het uploaden naar wp-contents / uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:287
+#: includes/class-wf-shipment-tracking-importer.php:339
+#: includes/class-wf-shipment-tracking-importer.php:352
+msgid "1. Try with or without Passive Mode ."
+msgstr "1. Probeer met of zonder passieve modus."
+
+#: includes/class-wf-shipment-tracking-importer.php:287
+msgid "2. Check your SFTP file permission ."
+msgstr "2. Controleer uw SFTP-bestandsmachtiging."
+
+#: includes/class-wf-shipment-tracking-importer.php:287
+#: includes/class-wf-shipment-tracking-importer.php:339
+#: includes/class-wf-shipment-tracking-importer.php:352
+msgid "3. Check permission of folder wp-contents/uploads/ ."
+msgstr "3. Controleer toestemming van map wp-contents / uploads /."
+
+#: includes/class-wf-shipment-tracking-importer.php:304
+msgid "3. Port may be wrong . Port no. - "
+msgstr "3. De poort kan verkeerd zijn. Poortnr. -"
+
+#: includes/class-wf-shipment-tracking-importer.php:304
+msgid "4. Time out."
+msgstr "4. Time-out."
+
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "Connected to the server but not able to login ."
+msgstr "Verbonden met de server maar niet in staat om in te loggen."
+
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "Possible Reasons - "
+msgstr "Mogelijke oorzaken"
+
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "2. Username may be wrong . User Name - "
+msgstr "2. Gebruikersnaam kan verkeerd zijn. Gebruikersnaam -"
+
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "3. Password may be wrong . Password - "
+msgstr "3. Wachtwoord kan verkeerd zijn. Wachtwoord -"
+
+#: includes/class-wf-shipment-tracking-importer.php:309
+msgid "4. Try with/without FTPS."
+msgstr "4. Probeer met / zonder FTPS."
+
+#: includes/class-wf-shipment-tracking-importer.php:339
+#: includes/class-wf-shipment-tracking-importer.php:352
+msgid "2. Check your FTP file permission ."
+msgstr "2. Controleer de toestemming van uw FTP-bestand."
+
+#: includes/class-wf-shipment-tracking-importer.php:373
+msgid "Import Shipment Tracking"
+msgstr "Zending volgen importeren"
+
+#: includes/class-wf-shipment-tracking-importer.php:415
+msgid ""
+"Hi there! Upload a CSV file containing Shipping Tracking to import into your "
+"shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Betse klant, Upload een CSV-bestand met belastingtarieven om de inhoud te "
+"importeren naar de winkel. Kies een .csv bestand om te uploaden en klik "
+"vervolgens op \"Upload bestand en importeer\"."
+
+#: includes/class-wf-shipment-tracking-importer.php:417
+#, php-format
+msgid ""
+"Shipping Tracking CSV need to be defined with columns in a specific order (5 "
+"columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"Verzenden Tracking CSV moet worden gedefinieerd met kolommen in een "
+"specifieke volgorde (5 kolommen). <a href=\"%s\"> Klik hier om een ​​voorbeeld "
+"te downloaden </a>."
+
+#: includes/class-wf-shipment-tracking-importer.php:425
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Voordat u een importbestand kan uploaden, moet u de volgende fouten "
+"corrigeren:"
+
+#: includes/class-wf-shipment-tracking-importer.php:434
+msgid "Choose a file from your computer:"
+msgstr "Kies een bestand van je computer:"
+
+#: includes/class-wf-shipment-tracking-importer.php:440
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximumgrootte: %s"
+
+#: includes/class-wf-shipment-tracking-importer.php:446
+msgid "OR Provide FTP/SFTP Path:"
+msgstr "OF Geef FTP / SFTP-pad:"
+
+#: includes/class-wf-shipment-tracking-importer.php:452
+msgid "Enable FTP/SFTP Import"
+msgstr "Activeer FTP / SFTP-import"
+
+#: includes/class-wf-shipment-tracking-importer.php:460
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:56
+msgid "Select FTP or SFTP"
+msgstr "Selecteer FTP of SFTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:464
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:60
+msgid "FTP"
+msgstr "FTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:465
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:61
+msgid "SFTP"
+msgstr "SFTP"
+
+#: includes/class-wf-shipment-tracking-importer.php:471
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:67
+msgid "FTP/SFTP Server Host/IP"
+msgstr "FTP / SFTP-serverhost / IP"
+
+#: includes/class-wf-shipment-tracking-importer.php:474
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:70
+msgid "XXX.XXX.XXX.XXX"
+msgstr ": xxx.xxx.xxx.xxx"
+
+#: includes/class-wf-shipment-tracking-importer.php:479
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:75
+msgid "FTP/SFTP User Name"
+msgstr "FTP / SFTP-gebruikersnaam"
+
+#: includes/class-wf-shipment-tracking-importer.php:487
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:83
+msgid "FTP/SFTP Password"
+msgstr "FTP / SFTP-wachtwoord"
+
+#: includes/class-wf-shipment-tracking-importer.php:495
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:91
+msgid "FTP/SFTP Port"
+msgstr "FTP / SFTP-poort"
+
+#: includes/class-wf-shipment-tracking-importer.php:496
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:92
+msgid "Default port will be used if left empty."
+msgstr "Standaardpoort zal worden gebruikt als deze leeg wordt gelaten."
+
+#: includes/class-wf-shipment-tracking-importer.php:499
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:95
+msgid "21"
+msgstr "21"
+
+#: includes/class-wf-shipment-tracking-importer.php:504
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:100
+msgid "FTP/SFTP Timeout"
+msgstr "FTP / SFTP time-out"
+
+#: includes/class-wf-shipment-tracking-importer.php:505
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:101
+msgid "Default timeout default value will be used if left empty."
+msgstr ""
+"Standaard time-out standaardwaarde wordt gebruikt als deze leeg wordt "
+"gelaten."
+
+#: includes/class-wf-shipment-tracking-importer.php:508
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:104
+msgid "90"
+msgstr "90"
+
+#: includes/class-wf-shipment-tracking-importer.php:513
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:109
+msgid "Path/CSV File Name"
+msgstr "Pad / CSV-bestandsnaam"
+
+#: includes/class-wf-shipment-tracking-importer.php:514
+msgid ""
+"Remote CSV File Path starting from FTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"Extern CSV-bestandspad beginnend met de FTP-basismap, exclusief de schuine "
+"streep en bestandsnaam aan het einde."
+
+#: includes/class-wf-shipment-tracking-importer.php:517
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:113
+msgid "Path/StartingFrom/FTP-Directory/FileName.csv"
+msgstr "Path / StartingFrom / FTP-Directory / bestandsnaam.csv"
+
+#: includes/class-wf-shipment-tracking-importer.php:525
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:121
+msgid "Use FTPS"
+msgstr "Gebruik FTPS"
+
+#: includes/class-wf-shipment-tracking-importer.php:534
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:130
+msgid "Use Passive Mode"
+msgstr "Passieve modus"
+
+#: includes/class-wf-shipment-tracking-importer.php:545
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: includes/class-wf-shipment-tracking-importer.php:552
+msgid "Upload file and import"
+msgstr "Upload bestand en importeer"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+msgid "Import Shipment Tracking (CSV)"
+msgstr "Zendingstracering importeren (CSV)"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import <strong>Shipment Tracking</strong> to your store via a csv file."
+msgstr ""
+"Importeer <strong>zending volgen</strong> naar uw winkel via een csv-bestand."
+
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import Shipment Tracking cron(CSV)"
+msgstr "Importeer zending volgen cron (CSV)"
+
+#: includes/class-wf-tracking-admin.php:101
+msgid "Shipping Detail"
+msgstr "Verzendgegevens"
+
+#: includes/class-wf-tracking-admin.php:161
+msgid "Shipment ID"
+msgstr "Zending ID"
+
+#: includes/class-wf-tracking-admin.php:161
+msgid "Follow link for detailed status."
+msgstr "Volg de link voor de gedetailleerde status."
+
+#: includes/class-wf-tracking-admin.php:162
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-wf-tracking-admin.php:165
+msgid "Refresh"
+msgstr "Ververs"
+
+#: includes/class-wf-tracking-admin.php:183
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Kan de realtime-status op dit moment niet bijwerken. Volg de link op verzend-"
+"id om de status te controleren."
+
+#: includes/class-wf-tracking-admin.php:295
+#: includes/class-wf-tracking-admin.php:450
+#: includes/track/class-wf-tracking-util.php:251
+msgid "Unable to update tracking info."
+msgstr "Kan trackinggegevens niet bijwerken."
+
+#: includes/class-wf-tracking-admin.php:324
+msgid "Sorry, Unable to proceed."
+msgstr "Sorry, kan niet doorgaan."
+
+#: includes/class-wf-tracking-admin.php:327
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Kon de verzending niet volgen. Controleer de verzend-id of probeer het na "
+"verloop van tijd."
+
+#: includes/class-wf-tracking-admin.php:336
+msgid "Tracking is unset."
+msgstr "Volgen is uitgeschakeld."
+
+#: includes/class-wf-tracking-admin.php:339
+msgid "Tracking Data is reset to default."
+msgstr "Trackinggegevens worden teruggezet naar de standaard."
+
+#: includes/class-wf-tracking-admin.php:393
+msgid "None"
+msgstr "Geen"
+
+#: includes/class-wf-tracking-admin.php:401
+msgid "Enter Tracking IDs"
+msgstr "Voer tracking-ID's in"
+
+#: includes/class-wf-tracking-admin.php:402
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr ""
+"Komma gescheiden, in geval van meerdere zendingen voor deze bestelling."
+
+#: includes/class-wf-tracking-admin.php:404
+msgid "Descriptions"
+msgstr "Omschrijvingen"
+
+#: includes/class-wf-tracking-admin.php:405
+msgid "Pipe separated, in case of multiple shipment description."
+msgstr "Pijp gescheiden, in geval van een beschrijving van meerdere zendingen."
+
+#: includes/class-wf-tracking-admin.php:406
+msgid "Use Pipe `|` to seperate description of different shipment ids."
+msgstr ""
+"Gebruik Pipe `|` om een afzonderlijke beschrijving van verschillende zend-"
+"ID's te maken."
+
+#: includes/class-wf-tracking-admin.php:407
+msgid "Shipment Date"
+msgstr "Leverdatum"
+
+#: includes/class-wf-tracking-admin.php:408
+msgid "This field is Optional."
+msgstr "Dit veld is optioneel."
+
+#: includes/class-wf-tracking-admin.php:412
+msgid "Save/Show Tracking Info"
+msgstr "Bewaar / Toon trackinginformatie"
+
+#: includes/class-wf-tracking-admin.php:430
+msgid "You don't have admin privileges to view this page."
+msgstr "U heeft geen beheerdersrechten om deze pagina te bekijken."
+
+#: includes/class-wf-tracking-settings.php:16
+msgid "Tracking"
+msgstr "Tracking"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Shipment Tracking Settings"
+msgstr "Instellingen voor tracking van zendingen"
+
+#: includes/class-wf-tracking-settings.php:77
+msgid "licence activation"
+msgstr "Activering Licentie"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid "Custom Shipment Message"
+msgstr "Aangepast verzendbericht"
+
+#: includes/class-wf-tracking-settings.php:84
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Definieer uw eigen verzendbericht. Gebruik de labels voor de plaatshouders "
+"[ID], [SERVICE] en [DATUM] voor respectievelijk Verzendingsidentificatie, "
+"Verzendingsservice en Verzenddatum. <br>"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid "Turn off API Status"
+msgstr "Schakel API-status uit"
+
+#: includes/class-wf-tracking-settings.php:92
+msgid "Turn off Real time API Status"
+msgstr "Schakel realtime API-status uit"
+
+#: includes/class-wf-tracking-settings.php:94
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Schakel realtime API-trackingstatus op klantorderpagina uit. Basis Tracking-"
+"info bovenaan wordt nog steeds weergegeven."
+
+#: includes/class-wf-tracking-settings.php:100
+msgid "Automatic Refresh"
+msgstr "Automatisch vernieuwen"
+
+#: includes/class-wf-tracking-settings.php:103
+#: includes/class-wf-tracking-settings.php:123
+msgid "Enable"
+msgstr "in staat stellen"
+
+#: includes/class-wf-tracking-settings.php:104
+msgid "Disable"
+msgstr "Uitzetten"
+
+#: includes/class-wf-tracking-settings.php:107
+msgid "Enable - "
+msgstr "in staat stellen"
+
+#: includes/class-wf-tracking-settings.php:107
+msgid ""
+"It will turn on live status automatic refresh on Myaccount->Order page "
+"loading."
+msgstr ""
+"Het zal live status automatisch vernieuwen inschakelen op Myaccount-> Pagina "
+"laden laden."
+
+#: includes/class-wf-tracking-settings.php:107
+msgid "Disable - "
+msgstr "Uitgeschakeld"
+
+#: includes/class-wf-tracking-settings.php:107
+msgid ""
+"It will turn off the automatic refresh on Myaccount->Order page and Refresh "
+"button will be shown"
+msgstr ""
+"Het schakelt automatisch verversen uit op de pagina Mijn account-> "
+"Bestelpagina en de knop Vernieuwen wordt weergegeven"
+
+#: includes/class-wf-tracking-settings.php:112
+msgid "Tracking Data"
+msgstr "Gegevens bijhouden"
+
+#: includes/class-wf-tracking-settings.php:116
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"U kunt verzendingsservices voor verzending toevoegen of verwijderen door "
+"respectieve regels toe te voegen of te verwijderen. <br/> Als u een nieuwe "
+"service wilt toevoegen, maakt u een nieuwe regel door de naam van de "
+"verzender en de tracking-url (optioneel) toe te voegen, gescheiden door het "
+"pijpsymbool '|' zoals hieronder gegeven. <br/> Indeling: <strong> [naam "
+"verzendservice] | [URL voor verzendingstracering (optioneel)] </ strong> <br/"
+"> Voorbeeld: <strong> Verzendservicenaam | http: // tracking_url? "
+"tracking_id = </ strong> <br/> <br/> Complexe tracking-URL's kunnen worden "
+"gerepresenteerd met respectievelijk de place-holderlabels [ID] en [PIN] voor "
+"respectievelijk verzendings-ID en postcode. <br/> Voorbeeld: <strong> PostNL "
+"| https://jouw.postnl.nl/ [ID] / track-en-trace / 111111111 / NL / [PIN] </ "
+"strong> <br/>"
+
+#: includes/class-wf-tracking-settings.php:119
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[naam verzendingsservice] | [tracking-url voor verzending]"
+
+#: includes/class-wf-tracking-settings.php:122
+msgid "Shipping Easy"
+msgstr "Verzending gemakkelijk"
+
+#: includes/class-wf-tracking-settings.php:125
+msgid "Enable this to integrate Shipping Easy"
+msgstr "Schakel dit in om Shipping Easy te integreren"
+
+#: includes/class-wf-tracking-settings.php:130
+msgid "Send Tracking Details To Customer"
+msgstr "Stuur trackinggegevens naar de klant"
+
+#: includes/class-wf-tracking-settings.php:131
+#: includes/class-wf-tracking-settings.php:133
+msgid ""
+"Add Tracking Details to Customer Order Notes in My Accounts and in Order "
+"Completion Email."
+msgstr ""
+"Voeg trackinggegevens toe aan klantorderopmerkingen in Mijn accounts en in "
+"Ordervoltooiingse-mail."
+
+#: includes/class-wf-tracking-settings.php:138
+#: includes/class-wf-tracking-settings.php:139
+msgid "Reset Tracking Data"
+msgstr "Volgen opnieuw instellen"
+
+#: includes/class-wf-tracking-settings.php:141
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Reset volggegevens naar de standaardwaarden. Alle aangepaste toegevoegde "
+"waarden in de bovenstaande trackinggegevens worden opgeschoond."
+
+#: includes/class-wf-tracking-settings.php:154
+msgid "UPS User Id"
+msgstr ""
+
+#: includes/class-wf-tracking-settings.php:156
+msgid "Provide UPS user Id for the live UPS shipment tracking."
+msgstr "Geef een UPS-gebruikersnaam op voor het live volgen van UPS-zendingen."
+
+#: includes/class-wf-tracking-settings.php:161
+msgid "UPS Password"
+msgstr "UPS wachtwoord"
+
+#: includes/class-wf-tracking-settings.php:163
+msgid "Provide UPS password."
+msgstr "Geef het wachtwoord van de UPS op."
+
+#: includes/class-wf-tracking-settings.php:168
+msgid "UPS Access Key"
+msgstr "Toegangssleutel van UPS"
+
+#: includes/class-wf-tracking-settings.php:170
+msgid "Provide UPS access key."
+msgstr "Geef de UPS-toegangssleutel op."
+
+#: includes/class-wf-tracking-settings.php:175
+msgid "FedEx Account Number"
+msgstr "Fedex Accountnummer"
+
+#: includes/class-wf-tracking-settings.php:178
+msgid "Provide FedEx account number for the live FedEx shipment tracking."
+msgstr ""
+"Geef een FedEx-accountnummer op voor het live volgen van FedEx-zendingen."
+
+#: includes/class-wf-tracking-settings.php:183
+msgid "FedEx Meter Number"
+msgstr "FedEx meternummer"
+
+#: includes/class-wf-tracking-settings.php:186
+msgid "Provide FedEx meter number for the live FedEx shipment tracking."
+msgstr ""
+"Geef het FedEx-meternummer op voor het live volgen van FedEx-zendingen."
+
+#: includes/class-wf-tracking-settings.php:191
+msgid "FedEx Web Services"
+msgstr "FedEx Web Services"
+
+#: includes/class-wf-tracking-settings.php:194
+msgid "Provide FedEx Web Services for the live FedEx shipment tracking."
+msgstr "Verstrek FedEx Web Services voor het live volgen van FedEx-zendingen."
+
+#: includes/class-wf-tracking-settings.php:199
+msgid "FedEx Password"
+msgstr "FedEx wachtwoord"
+
+#: includes/class-wf-tracking-settings.php:202
+msgid "Provide FedEx Password for the live FedEx shipment tracking."
+msgstr "Geef een FedEx-wachtwoord op voor het live volgen van FedEx-zendingen."
+
+#: includes/compatibility/class-ph-shipment-tracking-storepep-mobile-app-compatibility.php:148
+msgid "Sorry, you are not allowed to create resources."
+msgstr "U heeft geen toestemming om gegevensbronnen aan te maken."
+
+#: includes/track/class-wf-tracking-util.php:133
+msgid ""
+"Your order was shipped on [DATE] via [SERVICE]. To track shipment, please "
+"follow the link of shipment ID(s) [ID]"
+msgstr ""
+"Uw bestelling is verzonden op [DATE] via [SERVICE]. Volg de link van de ID "
+"(s) van de zending [ID] om verzending te volgen"
+
+#: includes/track/class-wf-tracking-util.php:292
+msgid "Tracking No."
+msgstr "Volgnummer"
+
+#: includes/track/class-wf-tracking-util.php:293
+msgid "Description"
+msgstr "Omschrijving:"
+
+#: includes/views/html-wf-admin-screen.php:4
+msgid "Import Settings"
+msgstr "Import instellingen"
+
+#: includes/views/html-wf-admin-screen.php:5
+#: woocommerce-shipment-tracking.php:120
+msgid "Import"
+msgstr "Importeren"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:29
+#, php-format
+msgid "The next export is scheduled on <code>%s</code>"
+msgstr "De volgende export is gepland op <code>%s</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:31
+msgid "There is no export scheduled."
+msgstr "Er is geen export gepland."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:41
+msgid "FTP/SFTP Settings for Auto Import CSV"
+msgstr "FTP / SFTP-instellingen voor automatisch importeren CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:46
+msgid "Enable FTP/SFTP"
+msgstr "Schakel FTP / SFTP in"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:110
+msgid ""
+"Remote CSV File Path starting from FTP/SFTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"Extern CSV-bestandspad beginnend met de FTP / SFTP-hoofddirectory exclusief "
+"de schuine streep en bestandsnaam op het einde."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:139
+msgid "Automatically Import CSV"
+msgstr "CSV automatisch importeren"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:143
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:144
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:151
+msgid "Import Start Time"
+msgstr "Starttijd importeren"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:155
+#, php-format
+msgid "Local time is <code>%s</code>."
+msgstr "Lokale tijd is <code>%s</code> ."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:157
+msgid "<code>Enter like 6:18pm or 12:27am</code>"
+msgstr "<code>Enter like 6:18pm or 12:27am</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:162
+msgid "Import Interval [ Minutes ]"
+msgstr "Importinterval [minuten]"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:170
+msgid "Skip Already Processed"
+msgstr "Skip Already Processed"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:178
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"De licentiesleutel voor% s is verlopen. U kunt een licentiecode opnieuw "
+"activeren of kopen via uw <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Het abonnement voor% s staat in de wacht. U kunt het abonnement opnieuw "
+"activeren vanuit uw account <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Het abonnement voor% s is geannuleerd. U kunt het abonnement vernieuwen "
+"vanuit uw account <a href=\"%s\" target=\"_blank\"> dashboard </a>. Een "
+"nieuwe licentiesleutel wordt naar u gemaild nadat uw bestelling is voltooid."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Het abonnement voor% s is verlopen. U kunt het abonnement opnieuw activeren "
+"vanuit uw account <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Het abonnement voor %s is opgeschort. Een licentiesleutel of abonnement kunt "
+"u via uw account <a href=\"%s\" target=\"_blank\">dashboard</a> laten her-"
+"activeren, verlengen of aanschaffen."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Het abonnement voor% s is nog in behandeling. U kunt de status van het "
+"abonnement controleren via uw <a href=\"%s\" target=\"_blank\"> dashboard </"
+"a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Het abonnement voor% s is in de prullenbak geplaatst en zal binnenkort "
+"worden verwijderd. U kunt een nieuw abonnement kopen via uw <a href=\"%s\" "
+"target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Een abonnement voor% s kon niet worden gevonden. U kunt een abonnement kopen "
+"via uw <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Een licentiesleutel voor% s kon niet worden gevonden. Misschien bent u "
+"vergeten een licentiecode in te voeren bij het instellen van% s, of is de "
+"sleutel gedeactiveerd in uw account. U kunt de licentiecode opnieuw "
+"activeren op uw <a href=\"%s\" target=\"_blank\"> instellingenpagina </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"De downloadmachtiging voor% s is ingetrokken, mogelijk vanwege een "
+"licentiesleutel of verlopen abonnement. U kunt een licentiecode opnieuw "
+"activeren of kopen via uw <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"% s is niet geactiveerd. Ga naar de <a href=\"%s\" target=\"_blank\"> "
+"instellingenpagina </a> en voer de licentiesleutel en licentie-e-mail in om"
+"% s te activeren."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"U hebt het abonnement voor% s gewijzigd, dus u moet uw nieuwe API-"
+"licentiesleutel invoeren op de pagina met instellingen. De licentiecode moet "
+"in uw e-mailinbox zijn aangekomen, anders kunt u deze verkrijgen door u aan "
+"te melden bij uw account <a href=\"%s\" target=\"_blank\"> dashboard </a>."
+
+#: woocommerce-shipment-tracking.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete WooCommerce "
+"Shipment Tracking Basic Woocommerce Extension and then try again."
+msgstr ""
+"Oops! U hebt geprobeerd de premium-versie te installeren zonder de "
+"basisversie te deactiveren en te verwijderen. Deactiveer en verwijder "
+"WooCommerce Shipment Tracking Basic Woocommerce Extension en probeer het "
+"opnieuw."
+
+#: woocommerce-shipment-tracking.php:119
+msgid "Settings"
+msgstr "Instellingen"
+
+#: woocommerce-shipment-tracking.php:121
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: woocommerce-shipment-tracking.php:122
+msgid "Support"
+msgstr "Support"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipment Tracking Pro"
+msgstr "WooCommerce Verzenden Volgen Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+msgstr "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Features includes Custom Tracking Message, Multiple Shipping Services "
+"including 70+ predefined services, WPML Support and CSV bulk import of "
+"tracking data & FTP import."
+msgstr ""
+"Functies omvatten Custom Tracking Message, meerdere verzendservices "
+"waaronder 70+ vooraf gedefinieerde services, WPML-ondersteuning en CSV "
+"bulkimport van trackinggegevens en FTP-import."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"

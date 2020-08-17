@@ -1,0 +1,893 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-11-13 16:50+0530\n"
+"PO-Revision-Date: 2018-11-14 11:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:37
+#: includes/class-ph-shipment-tracking-on-order-page.php:38
+msgid "Refresh Live Tracking Status"
+msgstr "Élő, nyomon követés állapotának frissítése"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:75
+#: includes/class-ph-shipment-tracking-on-order-page.php:82
+msgid "Tracking Status"
+msgstr "Nyomon követési állapot"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:116
+msgid "Tracking History"
+msgstr "Nyomon követési előzmények"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:176
+msgid "Tracking ID : "
+msgstr "Követési azonosító:"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:182
+#: includes/class-wf-tracking-admin.php:222
+msgid "Location"
+msgstr "Helyszín"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:183
+#: includes/class-wf-tracking-admin.php:223
+msgid "Date"
+msgstr "dátum"
+
+#: includes/class-ph-shipment-tracking-on-order-page.php:185
+#: includes/class-wf-tracking-admin.php:225
+msgid "Activity"
+msgstr "Tevékenység"
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:23
+msgid ""
+"CSV Import requires the function <code>mb_detect_encoding</code> to import "
+"CSV files. Please ask your hosting provider to enable this function."
+msgstr ""
+"CSV importálás megköveteli a függvény <code>mb_detect_encoding</code> "
+"importálása a CSV-fájlok. Kérje meg a szolgáltatónál ahhoz, hogy ezt a "
+"funkciót."
+
+#: includes/class-wf-shipment-tracking-admin-screen.php:31
+msgid "Shipment Tracking Import"
+msgstr "Szállítólevél követés Import"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:29
+#, php-format
+msgid "Every %d minutes"
+msgstr "Minden %d perc(ek)"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:79
+msgid "Starting auto import...."
+msgstr "Automatikus importálás indítása..."
+
+#: includes/class-wf-shipment-tracking-import-cron.php:82
+msgid "Inside FTP"
+msgstr "Belül FTP"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:88
+msgid "Fetching file failed. Reason:"
+msgstr "A fájl lekérése sikertelen. Ok:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:99
+msgid "FTP status"
+msgstr "FTP állapot"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:102
+msgid "FTP started"
+msgstr "FTP indult"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:121
+msgid "Connection:"
+msgstr "Csatlakozás:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:127
+msgid "Login:"
+msgstr "Belépés:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:138
+msgid "FTP get:"
+msgstr "FTP-get:"
+
+#: includes/class-wf-shipment-tracking-import-cron.php:146
+msgid "Error:"
+msgstr "Hiba:"
+
+#: includes/class-wf-shipment-tracking-importer.php:103
+msgid "Entered into import"
+msgstr "Importálva van"
+
+#: includes/class-wf-shipment-tracking-importer.php:107
+msgid "Unable to proceed:"
+msgstr "Képtelen-hoz halad:"
+
+#: includes/class-wf-shipment-tracking-importer.php:108
+msgid "The file does not exist. Please go back and check your settings."
+msgstr "A fájl nem létezik. Lépjen vissza, és ellenőrizze a beállításokat."
+
+#: includes/class-wf-shipment-tracking-importer.php:109
+msgid "Unable to proceed:File does not exist"
+msgstr "Képtelen-hoz halad: nem létezik ilyen fájl"
+
+#: includes/class-wf-shipment-tracking-importer.php:122
+msgid "Reading file..."
+msgstr "Fájl beolvasása..."
+
+#: includes/class-wf-shipment-tracking-importer.php:125
+msgid "CSV validation done"
+msgstr "CSV-hitelesítés történt"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid "Order #"
+msgstr "Rendelés száma #"
+
+#: includes/class-wf-shipment-tracking-importer.php:146
+msgid " updated successfully."
+msgstr "Sikeresen frissítve."
+
+#: includes/class-wf-shipment-tracking-importer.php:158
+msgid "There has been an error:The CSV is invalid"
+msgstr "Volt egy hiba: Érvénytelen a CSV"
+
+#: includes/class-wf-shipment-tracking-importer.php:159
+#: includes/class-wf-shipment-tracking-importer.php:202
+#: includes/class-wf-shipment-tracking-importer.php:216
+msgid "Sorry, there has been an error."
+msgstr "Sajnáljuk, hiba történt."
+
+#: includes/class-wf-shipment-tracking-importer.php:160
+msgid "The CSV is invalid."
+msgstr "A CSV érvénytelen."
+
+#: includes/class-wf-shipment-tracking-importer.php:168
+msgid "Imported:"
+msgstr "Importálva:"
+
+#: includes/class-wf-shipment-tracking-importer.php:169
+msgid "Skipped:"
+msgstr "Kihagyva:"
+
+#: includes/class-wf-shipment-tracking-importer.php:172
+#, php-format
+msgid ""
+"Import complete - imported <strong>%s</strong> Shipment Tracking and skipped "
+"<strong>%s</strong>."
+msgstr ""
+"Import teljes - importált <strong>%s</strong> Feladatkövetés és kihagyás "
+"<strong>%s</strong> kihagyása."
+
+#: includes/class-wf-shipment-tracking-importer.php:182
+msgid "All done!"
+msgstr "Minden kész!"
+
+#: includes/class-wf-shipment-tracking-importer.php:259
+msgid "Please Provide FTP Host IP / Address ."
+msgstr "Kérjük, adja meg IP FTP Host / cím."
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Could not Connect to Server : "
+msgstr "Nem lehet kapcsolódni a kiszolgálóhoz"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "Possible Reasons :"
+msgstr "A hiba lehetséges okai"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "1. Server/Host address may be wrong . Server - "
+msgstr "1. a kiszolgáló/állomás címe lehet, hogy tévedek. Szerver-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "2. Port may be wrong . Port no. - "
+msgstr "2. a port lehet, hogy tévedek. Port nem.-"
+
+#: includes/class-wf-shipment-tracking-importer.php:266
+msgid "3. Time out."
+msgstr "3. idő ki."
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Connected to the server but not able to login ."
+msgstr "A kiszolgálóhoz csatlakozik, de nem tud bejelentkezni"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Possible Reasons - "
+msgstr "A hiba lehetséges okai"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "1. Username may be wrong . User Name - "
+msgstr "1. név lehet, hogy tévedek. Felhasználó név-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Password may be wrong . Password - "
+msgstr "Lehet, hogy rossz jelszó. Jelszó-"
+
+#: includes/class-wf-shipment-tracking-importer.php:271
+msgid "Try with/without FTPS."
+msgstr "Próbáld nélkül FTPS."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid ""
+"There was a problem while getting files from ftp server and uploading into "
+"wp-contents/uploads/. "
+msgstr ""
+"Probléma volt a fájlok letöltése az ftp-kiszolgálóról és feltöltés a wp-"
+"content / uploads / fájlokba."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "1. Try with or without Passive Mode ."
+msgstr "1. próbálja meg, vagy a passzív mód nélkül."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "2. Check your FTP file permission ."
+msgstr "2. Ellenőrizze az FTP fájl engedélye."
+
+#: includes/class-wf-shipment-tracking-importer.php:294
+#: includes/class-wf-shipment-tracking-importer.php:306
+msgid "3. Check permission of folder wp-contents/uploads/ ."
+msgstr "(3) az engedély a wp-contents/uploads mappa ellenőrzése /."
+
+#: includes/class-wf-shipment-tracking-importer.php:325
+msgid "Import Shipment Tracking"
+msgstr "Importálja a szállítás nyomon követése"
+
+#: includes/class-wf-shipment-tracking-importer.php:361
+msgid ""
+"Hi there! Upload a CSV file containing Shipping Tracking to import into your "
+"shop. Choose a .csv file to upload, then click \"Upload file and import\"."
+msgstr ""
+"Szia! Töltsön fel egy CSV-fájlt, amely tartalmazza a szállítási nyomon "
+"követést a boltba való importáláshoz. Válassza ki a feltölteni kívánt .csv "
+"fájlt, majd kattintson a \"Fájl feltöltése és importálása\" elemre."
+
+#: includes/class-wf-shipment-tracking-importer.php:363
+#, php-format
+msgid ""
+"Shipping Tracking CSV need to be defined with columns in a specific order (5 "
+"columns). <a href=\"%s\">Click here to download a sample</a>."
+msgstr ""
+"A szállítási nyomon követési CSV-t meghatározott oszlopokkal kell "
+"meghatározni (5 oszlop). <a href=\"%s\"> Kattintson ide a minta letöltéséhez "
+"</a>."
+
+#: includes/class-wf-shipment-tracking-importer.php:371
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+"Mielőtt feltöltenéd az importálandó fájlt, előbb javítanod kell az alábbi "
+"hibákat:"
+
+#: includes/class-wf-shipment-tracking-importer.php:380
+msgid "Choose a file from your computer:"
+msgstr "Válassz egy fájlt a számítógépről:"
+
+#: includes/class-wf-shipment-tracking-importer.php:386
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maximális méret: %s"
+
+#: includes/class-wf-shipment-tracking-importer.php:392
+msgid "OR Provide FTP Path:"
+msgstr "VAGY Adja meg az FTP elérési útvonalát:"
+
+#: includes/class-wf-shipment-tracking-importer.php:398
+msgid "Enable FTP Import"
+msgstr "Engedélyezi az FTP-importálás"
+
+#: includes/class-wf-shipment-tracking-importer.php:406
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:53
+msgid "FTP Server Host/IP"
+msgstr "FTP szerver Host/IP"
+
+#: includes/class-wf-shipment-tracking-importer.php:409
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:56
+msgid "XXX.XXX.XXX.XXX"
+msgstr "XXX.XXX.XXX.XXX"
+
+#: includes/class-wf-shipment-tracking-importer.php:414
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:61
+msgid "FTP User Name"
+msgstr "FTP felhasználói név"
+
+#: includes/class-wf-shipment-tracking-importer.php:422
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:69
+msgid "FTP Password"
+msgstr "FTP Password"
+
+#: includes/class-wf-shipment-tracking-importer.php:430
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:77
+msgid "FTP Port"
+msgstr "FTP Port"
+
+#: includes/class-wf-shipment-tracking-importer.php:431
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:78
+msgid "Default port will be used if left empty."
+msgstr "Az alapértelmezett portot akkor használjuk, ha üresen hagyjuk."
+
+#: includes/class-wf-shipment-tracking-importer.php:434
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:81
+msgid "21"
+msgstr "21"
+
+#: includes/class-wf-shipment-tracking-importer.php:439
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:86
+msgid "FTP Timeout"
+msgstr "FTP Időtúllépés"
+
+#: includes/class-wf-shipment-tracking-importer.php:440
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:87
+msgid "Default timeout default value will be used if left empty."
+msgstr "Alapértelmezett időtúllépés alapérték használatosak, ha üres."
+
+#: includes/class-wf-shipment-tracking-importer.php:443
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:90
+msgid "90"
+msgstr "90"
+
+#: includes/class-wf-shipment-tracking-importer.php:448
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:95
+msgid "Path/CsvFileName"
+msgstr "Elérési út/CsvFileName"
+
+#: includes/class-wf-shipment-tracking-importer.php:449
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:96
+msgid ""
+"Remote CSV File Path starting from FTP home directory excluding leading "
+"slash and File Name in the end."
+msgstr ""
+"A távoli CSV fájl elérési útja az FTP home könyvtárból indulva, kivéve a "
+"vezető perjel és a fájl nevét a végén."
+
+#: includes/class-wf-shipment-tracking-importer.php:452
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:99
+msgid "Path/StartingFrom/FTP-Directory/FileName.csv"
+msgstr "Path/StartingFrom/FTP-Directory/FileName.csv"
+
+#: includes/class-wf-shipment-tracking-importer.php:458
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:105
+msgid "Use FTPS"
+msgstr "Használ FTPS"
+
+#: includes/class-wf-shipment-tracking-importer.php:467
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:114
+msgid "Use Passive Mode"
+msgstr "Passzív mód használata"
+
+#: includes/class-wf-shipment-tracking-importer.php:478
+msgid "Delimiter"
+msgstr "Határolójel"
+
+#: includes/class-wf-shipment-tracking-importer.php:485
+msgid "Upload file and import"
+msgstr "Fájl feltöltés és importálás"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+msgid "Import Shipment Tracking (CSV)"
+msgstr "Import nyomon követés importálása (CSV)"
+
+#: includes/class-wf-shipment-tracking-setup.php:23
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import <strong>Shipment Tracking</strong> to your store via a csv file."
+msgstr ""
+"Importáljon <strong> Szállítmánykövetés </ strong> csv-fájlba a boltba."
+
+#: includes/class-wf-shipment-tracking-setup.php:24
+msgid "Import Shipment Tracking cron(CSV)"
+msgstr "Importálja a szállítás követési cron(CSV)"
+
+#: includes/class-wf-tracking-admin.php:96
+msgid "Shipping Detail"
+msgstr "Szállítás részletei"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Shipment ID"
+msgstr "Szállítási azonosító"
+
+#: includes/class-wf-tracking-admin.php:152
+msgid "Follow link for detailed status."
+msgstr "Kövesse a linket a részletes állapotát."
+
+#: includes/class-wf-tracking-admin.php:153
+msgid "Status"
+msgstr "Státus"
+
+#: includes/class-wf-tracking-admin.php:156
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: includes/class-wf-tracking-admin.php:174
+msgid ""
+"Unable to update real time status at this point of time. Please follow the "
+"link on shipment id to check status."
+msgstr ""
+"Nem lehet frissíteni a valós idejű állapot ezen a ponton az idő. Kérjük, "
+"kövesse a linket a szállítmányazonosító állapotának ellenőrzéséhez."
+
+#: includes/class-wf-tracking-admin.php:286
+#: includes/class-wf-tracking-admin.php:431
+#: includes/track/class-wf-tracking-util.php:248
+msgid "Unable to update tracking info."
+msgstr "Nem lehet frissíteni a követési."
+
+#: includes/class-wf-tracking-admin.php:315
+msgid "Sorry, Unable to proceed."
+msgstr "Sajnáljuk, nem lehet folytatni."
+
+#: includes/class-wf-tracking-admin.php:318
+msgid ""
+"Unable to track the shipment. Please cross check shipment id or try after "
+"some time."
+msgstr ""
+"Nem lehet a szállítás nyomon követésére. Kérjük, kereszt-ellenőrzés "
+"szállítmányazonosító, vagy próbáljon ki egy idő után."
+
+#: includes/class-wf-tracking-admin.php:327
+msgid "Tracking is unset."
+msgstr "Követés Adatbázisjelszó törlése."
+
+#: includes/class-wf-tracking-admin.php:330
+msgid "Tracking Data is reset to default."
+msgstr "Követési adatok visszaáll az alapértelmezett."
+
+#: includes/class-wf-tracking-admin.php:379
+msgid "None"
+msgstr "Egyik sem"
+
+#: includes/class-wf-tracking-admin.php:386
+msgid "Enter Tracking IDs"
+msgstr "Adja meg a követés IDs"
+
+#: includes/class-wf-tracking-admin.php:387
+msgid "Comma separated, in case of multiple shipment ids for this order."
+msgstr "E-mail elválasztva, többszörös szállítási id esetén a megrendeléshez."
+
+#: includes/class-wf-tracking-admin.php:390
+msgid "This field is Optional."
+msgstr "A mező kitöltése nem kötelező."
+
+#: includes/class-wf-tracking-admin.php:394
+msgid "Save/Show Tracking Info"
+msgstr "Menteni megjelenítése nyomkövetési információk"
+
+#: includes/class-wf-tracking-admin.php:412
+msgid "You don't have admin privileges to view this page."
+msgstr "Nincs admin kiváltságok-hoz kilátás ez oldal."
+
+#: includes/class-wf-tracking-settings.php:16
+msgid "Tracking"
+msgstr "Követés"
+
+#: includes/class-wf-tracking-settings.php:71
+msgid "Shipment Tracking Settings"
+msgstr "A szállítmánykövetési beállítások"
+
+#: includes/class-wf-tracking-settings.php:77
+msgid "licence activation"
+msgstr "engedély aktiválás"
+
+#: includes/class-wf-tracking-settings.php:82
+msgid "Custom Shipment Message."
+msgstr "Egyéni küldeményüzenet."
+
+#: includes/class-wf-tracking-settings.php:84
+msgid ""
+"Define your own shipment message. Use the place holder tags [ID], [SERVICE] "
+"and [DATE] for Shipment Id, Shipment Service and Shipment Date respectively."
+"<br>"
+msgstr ""
+"Határozza meg a saját szállítási üzenetet. Használja a helytartó címkéket "
+"[ID], [SERVICE] és [DATE] a szállítási azonosítóra, a szállítási "
+"szolgáltatásra és a szállítási dátumra. <br>"
+
+#: includes/class-wf-tracking-settings.php:90
+msgid "Turn off API Status"
+msgstr "Kapcsolja ki a API-státusz"
+
+#: includes/class-wf-tracking-settings.php:91
+msgid "Turn off Real time API Status"
+msgstr "Kapcsolja ki a valós idejű API állapota"
+
+#: includes/class-wf-tracking-settings.php:93
+msgid ""
+"Turn off real time API tracking status on customer order page. Basic "
+"Tracking info on top will still be  displayed."
+msgstr ""
+"Kapcsolja ki a valós idejű API-követési állapotot az ügyfél megrendelés "
+"oldalán. Továbbra is megjelenik a legfontosabb alapkövetési információ a "
+"tetején."
+
+#: includes/class-wf-tracking-settings.php:99
+msgid "Automatic Refresh"
+msgstr "Automatikus frissítés"
+
+#: includes/class-wf-tracking-settings.php:102
+#: includes/class-wf-tracking-settings.php:122
+msgid "Enable"
+msgstr "Engedélyezze"
+
+#: includes/class-wf-tracking-settings.php:103
+msgid "Disable"
+msgstr "Kikapcsolja"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Enable - "
+msgstr "Engedélyezze"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn on live status automatic refresh on Myaccount->Order page "
+"loading."
+msgstr ""
+"Ez akarat megereszt élő állapot automatikus frissítési Myaccount-> rend "
+"oldal berakodás."
+
+#: includes/class-wf-tracking-settings.php:106
+msgid "Disable - "
+msgstr "Kikapcsolja -"
+
+#: includes/class-wf-tracking-settings.php:106
+msgid ""
+"It will turn off the automatic refresh on Myaccount->Order page and Refresh "
+"button will be shown"
+msgstr ""
+"Ez kikapcsolja az automatikus frissítést a Myaccount-> Megrendelés oldalon, "
+"és megjelenik a Frissítés gomb"
+
+#: includes/class-wf-tracking-settings.php:111
+msgid "Tracking Data"
+msgstr "Követés"
+
+#: includes/class-wf-tracking-settings.php:115
+msgid ""
+"You can add or remove any shipment tracking services by adding or removing "
+"respective lines. <br/>To add new service, create a new line by adding "
+"shipper name and tracking url (optional) separated using pipe symbol '|' as "
+"given below. <br/>Format: <strong>[ shipping service name ] | [ shipment "
+"tracking url (optional) ]</strong><br/>Example: <strong>Shipping Service "
+"Name | http://tracking_url?tracking_id=</strong><br/><br/>Complex tracking "
+"urls can be represented using place holder tags [ID] and [PIN] for Shipment "
+"Id and Postcode respectively.<br/>Example: <strong>PostNL | https://jouw."
+"postnl.nl/[ID]/track-en-trace/111111111/NL/[PIN]</strong><br/><br/>"
+msgstr ""
+"Felveheti vagy eltávolíthatja a szállítási nyomon követési szolgáltatásokat "
+"a megfelelő sorok hozzáadásával vagy eltávolításával. <br/> Új szolgáltatás "
+"hozzáadásához hozzon létre egy új sort azáltal, hogy hozzáadja a feladó "
+"nevét és az url követését (opcionális) a \"|\" az alábbiak szerint. <br/> "
+"Formátum: <strong> [ shipping service name ] | [ shipment tracking url  "
+"(opcionális)] </ strong> <br/> Példa: <strong> Hajózási szolgáltatás neve | "
+"http: // tracking_url? tracking_id = </ strong> <br/> <br/> A komplex nyomon "
+"követési URL-ek a szállítási azonosító és a postaláda helytartó címkéi [ID] "
+"és [PIN] segítségével ábrázolhatók. <br/> Példa: <strong> PostNL | https://"
+"jouw.postnl.nl/ [ID] / track-en-trace / 111111111 / NL / [PIN] </ strong> "
+"<br/>"
+
+#: includes/class-wf-tracking-settings.php:118
+msgid "[ shipping service name ]|[ shipment tracking url ]"
+msgstr "[ shipping service name ]|[ shipment tracking url ]"
+
+#: includes/class-wf-tracking-settings.php:121
+msgid "Shipping Easy"
+msgstr "Szállítás könnyű"
+
+#: includes/class-wf-tracking-settings.php:124
+msgid "Enable this to integrate Shipping Easy"
+msgstr "Képessé tesz ez, hogy integrálja a könnyű szállítás"
+
+#: includes/class-wf-tracking-settings.php:129
+#: includes/class-wf-tracking-settings.php:130
+msgid "Reset Tracking Data"
+msgstr "Követési adatok visszaállítása"
+
+#: includes/class-wf-tracking-settings.php:132
+msgid ""
+"Reset tracking data to the default values. All custom added values in the "
+"above tracking data will be cleaned up."
+msgstr ""
+"Állítsa alaphelyzetbe a követési adatok az alapértelmezett értékekre. Minden "
+"egyéni hozzáadott értéket a fenti követési adatokban tisztítanak."
+
+#: includes/class-wf-tracking-settings.php:145
+msgid "UPS User Id"
+msgstr "Felhasználói azonosító (ID)"
+
+#: includes/class-wf-tracking-settings.php:147
+msgid "Provide UPS user Id for the live UPS shipment tracking."
+msgstr "UPS felhasználói azonosító számára az élő UPS Csomagkövetés."
+
+#: includes/class-wf-tracking-settings.php:152
+msgid "UPS Password"
+msgstr "UPS jelszó"
+
+#: includes/class-wf-tracking-settings.php:154
+msgid "Provide UPS password."
+msgstr "Beszerez jelszó UPS."
+
+#: includes/class-wf-tracking-settings.php:159
+msgid "UPS Access Key"
+msgstr "UPS hozzáférési kulcs"
+
+#: includes/class-wf-tracking-settings.php:161
+msgid "Provide UPS access key."
+msgstr "Adja meg a UPS hozzáférési kulcs."
+
+#: includes/class-wf-tracking-settings.php:166
+msgid "FedEx Account Number"
+msgstr "A FedEx számlaszám"
+
+#: includes/class-wf-tracking-settings.php:169
+msgid "Provide FedEx account number for the live FedEx shipment tracking."
+msgstr "A FedEx számlaszám biztosítanak az élő FedEx Csomagkövetés."
+
+#: includes/class-wf-tracking-settings.php:174
+msgid "FedEx Meter Number"
+msgstr "FedEx mérő száma"
+
+#: includes/class-wf-tracking-settings.php:177
+msgid "Provide FedEx meter number for the live FedEx shipment tracking."
+msgstr "Adja meg a FedEx mérő száma  az élő FedEx szállítmánykövetéshez."
+
+#: includes/class-wf-tracking-settings.php:182
+msgid "FedEx Web Services"
+msgstr "FedEx Web Services"
+
+#: includes/class-wf-tracking-settings.php:185
+msgid "Provide FedEx Web Services for the live FedEx shipment tracking."
+msgstr ""
+"Adja meg a FedEx Web Services szolgáltatást az élő FedEx "
+"szállítmánykövetéshez."
+
+#: includes/class-wf-tracking-settings.php:190
+msgid "FedEx Password"
+msgstr "FedEx jelszó"
+
+#: includes/class-wf-tracking-settings.php:193
+msgid "Provide FedEx Password for the live FedEx shipment tracking."
+msgstr "Adjon FedEx jelszót az élő FedEx szállítmánykövetéshez."
+
+#: includes/views/html-wf-admin-screen.php:4
+msgid "Import Settings"
+msgstr "Importálás beállítása"
+
+#: includes/views/html-wf-admin-screen.php:5
+#: woocommerce-shipment-tracking.php:101
+msgid "Import"
+msgstr "Import!"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:26
+#, php-format
+msgid "The next export is scheduled on <code>%s</code>"
+msgstr "A következő kivitellel a (z) <code>%s</code> ütemezése történik"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:28
+msgid "There is no export scheduled."
+msgstr "Nincs ütemezett export."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:38
+msgid "FTP Settings for Auto Import CSV"
+msgstr "FTP beállítások az automatikus importáláshoz CSV"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:43
+msgid "Enable FTP"
+msgstr "Engedélyez FTP"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:123
+msgid "Automatically Import CSV"
+msgstr "CSV automatikus importálása"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:127
+msgid "Disabled"
+msgstr "Letiltott"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:128
+msgid "Enabled"
+msgstr "Bekapcsolt"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:135
+msgid "Import Start Time"
+msgstr "Importálás kezdő időpont"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:139
+#, php-format
+msgid "Local time is <code>%s</code>."
+msgstr "A helyi idő <code>% s </ code>."
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:141
+msgid "<code>Enter like 6:18pm or 12:27am</code>"
+msgstr "<code>Enter like 6:18pm or 12:27am</code>"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:146
+msgid "Import Interval [ Minutes ]"
+msgstr "Import intervallum [perc]"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:154
+msgid "Skip Already Processed"
+msgstr "Skip Feldolgozott"
+
+#: includes/views/settings/html-wf-settings-shipment-tracking.php:162
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Az %s licenckulcsja lejárt. Újból aktiválhatja vagy megvásárolhatja a "
+"licenckulcsot a fiók <a href=\"%s\" target=\"_blank\"> irányítópultjáról </"
+"a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Az előfizetés %s a hold. Az előfizetés újraaktiválhatja a számla <a href=\"%s"
+"\" target=\"_blank\">műszerfal</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Az előfizetés %s törölve lett. Az előfizetés megújíthatja az Ön számla <a "
+"href=\"%s\" target=\"_blank\">műszerfal</a>. Egy új engedély kulcs lesz "
+"elküldjük Önnek a megrendelés befejezése után."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Az előfizetés %s lejárt. Az előfizetés újraaktiválhatja a számla <a href=\"%s"
+"\" target=\"_blank\">műszerfal</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Az előfizetés %s felfüggesztésre került. Az előfizetés újraaktiválhatja a "
+"számla <a href=\"%s\" target=\"_blank\">műszerfal</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Az előfizetés %s még mindig folyamatban van. Ellenőrizni tudja az előfizetés "
+"állapota az Ön számla <a href=\"%s\" target=\"_blank\">műszerfal</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s előfizetés a kukába került, és hamarosan törlésre kerül. Új "
+"előfizetést vehet igénybe <a href=\"%s\" target=\"_blank\"> "
+"irányítópultjáról </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"A (z) %s előfizetés nem található. Vásárolhat előfizetést a fiók <a href=\"%s"
+"\" target=\"_blank\"> irányítópultjáról </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:461
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Egy engedély kulcs részére %s nem található. Talán elfelejtette, hogy belép "
+"a engedély kulcs, %s beállításakor, vagy a kulcs volt deaktivált, a "
+"fiókjában. Engedély kulcs újraaktiválhatja a plugin <a href=\"%s\" target="
+"\"_blank\">Beállítások oldalon</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:472
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"%s Letöltés engedélyt visszavonták esetleg egy engedély kulcs vagy az "
+"előfizetés lejár. Aktiválja, vagy megvásárol egy engedély kulcs-ból a fiók "
+"<a href=\"%s\" target=\"_blank\">irányítópult</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:483
+#, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s nem aktiválták. Megy a plugin <a href=\"%s\" target=\"_blank"
+"\">Beállítások oldalon</a> , és adja meg a licenckulcs és licenc "
+"elektronikus levél-hoz hatékonnyá tesz a %s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:494
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Ön módosította a (z) %s előfizetést, ezért meg kell adnia az új API "
+"licenckulcsot a beállítások oldalán. A Licencculcsnak meg kellett volna "
+"érkeznie az e-mailben, ha nem, akkor érheti el a fiók <a href=\"%s\" target="
+"\"_blank\"> irányítópultján </a>."
+
+#: woocommerce-shipment-tracking.php:29
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete WooCommerce "
+"Shipment Tracking Basic Woocommerce Extension and then try again."
+msgstr ""
+"Hoppá! Megpróbálta telepíteni a prémium verziót az alapváltozat deaktiválása "
+"és törlése nélkül. Szeretné kikapcsolni és törölni a WooCommerce szállítási "
+"követést az alapvető Woocommerce bővítményben, majd próbálkozzon újra."
+
+#: woocommerce-shipment-tracking.php:100
+msgid "Settings"
+msgstr "Beállítások"
+
+#: woocommerce-shipment-tracking.php:102
+msgid "Documentation"
+msgstr "DOKUMENTáció"
+
+#: woocommerce-shipment-tracking.php:103
+msgid "Support"
+msgstr "Support"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Shipment Tracking Pro"
+msgstr "WooCommerce szállítmánykövető Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.pluginhive.com/product/woocommerce-shipment-tracking-pro/"
+msgstr "https://www.pluginhive.com/Product/woocommerce-shipment-Tracking-Pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Features includes Custom Tracking Message, Multiple Shipping Services "
+"including 70+ predefined services, WPML Support and CSV bulk import of "
+"tracking data & FTP import."
+msgstr ""
+"Jellegét meghatározza beleértve egyéni követési üzenet, több szállítási "
+"szolgáltatások, beleértve a 70 + előre megadott szolgáltatásokkal, WPML "
+"támogatása és CSV tömeges importálás a nyilvántartási adatok & FTP "
+"behozatali."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"

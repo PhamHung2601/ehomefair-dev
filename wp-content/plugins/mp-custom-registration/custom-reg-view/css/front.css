@@ -1,0 +1,15 @@
+.w3eden .form-group.has-success label{
+    color: #3C763D;
+}
+.w3eden .form-group.has-error label{
+    color: #A94442 !important;
+}
+.w3eden label.error{
+    font-weight: 300 !important;
+    font-size: 10px !important;
+    position: absolute;
+}
+.w3eden .form-control{
+    box-shadow: none !important;
+    border-radius: 2px;
+}

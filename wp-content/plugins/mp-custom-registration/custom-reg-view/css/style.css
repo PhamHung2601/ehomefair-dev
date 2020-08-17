@@ -1,0 +1,219 @@
+.clear{
+    clear: both;
+}
+.w3eden .form-control{
+    box-shadow: none !important;
+    border-radius: 3px !important;
+}
+
+.w3eden .ui-state-highlight{
+    border: 0 !important;
+    background: none !important;
+}
+
+.w3eden #selectedfields .list-group-item a .glyphicon{
+    margin-top: 1px;
+}
+
+.w3eden #selectedfields .list-group-item a.remove,
+.w3eden #selectedfields .list-group-item a.cog-trigger{
+    visibility: hidden;
+}
+
+.w3eden #selectedfields:hover .list-group-item a.remove,
+.w3eden #selectedfields:hover .list-group-item a.cog-trigger{
+    visibility: visible;
+}
+
+.w3eden .list-group-item .cog h5{
+    padding: 10px 15px 10px 30px;
+    border-radius: 3px;
+    background: #eeeeee;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.w3eden .list-group-item .cog h5:before{
+    content: "\e019";
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    margin-left: -18px;
+    color: #0074A2;
+}
+
+.w3eden .list-group-item .add .glyphicon{
+    top: 3px;
+}
+
+.panel-body-np{
+    background: #eee;
+}
+
+.panel-body-np .nav-pills a{
+    border-radius: 2px !important;
+    font-size: 9pt;
+    letter-spacing: normal;
+}
+
+.panel-body-np .nav-pills{
+    padding: 15px 0 15px 15px;
+}
+
+.panel-body-np .col-md-9{
+    background: #ffffff;
+    border-left: 1px solid #cccccc;
+}
+
+.panel-body-np .tab-content h3{
+    margin: 10px 0;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.panel .panel-heading a{
+    text-decoration: none;
+    outline: none;
+}
+.panel .panel-heading{
+    font-weight: 700 !important;
+}
+.panel-settings .panel-title{
+    font-weight: 700 !important;
+    padding: 3px 0;
+}
+
+.w3eden .panel-settings{
+    border: 0 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.w3eden #submit{
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+input.shortcode-code.input-lg{
+    font-size: 12pt !important;
+    font-weight: 200;
+    font-family: 'Courier New';
+    cursor: copy !important;
+    letter-spacing: 1px;
+}
+
+.col-md-9 .tab-content{
+    min-height: 400px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.nav-pills a{
+    outline: none !important;
+}
+.form-group .description{
+    font-size: 8pt;
+}
+
+.w3eden #allformfields .panel-default {
+    /* border-color: #3a90ca; */
+    
+}
+.w3eden  #allformfields .panel-default > .panel-heading {
+    color: #000;
+    background-color: #5aa2d3;
+    border-color: #3a90ca;
+}
+.w3eden #allformfields .panel-default > .panel-heading + .panel-collapse .panel-body {
+    /* border-top-color: #3a90ca; */
+}
+.w3eden #allformfields .panel-default > .panel-footer + .panel-collapse .panel-body {
+    border-bottom-color: #3a90ca;
+}
+.w3eden #allformfields .panel-default > .panel-heading {
+   /* background-image: -webkit-gradient(linear, left 0, left 100%, from(#5aa2d3), to(#3a90ca));
+    background-image: -webkit-linear-gradient(top, #5aa2d3, 0%, #3a90ca, 100%);
+    background-image: -moz-linear-gradient(top, #5aa2d3 0, #3a90ca 100%);
+    background-image: linear-gradient(to bottom, #5aa2d3 0, #3a90ca 100%); */
+    color:#000;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5aa2d3', endColorstr='#ff3a90ca', GradientType=0);
+}
+
+.w3eden #allformfields .panel-default .panel-title:focus,
+.w3eden #allformfields .panel-default .panel-title:active,
+.w3eden #allformfields .panel-default .panel-title:hover{
+    color:  #000 !important;
+}
+#content-tabs{
+    border:1px solid #dddddd;
+    margin-top: -1px;
+    padding-bottom: 20px;
+}
+
+a:focus,
+a:active{
+    outline:  none !important;
+}
+
+.list-group-item.ui-draggble{
+    z-index: 9999999 !important;
+}
+
+
+.list-group.ui-droppable{
+   min-height: 100px;
+}
+
+.panel{
+    box-shadow: none;
+}
+
+.panel-body .list-group-item{
+    border-radius: 3px !important;
+    margin-bottom: 3px !important;
+}
+
+#selectedfields{
+    box-shadow: none !important;
+}
+#selectedfields .list-group-item{
+    border-color: transparent;
+}
+
+#selectedfields.ui-state-highlight .list-group-item,
+#selectedfields:hover .list-group-item{
+    border-color: #dddddd !important;
+}
+
+#selectedfields:hover .list-group-item:hover{
+    border-color: #aaaaaa !important;
+}
+
+.availablefields{
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+}
+.availablefields .list-group-item{
+    /*color: #555;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left 0, left 100%, from(#ffffff), to(#ebebeb));
+    background-image: -webkit-linear-gradient(top, #ffffff, 0%, #ebebeb, 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0, #ebebeb 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0, #ebebeb 100%);
+    background-repeat: repeat-x;
+    border-color: #e0e0e0;
+    border-color: #ebebeb #e0e0e0 #c2c2c2 #e0e0e0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffebebeb', GradientType=0);*/
+    cursor: move;
+ background: none repeat scroll 0 0 #FFFFDB;
+}
+
+.availablefields .list-group-item:hover{
+    color: #555;
+    background-color: #ebebeb;
+    border-color: #c2c2c2;
+
+}
+
+.w3eden .panel a.panel-title{
+    font-size: 10pt !important;
+}

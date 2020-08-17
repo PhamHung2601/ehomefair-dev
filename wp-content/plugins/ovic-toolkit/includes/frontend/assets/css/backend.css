@@ -1,0 +1,44 @@
+/*flaticon*/
+[class^="flaticon-"],
+[class*=" flaticon-"],
+[class^="flaticon-"],
+[class*=" flaticon-"] {
+    display: inline-block;
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    display: block;
+    font-size: inherit !important;
+    margin-left: 0 !important;
+}
+div.chosen-container {
+    width: 100% !important;
+}
+div.chosen-container-multi .chosen-choices {
+    padding: 0 8px;
+}
+div.chosen-container-multi .chosen-choices li.search-choice {
+    padding: 5px 20px 5px 10px;
+    border-radius: 0;
+}
+div.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+div.chosen-container-multi .chosen-choices li.search-field {
+    line-height: 30px;
+}
+.ovic-field-sorter .ovic-fieldset {
+    position: relative;
+}
+.ovic-field-sorter .reset-field-customizer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

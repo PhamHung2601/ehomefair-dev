@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/better-admin-users-"
+"search\n"
+"POT-Creation-Date: 2019-04-03 18:13-0400\n"
+"PO-Revision-Date: 2019-04-03 18:13-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: class-better-admin-users-search-admin-page.php\n"
+
+#: class-better-admin-users-search-admin-page.php:27
+msgid "Default search values"
+msgstr "Valeurs de recherche par défaut"
+
+#: class-better-admin-users-search-admin-page.php:28
+msgid "Default values used by WordPress to do the search"
+msgstr "Valeurs par défaut utilisé par WordPress pour faire sa recherche"
+
+#: class-better-admin-users-search-admin-page.php:41
+#, php-format
+msgid "For you, this data is \"%s\""
+msgstr "Pour vous, cette donnée est « %s »"
+
+#: class-better-admin-users-search-admin-page.php:48
+msgid "Additionals metas"
+msgstr "Métas additionnelles"
+
+#: class-better-admin-users-search-admin-page.php:49
+msgid "Add additional user metas to the admin user search"
+msgstr ""
+"Ajouter des métas utilisateur additionnelles pour la recherche "
+"d’utilisateurs de l’administration"
+
+#: class-better-admin-users-search-admin-page.php:57
+msgid "User meta(s)"
+msgstr "Méta(s) utilisateur"
+
+#: class-better-admin-users-search-admin-page.php:59
+msgid "Select metas you want to add to your search."
+msgstr "Sélectionnez les métas que vous souhaitez ajouter à votre recherche."
+
+#: class-better-admin-users-search-admin-page.php:59
+msgid "Note: Some metas won't work because their are not string."
+msgstr ""
+"Note : Certaines métas ne fonctionnent pas car elles ne sont pas des chaînes "
+"de caractères."
+
+#~ msgid "Settings"
+#~ msgstr "Réglages"
+
+#~ msgid "Better Admin Users Search"
+#~ msgstr "Better Admin Users Search"
+
+#~ msgid "https://github.com/Applelo/Better-Admin-Users-Search"
+#~ msgstr "https://github.com/Applelo/Better-Admin-Users-Search"
+
+#~ msgid "A plugin to improve users admin search"
+#~ msgstr ""
+#~ "Un plugin pour améliorer la recherche d’utilisateurs dans l’administration"
+
+#~ msgid "Applelo"
+#~ msgstr "Applelo"
+
+#~ msgid "https://lois-boubault.me/"
+#~ msgstr "https://lois-boubault.me/"

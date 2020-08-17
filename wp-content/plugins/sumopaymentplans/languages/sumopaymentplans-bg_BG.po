@@ -1,0 +1,3963 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sumopaymentplans\n"
+"POT-Creation-Date: 2020-05-13 14:58+0530\n"
+"PO-Revision-Date: 2020-05-13 14:58+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: sumo-payment-plans.php\n"
+
+#: includes/abstracts/abstract-sumo-pp-email.php:114
+#: includes/emails/class-sumo-pp-payment-plan-auto-charge-reminder-email.php:45
+#: includes/emails/class-sumo-pp-payment-plan-invoice-email.php:45
+#: includes/emails/class-sumo-pp-payment-plan-overdue-email.php:68
+#: includes/emails/class-sumo-pp-payment-plan-success-email.php:45
+#: includes/sumo-pp-template-functions.php:219
+#, php-format
+msgid "Installment #%s of %s"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:204
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:78
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:206
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:213
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:215
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:224
+msgid "Email Subject"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:226
+#: includes/abstracts/abstract-sumo-pp-email.php:233
+#: includes/abstracts/abstract-sumo-pp-email.php:243
+#: includes/abstracts/abstract-sumo-pp-email.php:250
+#, php-format
+msgid "Defaults to <code>%s</code>"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:231
+msgid "Email Heading"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:241
+msgid "Email Subject (paid)"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:248
+msgid "Email Heading (paid)"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:259
+msgid "Enable Payment Link in Mail"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-email.php:268
+msgid "Send Email to Admin"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-job-scheduler.php:74
+msgid "Payment Job Schedulers"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-payment.php:215
+#, php-format
+msgid "<a href=\"#\" class=\"%s\" data-tip=\"%s\">%s</a>"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-payment.php:242
+#, php-format
+msgid "<a href=\"%s\" class=\"%s\" data-tip=\"%s%s\">%s</a>"
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-payment.php:392
+#, php-format
+msgid "Payment mode switched to %s."
+msgstr ""
+
+#: includes/abstracts/abstract-sumo-pp-payment.php:392
+msgid "Payment Mode Switched"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:35
+msgid "Plan Description"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:36
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:98
+#: includes/admin/class-sumo-pp-admin-post-types.php:80
+#: includes/admin/class-sumo-pp-admin-post-types.php:106
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:84
+#: includes/class-sumo-pp-order-item-manager.php:139
+#: includes/class-sumo-pp-order-item-manager.php:280
+#: includes/class-sumo-pp-order-manager.php:671
+#: includes/class-sumo-pp-order-paymentplan.php:741
+#: includes/class-sumo-pp-order-paymentplan.php:792
+#: includes/class-sumo-pp-post-types.php:72
+#: includes/class-sumo-pp-post-types.php:74
+#: includes/privacy/class-sumo-pp-privacy.php:379
+#: templates/myaccount/my-payments.php:19
+#: templates/myaccount/my-payments.php:41
+msgid "Payment Plan"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:37
+msgid "Payment Plan Orders Creation"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:40
+msgid "Synced Payment Dates"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:43
+#: includes/class-sumo-pp-order-paymentplan.php:775
+#: includes/class-sumo-pp-order-paymentplan.php:810
+#: templates/checkout/order-paymentplan/review-payment.php:12
+msgid "Payment Details"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:44
+msgid "Payment Logs"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:45
+#: includes/admin/views/html-payment-actions.php:9
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:46
+msgid "Payment Orders"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:47
+msgid "Payment Item"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:93
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:95
+msgid "Plan updated."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:94
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:100
+msgid "Custom field(s) updated."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:99
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:101
+msgid "Payment updated."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:109
+msgid "Describe this plan about to customers"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:382
+#: includes/admin/class-sumo-pp-admin-post-types.php:599
+#, php-format
+msgid ""
+"Payment is approved by Admin. Initial payment of order#%s is paid. Payment "
+"is in progress"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:384
+#: includes/admin/class-sumo-pp-admin-post-types.php:601
+#: includes/class-sumo-pp-payment.php:409
+msgid "Initial Payment Success"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:389
+#: includes/admin/class-sumo-pp-admin-post-types.php:606
+msgid "Admin manually cancelled the payment."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:391
+#: includes/admin/class-sumo-pp-admin-post-types.php:608
+#: includes/background-process/class-sumo-pp-background-process.php:503
+#: includes/class-sumo-pp-payment.php:234
+msgid "Balance Payment Cancelled"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:400
+#, php-format
+msgid ""
+"Admin has changed the payment customer email to %s. Customer will be "
+"notified via email by this Mail ID only."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-meta-boxes.php:400
+msgid "Customer Email Changed Manually"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:91
+#: includes/admin/class-sumo-pp-admin-post-types.php:73
+#: templates/myaccount/my-payments.php:20
+#: templates/myaccount/my-payments.php:50
+#: templates/myaccount/view-payment.php:12
+msgid "Payment Status"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:92
+#: includes/admin/class-sumo-pp-admin-post-types.php:74
+#: includes/privacy/class-sumo-pp-privacy.php:376
+msgid "Payment Identification Number"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:93
+#: includes/admin/class-sumo-pp-admin-post-types.php:75
+#: includes/admin/class-sumo-pp-admin-post-types.php:105
+#: includes/privacy/class-sumo-pp-privacy.php:377
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:94
+#: includes/admin/class-sumo-pp-admin-post-types.php:76
+#: includes/admin/class-sumo-pp-admin-post-types.php:107
+msgid "Order ID"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:95
+#: includes/admin/class-sumo-pp-admin-post-types.php:77
+msgid "Buyer Email"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:96
+#: includes/admin/class-sumo-pp-admin-post-types.php:78
+msgid "Billing Name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:97
+#: includes/admin/class-sumo-pp-admin-post-types.php:79
+#: includes/admin/class-sumo-pp-admin-product.php:70
+#: includes/admin/class-sumo-pp-admin-product.php:315
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:300
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:67
+#: includes/privacy/class-sumo-pp-privacy.php:378
+msgid "Payment Type"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:99
+#: includes/admin/class-sumo-pp-admin-post-types.php:81
+#: includes/privacy/class-sumo-pp-privacy.php:383
+msgid "Remaining Installments"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:100
+#: includes/admin/class-sumo-pp-admin-post-types.php:82
+#: includes/privacy/class-sumo-pp-privacy.php:385
+msgid "Remaining Payable Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:101
+#: includes/admin/class-sumo-pp-admin-post-types.php:83
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:108
+#: includes/privacy/class-sumo-pp-privacy.php:386
+msgid "Next Installment Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:102
+#: includes/admin/class-sumo-pp-admin-post-types.php:84
+#: includes/privacy/class-sumo-pp-privacy.php:380
+msgid "Payment Start Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:103
+#: includes/admin/class-sumo-pp-admin-post-types.php:85
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:116
+#: includes/class-sumo-pp-order-item-manager.php:152
+#: includes/class-sumo-pp-order-item-manager.php:317
+#: includes/class-sumo-pp-order-manager.php:684
+#: includes/class-sumo-pp-order-paymentplan.php:769
+#: includes/class-sumo-pp-order-paymentplan.php:804
+#: includes/privacy/class-sumo-pp-privacy.php:382
+msgid "Next Payment Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:104
+#: includes/admin/class-sumo-pp-admin-post-types.php:86
+#: includes/privacy/class-sumo-pp-privacy.php:381
+msgid "Payment Ending Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-payments-exporter.php:105
+#: includes/admin/class-sumo-pp-admin-post-types.php:87
+msgid "Previous Payment Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:58
+msgid "Payment Plan Name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:59
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:92
+msgid "Payment Plan Description"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:101
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:102
+msgid "Message"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:103
+#: includes/privacy/class-sumo-pp-privacy.php:179
+msgid "User Name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:104
+#: includes/admin/class-sumo-pp-admin-post-types.php:124
+#: templates/myaccount/my-payments.php:17
+#: templates/myaccount/my-payments.php:31
+msgid "Payment Number"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:108
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:109
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:123
+msgid "Job ID"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:125
+msgid "Job Name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:126
+msgid "Next Run"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:127
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:139
+msgid "Payment Info"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:305
+#, php-format
+msgid ""
+"<div style=\"background-color: #259e12;width:50px;height:20px;text-align:"
+"center;color:#ffffff;padding:5px;\">%s</div>"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:307
+#, php-format
+msgid ""
+"<div style=\"background-color: #ef381c;width:50px;height:20px;text-align:"
+"center;color:#ffffff;padding:5px;\">%s</div>"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:443
+#, php-format
+msgid "This Order is linked with payment(s) %s"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:445
+#: includes/admin/class-sumo-pp-admin-post-types.php:451
+#, php-format
+msgid "This Order is linked with payment%s"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:471
+msgid "Plan name"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:514
+msgid "Export"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:779
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:186
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:202
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:385
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-post-types.php:790
+#: includes/admin/class-sumo-pp-admin-product.php:284
+#: includes/admin/class-sumo-pp-admin-product.php:547
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:589
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:463
+#: includes/admin/views/html-payment-exporter.php:70
+#: includes/class-sumo-pp-ajax.php:114
+msgid "Search for a payment plan&hellip;"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:65
+#: includes/admin/class-sumo-pp-admin-product.php:308
+msgid "Enable SUMO Payment Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:67
+#: includes/admin/class-sumo-pp-admin-product.php:312
+msgid ""
+"Enabling this option allows you to configure the product to accept product "
+"booking by paying a deposit amount / purchase the product by choosing from "
+"the available payment plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:74
+#: includes/admin/class-sumo-pp-admin-product.php:320
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:304
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:62
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:66
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:67
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:72
+msgid "Pay a Deposit Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:75
+#: includes/admin/class-sumo-pp-admin-product.php:321
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:305
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:70
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:74
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:75
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:73
+msgid "Pay with Payment Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:77
+#: includes/admin/class-sumo-pp-admin-product.php:324
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:84
+#: includes/admin/class-sumo-pp-admin-product.php:331
+msgid "From&hellip;YYYY-MM-DD"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:85
+#: includes/admin/class-sumo-pp-admin-product.php:332
+msgid "To&hellip;YYYY-MM-DD"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:86
+#: includes/admin/class-sumo-pp-admin-product.php:333
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:86
+#: includes/admin/class-sumo-pp-admin-product.php:333
+msgid ""
+"The payment plan/deposit options will be given to users starting at 00:00:00 "
+"of \"From\" date and ending at 23:59:59 of \"To\" date."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:90
+#: includes/admin/class-sumo-pp-admin-product.php:337
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:319
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:79
+msgid "Apply Global Level Settings"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:93
+#: includes/admin/class-sumo-pp-admin-product.php:342
+msgid ""
+"When enabled, the settings for SUMO Payment Plans will apply from global "
+"level"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:96
+#: includes/admin/class-sumo-pp-admin-product.php:345
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:335
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:87
+msgid "Force Deposit/Payment Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:99
+#: includes/admin/class-sumo-pp-admin-product.php:350
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:48
+msgid "When enabled, the user will be forced to pay a deposit amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:102
+#: includes/admin/class-sumo-pp-admin-product.php:353
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:351
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:52
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:95
+msgid "Deposit Type"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:106
+#: includes/admin/class-sumo-pp-admin-product.php:358
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:355
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:57
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:100
+msgid "Predefined Deposit Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:107
+#: includes/admin/class-sumo-pp-admin-product.php:359
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:356
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:58
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:101
+msgid "User Defined Deposit Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:111
+#: includes/admin/class-sumo-pp-admin-product.php:364
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:370
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:66
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:107
+msgid "Deposit Price Type"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:115
+#: includes/admin/class-sumo-pp-admin-product.php:142
+#: includes/admin/class-sumo-pp-admin-product.php:369
+#: includes/admin/class-sumo-pp-admin-product.php:401
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:374
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:426
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:71
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:112
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:150
+#: includes/admin/views/html-payment-plan-table.php:14
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:116
+#: includes/admin/class-sumo-pp-admin-product.php:141
+#: includes/admin/class-sumo-pp-admin-product.php:370
+#: includes/admin/class-sumo-pp-admin-product.php:402
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:375
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:425
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:72
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:113
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:149
+msgid "Percentage of Product Price"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:120
+#: includes/admin/class-sumo-pp-admin-product.php:375
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:389
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:78
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:119
+msgid "Deposit Amount"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:127
+#: includes/admin/class-sumo-pp-admin-product.php:384
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:405
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:88
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:129
+msgid "Deposit Percentage"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:137
+#: includes/admin/class-sumo-pp-admin-product.php:396
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:421
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:144
+msgid "User Defined Deposit Type"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:146
+#: includes/admin/class-sumo-pp-admin-product.php:407
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:440
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:186
+msgid "Minimum Deposit Price"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:153
+#: includes/admin/class-sumo-pp-admin-product.php:416
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:456
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:196
+msgid "Maximum Deposit Price"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:160
+#: includes/admin/class-sumo-pp-admin-product.php:425
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:472
+msgid "Minimum Deposit(%)"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:172
+#: includes/admin/class-sumo-pp-admin-product.php:439
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:488
+msgid "Maximum Deposit(%)"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:185
+#: includes/admin/class-sumo-pp-admin-product.php:454
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:504
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:133
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:397
+msgid "Deposit Balance Payment Due Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:187
+#: includes/admin/class-sumo-pp-admin-product.php:456
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:508
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:401
+#: includes/admin/views/html-payment-plan-table.php:84
+#: includes/admin/views/html-payment-plan-table.php:133
+msgid "After"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:188
+#: includes/admin/class-sumo-pp-admin-product.php:457
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:509
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:402
+msgid "Before"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:192
+#: includes/admin/class-sumo-pp-admin-product.php:461
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:139
+msgid "day(s) from the date of deposit payment"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:195
+#: includes/admin/class-sumo-pp-admin-product.php:464
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:512
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:405
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:200
+msgid "day(s) of booking start date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:205
+#: includes/admin/class-sumo-pp-admin-product.php:468
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:525
+msgid "After Balance Payment Due Date"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:207
+#: includes/admin/class-sumo-pp-admin-product.php:470
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:529
+msgid "Disable SUMO Payment Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:208
+#: includes/admin/class-sumo-pp-admin-product.php:471
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:530
+msgid "Set Product as Out of Stock"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:212
+#: includes/admin/class-sumo-pp-admin-product.php:475
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:544
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:410
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:209
+msgid "Select Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:214
+#: includes/admin/class-sumo-pp-admin-product.php:477
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:548
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:414
+msgid "Select the layout as per your theme preference"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:215
+#: includes/admin/class-sumo-pp-admin-product.php:478
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:549
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:415
+msgid "Add Row for Column 1"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-product.php:216
+#: includes/admin/class-sumo-pp-admin-product.php:479
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:550
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:416
+msgid "Add Row for Column 2"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:71
+#: includes/admin/class-sumo-pp-admin-settings.php:86
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:111
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:138
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:147
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:148
+msgid "Reset All"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:203
+msgid "Account erasure requests"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:204
+msgid "Remove personal data from SUMO Payment Plans and its related Orders"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin-settings.php:206
+#, php-format
+msgid ""
+"When handling an <a href=\"%s\">account erasure request</a>, should personal "
+"data within SUMO Payment Plans be retained or removed?"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin.php:58
+msgid "About"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin.php:59
+msgid "Support"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin.php:72
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:284
+#: includes/privacy/class-sumo-pp-privacy.php:249
+msgid "SUMO Payment Plans"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin.php:73
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-sumo-pp-admin.php:74
+msgid "Payment Export"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:17
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:31
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:36
+msgid "Disable WooCommerce Emails for Payment Plan Orders"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:41
+msgid "Processing order"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:42
+msgid "Completed order"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:46
+msgid "This option will be applicable only for balance payable orders"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:50
+msgid "Calculate Price for Deposits/Payment Plans based on"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:55
+msgid "Regular Price"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:56
+msgid "Sale Price"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:63
+msgid "Balance Payment Activation for Deposits/Payment Plans will be decided"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:70
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:83
+msgid "Automatically"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:71
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:84
+#: includes/class-sumo-pp-order-item-manager.php:313
+#: includes/class-sumo-pp-order-paymentplan.php:765
+#: includes/sumo-pp-functions.php:449
+msgid "After Admin Approval"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:73
+msgid ""
+"If \"After Admin Approval\" option is chosen, admin needs to activate "
+"Payment Plans/Deposits in edit payment page."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:76
+msgid "Cancel Payments after Balance Payment Due Date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:88
+msgid "Payment Identification Number Prefix"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:97
+msgid "Prefix can be alpha-numeric"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:100
+msgid ""
+"Hide Product Price in Single Product Page when User Selects the Payment Plans"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:109
+msgid "Date and Time Format"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:116
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:160
+msgid "Default"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:117
+msgid "WordPress Format"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:121
+msgid "Display Time"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:128
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:129
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:170
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:131
+msgid ""
+"If enabled, time will be displayed in single product page, cart page, "
+"checkout page and my account page."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:134
+msgid "Grant Permission to Download Files of Downloadable Products after"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:141
+#: includes/admin/views/html-payment-plan-table.php:109
+#: includes/admin/views/html-payment-plan-table.php:110
+msgid "Initial Payment"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:142
+msgid "Final Payment"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:146
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:156
+msgid "Payment Plan Specific Date Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:161
+msgid "Payment Plan Behavior After Initial Payment Date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:168
+msgid ""
+"Add All the Previous Installment Amount and Charge with Current Installment "
+"Amount"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:169
+msgid "Hide the Payment Plan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:173
+msgid "If No Valid Payment Plans are Available to Display"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:180
+msgid "Disable Payment Plan for that Product"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:181
+msgid "Make the Product as Out of Stock"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:186
+msgid "Experimental Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:191
+msgid "Display Payment Plans as Hyperlink in Single Product Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:197
+msgid ""
+"If enabled, payment plans will be displayed as hyperlink which when clicked, "
+"the payment plan will be directly added to cart"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:201
+msgid "When the Hyperlink is Clicked"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:206
+msgid "Stay on Product Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:207
+msgid "Redirect to Cart Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:208
+msgid "Redirect to Checkout Page"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:215
+msgid "Use Deposit/Payment Plan Variation Form Template."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:220
+msgid "From WooCommerce"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:221
+msgid "From Plugin"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-advance-settings.php:225
+msgid ""
+"If the Deposit/Payment Plan variations or not displaying in Single Product "
+"page, then try using \"From Plugin\" option."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:17
+msgid "Bulk Action"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:59
+msgid "Payment Plans Product Bulk Update Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:67
+msgid "Product Bulk Update"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:148
+msgid ""
+"Using these settings you can customize/modify the payment plans information "
+"in your site."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:160
+msgid "Select Products/Categories"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:164
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:56
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:165
+msgid "Include Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:166
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:167
+msgid "Include Categories"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:168
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:185
+msgid "Select Product(s) to Include"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:201
+msgid "Select Product(s) to Exclude"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:214
+msgid "Select Categorie(s) to Include"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:249
+msgid "Select Categorie(s) to Exclude"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-bulk-action-settings.php:616
+msgid "Save and Update"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:17
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:37
+msgid "Deposit Global Level Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:42
+msgid "Force Deposit"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:103
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:156
+msgid "Minimum Deposit (%)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:118
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:171
+msgid "Maximum Deposit (%)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:143
+msgid "Payment Plan Global Level Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:148
+msgid "Force Payment Plan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:162
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:167
+msgid "Create Next Payable Order"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:173
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:286
+msgid "day(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:174
+msgid ""
+"Payable order will be created before specified days. If set as 1 then order "
+"will be created one day before payment date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:180
+msgid "Invoice Reminder"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:186
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:196
+msgid "day(s) before next payment date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:190
+msgid "Automatic Charge Reminder"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:200
+msgid "Show Deposit/Payment Plans Option for"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:207
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:262
+msgid "All Users"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:208
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:263
+msgid "Include User(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:209
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:264
+msgid "Exclude User(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:210
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:265
+msgid "Include User Role(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:211
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:266
+msgid "Exclude User Role(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:220
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:275
+msgid "Select User Role(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:231
+msgid "Products that can be Placed in a Single Order"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:236
+msgid "Both Payment Plan/Deposit & Non-Payment Plan/Deposit"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:237
+msgid "Multiple Payment Plan/Deposit Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:238
+msgid "Only One Payment Plan/Deposit Product"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:246
+msgid ""
+"Payment Plans that can be Selected for Multiple Products in a Single Order"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:251
+msgid "Same/Different"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:252
+msgid "Same"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:260
+msgid "Charge Shipping Fee"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:265
+msgid "During Initial Payment"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:266
+msgid "During Final Payment"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:275
+msgid "Overdue Payment Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:280
+msgid "Overdue Period"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:287
+msgid ""
+"If the payment is not made within the payment date, payment will goto "
+"overdue status and it will be in that status for the specified number of "
+"days."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:293
+msgid "Overdue Reminder"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:299
+msgid "day(s) after payment due date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:303
+msgid "Number of Attempts to Charge Automatic Payment during Overdue Status"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:309
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:194
+msgid "times per day"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:313
+msgid "Payment Gateway Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:318
+msgid "Disable Payment Gateways"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:327
+msgid "Enable Automatic Payment Gateways"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:333
+msgid ""
+"If enabled, automatic payment gateways will be displayed in checkout page "
+"when payment plan/deposit product is added in cart"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:336
+msgid "Automatic Payment Gateway Mode"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:341
+msgid "Automatic/Manual"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:342
+msgid "Force Automatic"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:343
+msgid "Force Manual"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:349
+msgid "Enable Manual Payment Gateways"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:355
+msgid ""
+"If enabled, manual payment gateways will be displayed along with automatic "
+"payment gateways in checkout page when payment plan/deposit product is added "
+"in cart"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:366
+msgid "Use this shortcode to display My Payments."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:372
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:186
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:373
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:187
+msgid "Purpose"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:397
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:421
+msgid "Select User(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-general-settings.php:398
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:422
+msgid "Search for a user&hellip;"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-help-settings.php:17
+#: includes/admin/settings-page/class-sumo-pp-admin-help-settings.php:40
+msgid "Help"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-help-settings.php:34
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-help-settings.php:37
+msgid ""
+"The documentation file can be found inside the documentation folder  which "
+"you will find when you unzip the downloaded zip file."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-help-settings.php:43
+msgid ""
+"If you need Help, please <a href=\"http://support.fantasticplugins.com\" "
+"target=\"_blank\" > register and open a support ticket</a>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:17
+msgid "Messages"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:35
+msgid "Shop Page Message Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:40
+msgid "Add to Cart Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:44
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:45
+msgid "View More"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:49
+msgid "Single Product Page Message Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:54
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:58
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:59
+msgid "Pay in Full"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:79
+msgid "Cart And Checkout Page Message Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:88
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:89
+msgid "<p><strong>Payment Plan:</strong> <br>[sumo_pp_payment_plan_name]</p>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:96
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:97
+msgid "<small style=\"color:#777;\">[sumo_pp_payment_plan_desc]</small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:100
+msgid "Total Payable"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:104
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:105
+msgid ""
+"<small style=\"color:#777;\">Total <strong>[sumo_pp_total_payable]</strong> "
+"payable</small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:112
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:113
+msgid ""
+"<br><small style=\"color:#777;\">Next Installment Amount: "
+"<strong>[sumo_pp_next_installment_amount]</strong></small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:120
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:121
+msgid ""
+"<br><small style=\"color:#777;\">Next Payment Date: "
+"<strong>[sumo_pp_next_payment_date]</strong></small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:124
+msgid "First Payment On"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:128
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:129
+msgid ""
+"<br><small style=\"color:#777;\">First Payment On: "
+"<strong>[sumo_pp_next_payment_date]</strong></small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:132
+msgid "Balance Payment Due Date"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:136
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:137
+msgid ""
+"<br><small style=\"color:#777;\">Balance Payment Due Date: "
+"<strong>[sumo_pp_next_payment_date]</strong></small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:140
+#: includes/class-sumo-pp-order-item-manager.php:125
+#: includes/class-sumo-pp-order-paymentplan.php:755
+#: includes/class-sumo-pp-order-paymentplan.php:781
+msgid "Balance Payable"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:144
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:145
+msgid ""
+"<br><small style=\"color:#777;\">Balance <strong>[sumo_pp_balance_payable]</"
+"strong> payable</small>"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:148
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:152
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:153
+msgid "Balance Payable Amount"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:154
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:163
+msgid "To display label under \"Cart Totals\""
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:157
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:161
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:162
+#: includes/privacy/class-sumo-pp-privacy.php:384
+msgid "Total Payable Amount"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:174
+msgid "Use this shortcode to display payment plan name."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:175
+msgid "Use this shortcode to display payment plan description."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:176
+msgid "Use this shortcode to display total payable amount."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:177
+msgid "Use this shortcode to display balance payable amount."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:178
+msgid "Use this shortcode to display next payment date."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:179
+msgid "Use this shortcode to display next installment_amount."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-message-settings.php:180
+msgid "Use this shortcode to display current installment_amount."
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:17
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:244
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:245
+msgid "Order PaymentPlan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:36
+msgid "Order PaymentPlan Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:41
+msgid "Enable Order PaymentPlan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:47
+msgid ""
+"If enabled, a checkbox will be displayed on their checkout page using which "
+"customers can choose to pay for their orders using payment plans. Order "
+"PaymentPlan is not applicable if payment plans enabled products are in cart "
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:51
+msgid "Select Product(s)"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:57
+msgid "Selected Products"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:61
+msgid ""
+"If \"Selected Products\" option is chosen, Order PaymentPlan option will be "
+"displayed only when the cart contains the products which you have selected"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:218
+msgid "Minimum Order Total to Display Order PaymentPlan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:229
+msgid "Maximum Order Total to Display Order PaymentPlan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:240
+msgid "Order PaymentPlan Option in Checkout Page Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:248
+msgid "Order PaymentPlan Product Label"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:255
+msgid "Show Order PaymentPlan Option for"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:286
+msgid "Order PaymentPlan Position"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:298
+msgid ""
+"Some themes do not support all the positions, if the positions is not "
+"supported then it might result in jquery conflict"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:302
+msgid "Troubleshoot Settings"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:307
+msgid "Display Order PaymentPlan as"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:314
+msgid "Single Line Item"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:315
+msgid "Multiple Line Items"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:317
+msgid ""
+"Select Multiple Line Items option if you face any issues in checkout  when "
+"using Order PaymentPlan"
+msgstr ""
+
+#: includes/admin/settings-page/class-sumo-pp-admin-order-paymentplan-settings.php:384
+msgid "Select Product(s) "
+msgstr ""
+
+#: includes/admin/views/html-order-fee.php:12
+msgid "Fee"
+msgstr ""
+
+#: includes/admin/views/html-order-item.php:10
+msgid "Product ID:"
+msgstr ""
+
+#: includes/admin/views/html-order-item.php:13
+#: includes/admin/views/html-order-item.php:15
+msgid "Variation ID:"
+msgstr ""
+
+#: includes/admin/views/html-order-item.php:15
+msgid "No longer exists"
+msgstr ""
+
+#: includes/admin/views/html-order-item.php:19
+msgid "Product SKU:"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:20
+msgid "Standard"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:49
+msgid "Item(s)"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:50
+msgid "Cost"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:51
+msgid "Qty"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:52
+msgid "Total"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:58
+#: includes/admin/views/html-order-items.php:59
+msgid "Tax"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:120
+msgid "Coupon(s) Used"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:137
+msgid "Discount"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:137
+msgid "This is the total discount. Discounts are defined per line item."
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:154
+#: includes/admin/views/html-order-shipping.php:12
+msgid "Shipping"
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:154
+msgid "This is the shipping and handling total costs for the order."
+msgstr ""
+
+#: includes/admin/views/html-order-items.php:181
+msgid "Order Total"
+msgstr ""
+
+#: includes/admin/views/html-payment-actions.php:10
+msgid "Resend payment emails"
+msgstr ""
+
+#: includes/admin/views/html-payment-actions.php:58
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/views/html-payment-actions.php:60
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/admin/views/html-payment-actions.php:68
+#, php-format
+msgid "Save %s"
+msgstr ""
+
+#: includes/admin/views/html-payment-actions.php:68
+#, php-format
+msgid "Save/update the %s"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:7
+#: includes/class-sumo-pp-post-types.php:34
+#: includes/class-sumo-pp-post-types.php:36
+msgid "Payment"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:10
+#, php-format
+msgid "%s #%s details"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:19
+#, php-format
+msgid "Payment via %s"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:32
+msgid "Customer IP"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:40
+msgid "Initial Payment Amount"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:48
+msgid "Initial Payment Order"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:58
+msgid "General Details"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:60
+msgid "Payment Start date:"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:65
+msgid "Not Yet Started !!"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:69
+msgid "Payment End date:"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:82
+msgid "Never Ends !!"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:84
+msgid "Payment Ended !!"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:93
+msgid "Next Payment date:"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:108
+msgid "Payment Status:"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:111
+msgid "Change to"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:117
+msgid "Activate Payment"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:130
+msgid "This Payment cannot be changed to any other status !!"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:135
+msgid "Customer:"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:136
+#: includes/privacy/class-sumo-pp-privacy.php:387
+msgid "Customer Email Address"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:142
+msgid "View Next Payable Order"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:151
+#, php-format
+msgid "Next Installment Amount: (%s)"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:157
+msgid "Billing Details"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:162
+#: includes/admin/views/html-payment-details.php:164
+#: includes/admin/views/html-payment-details.php:176
+#: includes/admin/views/html-payment-details.php:178
+msgid "Address"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:164
+msgid "No billing address set."
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:171
+msgid "Shipping Details"
+msgstr ""
+
+#: includes/admin/views/html-payment-details.php:178
+msgid "No shipping address set."
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:7
+msgid "Export Payments"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:11
+msgid "Export Payments to a CSV file"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:12
+msgid ""
+"This tool allows you to generate and download a CSV file containing a list "
+"of all payments."
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:19
+msgid "Which payment statuses should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:33
+msgid "Which payment products should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:41
+msgid "Search for a payment product&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:48
+msgid "Which payment types should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:53
+msgid "Pay in deposit"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:53
+msgid "Payment plans"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:62
+msgid "Which payment plans should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:77
+msgid "Which payment buyers should be exported?"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:85
+msgid "Search for a buyer email&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:92
+msgid "Date Range"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:95
+msgid "Select From Date"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:96
+msgid "Select To Date"
+msgstr ""
+
+#: includes/admin/views/html-payment-exporter.php:104
+msgid "Generate CSV"
+msgstr ""
+
+#: includes/admin/views/html-payment-note.php:12
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/views/html-payment-note.php:13
+msgid "Delete note"
+msgstr ""
+
+#: includes/admin/views/html-payment-notes.php:16
+msgid "Add note"
+msgstr ""
+
+#: includes/admin/views/html-payment-notes.php:22
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-and-deposit.php:15
+msgid "Select the payment plan"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-and-deposit.php:41
+msgid "Enter the deposit amount"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-orders-creation.php:8
+msgid "Based Upon Settings"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-orders-creation.php:9
+msgid "Immediately After Payment"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-orders-creation.php:13
+msgid "Next Payment Date:"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-orders-creation.php:15
+#: includes/sumo-pp-template-functions.php:64
+msgid "Actual Payment Date"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-orders-creation.php:16
+msgid "Modified Payment Date"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:10
+msgid "Price Type: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:13
+msgid "Percentage"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:19
+msgid "Sync Payment: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:22
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:23
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:28
+msgid "Sync Start Date: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:30
+msgid "Select Day "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:32
+msgid "Select Month "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:37
+msgid "Select Year "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:41
+msgid "Sync Payment Every "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:48
+msgid " month(s)"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:52
+msgid "Next Payment Date: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:55
+msgid "After Specific Number of Days"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:56
+msgid "Before a Specific Date"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:61
+msgid "Installments: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:64
+msgid "Variable"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:65
+msgid "Fixed"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:70
+msgid "No. of Installments: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:76
+msgid "Payment Amount: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:82
+msgid "Interval: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:99
+#: templates/single-product/payment-plans/view-more.php:9
+msgid "Payment Amount"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:100
+msgid "Interval"
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:154
+msgid "Total Payment Amount: "
+msgstr ""
+
+#: includes/admin/views/html-payment-plan-table.php:155
+msgid "Add Rule"
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:93
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:259
+#, php-format
+msgid "Failed to charge the balance payable Order #%s automatically."
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:264
+msgid "Automatic Payment Failed"
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:267
+#, php-format
+msgid ""
+"Automatically retried the balance payment of Order#%s %s time(s) in Overdue."
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:267
+msgid "Retry Overdue Payment"
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:382
+#, php-format
+msgid ""
+"Payment automatically changed to Overdue. Since the balance payment of Order "
+"#%s is not paid so far."
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:382
+#: includes/background-process/class-sumo-pp-background-process.php:384
+msgid "Overdue Payment"
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:384
+#, php-format
+msgid "Balance payment of order#%s is not paid so far. Payment is in Overdue."
+msgstr ""
+
+#: includes/background-process/class-sumo-pp-background-process.php:501
+#, php-format
+msgid "Balance payment of order#%s is not paid so far. Payment is Cancelled."
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:52
+msgid "Admin Manually Added Note"
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:157
+msgid "Invalid Payment!!"
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:358 includes/class-sumo-pp-ajax.php:510
+msgid "Something went wrong while updating the products!!"
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:499
+msgid "No products found to update."
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:516
+#, php-format
+msgid ""
+"%s product(s) found. Product is updating in the background. The Product "
+"update process may take a little while, so please be patient."
+msgstr ""
+
+#: includes/class-sumo-pp-ajax.php:608
+#, php-format
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:274
+#: includes/class-sumo-pp-order-paymentplan.php:459
+#, php-format
+msgid "<p><strong>%s</strong> <br>%s</p>"
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:307
+#: includes/class-sumo-pp-order-paymentplan.php:487
+#, php-format
+msgid "<br><small style=\"color:#777;\">%s <strong>%s</strong></small>"
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:320
+msgid ""
+"You can't add this product to Cart as a Product with Payment Plan is in Cart."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:322
+msgid "You can't add this product to Cart as normal products is in Cart."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:324
+msgid ""
+"You can't add this product to Cart as Product(s) with Payment Plan is in "
+"Cart."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:326
+msgid ""
+"Some of the Product(s) are removed from the Cart as Product with Payment "
+"Plan can't be bought together with other product(s)."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:328
+msgid "Enter the deposit amount and try again!!"
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:330
+msgid "Same Payment Plan product only can add to cart."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:332
+msgid "Invalid Payment plan product removed from cart."
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:393
+#, php-format
+msgid ""
+"<p class=\"%spayable_now\"><small style=\"color:#777;\">Payable now</small></"
+"p>"
+msgstr ""
+
+#: includes/class-sumo-pp-cart-manager.php:398
+#, php-format
+msgid ""
+"(Shipping amount <strong>%s%s</strong> will be calculated during final "
+"payment)"
+msgstr ""
+
+#: includes/class-sumo-pp-emails.php:238
+#, php-format
+msgid " for an Order #%s "
+msgstr ""
+
+#: includes/class-sumo-pp-emails.php:239
+#, php-format
+msgid "%s email is created%sand has been sent to %s."
+msgstr ""
+
+#: includes/class-sumo-pp-emails.php:239
+#, php-format
+msgid "%s Email Sent"
+msgstr ""
+
+#: includes/class-sumo-pp-enqueues.php:145
+msgid ""
+"You cannot save when the installment dates are not in order. Please make the "
+"changes and try again."
+msgstr ""
+
+#: includes/class-sumo-pp-enqueues.php:239
+#: templates/myaccount/view-payment.php:170
+msgid "Show More"
+msgstr ""
+
+#: includes/class-sumo-pp-enqueues.php:240
+msgid "Show Less"
+msgstr ""
+
+#: includes/class-sumo-pp-my-account-manager.php:97
+msgid "You don't have any payment."
+msgstr ""
+
+#: includes/class-sumo-pp-my-account-manager.php:117
+#: includes/class-sumo-pp-my-account-manager.php:176
+#: includes/class-sumo-pp-query.php:140
+msgid "My Payments"
+msgstr ""
+
+#: includes/class-sumo-pp-my-account-manager.php:159
+msgid "Invalid payment."
+msgstr ""
+
+#: includes/class-sumo-pp-my-account-manager.php:159
+msgid "My account"
+msgstr ""
+
+#: includes/class-sumo-pp-order-item-manager.php:107
+#, php-format
+msgid ""
+"<p><small style=\"color:#777;\">Balance <strong>%s</strong> payable</small></"
+"p>"
+msgstr ""
+
+#: includes/class-sumo-pp-order-item-manager.php:132
+#: includes/class-sumo-pp-order-item-manager.php:292
+#: includes/class-sumo-pp-order-manager.php:674
+#: includes/class-sumo-pp-order-paymentplan.php:748
+#: includes/class-sumo-pp-order-paymentplan.php:786
+msgid "Total payable"
+msgstr ""
+
+#: includes/class-sumo-pp-order-item-manager.php:147
+#: includes/class-sumo-pp-order-manager.php:687
+#: includes/class-sumo-pp-order-paymentplan.php:799
+msgid "Next installment amount"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:99
+#: includes/class-sumo-pp-post-types.php:33
+#: includes/class-sumo-pp-post-types.php:35
+#: includes/class-sumo-pp-post-types.php:42
+#: includes/sumo-pp-template-functions.php:60
+#: templates/emails/sumo-pp-payment-schedule.php:22
+msgid "Payments"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:140
+msgid "New payment order created."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:140
+msgid "New Payment Order"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:194
+#, php-format
+msgid "Awaiting balance payment order#%s to complete automatically."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:194
+#: includes/class-sumo-pp-order-manager.php:196
+msgid "Waiting For Balance Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:196
+#, php-format
+msgid "Awaiting balance payment order#%s to complete manually."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:212
+#, php-format
+msgid "Balance payment of order#%s made successful."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:212
+#: includes/class-sumo-pp-payment.php:494
+msgid "Balance Payment Success"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:229
+#, php-format
+msgid ""
+"Error in receiving payment from the user. Balance payable order#%s has been "
+"%s."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:229
+msgid "Balance Payment Failed"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:245
+#, php-format
+msgid "Awaiting initial payment order#%s to complete automatically."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:245
+#: includes/class-sumo-pp-order-manager.php:247
+msgid "Waiting For Initial Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:247
+#, php-format
+msgid "Awaiting initial payment order#%s to complete manually."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:261
+msgid ""
+"Awaiting Admin to approve for future payments to be charged as automatic."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:261
+#: includes/class-sumo-pp-order-manager.php:263
+#: includes/sumo-pp-functions.php:36
+msgid "Awaiting Admin Approval"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:263
+msgid "Awaiting Admin to approve the payment."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:270
+msgid "Payment is synced. Awaiting for the initial payment."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:272
+msgid "Awaiting Initial Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:282
+#, php-format
+msgid "Failed to pay the initial payment of order#%s . Payment is failed."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:284
+msgid "Initial Payment Failed"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:289
+#, php-format
+msgid "Failed to pay the initial payment of order#%s. Payment is cancelled."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:291
+msgid "Initial Payment Cancelled"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:339
+#, php-format
+msgid "Payment is cancelled since the order#%s is fully refunded."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:341
+#: includes/class-sumo-pp-payment.php:569
+#: includes/emails/class-sumo-pp-payment-cancelled-email.php:20
+msgid "Payment Cancelled"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:390
+msgid "Error while creating balance payable order."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:390
+msgid "Balance Payable Order Creation Error"
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:449
+#, php-format
+msgid "Balance payable order#%s is created."
+msgstr ""
+
+#: includes/class-sumo-pp-order-manager.php:449
+#: includes/class-sumo-pp-order-manager.php:452
+msgid "Balance Payable Order Created"
+msgstr ""
+
+#: includes/class-sumo-pp-order-paymentplan.php:653
+#, php-format
+msgid "<strong>%s</strong> is a required field."
+msgstr ""
+
+#: includes/class-sumo-pp-order-paymentplan.php:659
+#, php-format
+msgid ""
+"Deposited amount should be between <strong>%s</strong> and <strong>%s</"
+"strong>."
+msgstr ""
+
+#: includes/class-sumo-pp-order-paymentplan.php:663
+#, php-format
+msgid "Deposit amount should not be less than <strong>%s</strong>."
+msgstr ""
+
+#: includes/class-sumo-pp-order-paymentplan.php:734
+msgid "Paid Now"
+msgstr ""
+
+#: includes/class-sumo-pp-order-paymentplan.php:964
+#, php-format
+msgid "Unable to reduce stock for item %s."
+msgstr ""
+
+#: includes/class-sumo-pp-payment-gateways.php:272
+msgid "Enable Automatic Payments"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:234
+#, php-format
+msgid "Pending Balance Payable Order#%s is Cancelled."
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:324
+#: includes/class-sumo-pp-post-types.php:153
+#: includes/class-sumo-pp-post-types.php:154
+#: includes/class-sumo-pp-post-types.php:155
+#: includes/class-sumo-pp-post-types.php:156
+#: includes/class-sumo-pp-post-types.php:162
+msgid "Master Log"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:407
+#, php-format
+msgid "Initial payment of order#%s is paid. Payment is in progress"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:414
+msgid "Future payments will be charged as Automatic."
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:414
+msgid "Automatic Payments Approved"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:492
+#, php-format
+msgid ""
+"Balance payment of order#%s made successful. Remaining payment is in "
+"progress."
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:532
+#, php-format
+msgid "Balance payment of order#%s made successful. Payment is completed"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:534
+msgid "Balance Payment Complete"
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:567
+msgid "Payment is cancelled."
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:597
+msgid "Payment is failed."
+msgstr ""
+
+#: includes/class-sumo-pp-payment.php:599
+msgid "Payment Failed"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:37
+#: includes/class-sumo-pp-post-types.php:75
+#: includes/class-sumo-pp-post-types.php:119
+#: includes/class-sumo-pp-post-types.php:157
+msgid "Add New"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:38
+msgid "Add New Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:39
+msgid "New Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:40
+msgid "Edit Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:41
+msgid "View Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:43
+msgid "Search Payment"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:44
+msgid "Parent Payments:"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:45
+msgid "No Payment Found."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:46
+msgid "No Payment found in Trash."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:48
+msgid "This is where store payments are stored."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:71
+#: includes/class-sumo-pp-post-types.php:73
+#: includes/class-sumo-pp-post-types.php:80
+msgid "Payment Plans"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:76
+msgid "Add New Payment Plan"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:77
+msgid "New Payment Plan"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:78
+msgid "Edit Payment Plan"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:79
+msgid "View Payment Plan"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:81
+msgid "Search Payment Plan"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:82
+msgid "Parent Payment Plans:"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:83
+msgid "No Payment Plan Found."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:84
+msgid "No Payment Plan found in Trash."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:86
+msgid "This is where payment plans are stored."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:115
+#: includes/class-sumo-pp-post-types.php:116
+#: includes/class-sumo-pp-post-types.php:117
+#: includes/class-sumo-pp-post-types.php:118
+msgid "Cron Jobs"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:120
+msgid "Add New Cron Job"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:121
+msgid "New Cron Job"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:122
+msgid "Edit Cron Job"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:123
+msgid "View Cron Job"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:124
+msgid "Scheduled Cron Jobs"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:125
+msgid "Search Cron Job"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:126
+msgid "Parent Cron Jobs:"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:127
+msgid "No Cron Job Found."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:128
+msgid "No Cron Job found in Trash."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:130
+msgid "This is where payment cron jobs are stored."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:158
+msgid "Add New Log"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:159
+msgid "New Log"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:160
+msgid "Edit Log"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:161
+msgid "View Log"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:163
+msgid "Search Log"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:164
+msgid "Parent Log:"
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:165
+msgid "No Logs Found."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:166
+msgid "No Logs found in Trash."
+msgstr ""
+
+#: includes/class-sumo-pp-post-types.php:168
+msgid "This is where payment transaction logs are stored."
+msgstr ""
+
+#: includes/class-sumo-pp-query.php:145
+#: templates/emails/sumo-pp-deposit-balance-payment-auto-charge-reminder.php:17
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:17
+#: templates/emails/sumo-pp-payment-pending-auth.php:17
+#: templates/emails/sumo-pp-payment-plan-auto-charge-reminder.php:17
+#: templates/emails/sumo-pp-payment-plan-invoice.php:17
+#: templates/emails/sumo-pp-payment-plan-success.php:13
+#, php-format
+msgid "Payment #%s"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-auto-charge-reminder-email.php:20
+msgid "Balance Payment Auto Charge Reminder - Deposit"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-auto-charge-reminder-email.php:21
+msgid ""
+"Balance Payment Auto Charge Reminder - Deposit will be sent to the customers "
+"before charging for the balance payment using the preapproved payment gateway"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-auto-charge-reminder-email.php:26
+msgid ""
+"[{site_title}] - Auto Charge Reminder for Balance Payment of {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-auto-charge-reminder-email.php:27
+msgid "Auto Charge Reminder for Balance Payment of {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-completed-email.php:20
+msgid "Balance Payment Completed - Deposit"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-completed-email.php:21
+msgid ""
+"Balance Payment Completed - Deposit will be sent to the customers when the "
+"balance payment for the product purchase has been completed successfully"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-completed-email.php:26
+msgid "[{site_title}] - Balance Payment Completed for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-completed-email.php:27
+msgid "Balance Payment Completed for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-invoice-email.php:20
+msgid "Balance Payment Invoice - Deposit"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-invoice-email.php:21
+msgid ""
+"Balance Payment Invoice - Deposit will be sent to the customers when the "
+"balance payment for the purchase has to be charged"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-invoice-email.php:26
+msgid "[{site_title}] - Invoice for Balance Payment of {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-invoice-email.php:27
+msgid "Invoice for Balance Payment of {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-overdue-email.php:20
+msgid "Balance Payment Overdue - Deposit"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-overdue-email.php:21
+msgid ""
+"Balance Payment Overdue - Deposit will be sent to the customers when the "
+"balance payment for the product purchase is currently Overdue."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-overdue-email.php:26
+msgid "[{site_title}] - Payment Overdue for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-deposit-balance-payment-overdue-email.php:27
+msgid "Payment Overdue for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-awaiting-cancel-email.php:19
+msgid "Payment Awaiting Cancel"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-awaiting-cancel-email.php:20
+msgid ""
+"Payment Awaiting Cancel Email notification will be sent to the admin when "
+"the user has not paid their balance payments within the due date."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-awaiting-cancel-email.php:25
+msgid "[{site_title}] - Payment Awaiting Cancel for Payment #{payment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-awaiting-cancel-email.php:26
+msgid "Payment Awaiting Cancel for Payment #{payment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-cancelled-email.php:21
+msgid ""
+"Payment Cancelled will be sent to the customers when the user has not paid "
+"their balance payments within the due date."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-cancelled-email.php:26
+msgid "[{site_title}] - Payment Cancelled for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-cancelled-email.php:27
+msgid "Payment Cancelled for {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-pending-auth-email.php:20
+msgid "Payment Pending Authorization"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-pending-auth-email.php:21
+msgid ""
+"Payment Pending Authorization Email notification will be sent to the "
+"customer when authorized card is declined by the bank."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-pending-auth-email.php:26
+msgid ""
+"[{site_title}] - Payment Pending Authorization for Payment #{payment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-pending-auth-email.php:27
+msgid "Payment Pending Authorization for Payment #{payment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-auto-charge-reminder-email.php:20
+msgid "Payment Auto Charge Reminder - Payment Plan"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-auto-charge-reminder-email.php:21
+msgid ""
+"Payment Auto Charge Reminder - Payment Plan will be sent to the customers "
+"before charging for the installment payment using the preapproved payment "
+"gateway."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-auto-charge-reminder-email.php:26
+msgid "[{site_title}] - Auto Charge Reminder for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-auto-charge-reminder-email.php:27
+msgid "Auto Charge Reminder for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-completed-email.php:20
+msgid "Payment Completed – Payment Plan"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-completed-email.php:21
+msgid ""
+"Payment Completed – Payment Plan will be sent to the customers when the "
+"Payment Schedule for the Payment Plan has been completed successfully."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-completed-email.php:26
+msgid "[{site_title}] - Payment Schedule for {product_name} has been Completed"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-completed-email.php:27
+msgid "Payment Schedule for {product_name} has been Completed"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-invoice-email.php:20
+msgid "Payment Invoice – Payment Plan"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-invoice-email.php:21
+msgid ""
+"Payment Invoice – Payment Plan will be sent to the customers when their "
+"installment payment is due for their payment plan."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-invoice-email.php:26
+msgid "[{site_title}] - Invoice for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-invoice-email.php:27
+msgid "Invoice for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-overdue-email.php:20
+msgid "Payment Overdue – Payment Plan"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-overdue-email.php:21
+msgid ""
+"Payment Overdue – Payment Plan will be sent to the customers when their "
+"installment for their Payment Plan is currently Overdue."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-overdue-email.php:26
+msgid "[{site_title}] - Payment Overdue for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-overdue-email.php:27
+msgid "Payment Overdue for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-success-email.php:20
+msgid "Payment Success – Payment Plan"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-success-email.php:21
+msgid ""
+"Payment Success – Payment Plan will be sent to the customers when their "
+"installment payment for the payment has been received successfully."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-success-email.php:26
+msgid "[{site_title}] - Payment Received for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-plan-success-email.php:27
+msgid "Payment Received for {product_with_installment_no}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-schedule-email.php:20
+msgid "Payment Schedule Email"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-schedule-email.php:21
+msgid ""
+"Payment Schedule Emails will be sent to the customers when they purchase a "
+"product using Deposit/Payment Plans."
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-schedule-email.php:26
+msgid "[{site_title}] - Payment Schedule for Purchase of {product_name}"
+msgstr ""
+
+#: includes/emails/class-sumo-pp-payment-schedule-email.php:27
+msgid "Payment Schedule for Purchase of {product_name}"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-api-request.php:39
+msgid "Cannot connect to Stripe."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-api-request.php:118
+#, php-format
+msgid "%1$s - Name: %2$s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-api-request.php:322
+msgid "Something went wrong !!"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:25
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:87
+msgid "SUMO Payment Plans - Stripe"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:26
+msgid "Take payments from your customers using Credit/Debit card"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:80
+msgid "Stripe"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:84
+msgid "Title:"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:86
+msgid "This controls the title which the user see during checkout."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:90
+msgid "Description"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:92
+msgid ""
+"Pay with Stripe. You can pay with your credit card, debit card and master "
+"card   "
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:97
+msgid "Card Brands to be Displayed"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:107
+msgid "Selected card brands will be displayed next to gateway title."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:117
+msgid "Select Card Brands.."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:121
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:122
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:124
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on Stripe servers, not on your store."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:129
+msgid "Test Mode"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:131
+msgid "Turn on testing"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:132
+msgid ""
+"Use the test mode on Stripe dashboard to verify everything works before "
+"going live."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:137
+msgid "Stripe API Live Publishable key"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:142
+msgid "Stripe API Live Secret key"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:147
+msgid "Stripe API Test Publishable key"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:152
+msgid "Stripe API Test Secret key"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:156
+msgid "Checkout Mode"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:161
+msgid "Inline Credit Card Form"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:165
+msgid "Automatic Payment Failure Settings"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:169
+msgid "Authenticate Future Payments using Default Card"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:172
+msgid ""
+"If enabled, payment retries will be happened using the default card in case "
+"if the originally authorized card for the respective deposit/payment plan is "
+"not able to process the future payment for some reason"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:178
+msgid ""
+"Some banks require customer authentication each time during a balance "
+"payment which is not controlled by Stripe. So, even if customer has "
+"authorized for future payments of deposit/payment plan, the authorization "
+"will be declined by banks. In such case, customer has to manually process "
+"their future payments. The following options controls such scenarios."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:182
+msgid "Pending Authorization Period"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:184
+msgid "day"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:185
+msgid ""
+"This option controls how long the deposit/payment plan needs to be in "
+"\"Pending Authorization\" status until the customer pays for the balance "
+"payment or else it was unable to charge for the payment automatically in "
+"case of automatic payments. For example, if it is set as 2 then, the deposit/"
+"payment plan will be in \"Pending Authorization\" status for 2 days from the "
+"payment due date."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:192
+msgid "Number of Emails to send during Pending Authorization"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:195
+msgid ""
+"This option controls the number of times the deposit/payment plan emails "
+"will be send to the customer in case of a payment failure when the deposit/"
+"payment plan in Pending Authorization status."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:290
+msgid "Credit or debit card"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:299
+msgid "Card Number"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:310
+msgid "Expiry Date"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:318
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:372
+msgid "Payment failed: Invalid order !!"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:589
+msgid "Refund failed: Invalid order"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:593
+msgid "Refund failed: No transaction ID"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:638
+msgid "Stripe: User should be logged in and continue."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:754
+msgid "Stripe: Couldn't find valid customer to set default payment method."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:814
+#, php-format
+msgid "No such payment methods available for customer %s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:836
+msgid ""
+"In case if the originally authorized card for the respective deposit/payment "
+"plan is not able to process the future payment for some reason then the "
+"payment retry will happen using the default card selected here"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:861
+msgid "Stripe: payment complete. Customer has approved for future payments."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:863
+msgid "Stripe: payment complete"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:880
+#, php-format
+msgid ""
+"Stripe: awaiting confirmation by the customer to approve for future "
+"payments: %s."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:882
+#, php-format
+msgid "Stripe: awaiting payment: %s."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:898
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:900
+#, php-format
+msgid "Stripe: SCA authentication failed. Reason: %s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:898
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:900
+msgid "Stripe: SCA authentication failed."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:902
+#, php-format
+msgid "Stripe: payment failed. Reason: %s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:902
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:904
+msgid "Stripe: payment failed."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:927
+msgid "Stripe: Intent verification failed."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:934
+msgid "Stripe: Invalid order while verifying intent confirmation."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:938
+msgid "Stripe: Invalid payment method while verifying intent confirmation."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:967
+msgid "Payment method successfully added."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1034
+msgid ""
+"Stripe: Start retrying payment with the default card chosen by the customer."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1034
+msgid "Stripe Charging Default Card"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1045
+#, php-format
+msgid "Stripe: Couldn't find the customer %s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1053
+msgid "Stripe: Couldn't find any default card from the customer."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1089
+#, php-format
+msgid "Stripe: <b>%s</b>"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1089
+msgid "Stripe Request Failed"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1168
+#, php-format
+msgid ""
+"Payment automatically changed to Pending Authorization. Since the balance "
+"payment of Order #%s is not being paid so far."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1168
+msgid "Stripe Authorization is Pending"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1354
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1363
+msgid "Stripe: Couldn't add payment method !!"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1367
+msgid "Stripe: Invalid payment method. Please retry !!"
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1414
+msgid "Stripe: Couldn't find valid customer to attach payment method."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1467
+msgid "Invalid payment method. Please retry with a new card number."
+msgstr ""
+
+#: includes/gateways/stripe/class-sumo-pp-stripe-gateway.php:1541
+msgid ""
+"Almost there!! the only thing that still needs to be done is for you to "
+"authorize the payment with your bank."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_AdminView.php:53
+#: includes/lib/action-scheduler/classes/ActionScheduler_AdminView.php:68
+#: includes/lib/action-scheduler/classes/ActionScheduler_AdminView.php:69
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgid "Scheduled Actions"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_InvalidActionException.php:22
+#, php-format
+msgid ""
+"Action [%s] has invalid arguments. It cannot be JSON decoded to an array."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:194
+msgid "Now!"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:227
+#, php-format
+msgid "Every %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:231
+#, php-format
+msgid "Cron %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:235
+msgid "Non-repeating"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:321
+#, php-format
+msgid ""
+"Maximum simultaneous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:336
+#, php-format
+msgid "Successfully executed action: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:339
+#, php-format
+msgid "Successfully canceled action: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:342
+#, php-format
+msgid "Successfully processed change for action: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:347
+#, php-format
+msgid "Could not process change for action: \"%s\" (ID: %d). Error: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:392
+#, php-format
+msgid " (%s ago)"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:394
+#, php-format
+msgid " (%s)"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_ListTable.php:531
+msgid "Search hook, args and claim ID"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:62
+msgid "action created"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:66
+msgid "action canceled"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:70
+msgid "action started"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:74
+msgid "action complete"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:78
+#, php-format
+msgid "action failed: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:82
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:87
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:92
+msgid "action reset"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:96
+msgid "action ignored"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Logger.php:100
+msgid "There was a failure fetching this action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_QueueRunner.php:110
+msgid "Every minute"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:152
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:169
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:278
+msgid "Invalid schedule. Cannot save action."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:181
+msgid "Complete"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:182
+#: includes/sumo-pp-functions.php:35
+msgid "Pending"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:183
+msgid "In-progress"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:184
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+#: includes/sumo-pp-functions.php:40
+msgid "Failed"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_Store.php:185
+msgid "Canceled"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:31
+#, php-format
+msgid "The %s class can only be run within WP CLI."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid ""
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:109
+msgid "The claim has been lost. Aborting current batch."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:135
+#, php-format
+msgid "Started processing action %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:152
+#, php-format
+msgid "Completed processing action %s with hook: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:167
+#, php-format
+msgid "Error processing action %1$s: %2$s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_QueueRunner.php:183
+msgid "Attempting to reduce used memory..."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_WPCLI_Scheduler_command.php:123
+#, php-format
+msgid "There was an error running the action scheduler: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:100
+msgid "Action Scheduler"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:100
+msgid "This section shows scheduled action counts."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:103
+msgid "Action Status"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:105
+msgid "Count"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:106
+msgid "Oldest Scheduled Date"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:107
+msgid "Newest Scheduled Date"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+#, php-format
+msgid "Error saving action: %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:57
+msgid "Unable to save action."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:451
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:462
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:488
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:758
+#, php-format
+msgid "Unidentified action %s"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:600
+msgid "Unable to claim actions. Database error."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:620
+#, php-format
+msgid "The group \"%s\" does not exist."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:681
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:695
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:706
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore.php:730
+msgid "Invalid action ID. No status found."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:50
+msgid "In-Progress"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: includes/sumo-pp-template-functions.php:161
+#: includes/sumo-pp-template-functions.php:259
+msgid "Edit"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr ""
+
+#: includes/lib/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:48
+#: includes/privacy/class-sumo-pp-privacy.php:49
+msgid "Customer Payments"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:50
+msgid "Customer Payment Logs"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:151
+msgid ""
+"This includes the basics of what personal data your store may be collecting, "
+"storing and sharing. Depending on what settings are enabled and which "
+"additional plugins are used, the specific information shared by your store "
+"will vary."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:153
+msgid "What the Plugin does"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:155
+msgid ""
+"Using this plugin, you can create and sell deposit payments, installment "
+"payments, etc on your WooCommerce shop."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:157
+msgid "What we collect and share"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:158
+msgid "Email ID"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:161
+msgid "- Used for tracking the user"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:164
+msgid "- Used for sending payment plan emails to the user"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:167
+msgid "User ID"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:170
+msgid "- Used for tracking the previous purchase of the user"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:173
+msgid "User Object"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:176
+msgid "- Used as a backup for future use"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:182
+msgid "- Used in payment plan logs"
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:301
+#, php-format
+msgid "Removed personal data from payment %s."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:305
+#, php-format
+msgid "Personal data within payment %s has been retained."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:351
+#, php-format
+msgid "Removed personal data from payment log %s."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:355
+#, php-format
+msgid "Personal data within payment log %s has been retained."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:508
+msgid "Personal data removed."
+msgstr ""
+
+#: includes/privacy/class-sumo-pp-privacy.php:510
+msgid "Anonymized"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:37
+msgid "In Progress"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:38
+msgid "Completed"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:39
+msgid "Overdue"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:41
+msgid "Awaiting Cancel By Admin"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:42
+msgid "Cancelled"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:43
+msgid "Pending Authorization"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:273
+msgid "Day(s)"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:274
+msgid "Week(s)"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:275
+msgid "Month(s)"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:276
+msgid "Year(s)"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:282
+msgid "January"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:283
+msgid "February"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:284
+msgid "March"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:285
+msgid "April"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:286
+msgid "May"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:287
+msgid "June"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:288
+msgid "July"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:289
+msgid "August"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:290
+msgid "September"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:291
+msgid "October"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:292
+msgid "November"
+msgstr ""
+
+#: includes/sumo-pp-functions.php:293
+msgid "December"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:61
+#: templates/emails/sumo-pp-payment-schedule.php:23
+msgid "Installment Amount"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:62
+#: templates/emails/sumo-pp-payment-schedule.php:24
+msgid "Expected Payment Date"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:63
+msgid "Modified Expected Payment Date"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:65
+msgid "Order Number"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:108
+#, php-format
+msgid "<a href=\"%s\">Installment #1 of %s</a>"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:110
+#, php-format
+msgid "Installment #1 of %s"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:114
+#, php-format
+msgid "<a href=\"%s\">Installment #1 of %s</a>&nbsp;&nbsp;x%s"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:116
+#, php-format
+msgid "Installment #1 of %s&nbsp;&nbsp;x%s"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:182
+#: includes/sumo-pp-template-functions.php:293
+#, php-format
+msgid "<a href=\"%s\">#%s</a><p>Paid</p>"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:185
+#: includes/sumo-pp-template-functions.php:297
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Pay for #%s</a>"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:217
+#, php-format
+msgid "<a href=\"%s\">Installment #%s of %s</a>"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:223
+#, php-format
+msgid "<a href=\"%s\">Installment #%s of %s</a>&nbsp;&nbsp;x%s"
+msgstr ""
+
+#: includes/sumo-pp-template-functions.php:225
+#, php-format
+msgid "Installment #%s of %s&nbsp;&nbsp;x%s"
+msgstr ""
+
+#: templates/checkout/order-paymentplan/form.php:22
+#: templates/single-product/deposits/form.php:16
+#, php-format
+msgid "Enter your Deposit Amount between %s and %s"
+msgstr ""
+
+#: templates/checkout/order-paymentplan/form.php:27
+#, php-format
+msgid "Enter a deposit amount not less than %s"
+msgstr ""
+
+#: templates/checkout/order-paymentplan/review-payment.php:3
+msgid "Payable Now"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-auto-charge-reminder.php:11
+#, php-format
+msgid ""
+"Hi, <br>This is to remind you that balance payment for Payment #%s will be "
+"automatically charged on <b>%s</b> because you have already preapproved for "
+"automatic charging. <br>Kindly make sure you have sufficient funds in your "
+"account."
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-auto-charge-reminder.php:22
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:22
+#: templates/emails/sumo-pp-payment-pending-auth.php:22
+#: templates/emails/sumo-pp-payment-plan-auto-charge-reminder.php:22
+#: templates/emails/sumo-pp-payment-plan-invoice.php:22
+#: templates/emails/sumo-pp-payment-plan-success.php:18
+msgid "Product"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-auto-charge-reminder.php:23
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:23
+#: templates/emails/sumo-pp-payment-pending-auth.php:23
+#: templates/emails/sumo-pp-payment-plan-auto-charge-reminder.php:23
+#: templates/emails/sumo-pp-payment-plan-invoice.php:23
+#: templates/emails/sumo-pp-payment-plan-success.php:19
+msgid "Quantity"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-auto-charge-reminder.php:24
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:24
+#: templates/emails/sumo-pp-payment-pending-auth.php:24
+#: templates/emails/sumo-pp-payment-plan-auto-charge-reminder.php:24
+#: templates/emails/sumo-pp-payment-plan-invoice.php:24
+#: templates/emails/sumo-pp-payment-plan-success.php:20
+msgid "Price"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-completed.php:9
+#, php-format
+msgid ""
+"Hi, <br>The Balance Payment for your purchase of %s from payment #%s has "
+"been paid Successfully"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-completed.php:11
+#: templates/emails/sumo-pp-deposit-balance-payment-overdue.php:11
+#: templates/emails/sumo-pp-payment-awaiting-cancel.php:24
+#: templates/emails/sumo-pp-payment-cancelled.php:24
+#: templates/emails/sumo-pp-payment-plan-completed.php:24
+#: templates/emails/sumo-pp-payment-plan-overdue.php:11
+#: templates/emails/sumo-pp-payment-schedule.php:29
+msgid "Thanks"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:11
+#, php-format
+msgid ""
+"Hi, <br>Your Invoice for Balance Payment of %s from payment #%s has been "
+"generated . The Payment details are as follows"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:36
+#: templates/emails/sumo-pp-payment-plan-invoice.php:35
+#, php-format
+msgid ""
+"Please make the payment using the payment link %s on or before <strong>%s</"
+"strong>"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-invoice.php:36
+#: templates/emails/sumo-pp-deposit-balance-payment-overdue.php:9
+#: templates/emails/sumo-pp-payment-plan-invoice.php:35
+#: templates/emails/sumo-pp-payment-plan-overdue.php:9
+msgid "pay"
+msgstr ""
+
+#: templates/emails/sumo-pp-deposit-balance-payment-overdue.php:9
+#, php-format
+msgid ""
+"Hi, <br>Your Balance Payment for %s from payment #%s is currently Overdue. "
+"<br>Please make the payment using the payment link %s before <strong>%s</"
+"strong>. If Payment is not received within <strong>%s</strong>, the order "
+"will be <strong>%s</strong>."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-awaiting-cancel.php:9
+#, php-format
+msgid ""
+"Hi, <br>Payment #%s on %s is awaiting for cancel. To cancel the payment <a "
+"href=\"%s\">click here</a>"
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-awaiting-cancel.php:11
+#: templates/emails/sumo-pp-payment-cancelled.php:11
+#: templates/emails/sumo-pp-payment-plan-completed.php:11
+#: templates/emails/sumo-pp-payment-schedule.php:11
+#: templates/myaccount/view-payment.php:105
+msgid "Payment Schedule"
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-cancelled.php:9
+#, php-format
+msgid ""
+"Hi, <br>Your payment #%s for product %s has been cancelled since you have "
+"not paid the balance payments within the due date"
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-pending-auth.php:11
+#, php-format
+msgid ""
+"Your payment #%s is in Pending Authorization status because we couldn't "
+"charge your account for future payment as your bank have declined the "
+"authorization which you have previously given. Please pay using another card "
+"or else using any other payment gateway <a href=\"%s\">pay</a>. If payment "
+"is not made for the future payment by <strong>%s</strong>, the Payment will "
+"be <strong>%s</strong>."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-plan-auto-charge-reminder.php:11
+#, php-format
+msgid ""
+"Hi, <br>This is to remind you that %s for your payment #%s will be "
+"automatically charged on <b>%s</b> because you have already preapproved for "
+"automatic charging. <br>Kindly make sure you have sufficient funds in your "
+"account."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-plan-completed.php:9
+#, php-format
+msgid ""
+"Hi, <br>You have successfully completed the Payment Schedule for Payment #"
+"%s. Your Payment details are as follows."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-plan-invoice.php:11
+#, php-format
+msgid ""
+"Hi, <br>Your Invoice for %s from payment #%s has been generated. The Payment "
+"details are as follows"
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-plan-overdue.php:9
+#, php-format
+msgid ""
+"Hi, <br>Your payment for %s from payment #%s is currently Overdue. Please "
+"make the payment using the payment link %s before <strong>%s</strong>. If "
+"Payment is not received within <strong>%s</strong>, the Payment Plan will be "
+"<strong>%s</strong>."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-plan-success.php:9
+#, php-format
+msgid ""
+"Hi, <br>Your Payment for %s from Payment #%s has been received successfully."
+msgstr ""
+
+#: templates/emails/sumo-pp-payment-schedule.php:9
+#, php-format
+msgid ""
+"Hi, <br>Your Payment Schedule for Purchase of %s on %s from Payment #%s is "
+"as Follows"
+msgstr ""
+
+#: templates/myaccount/my-payments.php:9
+msgid "Search:"
+msgstr ""
+
+#: templates/myaccount/my-payments.php:11
+msgid "Page Size:"
+msgstr ""
+
+#: templates/myaccount/my-payments.php:18
+#: templates/myaccount/my-payments.php:36
+msgid "Product Title"
+msgstr ""
+
+#: templates/myaccount/my-payments.php:61
+msgid "View"
+msgstr ""
+
+#: templates/myaccount/view-payment.php:26
+msgid "Payment Product "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:35
+msgid "Payment Plan "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:48
+msgid "Payment Start Date "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:61
+msgid "Payment Next Payment Date "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:74
+msgid "Payment End Date "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:86
+msgid "Initial Payment Amount "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:95
+msgid "Remaining Payable Amount "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:100
+msgid "Remaining Installments "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:115
+msgid "Pay for Remaining installment(s)"
+msgstr ""
+
+#: templates/myaccount/view-payment.php:117
+#, php-format
+msgid "Pay for %s installment(s)"
+msgstr ""
+
+#: templates/myaccount/view-payment.php:120
+msgid "Pay Now"
+msgstr ""
+
+#: templates/myaccount/view-payment.php:132
+msgid "Activity Logs "
+msgstr ""
+
+#: templates/myaccount/view-payment.php:176
+msgid "No Activities Yet."
+msgstr ""
+
+#: templates/single-product/payment-plans/plan.php:22
+#, php-format
+msgid "<strong>Initial Payable:</strong> %s<br>"
+msgstr ""
+
+#: templates/single-product/payment-plans/plan.php:25
+#, php-format
+msgid "<strong>Total Payable:</strong> %s<br>"
+msgstr ""
+
+#: templates/single-product/payment-plans/plan.php:44
+msgid "View more"
+msgstr ""
+
+#: templates/single-product/payment-plans/view-more.php:10
+msgid "Payment Date"
+msgstr ""

@@ -1,0 +1,103 @@
+<?php
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+if (!class_exists('MP_Product_Approve_Disapprove_Email')) :
+
+    /**
+     * New Product Added by Seller Email.
+     */
+    class MP_Product_Approve_Disapprove_Email extends WC_Email
+    {
+        /**
+         * Constructor.
+         */
+        public function __construct()
+        {
+            $this->id = 'product_approve_disapporve';
+            $this->title = __( 'Product Approve or Disapprove', 'marketplace');
+            $this->description = __( 'Query emails are sent to chosen recipient(s) ', 'marketplace');
+            $this->heading = __( 'Product Approved', 'marketplace');
+            $this->subject = '['.get_option('blogname').']'.__(' Product Approved', 'marketplace');
+            $this->template_html = 'emails/product-approve-disapprove.php';
+            $this->template_plain = 'emails/plain/product-approve-disapprove.php';
+            $this->footer = __('Thanks for choosing marketplace.', 'marketplace');
+            $this->template_base = plugin_dir_path(__FILE__).'woocommerce/templates/';
+            $this->status = true;
+
+            add_action('woocommerce_product_approve_disapprove_notification', array($this, 'trigger'), 10, 3);
+
+            // Call parent constructor.
+            parent::__construct();
+
+            // Other settings.
+            $this->recipient = get_option('admin_email');
+        }
+
+        /* Trigger.
+        *
+        * @param int $order_id
+        */
+       public function trigger( $user_id, $product_id, $status = 'approve' )
+       {
+           if (!empty($user_id) && !empty($product_id)) {
+               $this->user_id = $user_id;
+               $this->product_id = $product_id;
+               $this->recipient = get_userdata( $user_id )->user_email;
+           }
+
+           if( $status != 'approve' ) {
+            $this->heading = __('Product Rejected', 'marketplace');
+            $this->subject = '['.get_option('blogname').']'.__(' Product Rejected', 'marketplace');
+            $this->status = false;
+           }
+
+           if (!$this->is_enabled() || !$this->get_recipient()) {
+               return;
+           }
+
+           $this->send($this->get_recipient(), $this->get_subject(), $this->get_content(), $this->get_headers(), $this->get_attachments());
+       }
+
+       /**
+        * Get content html.
+        *
+        * @return string
+        */
+       public function get_content_html()
+       {
+           return wc_get_template_html($this->template_html, array(
+               'user' => $this->user_id,
+               'product' => $this->product_id,
+               'email_heading' => $this->get_heading(),
+               'sent_to_admin' => true,
+               'plain_text' => false,
+               'email' => $this,
+               'status' => $this->status,
+           ), '', $this->template_base);
+       }
+
+       /**
+        * Get content plain.
+        *
+        * @return string
+        */
+       public function get_content_plain()
+       {
+           return wc_get_template_html($this->template_plain, array(
+               'user' => $this->user_id,
+               'product' => $this->product_id,
+               'email_heading' => $this->get_heading(),
+               'sent_to_admin' => true,
+               'plain_text' => true,
+               'email' => $this,
+               'status' => $this->status,
+           ), '', $this->template_base);
+       }
+    }
+
+endif;
+
+return new MP_Product_Approve_Disapprove_Email();

@@ -1,0 +1,1281 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-20 06:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: framework/includes/woo-functions.php:283
+msgid " item(s) in My Cart"
+msgstr ""
+
+#: framework/includes/theme-functions.php:302
+msgid " Sticky"
+msgstr ""
+
+#: framework/includes/theme-functions.php:418
+msgid "%"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:43
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/woo-functions.php:283
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: framework/settings/theme-options.php:373
+#: framework/settings/theme-options.php:484
+#: framework/settings/theme-options.php:654
+msgid "(Screen resolution of device < 480px)"
+msgstr ""
+
+#: framework/settings/theme-options.php:309
+#: framework/settings/theme-options.php:420
+#: framework/settings/theme-options.php:594
+msgid "(Screen resolution of device >= 1200px < 1500px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:292
+#: framework/settings/theme-options.php:404
+#: framework/settings/theme-options.php:579
+msgid "(Screen resolution of device >= 1500px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:357
+#: framework/settings/theme-options.php:468
+#: framework/settings/theme-options.php:639
+msgid "(Screen resolution of device >=480  add < 768px)"
+msgstr ""
+
+#: framework/settings/theme-options.php:341
+#: framework/settings/theme-options.php:452
+#: framework/settings/theme-options.php:624
+msgid "(Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:325
+#: framework/settings/theme-options.php:436
+#: framework/settings/theme-options.php:609
+msgid "(Screen resolution of device >=992px and < 1200px )"
+msgstr ""
+
+#: framework/includes/theme-functions.php:256
+msgid "..."
+msgstr ""
+
+#: framework/includes/theme-functions.php:416
+msgid "0"
+msgstr ""
+
+#: framework/includes/theme-functions.php:417
+msgid "1"
+msgstr ""
+
+#: framework/settings/theme-options.php:294
+#: framework/settings/theme-options.php:311
+#: framework/settings/theme-options.php:327
+#: framework/settings/theme-options.php:343
+#: framework/settings/theme-options.php:359
+#: framework/settings/theme-options.php:375
+#: framework/settings/theme-options.php:406
+#: framework/settings/theme-options.php:422
+#: framework/settings/theme-options.php:438
+#: framework/settings/theme-options.php:454
+#: framework/settings/theme-options.php:470
+#: framework/settings/theme-options.php:486
+#: framework/settings/theme-options.php:581
+#: framework/settings/theme-options.php:596
+#: framework/settings/theme-options.php:611
+#: framework/settings/theme-options.php:626
+#: framework/settings/theme-options.php:641
+#: framework/settings/theme-options.php:656
+msgid "1 item"
+msgstr ""
+
+#: framework/settings/theme-options.php:295
+#: framework/settings/theme-options.php:312
+#: framework/settings/theme-options.php:328
+#: framework/settings/theme-options.php:344
+#: framework/settings/theme-options.php:360
+#: framework/settings/theme-options.php:376
+#: framework/settings/theme-options.php:407
+#: framework/settings/theme-options.php:423
+#: framework/settings/theme-options.php:439
+#: framework/settings/theme-options.php:455
+#: framework/settings/theme-options.php:471
+#: framework/settings/theme-options.php:487
+#: framework/settings/theme-options.php:582
+#: framework/settings/theme-options.php:597
+#: framework/settings/theme-options.php:612
+#: framework/settings/theme-options.php:627
+#: framework/settings/theme-options.php:642
+#: framework/settings/theme-options.php:657
+msgid "2 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:296
+#: framework/settings/theme-options.php:313
+#: framework/settings/theme-options.php:329
+#: framework/settings/theme-options.php:345
+#: framework/settings/theme-options.php:361
+#: framework/settings/theme-options.php:377
+#: framework/settings/theme-options.php:408
+#: framework/settings/theme-options.php:424
+#: framework/settings/theme-options.php:440
+#: framework/settings/theme-options.php:456
+#: framework/settings/theme-options.php:472
+#: framework/settings/theme-options.php:488
+#: framework/settings/theme-options.php:583
+#: framework/settings/theme-options.php:598
+#: framework/settings/theme-options.php:613
+#: framework/settings/theme-options.php:628
+#: framework/settings/theme-options.php:643
+#: framework/settings/theme-options.php:658
+msgid "3 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:297
+#: framework/settings/theme-options.php:314
+#: framework/settings/theme-options.php:330
+#: framework/settings/theme-options.php:346
+#: framework/settings/theme-options.php:362
+#: framework/settings/theme-options.php:378
+#: framework/settings/theme-options.php:409
+#: framework/settings/theme-options.php:425
+#: framework/settings/theme-options.php:441
+#: framework/settings/theme-options.php:457
+#: framework/settings/theme-options.php:473
+#: framework/settings/theme-options.php:489
+#: framework/settings/theme-options.php:584
+#: framework/settings/theme-options.php:599
+#: framework/settings/theme-options.php:614
+#: framework/settings/theme-options.php:629
+#: framework/settings/theme-options.php:644
+#: framework/settings/theme-options.php:659
+msgid "4 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:298
+#: framework/settings/theme-options.php:315
+#: framework/settings/theme-options.php:331
+#: framework/settings/theme-options.php:347
+#: framework/settings/theme-options.php:363
+#: framework/settings/theme-options.php:379
+#: framework/settings/theme-options.php:410
+#: framework/settings/theme-options.php:426
+#: framework/settings/theme-options.php:442
+#: framework/settings/theme-options.php:458
+#: framework/settings/theme-options.php:474
+#: framework/settings/theme-options.php:490
+#: framework/settings/theme-options.php:585
+#: framework/settings/theme-options.php:600
+#: framework/settings/theme-options.php:615
+#: framework/settings/theme-options.php:630
+#: framework/settings/theme-options.php:645
+#: framework/settings/theme-options.php:660
+msgid "5 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:299
+#: framework/settings/theme-options.php:316
+#: framework/settings/theme-options.php:332
+#: framework/settings/theme-options.php:348
+#: framework/settings/theme-options.php:364
+#: framework/settings/theme-options.php:380
+#: framework/settings/theme-options.php:411
+#: framework/settings/theme-options.php:427
+#: framework/settings/theme-options.php:443
+#: framework/settings/theme-options.php:459
+#: framework/settings/theme-options.php:475
+#: framework/settings/theme-options.php:491
+#: framework/settings/theme-options.php:586
+#: framework/settings/theme-options.php:601
+#: framework/settings/theme-options.php:616
+#: framework/settings/theme-options.php:631
+#: framework/settings/theme-options.php:646
+#: framework/settings/theme-options.php:661
+msgid "6 items"
+msgstr ""
+
+#: framework/includes/theme-functions.php:559
+msgid "Account"
+msgstr ""
+
+#: framework/settings/theme-options.php:691
+msgid "Active"
+msgstr ""
+
+#: framework/includes/visual-composer.php:227
+msgid "Active Section"
+msgstr ""
+
+#: framework/settings/theme-options.php:65
+#: framework/settings/theme-options.php:148
+msgid "Add New"
+msgstr ""
+
+#: framework/settings/theme-options.php:66
+#: framework/settings/theme-options.php:149
+msgid "Add New Field"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:34
+msgid "Add New Key"
+msgstr ""
+
+#: functions.php:92 functions.php:102 functions.php:112 functions.php:122
+#: functions.php:132 functions.php:142 functions.php:152 functions.php:162
+#: functions.php:172 functions.php:182 functions.php:192 functions.php:202
+#: functions.php:212
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:181
+msgid "AND"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:68
+msgid "ASC"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:52
+msgid "Author"
+msgstr ""
+
+#: framework/includes/woo-functions.php:123
+#: woocommerce/product-styles/content-product-list.php:52
+msgid "Availability:"
+msgstr ""
+
+#: framework/includes/visual-composer.php:125
+msgid "Banner Category"
+msgstr ""
+
+#: framework/settings/theme-options.php:506
+msgid "Banner Shop"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:34
+msgid "Best Selling Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:253
+msgid "Blog"
+msgstr ""
+
+#: framework/settings/theme-options.php:284
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/settings/theme-options.php:258
+msgid "Blog Style"
+msgstr ""
+
+#: framework/includes/visual-composer.php:92
+msgid "Border ScaleUp"
+msgstr ""
+
+#: framework/includes/visual-composer.php:91
+msgid "Border Zoom"
+msgstr ""
+
+#: framework/settings/theme-options.php:236
+msgid "Bottom Footer Left"
+msgstr ""
+
+#: framework/settings/theme-options.php:246
+msgid "Bottom Footer Right"
+msgstr ""
+
+#: framework/includes/visual-composer.php:155
+msgid "Bottom Link"
+msgstr ""
+
+#: framework/includes/visual-composer.php:89
+msgid "Bounce In"
+msgstr ""
+
+#: templates/blog/blog-related.php:52
+#: framework/includes/theme-functions.php:324
+msgid "By: "
+msgstr ""
+
+#: framework/includes/woo-functions.php:271
+#: framework/includes/theme-functions.php:551
+msgid "Cart"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:84
+#: framework/widgets/widget-product-filter.php:102
+msgid "Categories"
+msgstr ""
+
+#: framework/widgets/widget-blog.php:167
+msgid "Category"
+msgstr ""
+
+#: framework/includes/visual-composer.php:150
+msgid "Choose category"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:45
+msgid "Choose Target"
+msgstr ""
+
+#: framework/widgets/widget-blog.php:128
+msgid "Choose Type Post"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:173
+msgid "Color"
+msgstr ""
+
+#: framework/settings/theme-options.php:73
+#: framework/settings/theme-options.php:92
+#: framework/settings/theme-options.php:112
+#: framework/settings/theme-options.php:162
+#: framework/settings/theme-options.php:182
+#: framework/settings/theme-options.php:202
+msgid "Column 1"
+msgstr ""
+
+#: framework/settings/theme-options.php:82
+#: framework/settings/theme-options.php:101
+#: framework/settings/theme-options.php:121
+#: framework/settings/theme-options.php:171
+#: framework/settings/theme-options.php:191
+#: framework/settings/theme-options.php:211
+msgid "Column 10"
+msgstr ""
+
+#: framework/settings/theme-options.php:83
+#: framework/settings/theme-options.php:102
+#: framework/settings/theme-options.php:122
+#: framework/settings/theme-options.php:172
+#: framework/settings/theme-options.php:192
+#: framework/settings/theme-options.php:212
+msgid "Column 11"
+msgstr ""
+
+#: framework/settings/theme-options.php:84
+#: framework/settings/theme-options.php:103
+#: framework/settings/theme-options.php:123
+#: framework/settings/theme-options.php:173
+#: framework/settings/theme-options.php:193
+#: framework/settings/theme-options.php:213
+msgid "Column 12"
+msgstr ""
+
+#: framework/settings/theme-options.php:74
+#: framework/settings/theme-options.php:93
+#: framework/settings/theme-options.php:113
+#: framework/settings/theme-options.php:163
+#: framework/settings/theme-options.php:183
+#: framework/settings/theme-options.php:203
+msgid "Column 2"
+msgstr ""
+
+#: framework/settings/theme-options.php:75
+#: framework/settings/theme-options.php:94
+#: framework/settings/theme-options.php:114
+#: framework/settings/theme-options.php:164
+#: framework/settings/theme-options.php:184
+#: framework/settings/theme-options.php:204
+msgid "Column 3"
+msgstr ""
+
+#: framework/settings/theme-options.php:76
+#: framework/settings/theme-options.php:95
+#: framework/settings/theme-options.php:115
+#: framework/settings/theme-options.php:165
+#: framework/settings/theme-options.php:185
+#: framework/settings/theme-options.php:205
+msgid "Column 4"
+msgstr ""
+
+#: framework/settings/theme-options.php:77
+#: framework/settings/theme-options.php:96
+#: framework/settings/theme-options.php:116
+#: framework/settings/theme-options.php:166
+#: framework/settings/theme-options.php:186
+#: framework/settings/theme-options.php:206
+msgid "Column 5"
+msgstr ""
+
+#: framework/settings/theme-options.php:78
+#: framework/settings/theme-options.php:97
+#: framework/settings/theme-options.php:117
+#: framework/settings/theme-options.php:167
+#: framework/settings/theme-options.php:187
+#: framework/settings/theme-options.php:207
+msgid "Column 6"
+msgstr ""
+
+#: framework/settings/theme-options.php:79
+#: framework/settings/theme-options.php:98
+#: framework/settings/theme-options.php:118
+#: framework/settings/theme-options.php:168
+#: framework/settings/theme-options.php:188
+#: framework/settings/theme-options.php:208
+msgid "Column 7"
+msgstr ""
+
+#: framework/settings/theme-options.php:80
+#: framework/settings/theme-options.php:99
+#: framework/settings/theme-options.php:119
+#: framework/settings/theme-options.php:169
+#: framework/settings/theme-options.php:189
+#: framework/settings/theme-options.php:209
+msgid "Column 8"
+msgstr ""
+
+#: framework/settings/theme-options.php:81
+#: framework/settings/theme-options.php:100
+#: framework/settings/theme-options.php:120
+#: framework/settings/theme-options.php:170
+#: framework/settings/theme-options.php:190
+#: framework/settings/theme-options.php:210
+msgid "Column 9"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:56
+msgid "Comment count"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/includes/theme-functions.php:527
+msgid "Compare"
+msgstr ""
+
+#. %s: Name of current post
+#: framework/includes/theme-functions.php:269
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: framework/includes/theme-functions.php:758
+msgid "Currency:"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:157
+msgid "Custom Attribute name:"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:50
+msgid "Date"
+msgstr ""
+
+#: framework/settings/theme-options.php:692
+msgid "Deactive"
+msgstr ""
+
+#: framework/includes/visual-composer.php:166
+#: framework/includes/visual-composer.php:184
+msgid "Default"
+msgstr ""
+
+#: importer/importer.php:82
+msgid "Demo"
+msgstr ""
+
+#: importer/importer.php:97
+msgid "Demo RTL"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:69
+msgid "DESC"
+msgstr ""
+
+#: framework/includes/visual-composer.php:121
+msgid "Display a Category."
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:52
+msgid "Display the customer Keywords."
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:83
+msgid "Display the customer Products Slide."
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:163
+msgid "Display Type:"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:169
+msgid "Dropdown"
+msgstr ""
+
+#: framework/includes/theme-functions.php:224
+msgid "Edit"
+msgstr ""
+
+#: framework/settings/theme-options.php:50
+msgid "Editor Custom js"
+msgstr ""
+
+#: framework/includes/visual-composer.php:81
+msgid "Effect"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:107
+#: framework/widgets/widget-product-filter.php:128
+#: framework/widgets/widget-product-filter.php:154
+msgid "Enable"
+msgstr ""
+
+#: framework/settings/theme-options.php:391
+msgid "Enable Related Blog"
+msgstr ""
+
+#: framework/settings/theme-options.php:22
+msgid "Enter your Google Map API key. "
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:37
+msgid "Featured Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:56
+msgid "Footer"
+msgstr ""
+
+#: functions.php:200
+msgid "Footer Bottom Left"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Bottom Right"
+msgstr ""
+
+#: framework/settings/theme-options.php:71
+msgid "Footer Column"
+msgstr ""
+
+#: framework/settings/theme-options.php:160
+msgid "Footer Column Desktop ( >= 1200 )"
+msgstr ""
+
+#: framework/settings/theme-options.php:110
+#: framework/settings/theme-options.php:200
+msgid "Footer Column Ipad ( >= 768 and < 992 )"
+msgstr ""
+
+#: framework/settings/theme-options.php:90
+#: framework/settings/theme-options.php:180
+msgid "Footer Column Ipad Pro ( >= 992 and < 1200 )"
+msgstr ""
+
+#: functions.php:190
+msgid "Footer Middle"
+msgstr ""
+
+#: functions.php:130
+msgid "Footer Top 1"
+msgstr ""
+
+#: functions.php:140
+msgid "Footer Top 2"
+msgstr ""
+
+#: functions.php:150
+msgid "Footer Top 3"
+msgstr ""
+
+#: functions.php:160
+msgid "Footer Top 4"
+msgstr ""
+
+#: functions.php:170
+msgid "Footer Top 5"
+msgstr ""
+
+#: functions.php:180
+msgid "Footer Top 6"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#: framework/settings/theme-options.php:7
+msgid "General"
+msgstr ""
+
+#: content-none.php:4
+msgid "Get started here"
+msgstr ""
+
+#: 404.php:27
+msgid "GO TO HOMEPAGE"
+msgstr ""
+
+#: framework/settings/theme-options.php:21
+msgid "Google Map API Key"
+msgstr ""
+
+#: framework/settings/theme-options.php:261
+msgid "Grid"
+msgstr ""
+
+#: framework/settings/theme-options.php:147
+msgid "Grid Footer"
+msgstr ""
+
+#: framework/settings/theme-options.php:64
+msgid "Grid Icon Box"
+msgstr ""
+
+#: framework/settings/theme-options.php:572
+msgid "Grid Settings"
+msgstr ""
+
+#: framework/includes/theme-functions.php:518
+msgid "Home"
+msgstr ""
+
+#: framework/settings/theme-options.php:22
+msgid "How to get?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://kutethemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://marketplace.kute-themes.com"
+msgstr ""
+
+#: framework/includes/woo-functions.php:216
+msgid "Hurry up!"
+msgstr ""
+
+#: framework/settings/theme-options.php:140
+msgid "Icon Descriptions"
+msgstr ""
+
+#: framework/settings/theme-options.php:130
+msgid "Icon Picker"
+msgstr ""
+
+#: framework/settings/theme-options.php:135
+msgid "Icon Title"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:51
+msgid "ID"
+msgstr ""
+
+#: framework/includes/visual-composer.php:82
+msgid "Image Effect"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:171
+msgid "Inline"
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/settings/theme-options.php:291
+#: framework/settings/theme-options.php:308
+#: framework/settings/theme-options.php:324
+#: framework/settings/theme-options.php:340
+#: framework/settings/theme-options.php:356
+#: framework/settings/theme-options.php:372
+#: framework/settings/theme-options.php:578
+#: framework/settings/theme-options.php:593
+#: framework/settings/theme-options.php:608
+#: framework/settings/theme-options.php:623
+#: framework/settings/theme-options.php:638
+#: framework/settings/theme-options.php:653
+msgid "Items per row on Desktop( For grid mode )"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:35
+msgid "Key Settings"
+msgstr ""
+
+#. Author of the theme
+msgid "Kutethemes"
+msgstr ""
+
+#: framework/includes/theme-functions.php:754
+msgid "Language:"
+msgstr ""
+
+#: comments.php:29
+msgid "Leave your Comment"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:45
+msgid "Link"
+msgstr ""
+
+#: framework/settings/theme-options.php:513
+msgid "Link Shop"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:167
+msgid "List"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:33
+msgid "List Keywords"
+msgstr ""
+
+#: framework/includes/theme-functions.php:653
+msgid "Login"
+msgstr ""
+
+#: framework/settings/theme-options.php:12
+msgid "Logo"
+msgstr ""
+
+#: framework/includes/theme-functions.php:646
+msgid "Logout"
+msgstr ""
+
+#: framework/settings/theme-options.php:33
+msgid "Main Background Color"
+msgstr ""
+
+#: framework/settings/theme-options.php:38
+msgid "Main Text Color"
+msgstr ""
+
+#: framework/settings/theme-options.php:44
+msgid "Main Text Hover Color"
+msgstr ""
+
+#. Name of the theme
+msgid "Marketplace"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Marketplace Shop is a simple but modern responsive WordPress theme that "
+"oozes high-street sophistication. Its sharp lines and flat design style has "
+"been designed to be pixel perfect. Simply load your photography and you can "
+"have an online shop to matches the likes of Prada, Gucci and Yves St Laurent."
+msgstr ""
+
+#: framework/includes/theme-functions.php:569
+msgid "Menu"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:57
+msgid "Menu order"
+msgstr ""
+
+#: framework/settings/theme-options.php:226
+msgid "Mid Footer"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:54
+msgid "Modified"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Montserrat, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:232
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/includes/woo-functions.php:202
+msgid "N/A"
+msgstr ""
+
+#: comments.php:70 framework/includes/theme-functions.php:140
+msgid "Next"
+msgstr ""
+
+#: framework/includes/visual-composer.php:221
+msgid "No"
+msgstr ""
+
+#: vc_templates/ovic_products.php:114
+#: framework/widgets/widget-product-slide.php:131
+msgid "No Product"
+msgstr ""
+
+#: framework/includes/visual-composer.php:85
+msgid "None"
+msgstr ""
+
+#: framework/includes/visual-composer.php:86
+msgid "Normal Effect"
+msgstr ""
+
+#: framework/includes/visual-composer.php:87
+msgid "Normal Effect Dark Color"
+msgstr ""
+
+#: framework/includes/visual-composer.php:88
+msgid "Normal Effect Light Color"
+msgstr ""
+
+#: framework/includes/visual-composer.php:151
+msgid ""
+"Note: If you want to narrow output, select category(s) above. Only selected "
+"categories will be displayed."
+msgstr ""
+
+#: content-none.php:1
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/settings/theme-options.php:559
+msgid "Number of products on shop page."
+msgstr ""
+
+#: framework/widgets/widget-blog.php:195
+msgid "Number Post"
+msgstr ""
+
+#: framework/settings/theme-options.php:396
+msgid "Number Related Post"
+msgstr ""
+
+#: framework/includes/woo-functions.php:77
+msgid "of"
+msgstr ""
+
+#: framework/includes/woo-functions.php:217
+msgid "Offer end in:"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:39
+msgid "On New"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:38
+msgid "On Sale"
+msgstr ""
+
+#. %s: post title
+#: comments.php:39
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: 404.php:23
+msgid "Opps! This page Could Not Be Found!"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:183
+msgid "OR"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:74
+msgid "Order"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:63
+msgid "Order By"
+msgstr ""
+
+#: framework/includes/visual-composer.php:23
+msgid "Ovic Button"
+msgstr ""
+
+#: framework/includes/visual-composer.php:120
+msgid "Ovic Shortcode"
+msgstr ""
+
+#: framework/includes/visual-composer.php:117
+msgid "Ovic: Category"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:54
+msgid "Ovic: Keywords"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:85
+msgid "Ovic: Products Slide"
+msgstr ""
+
+#: page.php:55
+msgid "Page"
+msgstr ""
+
+#: page.php:51 framework/includes/theme-functions.php:274
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Your search here&hellip;"
+msgstr ""
+
+#: framework/includes/visual-composer.php:90
+msgid "Plus Zoom"
+msgstr ""
+
+#: comments.php:69 framework/includes/theme-functions.php:139
+msgid "Prev"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:89
+#: framework/widgets/widget-product-filter.php:123
+msgid "Price"
+msgstr ""
+
+#: functions.php:43 importer/importer.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/includes/visual-composer.php:143
+msgid "Product Category"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:78
+msgid "Product per page"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:44
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: framework/settings/theme-options.php:565
+msgid "Product Shop Layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:519
+msgid "Products Newness"
+msgstr ""
+
+#: framework/settings/theme-options.php:558
+msgid "Products perpage"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgid "Quantiy:"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:177
+msgid "Query type:"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:55
+msgid "Random"
+msgstr ""
+
+#: framework/includes/theme-functions.php:291
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:4
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:36
+msgid "Recent Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:403
+#: framework/settings/theme-options.php:419
+msgid "Related items per row on Desktop"
+msgstr ""
+
+#: framework/settings/theme-options.php:435
+msgid "Related items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:467
+#: framework/settings/theme-options.php:483
+msgid "Related items per row on Mobile"
+msgstr ""
+
+#: framework/settings/theme-options.php:451
+msgid "Related items per row on portrait tablet"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:58
+msgid "Sale price"
+msgstr ""
+
+#: framework/widgets/widget-blog.php:148
+msgid "Search by name Post"
+msgstr ""
+
+#: framework/includes/theme-functions.php:782
+msgid "Search:"
+msgstr ""
+
+#: framework/settings/theme-options.php:566
+msgid "Select a Product layout in shop page"
+msgstr ""
+
+#: framework/settings/theme-options.php:548
+msgid "Select default layout for shop, product category archive."
+msgstr ""
+
+#: framework/settings/theme-options.php:269
+msgid "Select sidebar position on Blog."
+msgstr ""
+
+#: framework/settings/theme-options.php:526
+msgid "Select sidebar position on Shop Page."
+msgstr ""
+
+#: framework/includes/visual-composer.php:101
+#: framework/includes/visual-composer.php:163
+#: framework/includes/visual-composer.php:181
+msgid "Select style"
+msgstr ""
+
+#: framework/settings/theme-options.php:13
+msgid "Setting Logo For Site"
+msgstr ""
+
+#: framework/includes/theme-functions.php:426
+msgid "Share: "
+msgstr ""
+
+#: framework/settings/theme-options.php:547
+msgid "Shop Default Layout"
+msgstr ""
+
+#: vc_templates/ovic_category.php:31
+msgid "Shop Now"
+msgstr ""
+
+#: framework/settings/theme-options.php:525
+msgid "Shop Page Sidebar Layout"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:118
+msgid "Show product counts"
+msgstr ""
+
+#: framework/settings/theme-options.php:268
+msgid "Sidebar Blog Layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:536
+msgid "Sidebar Used For Shop"
+msgstr ""
+
+#: framework/settings/theme-options.php:684
+msgid "Single Add To Cart"
+msgstr ""
+
+#: framework/settings/theme-options.php:681
+msgid "Single Available"
+msgstr ""
+
+#: framework/settings/theme-options.php:680
+msgid "Single Excerpt"
+msgstr ""
+
+#: framework/settings/theme-options.php:676
+msgid "Single Group Flash"
+msgstr ""
+
+#: framework/settings/theme-options.php:687
+msgid "Single Meta"
+msgstr ""
+
+#: framework/settings/theme-options.php:682
+msgid "Single Price"
+msgstr ""
+
+#: framework/settings/theme-options.php:677
+msgid "Single Rating"
+msgstr ""
+
+#: framework/settings/theme-options.php:683
+msgid "Single Share"
+msgstr ""
+
+#: framework/settings/theme-options.php:688
+msgid "Single Sharing"
+msgstr ""
+
+#: framework/settings/theme-options.php:679
+msgid "Single SKU"
+msgstr ""
+
+#: framework/settings/theme-options.php:678
+msgid "Single Title"
+msgstr ""
+
+#: framework/includes/woo-functions.php:201
+msgid "SKU:"
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"Sorry bit the page you are looking for does not exist, have been removed or "
+"name changed"
+msgstr ""
+
+#: content-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/widgets/widget-blog.php:183
+msgid "Sort By"
+msgstr ""
+
+#: framework/settings/theme-options.php:260
+msgid "Standard"
+msgstr ""
+
+#: framework/includes/visual-composer.php:170
+#: framework/includes/visual-composer.php:188
+msgid "Style 1"
+msgstr ""
+
+#: framework/includes/visual-composer.php:192
+msgid "Style 2"
+msgstr ""
+
+#: comments.php:28
+msgid "Submit"
+msgstr ""
+
+#: framework/includes/visual-composer.php:202
+msgid "Tab Color"
+msgstr ""
+
+#: framework/widgets/widget-keyword.php:40
+msgid "Text"
+msgstr ""
+
+#: framework/includes/visual-composer.php:157
+msgid "The Link in bottom of shortcode"
+msgstr ""
+
+#: framework/includes/visual-composer.php:139
+msgid "The Link in top of shortcode"
+msgstr ""
+
+#: framework/includes/visual-composer.php:132
+#: framework/includes/visual-composer.php:211
+msgid "The title of shortcode"
+msgstr ""
+
+#: framework/widgets/widget-blog.php:112
+#: framework/widgets/widget-product-slide.php:29
+#: framework/widgets/widget-product-slide.php:53
+#: framework/widgets/widget-keyword.php:29
+#: framework/includes/visual-composer.php:130
+#: framework/includes/visual-composer.php:209
+msgid "Title"
+msgstr ""
+
+#: framework/widgets/widget-product-filter.php:97
+#: framework/widgets/widget-product-filter.php:110
+#: framework/widgets/widget-product-filter.php:131
+msgid "Title:"
+msgstr ""
+
+#: framework/settings/theme-options.php:154
+msgid "Top Footer Sidebar"
+msgstr ""
+
+#: framework/includes/visual-composer.php:137
+msgid "Top Link"
+msgstr ""
+
+#: functions.php:45 importer/importer.php:61
+msgid "Top Menu First"
+msgstr ""
+
+#: functions.php:46 importer/importer.php:62
+msgid "Top Menu Second"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:35
+msgid "Top Rated Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:27
+msgid "Use image Lazy Load"
+msgstr ""
+
+#: framework/includes/visual-composer.php:217
+msgid "Using Ajax Tabs"
+msgstr ""
+
+#: functions.php:44 importer/importer.php:60
+msgid "Vertical Menu"
+msgstr ""
+
+#: vc_templates/ovic_category.php:36
+msgid "View All"
+msgstr ""
+
+#: functions.php:90
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:120
+msgid "Widget Elements"
+msgstr ""
+
+#: functions.php:110
+msgid "Widget Product"
+msgstr ""
+
+#: functions.php:100
+msgid "Widget Shop"
+msgstr ""
+
+#: framework/includes/theme-functions.php:540
+msgid "Wishlist"
+msgstr ""
+
+#: framework/settings/theme-options.php:501
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/includes/visual-composer.php:220
+msgid "Yes"
+msgstr ""
+
+#: framework/includes/theme-functions.php:217
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:22
+msgid "Your Comments"
+msgstr ""
+
+#: comments.php:20
+msgid "Your email"
+msgstr ""
+
+#: comments.php:19
+msgid "Your name"
+msgstr ""

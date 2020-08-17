@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "description": "WooCommerce Marketplace Buyer Seller Chat System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Webkul Software Pvt Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "gulp-cli": "^2.3.0",
+    "socket.io": "^2.2.0"
+  }
+}

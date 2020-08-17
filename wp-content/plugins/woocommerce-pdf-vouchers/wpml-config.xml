@@ -1,0 +1,49 @@
+<wpml-config>
+	<admin-texts>
+		<key name="vou_download_text" />
+	</admin-texts>
+	<custom-fields>
+		<custom-field action="copy">_woo_vou_enable</custom-field>		
+		<custom-field action="copy">_woo_vou_enable_recipient_name</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_name_label</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_name_max_length</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_name_is_required</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_name_desc</custom-field>
+		<custom-field action="copy">_woo_vou_enable_recipient_email</custom-field>		
+		<custom-field action="translate">_woo_vou_recipient_email_label</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_email_is_required</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_email_desc</custom-field>
+		<custom-field action="copy">_woo_vou_enable_recipient_message</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_message_label</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_message_max_length</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_message_is_required</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_message_desc</custom-field>
+		<custom-field action="copy">_woo_vou_enable_recipient_giftdate</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_giftdate_label</custom-field>
+		<custom-field action="copy">_woo_vou_recipient_giftdate_is_required</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_giftdate_desc</custom-field>
+		<custom-field action="copy">_woo_vou_enable_recipient_delivery_method</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_delivery_label</custom-field>
+		<custom-field action="translate">_woo_vou_recipient_delivery</custom-field>
+		<custom-field action="copy">_woo_vou_product_start_date</custom-field>
+		<custom-field action="copy">_woo_vou_product_exp_date</custom-field>
+		<custom-field action="translate">_woo_vou_pdf_template</custom-field>		
+		<custom-field action="copy">_woo_vou_enable_pdf_template_selection</custom-field>
+		<custom-field action="copy">_woo_vou_pdf_template_selection_label</custom-field>
+		<custom-field action="copy">_woo_vou_pdf_template_selection</custom-field>
+		<custom-field action="copy">_woo_vou_vendor_user</custom-field>
+		<custom-field action="copy">_woo_vou_using_type</custom-field>
+		<custom-field action="copy">_woo_vou_exp_type</custom-field>
+		<custom-field action="ignore">_woo_vou_codes</custom-field>
+		<custom-field action="copy">_woo_vou_exp_type</custom-field>
+		<custom-field action="copy">_woo_vou_days_diff</custom-field>
+		<custom-field action="copy">_woo_vou_custom_days</custom-field>		
+		<custom-field action="copy">_woo_vou_start_date</custom-field>
+		<custom-field action="copy">_woo_vou_exp_date</custom-field>
+		<custom-field action="translate">_woo_vou_address_phone</custom-field>
+		<custom-field action="copy">_woo_vou_website</custom-field>
+		<custom-field action="translate">_woo_vou_how_to_use</custom-field>
+		<custom-field action="copy">_woo_vou_locations</custom-field>
+		<custom-field action="copy">_woo_vou_map_link</custom-field>
+	</custom-fields>	
+</wpml-config>

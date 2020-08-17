@@ -1,0 +1,91 @@
+.ovic_bundle-wrap{
+    clear: both;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.ovic_bundle-wrap .ovic_bundle-text,
+.ovic_bundle-wrap .ovic_bundle-table,
+.ovic_bundle-wrap .footer-bundle{
+    margin-bottom: 10px;
+}
+.ovic_bundle-product .ovic_bundle-title-inner a:not(:last-child){
+    margin-right: 7px;
+}
+.ovic_bundle-product .ovic_bundle-sale{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    padding: 0 7px;
+    border: none;
+    line-height: 20px;
+    border-radius: 0;
+    background: #333;
+    color: #fff;
+    margin-top: -2px;
+    direction: ltr;
+}
+.footer-bundle::before,
+.footer-bundle::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.footer-bundle .ovic-bundle-subtotal{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    text-align: right;
+}
+.footer-bundle .ovic-bundle-subtotal > *{
+    margin: 0;
+    padding: 3px 0;
+}
+.footer-bundle .ovic-bundle-subtotal > * span{
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-bundle .ovic-bundle-subtotal > .ovic_bundle-total-save span{
+    color: #519c00;
+}
+.footer-bundle .cart{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 0;
+}
+.footer-bundle .cart > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-bundle .cart .quantity{
+    margin-right: 10px;
+}
+@media (max-width: 767px){
+    .ovic_bundle-products .column-thumb,
+    .ovic_bundle-products .column-price{
+        display: none;
+    }
+    .footer-bundle .ovic-bundle-subtotal{
+        display: block;
+        float: none;
+        text-align: inherit;
+        padding: 0;
+    }
+}
+body.rtl .ovic_bundle-product .ovic_bundle-title-inner a:not(:last-child){
+    margin-right: 0;
+    margin-left: 7px;
+}
+body.rtl .footer-bundle .cart .quantity{
+    margin-right: 0;
+    margin-left: 10px;
+}
+@media (min-width: 768px){
+    body.rtl .footer-bundle .ovic-bundle-subtotal{
+        float: left;
+        text-align: left;
+    }
+}

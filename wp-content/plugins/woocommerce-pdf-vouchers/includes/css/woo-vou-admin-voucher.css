@@ -1,0 +1,771 @@
+.woo_vou_clear{
+	clear:both;
+}
+#woo_vou_page_voucher {
+	background-color: #FFFFFF !important;
+	min-height: 500px !important;
+	font-size: 14px;
+	line-height: 22px;
+}
+#woo_vou_page_voucher:hover {
+
+}
+#woo_vou_page_voucher div.inside{
+	min-height:500px;
+	display:inline-block;	
+	padding-left: 0;
+	width: 100%;
+}
+.woo_vou_edit_mode {
+	overflow: visible !important;
+}
+ 
+/* start tooltip */
+.woo_vou_tooltip {
+	font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    position: relative;
+    text-decoration: none;
+    width: 16px;
+    z-index: 1;
+}
+.woo_vou_tooltip span {
+	margin-left: -999em;
+	position: absolute;
+	font-weight:normal;
+}
+.woo_vou_tooltip:hover span {
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px;
+	letter-spacing:1px;	
+	border-radius: 5px 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	position: absolute; 
+	left: -25px; 
+	top: 40px; 
+	z-index: 99;
+	margin-left: 20px; 
+	width:150px;
+}
+.lgnd .tooltip {
+	text-transform: none;
+	color: #000;
+}
+.woo_vou_classic { padding: 0.8em 1em; z-index:1001;}
+.woo_vou_custom { padding: 0.5em 0.8em 0.8em 2em; }
+.woo_vou_classic { background: #F5F5F5; border: 1px solid #2481C6; }
+/* end tooltip */
+.woo_vou_builder_area {
+	font-size:36px;
+	color:#FFFFFF;
+	background:#3399FF;
+	text-align:center;
+	-moz-border-radius: 15px 15px 15px 15px;
+    border-style: solid 1px;
+	border-radius: 10px;
+	-webkit-border-radius: 15px;
+	padding: 100px;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	margin: 35px 20px 10px 20px;
+	float: left;
+
+}
+.woo_vou_page_voucher_button a{
+	text-decoration:none;
+	font:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:uppercase;
+	padding:5px;
+	background:#104E8B;
+	color:#FFFFFF;
+	letter-spacing:1px;
+	line-height:10px;
+	-moz-border-radius: 5px 5px 5px 5px;
+    border-style: solid 1px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+.switch_active a{
+	background:#3399FF !important;
+}
+
+.woo_vou_page_voucher_button a:hover{
+	background:#3399FF;
+}
+.woo_vou_main_editor {
+	padding: 15px 5px 25px 5px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+	display: block;
+}
+.woo_vou_main_editor:after {
+	clear: both;
+}
+.draghandle {
+	cursor: move;
+}
+.woo_vou_tooltip .woo_vou_main_buttons div {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 12px;
+}
+.woo_vou_text_btn {
+	background: url("../images/icons/admin/text.png") no-repeat;
+}
+.woo_vou_message_btn {
+	background: url("../images/icons/admin/message.png") no-repeat;
+}
+.woo_vou_blank_btn {
+	background: url("../images/icons/admin/blank.png") no-repeat;
+}
+.woo_vou_custom_btn {
+	background: url("../images/icons/admin/custom.png") no-repeat;
+}
+.woo_vou_logo_btn {
+	background: url("../images/icons/admin/logo.png") no-repeat;
+}
+.woo_vou_vendor_logo_btn {
+	background: url("../images/icons/admin/vendor_logo.png") no-repeat;
+}
+.woo_vou_site_logo_btn {
+	background: url("../images/icons/admin/logo.png") no-repeat;
+}
+.woo_vou_expire_btn {
+	background: url("../images/icons/admin/expire.png") no-repeat;
+}
+.woo_vou_venaddr_btn {
+	background: url("../images/icons/admin/venaddr.png") no-repeat;
+}
+.woo_vou_siteurl_btn {
+	background: url("../images/icons/admin/siteurl.png") no-repeat;
+}
+.woo_vou_loc_btn {
+	background: url("../images/icons/admin/loc.png") no-repeat;
+}
+
+/** add qrcode blog ( 2.4.6 ) **/
+.woo_vou_qrcode_btn {
+	background: url("../images/icons/admin/qr-code.png") no-repeat;
+}
+/** add qrcodes blog ( 2.4.6 ) **/
+.woo_vou_qrcodes_btn {
+	background: url("../images/icons/admin/qr-codes.png") no-repeat;
+}
+/** add barcode blog ( 2.4.6 ) **/
+.woo_vou_barcode_btn {
+	background: url("../images/icons/admin/barcode.png") no-repeat;
+}
+/** add barcodes blog ( 2.4.6 ) **/
+.woo_vou_barcodes_btn {
+	background: url("../images/icons/admin/barcodes.png") no-repeat;
+}
+/** add product image blog ( 2.9.8 ) **/
+.woo_vou_product_image_btn {
+	background: url("../images/icons/admin/product-image.png") no-repeat;
+}
+/* new added classess for change */
+.woo_vou_lesser_width, .woo_vou_greater_width, .woo_vou_change, .woo_vou_remove{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+.text_column .woo_vou_controller{
+	display:none;
+	right: 0;
+    top: 5px;
+	z-index: 1001;
+}
+.woo_vou_controller{
+	text-align: right;
+    width: 100%;
+}
+.text_column {
+	border:1px dotted #666666;
+	min-height:15px;
+	position:relative;	
+}
+.text_column:hover .woo_vou_controller{
+	display:inline;
+}
+.text_column:hover .woo_vou_controller{
+	position: absolute;
+	top: 5px;
+}
+.text_column:hover{
+
+	background-color: #DFECDD;
+}
+/* voucherpage seperator */
+.text_column .woo_vou_uniqueseperator {
+	padding:10px;
+	text-align:center;
+}
+.woo_vou_lesser_width{
+	background: url("../images/left.png") no-repeat scroll center center transparent;
+    left: 0;
+    margin-left: 3px;
+    position: absolute;
+    top: 2px;
+}
+.woo_vou_greater_width{	
+	background:url("../images/right.png") no-repeat scroll center center transparent;
+    left: 36px;
+    position: absolute;
+    top: 2px;
+}
+.width_size{
+	font-size: 0.8em;
+    left: 18px;
+    line-height: 1em;
+    position: absolute;
+    top:2px;
+	color:#000000;
+}
+.woo_vou_change{
+	background: url("../images/edit.png") no-repeat scroll center center transparent;
+}
+.woo_vou_remove{
+	background: url("../images/remove.png") no-repeat scroll center center transparent;
+	margin-left: 10px;
+	margin-right: 7px;
+}
+.text_column .woo_vou_text {
+    margin: 0 5px 0 5px;
+}
+div.woo_vou_controls_editor{
+	margin-bottom:10px;
+	float: left;
+    max-height: 40px;
+    min-height: 40px;
+    overflow: hidden;
+}
+
+/* Editor CSS classes start */
+.woo_vou_editor{
+	border:1px solid #999999;
+	-moz-border-radius:5px !important;
+	border-radius: 5px !important;
+	-webkit-border-radius:5px !important;
+	width: 100%;
+}
+.woo_vou_editor_heading h3{
+	text-align:center;
+}
+.woo_vou_form_action {
+	text-align:center;
+	border-top:1px solid #999999;
+	padding:25px;
+	background:#DFECDD;
+}
+.woo_vou_form_action input[type="button"]{
+	margin-right: 5px;
+}
+.editor_content td{
+	vertical-align:top;
+	line-height:30px;
+}
+.editor_content {
+	padding: 15px;
+}
+/* Editor CSS classes End */
+
+/* CSS For common color start */
+.woo_vou_black {
+	border: solid 1px #333;
+	background-color: #555;
+}
+/* blue */
+.woo_vou_blue {
+	border: 1px solid #9dbfea; 
+	background-color: #c6ddfb; 
+}
+ /* gray */
+.woo_vou_gray {
+	border: 1px solid #cecece;  
+	background-color: #efefef;
+}
+ 
+/* green */
+.woo_vou_green {
+	border: 1px solid #bcd98c; 
+	background-color: #dff1c1; 
+}
+
+/* orange */
+.woo_vou_orange {
+	border: solid 1px #ffaf5a;
+	background-color: #ffc281;
+}
+
+/* papayawhip  */
+.woo_vou_papayawhip {
+	border: solid 1px #fdd897;
+	background-color: #ffefd5;
+}
+
+/* pink */
+.woo_vou_pink {
+	border: solid 1px #ffb7d8;
+	background-color: #ffd7e9;
+}
+
+/* red */
+.woo_vou_red {
+	border: 1px solid #f88787; 
+	background-color: #fdafaf;
+}
+ 
+/* rosy */
+.woo_vou_rosy {
+	border: solid 1px #e37d88;
+	background-color: #ec8c97;
+}
+
+/* yellow */
+.woo_vou_yellow {
+	border: 1px solid #e4c968; 
+	background-color: #f9e497; 
+}
+/* CSS for common color end*/
+
+/* CSS for width of container start*/
+.full_width{
+	width:96.7%;
+	display:inline-block;
+}
+.three_fourth{
+	width:72.3% !important;
+}
+.two_third{
+	width:64% !important;
+}
+.one_half{
+	width:47.8% !important;
+}
+.one_third{
+	width:31.5% !important;
+}
+.one_fourth{
+	width: 23.4% !important;
+}
+.three_fourth,.one_half,.one_third,.two_third,.one_fourth{
+	float:left !important;
+	display:inline;
+	margin:0px 8px 10px 0px !important;
+    padding: 0 ;
+}
+/* CSS for width of container end*/
+
+/* CSS for editor start */
+
+.editor_content .wp_themeSkin iframe { 
+	background: #FFFFFF !important; 
+}
+.editor_content .wp_themeSkin table.mceLayout { 
+
+	width:650px !important;
+	-moz-border-radius: 3px;
+    border-radius: 3px;
+	-webkit-border-radius:3px;
+}
+
+.woo_vou_controls {
+	margin-left:15px;
+	z-index:0;
+}
+/* CSS for editor end */
+
+/*CSS For button start */
+.pbrbutton .woo_vou_text{
+	margin-top:0px !important;
+}
+.woo_vou_button {
+
+}
+.woo_vou_button .pbrbutton{
+
+}
+.text_column .pbrbutton{
+	margin-top:20px !important;
+	margin-bottom:20px !important;
+	margin-left: 15px !important;
+}
+.pbrbutton { 
+	padding:9px 15px 8px 15px !important;
+	border:1px solid #e1e1e1;	
+	line-height:1.3 !important;
+	text-decoration: none ;
+	vertical-align: middle;
+	-webkit-border-radius: 4px !important;
+	-khtml-border-radius: 4px !important;	
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+	margin-right:5px !important;
+	text-align:center !important;
+	max-width: 250px !important;
+	display:inline-block;
+
+}
+.woo_vou_button_small, .woo_vou_button_small:hover {
+	font-size: 11px !important ; 
+	line-height: 13px;
+	padding: 6px 14px !important;
+	font-weight: bold;
+}
+.woo_vou_button_medium, .woo_vou_button_medium:hover {
+	font-size: 13px !important;
+	line-height: 15px;
+	font-weight: bold;	
+}
+.woo_vou_button_large , .woo_vou_button_large:hover {
+	font-size: 16px !important;
+	line-height: 18px;
+	padding: 12px 20px !important;
+	font-weight: bold;
+}
+.woo_vou_button_xl, .woo_vou_button_xl:hover{
+	font-size: 20px !important;
+	line-height: 22px;
+	padding: 14px 22px !important;
+	font-weight: bold;
+}
+.woo_vou_button_black{
+	color: #d7d7d7;
+	border: solid 1px #333;
+	background: #333;
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+	background: -moz-linear-gradient(top,  #666,  #000);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000'); 
+}
+.woo_vou_button_black:hover {
+	background: #000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+	background: -moz-linear-gradient(top,  #444,  #000);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+ 
+/* blue */
+.woo_vou_button_blue {
+	color: #d9eef7 !important;
+	border: solid 1px #0076a3 !important;
+	background: #0095cd !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5) !important;
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5'); 
+}
+.woo_vou_button_blue:hover {
+	background: #007ead !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+ 
+ /* gray */
+.woo_vou_button_gray{
+	color: #e9e9e9;
+	border: solid 1px #555;
+	background: #6e6e6e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+	background: -moz-linear-gradient(top,  #888,  #575757);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+ 
+.woo_vou_button_gray:hover {
+	background: #616161;
+	background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+	background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+
+/* green */
+.woo_vou_button_green{
+	color: #e8f0de;
+	border: solid 1px #538312;
+	background: #64991e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+	background: -moz-linear-gradient(top,  #7db72f,  #4e7d0e);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+}
+ 
+.woo_vou_button_green:hover {
+	background: #538018;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+	background: -moz-linear-gradient(top,  #6b9d28,  #436b0c);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+
+/* orange */
+.woo_vou_button_orange{
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.woo_vou_button_orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+
+/* pink */
+.woo_vou_button_pink {
+	color: #feeef5;
+	border: solid 1px #d2729e;
+	background: #f895c2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#feb1d3), to(#f171ab));
+	background: -moz-linear-gradient(top,  #feb1d3,  #f171ab);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
+}
+.woo_vou_button_pink:hover {
+	background: #d57ea5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f4aacb), to(#e86ca4));
+	background: -moz-linear-gradient(top,  #f4aacb,  #e86ca4);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+} 
+
+/* red */
+.woo_vou_button_red{
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+ 
+.woo_vou_button_red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+
+/* rosy */
+.woo_vou_button_rosy{
+	color: #fae7e9;
+	border: solid 1px #b73948;
+	background: #da5867;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+	background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+}
+.woo_vou_button_rosy:hover {
+	background: #ba4b58;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+	background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+ 
+/* white */
+.woo_vou_button_white{
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.woo_vou_button_white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+/* yellow */
+.woo_vou_button_yellow {
+	color: #606060;
+	border: solid 1px #e4d700; 
+	background: #fff000; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fdf12c), to(#fcf46f));
+	background: -moz-linear-gradient(top,  #fdf12c,  #fcf46f);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#fdf12c', endColorstr='#fcf46f');
+}
+.woo_vou_button_yellow:hover {
+	background: #fcf46f; 
+	background: -webkit-gradient(linear, left top, left bottom, from(#dec203), to(#fddc00));
+	background: -moz-linear-gradient(top,  #dec203,  #fddc00);
+	filter:  progid: DXImageTransform.Microsoft.gradient(startColorstr='#dec203', endColorstr='#fddc00');
+}
+.woo_vou_less-round{
+	-moz-border-radius: 6px !important; 
+	-webkit-border-radius: 6px !important; 
+	border-radius: 6px !important;
+}
+.woo_vou_round{
+	-moz-border-radius: 15px !important; 
+	-webkit-border-radius: 15px !important; 
+	border-radius: 15px !important;
+}
+.woo_vou_square{
+	-moz-border-radius: 1px !important; 
+	-webkit-border-radius: 1px !important; 
+	border-radius: 1px !important;
+}
+.woo_vou_button_warning .woo_vou_text{
+	background: url("../images/icon-alert.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_product .woo_vou_text {
+	background: url("../images/icon-product.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_error .woo_vou_text{
+	background: url("../images/icon-error.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_info  .woo_vou_text{
+	background: url("../images/icon-info.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_note .woo_vou_text{
+	background: url("../images/icon-note.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_success .woo_vou_text{
+	background: url("../images/icon-success.png");
+	background-repeat: no-repeat !important;
+	padding-left: 20px;
+	background-size:15px 15px !important;
+}
+.woo_vou_button_xl .woo_vou_text {
+   
+    background-position: 0 4px !important;
+    background-size: 20px 20px !important;
+	padding-left:30px !important;
+}
+.woo_vou_button_large .woo_vou_text
+{
+	background-position: 0 3px !important;	
+}
+
+.woo_vou_button_none .woo_vou_text{
+}
+/* CSS for button end */
+
+
+/* CSS For MessageBox Start */
+.messagebox:hover {
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+	
+}
+.messagebox {
+
+}
+.messagebox .woo_vou_text{
+	margin:5px 5px 0;
+}
+
+.woo_vou_textmsg {
+	background-repeat: no-repeat;
+	background-position: 15px 10px;
+	padding-left: 5px;
+	background-size:20px 20px;
+}
+/* CSS For MessageBox End */
+
+/********* Admin Ajax Editor CSS *************/
+.woo_vou_ajax_editor .html-active textarea.pbrtextareahtml {
+    height: 375px !important;
+    margin: 0 !important;
+
+}
+.woo_vou_ajax_editor .html-active .wp-editor-container {
+    height: 375px !important;
+}
+.woo_vou_ajax_loader{
+	display:none;
+	background: url("../images/ajax-loader-2.gif") no-repeat scroll 370px 40px transparent;
+    height: 120px;
+}
+/* changed */
+.text_column .draghandle{
+	cursor: move !important;
+}
+/* changed end */
+#columns .target {	
+	border: 2px dashed #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+.woo-vou-pdf-preview-button {
+	float: right;
+    margin-left: 3px !important;
+    padding: 0 7px 2px !important;
+    outline: 0 !important;
+    text-decoration: none;
+}
+.spinner{
+	margin:4px 0 0;
+}
+.big_textbox{
+	width:99% !important;
+}
+.big_textarea{
+	width:99% !important;
+	height:20% !important;
+}
+.woo-vou-fade-error {
+    background: none repeat scroll 0 0 #0073AA;
+    border-radius: 10px;
+    top: 50%;
+    color: #fff;
+    left: 45%;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+}
+@media screen and (max-width:767px) {
+	.woo_vou_controls_editor.three_fourth, .woo_vou_controls_editor.one_half, .woo_vou_controls_editor.one_third, .woo_vou_controls_editor.two_third, .woo_vou_controls_editor.one_fourth{
+		margin: 0px 3px 10px 0px !important;	
+	}
+	.woo_vou_text p{
+		margin-top: 0px;
+		margin-bottom: 0px;	
+	}
+	.woo_vou_text_codes p{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.woo_vou_builder_area{
+		width: 80%;
+	    font-size: 30px;
+	    padding: 50px 20px;
+	    margin: 0px auto;
+	    float: none !important;
+	}
+	.woo_vou_classic {
+		width: auto !important;
+	    font-size: 12px;
+	    padding: 6px;
+	    top: 72% !important;
+	}
+	#woo_vou_main_editor{
+		padding-bottom: 35px;	
+	}
+}
