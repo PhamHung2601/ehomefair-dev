@@ -135,7 +135,7 @@ if ( ! class_exists( 'WC_Admin_Assets', false ) ) :
 					'i18n_ajax_error'           => _x( 'Loading failed', 'enhanced select', 'woocommerce' ),
 					'i18n_input_too_short_1'    => _x( 'Please enter 1 or more characters', 'enhanced select', 'woocommerce' ),
 					'i18n_input_too_short_n'    => _x( 'Please enter %qty% or more characters', 'enhanced select', 'woocommerce' ),
-					'i18n_input_too_long_1'     => _x( 'as Please delete 1 character', 'enhanced select', 'woocommerce' ),
+					'i18n_input_too_long_1'     => _x( 'Please delete 1 character', 'enhanced select', 'woocommerce' ),
 					'i18n_input_too_long_n'     => _x( 'Please delete %qty% characters', 'enhanced select', 'woocommerce' ),
 					'i18n_selection_too_long_1' => _x( 'You can only select 1 item', 'enhanced select', 'woocommerce' ),
 					'i18n_selection_too_long_n' => _x( 'You can only select %qty% items', 'enhanced select', 'woocommerce' ),

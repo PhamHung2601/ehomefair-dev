@@ -1609,6 +1609,7 @@ function wc_update_product_lookup_tables_rating_count_batch( $offset = 0, $limit
 	}
 }
 add_action( 'wc_update_product_lookup_tables_rating_count_batch', 'wc_update_product_lookup_tables_rating_count_batch', 10, 2 );
+
 /**
  * Output a text input box.
  *
