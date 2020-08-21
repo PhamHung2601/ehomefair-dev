@@ -1036,6 +1036,7 @@ if (!class_exists('Marketplace')) :
             self::enqueue_script('sumo-pp-admin-bulk-action-settings', plugins_url() . '/sumopaymentplans/assets/js/admin/sumo-pp-admin-bulk-action-settings.js', array(
                 'decimal_sep' => get_option('woocommerce_price_decimal_sep', '.'),
                 'plan_search_nonce' => wp_create_nonce('sumo-pp-get-payment-plan-search-field'),
+                'is_custom_frontend' => true
             ));
             self::enqueue_script('sumo-pp-admin-general-settings', plugins_url() . '/sumopaymentplans/assets/js/admin/sumo-pp-admin-general-settings.js', array(
                 'decimal_sep' => get_option('woocommerce_price_decimal_sep', '.'),

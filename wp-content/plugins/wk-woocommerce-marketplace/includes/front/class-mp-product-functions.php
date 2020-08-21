@@ -57,7 +57,7 @@ function product_add_update()
             }
 
             foreach ($_POST['mp_attribute_name'][$var_id] as $variation_type) {
-                $variation_data['attribute_'.sanitize_title($variation_type)][] = trim($_POST['attribute_'.$variation_type][$var_id]);
+                $variation_data['attribute_' . sanitize_title($variation_type)][] = trim($_POST['attribute_' . $variation_type][$var_id]);
             }
             if (isset($_POST['wkmp_variable_is_downloadable'][$var_id])) {
                 $downloadable_vari = $_POST['wkmp_variable_is_downloadable'][$var_id] == 'yes' ? 'yes' : 'no';
@@ -180,7 +180,7 @@ function product_add_update()
                             if ($file_url != '') {
                                 $files[md5($file_url)] = array(
                                     'name' => wc_clean($variation_names[$i]),
-                                    'file' => $file_url, );
+                                    'file' => $file_url,);
                             }
                         }
                     }
@@ -256,18 +256,18 @@ function product_add_update()
             $attribute['value'] = str_replace('|', '|', $rep_str);
 
             if (isset($attribute['is_visible'])) {
-                $attribute['is_visible'] = (int) $attribute['is_visible'];
+                $attribute['is_visible'] = (int)$attribute['is_visible'];
             } else {
                 $attribute['is_visible'] = 0;
             }
 
             if (isset($attribute['is_variation'])) {
-                $attribute['is_variation'] = (int) $attribute['is_variation'];
+                $attribute['is_variation'] = (int)$attribute['is_variation'];
             } else {
                 $attribute['is_variation'] = 0;
             }
 
-            $attribute['is_taxonomy'] = (int) $attribute['is_taxonomy'];
+            $attribute['is_taxonomy'] = (int)$attribute['is_taxonomy'];
 
             $att[str_replace(' ', '-', $attribute['name'])] = $attribute;
         }
@@ -276,7 +276,7 @@ function product_add_update()
     $user_id = get_current_user_id();
 
     if (isset($_POST['sell_pr_id'])) {
-        $product_auth = $wpdb->get_var("select post_author from $wpdb->posts where ID='".$_POST['sell_pr_id']."'");
+        $product_auth = $wpdb->get_var("select post_author from $wpdb->posts where ID='" . $_POST['sell_pr_id'] . "'");
     }
 
     if (!empty($_POST['product_name']) && isset($_POST['product_name'])) {
@@ -411,7 +411,7 @@ function product_add_update()
             if (wp_update_post($product_data)) {
                 wc_add_notice(__('Product Updated Successfully.', 'woocommerce'));
 
-                $role = $wpdb->prefix.'capabilities';
+                $role = $wpdb->prefix . 'capabilities';
 
                 $current_user->role = array_keys($current_user->$role);
 
@@ -665,7 +665,7 @@ function product_add_update()
 
             $data = array(
                 'ID' => $postid,
-                'guid' => get_option('siteurl').'/?post_type=ai1ec_event&p='.$postid.'&instance_id=',
+                'guid' => get_option('siteurl') . '/?post_type=ai1ec_event&p=' . $postid . '&instance_id=',
             );
 
             $field = '';
@@ -754,16 +754,35 @@ function product_add_update()
             $product_id[0] = $postid;
         }
 
-        if(!empty($_POST['_sumo_pp_enable_sumopaymentplans'])){
-            foreach ($_POST as $key => $value){
+        if (!empty($_POST['_sumo_pp_enable_sumopaymentplans'])) {
+            foreach ($_POST as $key => $value) {
                 if (strpos($key, '_sumo_pp_') !== false) {
-                    update_post_meta($productIdPp, $key, $value);
+                    if ($key == '_sumo_pp_selected_plans') {
+                        update_post_meta($productIdPp, $key, '');
+                        $posted_meta_data = $value;
+                        foreach (array('col_1', 'col_2') as $column_id) {
+                            if (!empty($posted_meta_data[$column_id]) && is_array($posted_meta_data[$column_id])) {
+                                $plans = array_values($posted_meta_data[$column_id]);
+
+                                if (!empty($plans[0])) {
+                                    if (is_array($plans[0])) {
+                                        $posted_meta_data[$column_id] = array_map('implode', $plans);
+                                    } else {
+                                        $posted_meta_data[$column_id] = $plans;
+                                    }
+                                }
+                            }
+                        }
+                        update_post_meta($productIdPp, $key, wc_clean($posted_meta_data));
+                    } else {
+                        update_post_meta($productIdPp, $key, $value);
+                    }
                 }
             }
-            if(!isset($_POST['_sumo_pp_force_deposit'])){
+            if (!isset($_POST['_sumo_pp_force_deposit'])) {
                 update_post_meta($productIdPp, '_sumo_pp_force_deposit', '');
             }
-            if(!isset($_POST['_sumo_pp_apply_global_settings'])){
+            if (!isset($_POST['_sumo_pp_apply_global_settings'])) {
                 update_post_meta($productIdPp, '_sumo_pp_apply_global_settings', '');
             }
         }
@@ -773,17 +792,17 @@ function product_add_update()
 
         if (!get_option('wkmp_seller_allow_publish')) {
 
-            if( ! get_post_meta( $product_id[0], 'mp_added_noti' ) ) {
-                update_option( 'wkmp_approved_product_count', (int)(get_option( 'wkmp_approved_product_count',  0 ) + 1) );
-                
-                update_post_meta( $product_id[0], 'mp_added_noti', true );
-                
+            if (!get_post_meta($product_id[0], 'mp_added_noti')) {
+                update_option('wkmp_approved_product_count', (int)(get_option('wkmp_approved_product_count', 0) + 1));
+
+                update_post_meta($product_id[0], 'mp_added_noti', true);
+
             }
-            
+
             do_action('woocommerce_product_notifier_admin', $user_id, $product_id[0]);
         }
 
-        wp_redirect(site_url().'/'.get_option('wkmp_seller_page_title').'/product/edit/'.$product_id[0]);
+        wp_redirect(site_url() . '/' . get_option('wkmp_seller_page_title') . '/product/edit/' . $product_id[0]);
         exit;
     }
 }

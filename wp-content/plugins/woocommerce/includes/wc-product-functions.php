@@ -2104,7 +2104,7 @@ function get_product_settings($postId = null) {
 
     foreach( $selected_plans as $column_id => $selected_datas ) {
         $inline_style = 'col_1' === $column_id ? 'float:left;margin-left:3px;' : 'float:right;margin-right:3px;' ;
-        $inline_style.='width:49%;clear:none;' ;
+        $inline_style.='width:49%;clear:none;display:block';
         ?>
         <table class="widefat wc_input_table wc_gateways sortable <?php echo SUMO_PP_PLUGIN_PREFIX . 'footable ' . SUMO_PP_PLUGIN_PREFIX . "selected_col_{$column_id}_plans " . SUMO_PP_PLUGIN_PREFIX . 'selected_plans ' . SUMO_PP_PLUGIN_PREFIX . 'fields' ; ?>" style="<?php echo $inline_style ; ?>">
             <tbody class="selected_plans">
