@@ -758,7 +758,6 @@ function product_add_update()
             foreach ($_POST as $key => $value) {
                 if (strpos($key, '_sumo_pp_') !== false) {
                     if ($key == '_sumo_pp_selected_plans') {
-                        update_post_meta($productIdPp, $key, '');
                         $posted_meta_data = $value;
                         foreach (array('col_1', 'col_2') as $column_id) {
                             if (!empty($posted_meta_data[$column_id]) && is_array($posted_meta_data[$column_id])) {
@@ -784,6 +783,9 @@ function product_add_update()
             }
             if (!isset($_POST['_sumo_pp_apply_global_settings'])) {
                 update_post_meta($productIdPp, '_sumo_pp_apply_global_settings', '');
+            }
+            if (!isset($_POST['_sumo_pp_selected_plans'])) {
+                update_post_meta($productIdPp, '_sumo_pp_selected_plans', '');
             }
         }
         do_action('marketplace_process_product_meta', $_POST['sell_pr_id']);

@@ -2101,10 +2101,18 @@ function get_product_settings($postId = null) {
             $selected_plans[ 'col_1' ][] = ! empty( $selected_plan ) ? ( array ) $selected_plan : array() ;
         }
     }
-
+    if(!isset($selected_plans['col_1'])){
+        $selected_plans['col_1'] = '';
+    }
+    if(!isset($selected_plans['col_2'])){
+        $selected_plans['col_2'] = '';
+    }
     foreach( $selected_plans as $column_id => $selected_datas ) {
         $inline_style = 'col_1' === $column_id ? 'float:left;margin-left:3px;' : 'float:right;margin-right:3px;' ;
-        $inline_style.='width:49%;clear:none;display:block';
+        $inline_style.='width:49%;clear:none;display:block;';
+        if(empty($selected_datas)){
+            $inline_style .= 'display:none;';
+        }
         ?>
         <table class="widefat wc_input_table wc_gateways sortable <?php echo SUMO_PP_PLUGIN_PREFIX . 'footable ' . SUMO_PP_PLUGIN_PREFIX . "selected_col_{$column_id}_plans " . SUMO_PP_PLUGIN_PREFIX . 'selected_plans ' . SUMO_PP_PLUGIN_PREFIX . 'fields' ; ?>" style="<?php echo $inline_style ; ?>">
             <tbody class="selected_plans">

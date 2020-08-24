@@ -50,7 +50,7 @@ jQuery( function( $ ) {
             qty = qty || 0 ;
 
             var $wrapper = $( '#variable_product_options' ).find( '.woocommerce_variations' ) ,
-                    variation_count = parseInt( $wrapper.attr( 'data-total' ) , 10 ) + qty ;
+                variation_count = parseInt( $wrapper.attr( 'data-total' ) , 10 ) + qty ;
 
             for( var i = 0 ; i < variation_count ; i ++ ) {
                 ( function( i ) {
@@ -73,15 +73,15 @@ jQuery( function( $ ) {
             variation_index = variation_index || 0 ;
 
             var mayBeVariation = 'variable' === $( '#product-type' ).val() ? variation_index : '' ,
-                    errFields = [ ] ,
-                    availableErrFields = [
-                        '#_sumo_pp_fixed_deposit_price' + mayBeVariation ,
-                        '#_sumo_pp_fixed_deposit_percent' + mayBeVariation ,
-                        '#_sumo_pp_min_deposit' + mayBeVariation ,
-                        '#_sumo_pp_max_deposit' + mayBeVariation ,
-                        '#_sumo_pp_pay_balance_before' + mayBeVariation ,
-                    ] ,
-                    prevField ;
+                errFields = [ ] ,
+                availableErrFields = [
+                    '#_sumo_pp_fixed_deposit_price' + mayBeVariation ,
+                    '#_sumo_pp_fixed_deposit_percent' + mayBeVariation ,
+                    '#_sumo_pp_min_deposit' + mayBeVariation ,
+                    '#_sumo_pp_max_deposit' + mayBeVariation ,
+                    '#_sumo_pp_pay_balance_before' + mayBeVariation ,
+                ] ,
+                prevField ;
 
             if( $( '#_sumo_pp_enable_sumopaymentplans' + mayBeVariation ).is( ':checked' ) && 'pay-in-deposit' === $( '#_sumo_pp_payment_type' + mayBeVariation ).val() && ! $( '#_sumo_pp_apply_global_settings' + mayBeVariation ).is( ':checked' ) ) {
                 if( 'pre-defined' === $( '#_sumo_pp_deposit_type' + mayBeVariation ).val() ) {
@@ -90,14 +90,14 @@ jQuery( function( $ ) {
                     if( 'fixed-price' === $( '#_sumo_pp_deposit_price_type' + mayBeVariation ).val() ) {
                         if( '' === mayBeVariation ) {
                             var $regularPrice = parseFloat( $( '#_regular_price' ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ,
-                                    $salePrice = parseFloat( $( '#_sale_price' ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
+                                $salePrice = parseFloat( $( '#_sale_price' ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
                         } else {
                             $regularPrice = parseFloat( $( '#variable_regular_price_' + mayBeVariation ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ,
-                                    $salePrice = parseFloat( $( '#variable_sale_price' + mayBeVariation ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
+                                $salePrice = parseFloat( $( '#variable_sale_price' + mayBeVariation ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
                         }
 
                         var $subscriptionPrice = isNaN( $salePrice ) ? $regularPrice : $salePrice ,
-                                $depositPrice = parseFloat( $( '#_sumo_pp_fixed_deposit_price' + mayBeVariation ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
+                            $depositPrice = parseFloat( $( '#_sumo_pp_fixed_deposit_price' + mayBeVariation ).val().replace( sumo_pp_admin_product.decimal_sep , '.' ) ) ;
 
                         if( isNaN( $depositPrice ) || $subscriptionPrice <= $depositPrice || 0 >= $depositPrice ) {
                             if( '' !== mayBeVariation ) {
@@ -119,7 +119,7 @@ jQuery( function( $ ) {
                     prevField = '#_sumo_pp_deposit_type' + mayBeVariation ;
 
                     var $minDeposit = parseFloat( $( '#_sumo_pp_min_deposit' + mayBeVariation ).val() ) ,
-                            $maxDeposit = parseFloat( $( '#_sumo_pp_max_deposit' + mayBeVariation ).val() ) ;
+                        $maxDeposit = parseFloat( $( '#_sumo_pp_max_deposit' + mayBeVariation ).val() ) ;
 
                     if( isNaN( $minDeposit ) || isNaN( $maxDeposit ) || 0 >= $minDeposit || 0 >= $maxDeposit || ( $minDeposit > $maxDeposit ) || $minDeposit >= 100 || $maxDeposit >= 100 ) {
                         if( '' !== mayBeVariation ) {
@@ -150,9 +150,9 @@ jQuery( function( $ ) {
         validate_save_variations : function() {
 
             var $wrapper = $( '#variable_product_options' ).find( '.woocommerce_variations' ) ,
-                    variation_count = parseInt( $wrapper.attr( 'data-total' ) , 10 ) ,
-                    variations = $( '#variable_product_options' ).find( '.woocommerce_variations .variation-needs-update' ) ,
-                    needs_update = true ;
+                variation_count = parseInt( $wrapper.attr( 'data-total' ) , 10 ) ,
+                variations = $( '#variable_product_options' ).find( '.woocommerce_variations .variation-needs-update' ) ,
+                needs_update = true ;
 
             $( 'li.variations_tab a' ).trigger( 'click' ) ;
             $( '.wc-metaboxes-wrapper, .expand_all' ).closest( '.wc-metaboxes-wrapper' ).find( '.wc-metabox > .wc-metabox-content' ).hide() ;
@@ -238,8 +238,8 @@ jQuery( function( $ ) {
     // Date picker fields.
     function date_picker_select( datepicker ) {
         var option = $( datepicker ).next().is( '.hasDatepicker' ) ? 'minDate' : 'maxDate' ,
-                otherDateField = 'minDate' === option ? $( datepicker ).next() : $( datepicker ).prev() ,
-                date = $( datepicker ).datepicker( 'getDate' ) ;
+            otherDateField = 'minDate' === option ? $( datepicker ).next() : $( datepicker ).prev() ,
+            date = $( datepicker ).datepicker( 'getDate' ) ;
 
         $( otherDateField ).datepicker( 'option' , option , date ) ;
         $( datepicker ).change() ;
